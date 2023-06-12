@@ -39,6 +39,30 @@ a {
     align-items: center;
 }
 
+.dark-bg {
+    background: var(--dark-gray);
+}
+
+.bg-radius {
+    border-radius: 0 12px 12px;
+}
+
+.pos-r {
+    position: relative;
+}
+
+.gray-bg {
+    background: var(--dark-gray);
+}
+
+.white-bg {
+    background: var(--white);
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -115,8 +139,8 @@ body {
 
 .cover-title {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -1px;
+    left: -1px;
 }
 
 .cover-title:after {
@@ -150,14 +174,142 @@ body {
     color: var(--white);
 }
 
+.story-des h1 a:hover {
+    color: var(--main-color);
+}
+
+.viewmore {
+    position: absolute;
+    bottom: -6px;
+    right: -9px;
+    border: 7px solid #f5f5f6;
+    border-radius: 100px;
+    box-shadow: -1px -1px 0px #e5e5e5;
+}
+
+.viewmore-arrow {
+    background: var(--dark-gray);
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: var(--white);
+    border-radius: 100px;
+    text-align: center;
+    transform: rotate(-45deg);
+}
+
+.story-des .viewmore-arrow {
+    position: absolute;
+    right: 16px;
+    top: 19px;
+    background: transparent;
+    border: 1px solid var(--white);
+}
+
+.viewmore-arrow:hover {
+    background: var(--main-color);
+}
+
+.articles-carousel .swiper-wrapper {
+    padding-bottom: 30px;
+}
+
+.articles-carousel .swiper-slide {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    box-shadow: 6px 5px 10px #f5f5f6;
+}
+
+.articles-carousel .swiper-slide img {
+    width: 100%;
+}
+
+.articles-carousel .swiper-slide p a {
+    color: var(--dark-gray);
+}
+
+.articles-carousel .swiper-slide p a:hover {
+    color: var(--main-color);
+}
+
+.swiper .swiper-pagination-bullets {
+    bottom: 0px;
+}
+
+.swiper .swiper-pagination-bullets span {
+    width: 4px;
+    height: 4px;
+    background: var(--dark-gray);
+    opacity: 0.3;
+}
+
+.swiper .swiper-pagination-bullets .swiper-pagination-bullet-active {
+    width: 36px;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.main-title {
+    position: absolute;
+    top: -31px;
+    left: 0;
+    border-radius: 10px 0 0;
+}
+
+.main-title:after {
+    content: "";
+    background: #1f1c24;
+    width: 30px;
+    height: 100%;
+    transform: skewX(32deg);
+    position: absolute;
+    right: -17px;
+    top: 0px;
+}
+
+.main-title h2 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.main-title.white-bg:after {
+    background: var(--white);
+}
+
+.main-title.white-bg h2 {
+    color: var(--dark-gray);
+}
+
+.chart-text {
+    color: var(--dark-gray);
+}
+
 @media screen and (min-width:320px) {
     img {
         max-width: 100%;
     }
 
+    .mt-70 {
+        margin-top: 70px;
+    }
+
     .container {
         max-width: 100%;
         padding: 0 20px;
+    }
+
+    .main-title {
+        padding: 10px 15px 0 20px;
+    }
+
+    .main-title h2 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    .cover-story {
+        margin-bottom: 20px;
     }
 
     .cover-title {
@@ -170,9 +322,33 @@ body {
 
     .story-des h1 {
         line-height: 20px;
+        padding-right: 40px;
     }
 
     .story-des h1 a {
         font-size: 16px;
+    }
+
+    .articles-carousel .swiper-slide p {
+        padding: 10px 32px 10px 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .report-card,
+    .ranking-card,
+    .edtech-rankings-card {
+        padding-bottom: 70px;
+    }
+
+    .chart-data {
+        padding-top: 20px;
+    }
+
+    .chart-text {
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--dark-gray);
+        margin-bottom: 10px;
     }
 }
