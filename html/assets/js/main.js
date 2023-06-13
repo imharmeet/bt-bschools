@@ -1,46 +1,31 @@
 // AOS.init();
 // 
 
+// 
+$('.archive-btn').click(function () {
+  $('.archive-list').toggle(300);
+});
 
 //
-// $(".top-sec .loadmore-btn").click(function () {
-//   $("#loadmore-articles").slideToggle("slow");
-//   if ($(".top-sec .loadmore-btn span").text() == "load more") {
-//     $(".top-sec .loadmore-btn span").html("hide")
-//     $(".top-sec .loadmore-btn").addClass('active');
-//   }
-//   else {
-//     $(".top-sec .loadmore-btn span").text("load more")
-//     $(".top-sec .loadmore-btn").removeClass('active');
-//   }
-// });
-// $(".top-content .read-more-btn").click(function () {
-//   $("#more-content").slideToggle("slow");
-//   if ($(".top-content .read-more-btn").text() == "Read More") {
-//     $(".top-content .read-more-btn").html("Hide")
-//   }
-//   else {
-//     $(".top-content .read-more-btn").text("Read More")
-//   }
-// });
-
-// $(".summit-content .readmore").click(function () {
-//   $("#more-content").slideToggle("slow");
-//   if ($(".summit-content .readmore span").text() == "read more") {
-//     $(".summit-content .readmore span").html("hide")
-//     $(".summit-content .readmore").addClass('active');
-//   }
-//   else {
-//     $(".summit-content .readmore span").text("read more");
-//     $(".summit-content .readmore").removeClass('active');
-//   }
-// });
+$(".methodology-con .read-more").click(function () {
+  $("#more-content").slideToggle("slow");
+  if ($(".methodology-con .read-more").text() == "read more") {
+    $(".methodology-con .read-more").html("hide")
+  }
+  else {
+    $(".methodology-con .read-more").text("read more")
+  }
+});
 
 // Articles Carousel
 var swiper = new Swiper(".articles-carousel", {
   breakpoints: {
     300: {
       slidesPerView: 2.2,
+      spaceBetween: 10
+    },
+    575: {
+      slidesPerView: 3.2,
       spaceBetween: 10
     },
     768: {
@@ -51,10 +36,10 @@ var swiper = new Swiper(".articles-carousel", {
       slidesPerView: 4.3,
       spaceBetween: 20
     },
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    type: "progressbar",
+    1200: {
+      slidesPerView: 6,
+      spaceBetween: 20
+    },
   },
   navigation: {
     nextEl: ".swiper-button-next",
@@ -73,16 +58,20 @@ var swiper = new Swiper(".vs-carousel", {
   spaceBetween: 15,
   breakpoints: {
     300: {
-      slidesPerView: 2.5,
+      slidesPerView: 1.5,
+      spaceBetween: 20
+    },
+    575: {
+      slidesPerView: 2.2,
       spaceBetween: 10
     },
     768: {
-      slidesPerView: 4.5,
+      slidesPerView: 3.5,
       spaceBetween: 15,
       navigation: false
     },
     992: {
-      slidesPerView: 4.5,
+      slidesPerView: 3.5,
       spaceBetween: 20
     },
   },
