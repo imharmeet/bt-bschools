@@ -38,7 +38,9 @@ a {
 .ai-center {
     align-items: center;
 }
-
+.full-width{
+    width: 100% !important;
+}
 .dark-bg {
     background: var(--dark-gray);
 }
@@ -210,6 +212,135 @@ body {
 .viewmore-arrow:hover {
     background: var(--main-color);
 }
+.progress{font-size: 14px; margin-top: 10px; color: #504E54;}
+.progress .score{color: #1F1C24; font-weight: 700;font-size: 16px;}
+.progress .progress-wrapper{background: #E9E8E8;border-radius: 4px;/* padding: 4px; */}
+.progress .progress-bar{background: #274E74;border-radius: 4px;padding: 6px;}
+.report-card .school-detail, .report-card .scores-years{
+    border-radius: 20px;
+    background: var(--white);
+    padding: 25px 25px;
+    position: relative;
+}
+.report-card .select2 {
+    margin:20px 0;
+}
+.report-card .select2-container--default .select2-selection--single{
+    border-radius: 10px;
+    height: 40px;
+}
+.report-card .select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 38px;
+}
+.report-card .select2-selection__arrow b{
+    display: none;
+}
+.report-card .select2-search-icon{
+    float: right; margin-top: 7px;
+}
+.report-card .select2-container--default .select2-selection--single .select2-selection__arrow{
+    background-image: url(https://akm-img-a-in.tosshub.com/businesstoday/resource//best-bank-awards/assets/search.svg);
+    background-repeat: no-repeat;
+    top: 9px;
+    right: 12px;
+}
+.report-card .school-name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 0.5px dashed #504E54;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.report-card .school-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.report-card .school-info{
+    color: #555359;
+    font-size: 16px;
+    display: flex;
+    width: 80%;
+}
+.report-card .school-info p{
+    margin-right: 5%;
+}
+.school-rating-label{text-align: right;margin-top: 20px;}
+.report-card .school-info p span, .school-rating-label p span{
+    font-size: 16px;
+    color: #1F1C24;
+    display: block;
+    /* margin-bottom: 5px; */
+}
+.school-rating-label p span b{
+    display: block;
+    text-align: right;
+    font-size: 28px;
+}
+.report-card .school-rating{
+    position:absolute;
+    top: 0;
+    right: 30px;
+}
+.report-card .scores-years{margin-top: 20px;}
+.ranking-card .school-detail{
+    border-radius: 8px;
+    background: var(--white);
+    padding: 15px 18px;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    }
+.ranking-card h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+} 
+.ranking-data .badge{background: #ECEBEB;font-weight: 600;color: #504E54;font-size: 14px;padding: 2px 4px;border-radius: 5px;}
+.ranking-data .rank{margin-left: -18px;margin-right: 17px;}
+.ranking-data .paginate_button .arrow.left {
+    transform: rotate(180deg);
+}
+.ranking-data .dataTables_filter{
+    width: 100%;
+}
+.ranking-data table.dataTable tbody td{padding: 0; padding-bottom: 15px;}
+.ranking-data .dataTables_wrapper .dataTables_filter input{
+    width: 100%;
+    background: #fff;
+    padding: 12px 10px;
+    border-radius: 8px;
+    margin: 20px 0 0 0;
+    background-image: url(https://akm-img-a-in.tosshub.com/businesstoday/resource//best-bank-awards/assets/search.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.table.dataTable thead th{border-bottom: 0;}
+.ranking-card .paging_simple_numbers {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+.ranking-card .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    opacity: 0.5;
+    background: none !important;
+}
+.ranking-card .dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 11px !important;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.ranking-card .dataTables_wrapper .dataTables_paginate .paginate_button.current, .ranking-card .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #353535 !important;
+    color: #fff !important;
+}
+
 
 .articles-carousel .swiper-wrapper {
     padding-bottom: 30px;
@@ -349,6 +480,6 @@ body {
         font-size: 14px;
         line-height: 20px;
         color: var(--dark-gray);
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 }

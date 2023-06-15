@@ -9,6 +9,8 @@
                 rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.css'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
         <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -159,14 +161,47 @@
                         </div><!-- Articles-->
                 </div>
         </section><!-- Top Stories -->
-        <section class="dark-bg report-card mt-70 bg-radius pos-r">
+        <section class="dark-bg report-card mt-70 bg-radius pos-r"  id="report-chart">
                 <div class="container">
                         <div class="main-title gray-bg">
                                 <h2>B-School Report Card</h2>
                         </div>
-                        <div class="reportcard-data chart-data">
-                                <img src="assets/img/report-card.jpg" alt="">
+                        <div class="" style="width: 100%;">
+                                <select id="select1-report-chart" style="width: 100%">
+                                    <option></option>
+                                </select>
                         </div>
+
+
+                            <div class="school-detail">
+                                <div class="">
+                                        <div class="school-name mb-1"></div>
+                                </div>
+                                        <div class="school-rating">
+                                        <div id="rank-svg"></div>
+                                        </div>
+                                        <div class="school-info-wrapper">
+                                        <div class="school-info">
+                                                <p>Sector<span id="school-report-sector"></span></p>
+                                                <p>State<span id="school-report-state"></span></p>
+                                                <p>Zone<span  id="school-report-zone"></span></p>
+                                        </div>
+                                        <div class="school-rating-label">
+                                                <p><span>Overall Score (1,000) <b id="school-rating-score"></b></span>
+                                        </div>
+                                        </div>
+                            </div>
+                                <div class="scores-years">
+                                    <div class="card">
+                                        <h3 class="card-header">Score over the years</h3>
+                                            <div id="balance-sheet-chart" style="height: 100%;" class="h-100"></div>
+                                    </div> 
+                            </div>
+                
+                            <!-- Report Chart Section: END-->
+                
+                
+                       
                 </div>
         </section><!-- Report Card -->
         <section class="comparison-card bg-radius pos-r">
@@ -176,9 +211,8 @@
                         </div>
                         <div class="comparison-data chart-data">
                                 <p class="chart-text">The ranking is determined by the score achieved out of a possible
-                                        total of 1,000. The
-                                        higher the score, the higher the corresponding rank.</p>
-                                <img src="assets/img/comparison.jpg" alt="">
+                                        total of 1,000. The higher the score, the higher the corresponding rank.</p>
+                                <!-- <img src="assets/img/comparison.jpg" alt=""> -->
                         </div>
                 </div>
         </section><!-- Comparison -->
@@ -189,10 +223,12 @@
                         </div>
                         <div class="ranking-data chart-data">
                                 <p class="chart-text text-white">Ranking based on score obtained out of the total of
-                                        1,000.
-                                        Different weightage
-                                        assigned to each of 5 parameters. Click on any to view its ranking.</p>
-                                <img src="assets/img/ranking.jpg" alt="">
+                                        1,000. Different weightage assigned to each of 5 parameters. Click on any to view its ranking.</p>
+                               <div class="d-flex text-white">
+                                       Year <select id="select-ranking-year"><option></option></select>
+                                       Sector <select id="select-ranking-sector"><option></option></select>
+                                </div>
+                                <div class="ranking-data-wrapper"></div>
                         </div>
                 </div>
         </section><!-- Ranking -->
@@ -202,7 +238,7 @@
                                 <h2>performance indicators</h2>
                         </div>
                         <div class="performance-data chart-data">
-                                <img src="assets/img/performance.jpg" alt="">
+                                <!-- <img src="assets/img/performance.jpg" alt=""> -->
                         </div>
                 </div>
         </section><!-- Performance Indicators -->
@@ -214,7 +250,7 @@
                         <div class="edtech-rankings-data chart-data">
                                 <p class="chart-text text-white">Ranking based on score obtained out of the total of
                                         1,000.</p>
-                                <img src="assets/img/edtech-rankings.jpg" alt="">
+                                <!-- <img src="assets/img/edtech-rankings.jpg" alt=""> -->
                         </div>
                 </div>
         </section><!-- Ed Tech Rankings -->
@@ -226,7 +262,7 @@
                         <div class="mba-rankings-data chart-data">
                                 <p class="chart-text">Ranking based on score obtained out of the total of
                                         1,000.</p>
-                                <img src="assets/img/executive-mba-rankings.jpg" alt="">
+                                <!-- <img src="assets/img/executive-mba-rankings.jpg" alt=""> -->
                         </div>
                 </div>
         </section><!-- Executive MBA Rankings -->
@@ -239,13 +275,18 @@
                                 <p class="chart-text text-white">More number of students used to opt for family or
                                         entrepreneurship prior to 2020 among top 100 colleges which is not the case now.
                                 </p>
-                                <img src="assets/img/career-choices.jpg" alt="">
+                                <!-- <img src="assets/img/career-choices.jpg" alt=""> -->
                         </div>
                 </div>
         </section><!-- Career Choices -->
         <!-- JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"></script>
+        <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        <script src="assets/js/report.js"></script>
         <script src="assets/js/main.js"></script>
 </body>
 
