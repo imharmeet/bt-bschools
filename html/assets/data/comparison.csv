@@ -1,0 +1,544 @@
+institute_name,city,state,zone,govt_pvt,rank_2023,rank_2022,rank_2021,rank_2020,rank_2019,rank_2018,rank_2017,rank_2016
+"Indian Institute of Management, Calcutta",Kolkata,West Bengal,East,G,1,1,1,2,2,2,2,2
+"Indian Institute of Management, Ahmedabad",Ahmedabad,Gujarat,West,G,2,2,2,1,1,1,1,1
+"Indian Institute of Management, Bangalore",Bengaluru,Karnataka,South,G,3,3,3,3,DNP,3,DNP,3
+"Indian Institute of Management, Lucknow",Lucknow,Uttar Pradesh,North,G,4,4,4,DNP,DNP,DNP,DNP,DNP
+"S. P. Jain Institute of Management and Research, Mumbai",Mumbai,Maharashtra,West,P,5,5,5,4,4,6,4,5
+"XLRI - Xavier School of Management, Jamshedpur",Jamshedpur,Jharkhand,East,P,DNP,6,6,5,3,4,3,4
+"Indian Institute of Management, Indore",Indore,Madhya Pradesh,West,G,6,7,7,6,5,7,7,9
+"Management Development Institute (MDI), Gurgaon",Gurugram,Haryana,North,P,7,8,8,7,6,5,5,6
+"Faculty of Management Studies (FMS), University of Delhi, New Delhi",New Delhi,Delhi,North,G,8,9,9,9,8,9,6,7
+"Indian Institute of Foreign Trade, New Delhi",New Delhi,Delhi,North,G,9,10,10,11,10,10,9,11
+"SVKM's NMIMS, School of Business Management, Mumbai",Mumbai,Maharashtra,West,P,10,11,11,10,9,11,11,14
+"International Management Institute (IMI), New Delhi",New Delhi,Delhi,North,P,11,12,14,14,13,13,12,10
+"Indian Institute of Management, Shillong",Shillong,Meghalaya,East,G,12,13,13,16,14,14,15,DNP
+"Institute of Management Technology (IMT), Ghaziabad",Ghaziabad,Uttar Pradesh,North,P,13,14,12,13,12,12,10,12
+"Symbiosis Institute of Business Management (SIBM), Pune",Pune,Maharashtra,West,P,14,15,15,17,15,18,18,20
+"Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",Pune,Maharashtra,West,P,15,16,17,19,24,24,20,22
+"Department of Management Studies, IIT Delhi, New Delhi",New Delhi,Delhi,North,G,16,17,16,15,17,20,20,19
+"Great Lakes Institute of Management, Chennai",Chennai,Tamil Nadu,South,P,17,18,19,20,18,15,14,16
+"Indian Institute of Management, Udaipur",Udaipur,Rajasthan,North,G,18,19,20,22,21,25,28,DNP
+"Indian Institute of Management, Tiruchirappalli",Tiruchirappalli,Tamil Nadu,South,G,19,20,18,18,16,16,19,DNP
+"Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",Bhubaneswar,Odisha,East,P,20,21,21,24,20,22,DNP,18
+"T. A. Pai Management Institute (TAPMI), Manipal",Manipal,Karnataka,South,P,21,22,21,21,19,19,17,17
+"Jamnalal Bajaj Institute of Management Studies (JBIMS), Mumbai",Mumbai,Maharashtra,West,G,22,23,23,DNP,23,23,24,25
+"Vinod Gupta School of Management (VGSoM), IIT, Kharagpur",Kharagpur,West Bengal,East,G,DNP,24,24,23,22,20,16,15
+"ICFAI Business School, Hyderabad",Hyderabad,Telangana,South,P,23,25,25,DNP,37,39,29,DNP
+"Indian Institute of Management, Nagpur",Nagpur,Maharashtra,West,G,24,26,28,30,DNP,DNP,DNP,DNP
+"K J Somaiya Institute of Management, Mumbai",Mumbai,Maharashtra,West,P,25,27,29,28,25,26,25,26
+"Jagdish Sheth School of Management (JAGSOM), Bengaluru",Bengaluru,Karnataka,South,P,26,28,30,DNP,DNP,28,48,47
+"Indian Institute of Management, Kashipur",Udham Singh Nagar,Uttarakhand,North,G,28,29,27,27,31,32,34,DNP
+"Goa Institute of Management, Sanquelim",Sanquelim,Goa,West,P,27,30,26,26,26,31,27,24
+"Institute of Rural Management, Anand",Anand,Gujarat,West,P,29,31,31,29,28,33,32,32
+"SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",Bengaluru,Karnataka,South,P,29,32,32,31,29,29,DNP,DNP
+"Department of Industrial and Management Engineering, IIT, Kanpur",Kanpur,Uttar Pradesh,North,G,32,33,33,DNP,DNP,DNP,DNP,DNP
+"Birla Institute of Management Technology (BIMTECH), Greater Noida",Greater Noida,Uttar Pradesh,North,P,31,34,35,34,27,27,23,21
+"Lal Bahadur Shastri Institute of Management, New Delhi",New Delhi,Delhi,North,P,33,35,36,35,30,30,26,29
+"Indian Institute of Management, Amritsar",Amritsar,Punjab,North,G,34,36,34,32,DNP,DNP,DNP,DNP
+"Sydenham Institute of Management Studies, Research & Entrepreneurship Education (SIMSREE), Mumbai",Mumbai,Maharashtra,West,G,35,37,38,37,39,44,38,34
+"Institute of Management, Nirma University, Ahmedabad",Ahmedabad,Gujarat,West,P,36,38,37,36,34,37,31,27
+"National Institute of Agricultural Extension Management (MANAGE), Hyderabad",Hyderabad,Telangana,South,G,37,39,39,DNP,40,41,36,35
+"Symbiosis Institute of International Business (SIIB), Pune",Pune,Maharashtra,West,P,41,40,40,40,43,67,DNP,DNP
+"Symbiosis Institute of Operations Management, Nashik",Nashik,Maharashtra,West,P,38,41,44,46,60,113,121,139
+"Prin. L.N. Welingkar Institute of Management Development & Research, Mumbai",Mumbai,Maharashtra,West,P,39,42,41,38,33,34,30,28
+"Rajagiri Centre for Business Studies, Kochi",Kochi,Kerala,South,P,40,43,42,42,38,41,39,37
+"Loyola Institute of Business Administration (LIBA), Chennai",Chennai,Tamil Nadu,South,P,42,44,43,43,44,49,44,38
+"Indian Institute of Management, Sambalpur",Sambalpur,Odisha,East,G,43,44,45,DNP,DNP,DNP,DNP,DNP
+"Institute of Management Technology, Nagpur",Nagpur,Maharashtra,West,P,44,46,47,47,53,59,59,59
+"Institute of Public Enterprise (IPE), Hyderabad",Hyderabad,Telangana,South,P,45,47,46,45,48,53,56,67
+"Department of Commerce, Delhi School of Economics, University of Delhi, New Delhi",New Delhi,Delhi,North,G,47,48,52,44,42,46,DNP,DNP
+"Symbiosis Institute of Business Management (SIBM), Bangalore",Bengaluru,Karnataka,South,P,DNP,49,DNP,DNP,DNP,DNP,DNP,71
+"Indian Institute of Forest Management (IIFM), Bhopal",Bhopal,Madhya Pradesh,West,G,48,50,51,DNP,DNP,60,58,DNP
+"IILM Institute for Business and Management, Gurugram",Gurugram,Haryana,North,P,49,51,50,50,50,56,57,60
+"Symbiosis Institute of Digital and Telecom Management, Pune",Pune,Maharashtra,West,P,50,52,54,53,61,76,77,86
+"Balaji Institute of Modern Management (BIMM), Pune",Pune,Maharashtra,West,P,52,53,53,49,46,51,47,46
+"Amity Business School, Amity University, Noida",Noida,Uttar Pradesh,North,P,53,54,55,51,45,48,43,40
+"Shri Dharmasthala Manjunatheshwara Institute for Management Development (SDMIMD), Mysuru",Mysuru,Karnataka,South,P,51,55,57,54,55,64,62,61
+"Prin. L.N. Welingkar Institute of Management Development and Research, Bengaluru",Bengaluru,Karnataka,South,P,56,56,58,56,54,60,66,64
+"Department of Management Studies, National Institute of Technology, Tiruchirappalli",Tiruchirappalli,Tamil Nadu,South,G,DNP,57,56,48,47,47,37,30
+"Symbiosis Institute of Business Management, Hyderabad",Hyderabad,Telangana,South,P,55,58,59,61,65,DNP,DNP,DNP
+"SIES College of Management Studies, Navi Mumbai",Navi Mumbai,Maharashtra,West,P,58,59,60,55,51,54,53,53
+"Department of Management, BITS, Pilani",Pilani,Rajasthan,North,P,57,60,63,62,DNP,DNP,DNP,DNP
+"SOIL Institute of Management, Gurugram",Gurugram,Haryana,North,P,62,61,65,84,DNP,DNP,DNP,DNP
+"ITM Business School, Navi Mumbai",Navi Mumbai,Maharashtra,West,P,60,62,62,58,57,58,49,48
+"VIT Business School, Vellore",Vellore,Tamil Nadu,South,P,60,63,67,86,90,115,111,125
+"Jagan Institute of Management Studies (JIMS), New Delhi",New Delhi,Delhi,North,P,64,64,64,59,63,70,64,62
+"International Management Institute, Bhubaneswar",Bhubaneswar,Odisha,East,P,59,65,70,65,72,79,79,81
+"School of Business and Management, Christ (Deemed to be University), Bengaluru ",Bengaluru,Karnataka,South,P,65,66,61,57,52,57,45,45
+"International Management Institute (IMI), Kolkata",Kolkata,West Bengal,East,P,63,67,DNP,DNP,DNP,DNP,DNP,DNP
+"Institute of Management Technology, Hyderabad",Hyderabad,Telangana,South,P,DNP,68,78,DNP,83,87,92,106
+"Jaipuria Institute of Management, Lucknow",Lucknow,Uttar Pradesh,North,P,67,69,69,64,67,72,65,66
+"Indian Institute of Social Welfare and Business Management (IISWBM), Kolkata",Kolkata,West Bengal,East,G,68,70,73,DNP,59,69,DNP,63
+"Pune Institute of Business Management (PIBM), Pune",Pune,Maharashtra,West,P,69,71,68,69,70,74,72,77
+"Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM), Pune",Pune,Maharashtra,West,G,70,72,74,DNP,73,77,73,76
+"Prestige Institute of Management and Research, Indore",Indore,Madhya Pradesh,West,P,71,73,72,68,69,71,61,58
+Xavier Institute of Management & Entrepreneurship (XIME),Bengaluru,Karnataka,South,P,DNP,74,DNP,DNP,56,DNP,42,42
+"SCMS Cochin School of Business, Ernakulam",Ernakulam,Kerala,South,P,73,75,75,66,62,62,51,51
+"Jaipuria Institute of Management, Noida",Noida,Uttar Pradesh,North,P,74,76,79,73,79,83,85,84
+"Institute of Management Studies, Ghaziabad",Ghaziabad,Uttar Pradesh,North,P,DNP,77,81,DNP,DNP,73,68,70
+"International School of Business & Media (ISBM), Pune",Pune,Maharashtra,West,P,75,78,77,75,82,85,91,93
+"Symbiosis Centre for Information Technology (SCIT), Pune",Pune,Maharashtra,West,P,76,79,83,82,110,174,200,223
+"N. L. Dalmia Institute of Management Studies and Research, Mumbai",Mumbai,Maharashtra,West,P,78,80,83,72,80,84,81,DNP
+"Chitkara Business School, Rajpura",Rajpura,Punjab,North,P,77,81,82,79,74,78,70,68
+"Xavier Institute of Social Service (XISS), Ranchi",Ranchi,Jharkhand,East,P,79,82,85,78,85,DNP,52,DNP
+University School of Management Studies,New Delhi,Delhi,North,G,81,83,DNP,DNP,DNP,DNP,DNP,DNP
+"Universal Business School, Mumbai",Mumbai,Maharashtra,West,P,82,84,86,89,86,88,97,101
+"Department of Management, BIT Mesra Ranchi",Ranchi,Jharkhand,East,P,DNP,85,DNP,97,DNP,DNP,DNP,DNP
+"Fortune Institute of International Business (FIIB), New Delhi",New Delhi,Delhi,North,P,83,86,87,77,80,75,74,DNP
+International School of Management Excellence,Bengaluru,Karnataka,South,P,84,87,DNP,DNP,DNP,186,DNP,129
+"Institute of Agri Business Management, Bikaner",Bikaner,Rajasthan,North,G,86,88,90,DNP,184,186,166,181
+"Balaji Institute of Management & Human Resource Development, Pune",Pune,Maharashtra,West,P,89,89,94,83,88,89,88,89
+"Jaipuria Institute of Management, Jaipur",Jaipur,Rajasthan,North,P,85,90,91,85,87,91,96,98
+Shoolini University of Biotechnology & Management Sciences,Solan,Himachal Pradesh,North,P,88,91,DNP,86,89,DNP,DNP,DNP
+"IIEBM, Indus Business School, Pune",Pune,Maharashtra,West,P,86,92,98,95,101,104,98,100
+"GL Bajaj Institute of Management & Research, Greater Noida",Greater Noida,Uttar Pradesh,North,P,DNP,93,99,94,94,93,86,88
+"AIMS School of Business, Bengaluru ",Bengaluru,Karnataka,South,P,94,94,89,71,67,52,41,39
+"Kristu Jayanti College, Bengaluru ",Bengaluru,Karnataka,South,P,92,95,97,91,93,97,94,92
+"Jagannath International Management School, New Delhi",New Delhi,Delhi,North,P,90,96,104,99,103,101,102,109
+"Punjab College of Technical Education, Ludhiana",Ludhiana,Punjab,North,P,97,97,103,DNP,78,82,75,75
+"I.T.S School of Management, Ghaziabad",Ghaziabad,Uttar Pradesh,North,P,95,98,102,98,99,106,95,DNP
+"School of Business Studies, Sharda University",Greater Noida,Uttar Pradesh,North,P,96,99,DNP,DNP,DNP,DNP,DNP,DNP
+"School of Management, DY Patil (Deemed to be University), Navi Mumbai",Navi Mumbai,Maharashtra,West,P,93,100,106,101,107,105,101,102
+"Faculty of Management Studies, Manav Rachna International Institute of Research and Studies, Faridabad",Faridabad,Haryana,North,P,101,101,100,95,97,100,100,DNP
+"Amity Business School, Gwalior",Gwalior,Madhya Pradesh,West,P,107,101,108,DNP,DNP,DNP,DNP,DNP
+"Jaipuria Institute of Management, Indore",Indore,Madhya Pradesh,West,P,99,103,113,125,142,178,214,221
+"M S Ramaiah Institute of Management, Bengaluru ",Bengaluru,Karnataka,South,P,DNP,104,116,113,123,166,182,196
+"College of Management, SRM Institute of Science and Technology",Chennai,Tamil Nadu,South,P,102,105,109,104,100,102,108,117
+"ICFAI Business School, ICFAI University",Jaipur,Rajasthan,North,P,DNP,105,DNP,102,DNP,DNP,DNP,DNP
+"Acharya Bangalore B-School, Bengaluru",Bengaluru,Karnataka,South,P,DNP,107,101,DNP,DNP,107,DNP,87
+"School of Management, Hindustan Institute of Technology & Science, Chennai",Chennai,Tamil Nadu,South,P,104,108,111,120,102,95,84,85
+"Amity Business School, Gurugram",Gurugram,Haryana,North,P,100,109,110,DNP,DNP,DNP,DNP,DNP
+"Gian Jyoti Institute of Management and Technology, Mohali",Mohali,Punjab,North,P,DNP,110,120,119,DNP,DNP,113,105
+"Kirloskar Institute of Advanced Management Studies, Pune",Pune,Maharashtra,West,P,DNP,111,119,136,144,DNP,213,227
+"CMS Business School JAIN (Deemed-to-be University), Bengaluru ",Bengaluru,Karnataka,South,P,103,112,117,131,DNP,179,230,DNP
+"Department of Management Studies, Pondicherry University, Puducherry",Puducherry,Puducherry,South,G,DNP,113,107,93,92,94,DNP,DNP
+Dayananda Sagar Business School,Bengaluru,Karnataka,South,P,DNP,113,DNP,DNP,DNP,DNP,DNP,DNP
+"Balaji Institute of International Business (BIIB), Pune",Pune,Maharashtra,West,P,DNP,115,125,130,136,160,189,211
+"School of Management Studies, Bannari Amman Institute of Technology, Erode",Erode,Tamil Nadu,South,P,DNP,116,118,111,109,109,DNP,143
+"Rungta College of Engineering & Technology, Bhilai",Bhilai,Chhattisgarh,East,P,110,117,122,108,106,114,112,114
+"R.V. Institute of Management, Bengaluru ",Bengaluru,Karnataka,South,P,108,118,129,133,139,149,186,179
+"Shri Ram Murti Smarak International Business School, Lucknow",Lucknow,Uttar Pradesh,North,P,111,119,125,118,119,116,DNP,DNP
+"Jaipuria Institute of Management, Ghaziabad",Ghaziabad,Uttar Pradesh,North,P,118,120,123,127,137,158,160,170
+"Amity University Chhattisgarh, Raipur",Raipur,Chhattisgarh,East,P,114,121,113,DNP,DNP,DNP,DNP,DNP
+"Symbiosis Institute of Computer Studies and Research, Pune",Pune,Maharashtra,West,P,116,121,135,144,162,184,202,218
+"Taxila Business School, Jaipur ",Jaipur ,Rajasthan,North,P,DNP,123,127,114,DNP,169,180,192
+"Neville Wadia Institute of Management Studies and Research, Pune",Pune,Maharashtra,West,P,117,124,112,107,112,108,109,110
+"School of Management, ITM University, Gwalior",Gwalior,Madhya Pradesh,West,P,121,125,128,110,DNP,DNP,DNP,DNP
+"Calcutta Business School, Bishnupur",Bishnupur,West Bengal,East,P,112,126,130,129,132,120,DNP,DNP
+"Bharath Institute of Higher Education and Research, Chennai",Chennai,Tamil Nadu,South,P,113,127,137,123,131,154,127,149
+"School of Management, IMS Unison University, Dehradun",Dehradun,Uttarakhand,North,P,129,128,134,105,105,117,141,152
+"Department of Management Studies, Mepco Schlenk Engineering College, Sivakasi",Sivakasi,Tamil Nadu,South,P,122,129,133,117,121,123,DNP,DNP
+"Institute of Management Studies, Noida",Noida,Uttar Pradesh,North,P,125,130,136,112,125,140,DNP,DNP
+"Institute of Insurance and Risk Management (IIRM), Hyderabad",Hyderabad,Telangana,South,G,120,131,144,DNP,DNP,DNP,DNP,DNP
+"Ajay Kumar Garg Institute of Management, Ghaziabad",Ghaziabad,Uttar Pradesh,North,P,126,132,140,128,116,118,136,135
+"Faculty of Management Studies & Research, Aligarh Muslim University, Aligarh",Aligarh,Uttar Pradesh,North,G,132,133,141,139,141,DNP,DNP,DNP
+"Amity Business School, Jaipur",Jaipur,Rajasthan,North,P,127,134,146,DNP,DNP,DNP,DNP,DNP
+"Balaji Institute of Telecom & Management, Pune",Pune,Maharashtra,West,P,128,135,132,125,126,134,115,108
+"International School of Informatics & Management Technical Campus, Jaipur",Jaipur,Rajasthan,North,P,DNP,136,145,116,113,124,126,138
+"MIT College of Management, Pune",Pune,Maharashtra,West,P,140,137,149,132,122,161,DNP,DNP
+"K L Business School, K L E Foundation (Deemed to be University), Guntur",Guntur,Andhra Pradesh,South,P,133,138,142,147,DNP,DNP,DNP,DNP
+"Sairam Institute of Management Studies, Chennai",Chennai,Tamil Nadu,South,P,152,139,151,149,134,144,144,146
+"SCMS School of Technology and Management, Ernakulam",Ernakulam,Kerala,South,P,141,140,156,157,172,190,210,226
+"Department of Management Studies, Kongu Engineering College",Erode,Tamil Nadu,South,P,130,141,143,138,127,140,119,127
+"ICBM-School of Business Excellence, Hyderabad",Hyderabad,Telangana,South,P,133,142,154,159,150,119,98,94
+"Quantum School of Business, Quantum University, Roorkee",Roorkee,Uttarakhand,North,P,142,143,161,139,DNP,DNP,DNP,DNP
+"School of Management Studies, Reva University, Bengaluru ",Bengaluru,Karnataka,South,P,147,144,147,137,135,DNP,DNP,DNP
+"ICFAI Business School, Dehradun",Dehradun,Uttarakhand,North,P,135,145,156,155,178,179,183,208
+"Department of Management Studies, KLS Gogte Institute of Technology, Belagavi",Belagavi,Karnataka,South,P,DNP,146,155,155,159,DNP,148,162
+"Bharati Vidyapeeth's Institute of Management Studies and Research, Navi Mumbai",Navi Mumbai,Maharashtra,West,P,139,147,138,115,117,142,DNP,DNP
+"Institute of Business Studies and Research, Navi Mumbai",Navi Mumbai,Maharashtra,West,P,148,148,163,154,DNP,DNP,DNP,DNP
+"School of Business, Galgotias University, Greater Noida",Greater Noida,Uttar Pradesh,North,P,DNP,148,178,179,195,191,196,217
+"Institute of Management & Information Science, Bhubaneswar",Bhubaneswar,Odisha,East,P,149,150,167,161,146,133,105,90
+"Doon Business School, Dehradun",Dehradun,Uttarakhand,North,P,145,151,168,DNP,157,164,DNP,91
+"Dr. SNS Rajalakshmi College of Arts and Science (Autonomous), Coimbatore",Coimbatore,Tamil Nadu,South,P,153,152,159,150,DNP,DNP,DNP,DNP
+"Amity Business School, Mumbai",Mumbai,Maharashtra,West,P,136,153,171,DNP,DNP,DNP,DNP,DNP
+"School of Management & Commerce, Sanskriti University, Mathura",Mathura,Uttar Pradesh,North,P,DNP,154,160,148,127,125,DNP,DNP
+"Dhruva College of Management, Hyderabad",Hyderabad,Telangana,South,P,DNP,155,148,143,149,152,138,137
+International School of Business and Media,Bengaluru,Karnataka,South,P,143,156,DNP,DNP,DNP,DNP,DNP,DNP
+SASMIRA's Business School,Mumbai,Maharashtra,West,P,DNP,157,DNP,DNP,DNP,DNP,DNP,DNP
+"IIKM The Corporate B-School, Chennai",Chennai,Tamil Nadu,South,P,163,158,175,163,147,129,114,104
+"Vignana Jyothi Institute of Management, Hyderabad",Hyderabad,Telangana,South,P,146,159,176,184,198,218,DNP,DNP
+Lexicon Management Institute of Leadership and Excellence,Pune,Maharashtra,West,P,DNP,160,DNP,DNP,165,159,DNP,DNP
+"Lloyd Business School, Greater Noida",Greater Noida,Uttar Pradesh,North,P,DNP,161,165,172,189,215,DNP,DNP
+"School of Management, MIT World Peace University, Pune",Pune,Maharashtra,West,P,144,162,185,194,DNP,DNP,DNP,DNP
+International Institute of Health Management Research,New Delhi,Delhi,North,P,DNP,163,DNP,DNP,DNP,DNP,DNP,DNP
+"ICFAI University Tripura, Agartala",Agartala,Tripura,East,P,161,164,164,158,DNP,DNP,DNP,DNP
+"Saintgits Institute of Management, Kottayam",Kottayam,Kerala,South,P,156,165,162,145,120,112,110,103
+"IPS Academy, Institute of Business Management and Research, Indore",Indore,Madhya Pradesh,West,P,157,166,186,186,198,213,228,238
+"Siva Sivani Institute of Management, Hyderabad",Hyderabad,Telangana,South,P,155,167,193,197,DNP,111,89,83
+"School of Management, Sree Saraswathi Thyagaraja College, Coimbatore",Coimbatore,Tamil Nadu,South,P,166,168,190,DNP,DNP,DNP,DNP,DNP
+"FMS-Wisdom, Banasthali Vidyapith, Banasthali",Banasthali,Rajasthan,North,P,DNP,169,193,DNP,DNP,DNP,DNP,DNP
+Chandragupt Institute of Management Patna,Patna,Bihar,East,G,158,170,DNP,DNP,DNP,DNP,DNP,DNP
+"IIMT College of management, Greater Noida",Greater Noida,Uttar Pradesh,North,P,DNP,171,183,183,DNP,DNP,DNP,DNP
+"Vivekanand Education Society�s Business School, Mumbai",Mumbai,Maharashtra,West,P,159,172,196,DNP,DNP,DNP,DNP,DNP
+"Vivekanand Education Society Institute of Management Studies and Research, Mumbai",Mumbai,Maharashtra,West,P,178,173,177,180,200,236,211,225
+"Chandigarh Business School of Administration, Mohali",Mohali,Punjab,North,P,162,174,192,198,173,196,177,161
+"ICFAI University, Jharkhand, Ranchi",Ranchi,Jharkhand,East,P,165,175,180,DNP,DNP,DNP,DNP,DNP
+"Kalaignarkarunanidhi Institute of Technology, Coimbatore",Coimbatore,Tamil Nadu,South,P,175,176,166,170,DNP,DNP,DNP,DNP
+"School of Management, Sir Padampat Singhania University",Udaipur,Rajasthan,North,P,169,177,DNP,DNP,DNP,DNP,DNP,DNP
+"SASMIRA's Institute of Management Studies and Research, Mumbai",Mumbai,Maharashtra,West,P,160,178,171,180,183,DNP,DNP,DNP
+"DJ Academy for Managerial Excellence, Coimbatore",Coimbatore,Tamil Nadu,South,P,171,179,187,171,164,DNP,DNP,DNP
+"Adithya School of Business Management, Coimbatore",Coimbatore,Tamil Nadu,South,P,174,180,191,DNP,DNP,DNP,DNP,DNP
+"Agriculture and Food Management Institute, Mysuru",Mysuru,Karnataka,South,P,DNP,180,198,173,163,175,165,175
+"Hindusthan College of Engineering and Technology, Coimbatore",Coimbatore,Tamil Nadu,South,P,172,182,197,DNP,DNP,DNP,DNP,DNP
+"KCT Business School, Coimbatore",Coimbatore,Tamil Nadu,South,P,DNP,183,211,175,DNP,126,120,116
+"Lala Lajpatrai Institute of Management, Mumbai",Mumbai,Maharashtra,West,P,184,184,206,DNP,203,197,193,193
+"Alkesh Dinesh Mody Institute for Financial and Management Studies, University of Mumbai",Mumbai,Maharashtra,West,P,176,185,DNP,174,176,202,231,240
+"Faculty of Management, JECRC University, Jaipur",Jaipur,Rajasthan,North,P,205,186,200,DNP,DNP,DNP,DNP,DNP
+Regional College of Management,Bhubaneswar,Odisha,East,P,DNP,187,DNP,DNP,114,99,71,57
+"MM Institute of Management, Ambala",Ambala,Haryana,North,P,170,188,216,201,204,DNP,132,121
+"GNA Business School, GNA University",Phagwara,Punjab,North,P,DNP,189,DNP,DNP,DNP,DNP,DNP,DNP
+"The Business School, University of Jammu, Jammu",Jammu,Jammu and Kashmir,North,G,173,190,207,206,205,214,185,186
+"Institute of Engineering & Management, Kolkata",Kolkata,West Bengal,East,P,182,191,218,202,188,211,DNP,153
+"Tecnia Institute of Advanced Studies, New Delhi",New Delhi,Delhi,North,P,183,192,219,196,208,195,181,188
+"Teerthanker Mahaveer Institute of Management & Technology, Moradabad",Moradabad,Uttar Pradesh,North,P,202,193,205,190,175,177,169,180
+"Department of MBA, CMR College of Engineering & Technology, Hyderabad",Hyderabad,Telangana,South,P,204,194,212,211,209,224,248,DNP
+"Nehru School of Management, Thrissur",Thrissur,Kerala,South,P,DNP,195,203,177,154,127,103,99
+"IBMR Business School, Gurugram",Gurugram,Haryana,North,P,179,196,213,193,182,193,DNP,DNP
+Krupanidhi Group of Institutions,Bengaluru,Karnataka,South,P,181,197,DNP,DNP,DNP,DNP,DNP,DNP
+"Guru Nanak Institute of Management Studies, Mumbai",Mumbai,Maharashtra,West,P,DNP,198,220,209,DNP,255,DNP,DNP
+"Chandigarh School of Business, Jhanjeri",Mohali,Punjab,North,P,201,199,DNP,DNP,DNP,DNP,DNP,DNP
+"Department of Management, IIS (Deemed to be University)",Jaipur,Rajasthan,North,P,DNP,200,DNP,DNP,DNP,DNP,DNP,DNP
+"LEAD College of Management, Palakkad",Palakkad,Kerala,South,P,188,201,214,191,201,201,175,184
+"Faculty of Management Science, Shri Ram Murti Smarak College of Engineering & Technology, Bareilly",Bareilly,Uttar Pradesh,North,P,193,202,217,204,194,157,151,DNP
+VLB Janakiammal College of Arts and Science,Coimbatore,Tamil Nadu,South,P,222,203,DNP,DNP,DNP,DNP,DNP,DNP
+"Faculty of Management Studies, M. S. University of Baroda",Vadodara,Gujarat,West,G,189,204,235,244,247,262,220,203
+"Amity Business School, Lucknow",Lucknow,Uttar Pradesh,North,P,197,205,222,DNP,DNP,DNP,DNP,DNP
+"School of Management, Presidency University, Bengaluru ",Bengaluru,Karnataka,South,P,194,206,238,223,215,DNP,DNP,DNP
+"Department of Management Studies, Easwari Engineering College, Chennai",Chennai,Tamil Nadu,South,P,190,207,233,221,218,205,209,DNP
+"Department of MBA, SNS College of Technology, Coimbatore",Coimbatore,Tamil Nadu,South,P,191,208,199,200,186,182,158,164
+Shri Jaysukhlal Vadhar Institute of Management Studies,Jamnagar,Gujarat,West,P,DNP,209,DNP,191,DNP,130,131,DNP
+"Sri Ramakrishna College of Arts and Science, Coimbatore",Coimbatore,Tamil Nadu,South,P,195,210,221,218,212,222,DNP,DNP
+"Department of Management Studies and Research Centre, B.M.S. College of Engineering, Bengaluru",Bengaluru,Karnataka,South,P,199,211,229,213,221,234,261,249
+"Tilak Raj Chadha Institute of Management & Technology, Yamuna Nagar",Yamuna Nagar,Haryana,North,P,209,212,241,217,220,219,204,197
+"DKTE Society�s Textile and Engineering Institute, Ichalkaranji",Ichalkaranji,Maharashtra,West,P,DNP,213,204,176,DNP,DNP,DNP,DNP
+Prestige Institute of Management Dewas,Dewas,Madhya Pradesh,West,P,228,214,202,188,168,163,147,157
+Dayananda Sagar College of Engineering,Bengaluru,Karnataka,South,P,216,215,DNP,DNP,DNP,DNP,DNP,DNP
+"Medi-Caps University, Indore",Indore,Madhya Pradesh,West,P,200,216,227,DNP,DNP,DNP,DNP,202
+"Hindusthan College of Arts & Science, Coimbatore",Coimbatore,Tamil Nadu,South,P,207,217,201,DNP,DNP,DNP,DNP,DNP
+"Jagran Lakecity Business School, Jagran Lakecity University, Bhopal",Bhopal,Madhya Pradesh,West,P,225,218,242,242,DNP,DNP,DNP,DNP
+"Hindusthan Institute of Technology, Coimbatore",Coimbatore,Tamil Nadu,South,P,210,219,247,DNP,DNP,DNP,DNP,DNP
+"St. Joseph�s PG College, Hyderabad",Hyderabad,Telangana,South,P,210,220,244,225,227,223,223,236
+"Coimbatore Institute of Management and Technology, Coimbatore",Coimbatore,Tamil Nadu,South,P,229,221,DNP,DNP,179,181,164,166
+Vishwa Vishwani Institute of Systems and Management,Hyderabad,Telangana,South,P,DNP,222,DNP,DNP,DNP,DNP,DNP,DNP
+"The Oxford College of Business Management, Bengaluru ",Bengaluru,Karnataka,South,P,219,223,236,224,224,DNP,DNP,DNP
+"Central Institute of Business Management, Research & Development, Nagpur",Nagpur,Maharashtra,West,P,223,224,226,203,DNP,173,171,171
+"School of Business & Management, NSHM Knowledge Campus, Durgapur",Durgapur,West Bengal,East,P,208,225,251,229,DNP,DNP,DNP,DNP
+"Rajshree Institute of Management & Technology, Bareilly",Bareilly,Uttar Pradesh,North,P,215,226,248,DNP,DNP,DNP,DNP,DNP
+"Karnatak Law Society�s Institute of Management Education & Research, Belagavi",Belagavi,Karnataka,South,P,214,227,253,230,225,256,188,182
+"ITM Business School, Warangal",Warangal,Telangana,South,P,DNP,228,254,234,236,244,205,215
+"GNVS Institute of Management, Mumbai",Mumbai,Maharashtra,West,P,212,229,260,254,238,DNP,DNP,DNP
+"Department of Management Studies, G. Pullaiah College of Engineering and Technology (Autonomous), Kurnool",Kurnool,Andhra Pradesh,South,P,DNP,230,225,DNP,DNP,DNP,DNP,DNP
+"Department of Management, Rathinam College of Arts & Science, Coimbatore",Coimbatore,Tamil Nadu,South,P,213,231,224,205,206,DNP,DNP,DNP
+"Francis Xavier Department of Management Studies (FXDoMS), Tirunelveli",Tirunelveli,Tamil Nadu,South,P,217,232,256,241,232,212,152,142
+"MIET Business School, Meerut",Meerut,Uttar Pradesh,North,P,230,233,230,212,DNP,225,DNP,DNP
+"Sandip Institute of Technology and Research Centre, Nashik",Nashik,Maharashtra,West,P,DNP,234,DNP,DNP,190,204,129,115
+"Sardar Vallabhbhai Patel International School of Textiles & Management, Coimbatore",Coimbatore,Tamil Nadu,South,G,232,235,239,DNP,170,183,254,DNP
+"School of Management, Model Institute of Engineering and Technology, Jammu",Jammu,Jammu and Kashmir,North,P,217,236,237,216,217,DNP,DNP,DNP
+"IA School of Management Studies, Bengaluru ",Bengaluru,Karnataka,South,P,234,237,244,236,228,253,251,DNP
+"Centre for Management Studies, Presidency College",Bengaluru,Karnataka,South,P,226,238,268,257,243,254,DNP,DNP
+Netaji Subhas Institute of Business Management,Jamshedpur,Jharkhand,East,P,237,239,263,250,DNP,DNP,DNP,DNP
+"Pranveer Singh Institute of Technology, Kanpur",Kanpur,Uttar Pradesh,North,P,247,240,273,283,DNP,241,DNP,DNP
+"Institute of Business Management, GLA University, Mathura",Mathura,Uttar Pradesh,North,P,224,241,240,249,245,DNP,212,198
+"CMR University School of Management, Bengaluru",Bengaluru,Karnataka,South,P,235,241,252,DNP,DNP,DNP,DNP,DNP
+Haryana School of Business,Hisar,Haryana,North,G,DNP,243,DNP,DNP,DNP,DNP,DNP,DNP
+"Lakshmi Narain College of Technology, Bhopal",Bhopal,Madhya Pradesh,West,P,251,244,267,DNP,DNP,DNP,DNP,DNP
+"Post Graduate Department of Management Studies, P E S College of Engineering",Mandya,Karnataka,South,P,242,245,DNP,DNP,DNP,DNP,DNP,DNP
+"B.L.D.E. Association�s A.S. Patil College of Commerce (Autonomous), Vijayapura",Vijayapura,Karnataka,South,P,239,246,261,258,246,226,263,255
+"Department of Business Administration and Research, Shri Sant Gajanan Maharaj College of Engineering, Shegaon",Shegaon,Maharashtra,West,P,246,247,271,DNP,193,198,146,136
+"S. V. Institute of Management, Kadi",Kadi,Gujarat,West,P,244,248,266,251,248,274,256,252
+"Sau. Leena Kishor Mamidwar Institute of Management Studies & Research, Chandrapur",Chandrapur,Maharashtra,West,P,DNP,249,272,DNP,DNP,DNP,DNP,DNP
+"Poddar Management and Technical Campus, Jaipur",Jaipur,Rajasthan,North,P,238,250,258,248,235,268,DNP,DNP
+"Department of Business Administration, Kanpur Institute of Technology, Kanpur",Kanpur,Uttar Pradesh,North,P,250,251,274,255,250,242,245,254
+"Aristotle PG College, Hyderabad",Hyderabad,Telangana,South,P,DNP,252,DNP,247,226,228,246,DNP
+"Dr. V. N. Bedekar Institute of Management Studies, Thane",Thane,Maharashtra,West,P,253,253,255,233,231,237,206,219
+"Seshadripuram Institute of Management Studies, Bengaluru ",Bengaluru,Karnataka,South,P,DNP,254,281,271,267,279,DNP,DNP
+"Department of Management Studies, The Oxford College of Engineering, Bengaluru ",Bengaluru,Karnataka,South,P,249,255,286,262,260,265,DNP,233
+"Global Business School, Hubli",Hubli,Karnataka,South,P,257,256,279,264,271,286,260,257
+"ITM Vocational University, Vadodara",Vadodara,Gujarat,West,P,254,257,297,DNP,155,DNP,DNP,DNP
+"Faculty of Commerce & Business Management, Amrapali Institute of Technology Sciences, Haldwani",Haldwani,Uttarakhand,North,P,256,258,264,243,256,246,249,237
+"Sahrdaya Institute of Management Studies, Thrissur",Thrissur,Kerala,South,P,262,259,275,DNP,DNP,DNP,DNP,DNP
+MGM Institute of Management,Aurangabad,Maharashtra,West,P,DNP,260,DNP,252,229,232,225,DNP
+"T. John College, Bengaluru",Bengaluru,Karnataka,South,P,248,261,294,DNP,236,DNP,DNP,DNP
+"Department of Business Administration, Prasad V. Potluri Siddhartha Institute of Technology, Vijayawada",Vijayawada,Andhra Pradesh,South,P,DNP,262,293,DNP,DNP,DNP,DNP,DNP
+"Shri Vaishnav Institute of Management, Indore",Indore,Madhya Pradesh,West,P,DNP,263,301,275,255,277,267,DNP
+"Postgraduate Department of Business Management, Sardar Patel University, Vallabh Vidyanagar, Anand",Vallabh Vidyanagar Anand,Gujarat,West,G,252,264,265,246,258,DNP,198,209
+"Baba Farid College of Management & Technology, Bathinda",Bathinda,Punjab,North,P,DNP,265,280,265,259,266,DNP,DNP
+"Indirapuram Institute of Higher Studies, Ghaziabad",Ghaziabad,Uttar Pradesh,North,P,DNP,266,250,245,DNP,DNP,DNP,DNP
+"Astha School of Management, Bhubaneswar",Bhubaneswar,Odisha,East,P,266,267,290,266,241,230,197,213
+"Sinhgad Business School, Pune",Pune,Maharashtra,West,P,259,268,289,267,264,280,259,247
+Sheila Raheja School of Business Management & Research,Mumbai,Maharashtra,West,P,264,269,DNP,DNP,DNP,272,262,265
+"DAV Institute of Management, Faridabad",Faridabad,Haryana,North,P,261,270,295,DNP,DNP,260,DNP,DNP
+"C K Shah Vijapurwala Institute of Management, Vadodara",Vadodara,Gujarat,West,P,DNP,271,284,274,DNP,DNP,DNP,204
+"Chetan Business School, Hubli",Hubli,Karnataka,South,P,269,272,298,286,DNP,DNP,DNP,DNP
+"Indore Management Institute and Research Centre, Indore",Indore,Madhya Pradesh,West,P,DNP,273,300,DNP,DNP,DNP,DNP,DNP
+"AMS School of Informatics, Hyderabad",Hyderabad,Telangana,South,P,DNP,274,DNP,DNP,281,299,265,261
+Institute of Management Study (IMS Kolkata),Kolkata,West Bengal,East,P,DNP,275,DNP,DNP,279,DNP,DNP,DNP
+"Department of Management Sciences & Research, G. S. College of Commerce & Economics, Nagpur",Nagpur,Maharashtra,West,P,DNP,276,DNP,268,257,259,208,205
+"Amjad Ali Khan College of Business Administration, Hyderabad",Hyderabad,Telangana,South,P,265,277,303,291,277,302,257,267
+"Department of Management Studies, SJB Institute of Technology",Bengaluru,Karnataka,South,P,DNP,278,DNP,DNP,DNP,269,DNP,DNP
+"Shiksha Mandal's Govindram Seksaria College of Commerce, Department of Advanced Management Studies",Wardha,Maharashtra,West,P,272,279,DNP,DNP,DNP,DNP,DNP,DNP
+Vidyasagar Institute of Management,Bhopal,Madhya Pradesh,West,P,DNP,280,DNP,DNP,284,301,274,266
+IMS Business School ,Kolkata,West Bengal,East,P,268,281,DNP,DNP,DNP,291,DNP,DNP
+"PSG Institute of Management, Coimbatore",Coimbatore,Tamil Nadu,South,P,46,DNP,48,41,DNP,50,46,41
+"Asia-Pacific Institute of Management, New Delhi",New Delhi,Delhi,North,P,54,DNP,49,DNP,41,45,40,36
+"Indus Business Academy (IBA), Bengaluru ",Bengaluru,Karnataka,South,P,66,DNP,66,62,58,66,63,64
+"Gitam Institute of Management, Visakhapatnam",Visakhapatnam,Andhra Pradesh,South,P,72,DNP,71,67,66,63,54,54
+"School of Management Studies, Motilal Nehru National Institute of Technology (MNNIT), Prayagraj",Prayagraj,Uttar Pradesh,North,G,80,DNP,76,70,71,65,69,69
+"School of Business � University of Petroleum & Energy Studies, Dehradun",Dehradun,Uttarakhand,North,P,91,DNP,80,74,DNP,DNP,DNP,DNP
+"Symbiosis School of Banking and Finance, Pune",Pune,Maharashtra,West,P,98,DNP,88,DNP,DNP,DNP,DNP,DNP
+"School of Development Studies, IIHMR University, Jaipur",Jaipur,Rajasthan,North,P,105,DNP,92,80,75,DNP,DNP,DNP
+"Xavier Institute of Management & Entrepreneurship, Kochi",Kochi,Kerala,South,P,106,DNP,93,90,95,DNP,DNP,DNP
+"School of Management, NIT Rourkela",Rourkela,Odisha,East,G,109,DNP,95,81,DNP,DNP,DNP,DNP
+"Manipal Institute of Management, Manipal",Manipal,Karnataka,South,P,115,DNP,96,92,97,92,87,128
+"JK Business School, Gurugram",Gurugram,Haryana,North,P,119,DNP,105,106,104,110,106,113
+"University School of Business, Chandigarh University, Mohali",Mohali,Punjab,North,P,122,DNP,115,121,124,139,DNP,DNP
+"Institute of Management, JK Lakshmipat University, Jaipur",Jaipur,Rajasthan,North,P,124,DNP,121,122,129,DNP,DNP,DNP
+"Suryadatta Institute of Management, Pune",Pune,Maharashtra,West,P,131,DNP,124,103,DNP,264,215,201
+"Prestige Institute of Management & Research, Gwalior",Gwalior,Madhya Pradesh,West,P,137,DNP,131,134,118,122,116,132
+"School of Management & Commerce, Poornima University, Jaipur",Jaipur,Rajasthan,North,P,138,DNP,139,124,115,DNP,DNP,DNP
+"Shri Ramdeobaba College of Engineering and Management, Nagpur",Nagpur,Maharashtra,West,P,150,DNP,150,142,DNP,DNP,DNP,DNP
+"School of Management, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai",Chennai,Tamil Nadu,South,P,151,DNP,152,141,130,136,DNP,DNP
+"St Aloysius Institute of Management and Information Technology, Mangaluru",Mangaluru,Karnataka,South,P,154,DNP,153,153,158,171,157,172
+"Aurora's Business School, Hyderabad",Hyderabad,Telangana,South,P,164,DNP,158,151,140,136,DNP,DNP
+"Narayana Business School, Ahmedabad",Ahmedabad,Gujarat,West,P,167,DNP,169,182,DNP,DNP,DNP,DNP
+"ITM Business School, Chennai",Chennai,Tamil Nadu,South,P,168,DNP,170,168,180,162,154,151
+"School of Business and Economics, Adamas University, Kolkata",Kolkata,West Bengal,East,P,177,DNP,173,DNP,DNP,DNP,DNP,DNP
+"School of Management & Commerce, K.R. Mangalam University, Gurugram",Gurugram,Haryana,North,P,180,DNP,174,166,DNP,DNP,DNP,DNP
+"Saveetha School of Management, Chennai",Chennai,Tamil Nadu,South,P,185,DNP,179,165,DNP,145,DNP,178
+"ISBR Business School, Bengaluru ",Bengaluru,Karnataka,South,P,186,DNP,181,162,148,DNP,DNP,DNP
+"Bharatiya Vidya Bhavan�s Usha & Lakshmi Mittal Institute of Management, New Delhi",New Delhi,Delhi,North,P,187,DNP,182,DNP,DNP,DNP,DNP,156
+"Vivekananda Institute of Management Studies, Coimbatore",Coimbatore,Tamil Nadu,South,P,192,DNP,184,169,152,149,135,DNP
+"Dayananda Sagar College of Management & Information Technology, Bengaluru ",Bengaluru,Karnataka,South,P,196,DNP,188,187,166,DNP,DNP,DNP
+"St. Joseph�s Institute of Management, Bengaluru",Bengaluru,Karnataka,South,P,198,DNP,189,DNP,DNP,DNP,150,DNP
+"Axis Institute of Planning and Management, Kanpur",Kanpur,Uttar Pradesh,North,P,203,DNP,195,DNP,DNP,DNP,DNP,DNP
+"Velalar College of Engineering and Technology, Erode",Erode,Tamil Nadu,South,P,206,DNP,208,199,DNP,DNP,DNP,DNP
+"MLR Institute of Technology, Hyderabad",Hyderabad,Telangana,South,P,220,DNP,209,189,DNP,DNP,DNP,DNP
+"IES's Management College and Research Centre, Mumbai",Mumbai,Maharashtra,West,P,221,DNP,210,DNP,144,168,143,DNP
+"Durgadevi Saraf Institute of Management Studies, Mumbai",Mumbai,Maharashtra,West,P,227,DNP,215,185,197,206,194,195
+"OM Kothari Institute of Management & Research, Kota",Kota,Rajasthan,North,P,230,DNP,222,208,185,189,191,194
+"Bharatesh Education Trust�s Global Business School, Belgaum",Belgaum,Karnataka,South,P,233,DNP,228,210,213,199,163,174
+"Tula's Institute, Dehradun",Dehradun,Uttarakhand,North,P,236,DNP,231,207,DNP,167,DNP,DNP
+"Parul Institute of Management and Research, Vadodara",Vadodara,Gujarat,West,P,240,DNP,232,DNP,DNP,DNP,DNP,DNP
+"Department of Business Administration, Gandhi Institute for Technological Advancement (GITA), Bhubaneswar",Bhubaneswar,Odisha,East,P,241,DNP,234,231,214,210,173,DNP
+"Department of Management, Central University of Rajasthan, Ajmer",Ajmer,Rajasthan,North,G,243,DNP,243,DNP,DNP,DNP,DNP,DNP
+"Department of MBA, Greater Noida Institute of Technology, Greater Noida",Greater Noida,Uttar Pradesh,North,P,245,DNP,246,239,249,267,DNP,DNP
+"Institute of Business Management and Research, Hubli",Hubli,Karnataka,South,P,255,DNP,249,269,276,293,DNP,DNP
+"Acropolis Faculty of Management & Research, Indore",Indore,Madhya Pradesh,West,P,258,DNP,257,259,DNP,284,252,DNP
+"Dr. D.Y. Patil Vidyapeeth Global Business School & Research Centre, Pune",Pune,Maharashtra,West,P,260,DNP,259,DNP,DNP,DNP,DNP,DNP
+"GRG School of Management Studies, PSGR Krishnammal College for Women, Coimbatore",Coimbatore,Tamil Nadu,South,P,263,DNP,262,DNP,160,DNP,217,199
+"Guru Nanak College (Autonomous), Chennai",Chennai,Tamil Nadu,South,P,267,DNP,269,DNP,DNP,DNP,DNP,DNP
+"People's Institute of Management & Research, Bhopal",Bhopal,Madhya Pradesh,West,P,270,DNP,270,DNP,244,245,242,232
+"Royal School of Business, Royal Global University, Guwahati",Guwahati,Assam,East,P,271,DNP,276,256,254,258,DNP,DNP
+"M.A.M. Business School, Tiruchirappalli",Tiruchirappalli,Tamil Nadu,South,P,DNP,DNP,277,260,272,285,DNP,DNP
+"Virudhunagar Hindu Nadars' Senthikumara Nadar College, Virudhunagar",Virudhunagar,Tamil Nadu,South,P,DNP,DNP,278,253,252,247,DNP,DNP
+"Department of MBA, Sagar Institute of Research & Technology, Bhopal",Bhopal,Madhya Pradesh,West,P,DNP,DNP,281,263,265,289,DNP,DNP
+"Department of Management Science, S.A. Engineering College, Chennai",Chennai,Tamil Nadu,South,P,DNP,DNP,283,273,251,248,170,DNP
+"JSPM's Jayawant Institute of Management Studies, Pune",Pune,Maharashtra,West,P,DNP,DNP,285,277,DNP,DNP,DNP,DNP
+"Pyramid College of Business & Technology, Phagwara",Phagwara,Punjab,North,P,DNP,DNP,287,DNP,DNP,DNP,DNP,DNP
+"S.B.Jain Institute of Technology, Management & Research, Nagpur",Nagpur,Maharashtra,West,P,DNP,DNP,287,DNP,DNP,DNP,DNP,DNP
+"Avanthi Degree & PG College, Hyderabad",Hyderabad,Telangana,South,P,DNP,DNP,291,276,DNP,DNP,DNP,DNP
+"Sunshine Group of Institutions, Rajkot",Rajkot,Gujarat,West,P,DNP,DNP,292,DNP,DNP,DNP,DNP,DNP
+"Surana College, Bengaluru ",Bengaluru,Karnataka,South,P,DNP,DNP,296,287,275,295,DNP,DNP
+"Department of Business Administration, MK Bhavnagar University, Bhavnagar",Bhavnagar,Gujarat,West,G,DNP,DNP,299,DNP,DNP,283,DNP,DNP
+"AISSMS Institute of Management, Pune",Pune,Maharashtra,West,P,DNP,DNP,302,DNP,DNP,DNP,DNP,DNP
+"Department of Economics, Commerce and Management, Martin Luther Christian University, Shillong",Shillong,Meghalaya,East,P,DNP,DNP,304,292,273,DNP,DNP,DNP
+"Sarojini Naidu Vanita Maha Vidyalaya, Hyderabad",Hyderabad,Telangana,South,P,DNP,DNP,305,DNP,DNP,300,DNP,DNP
+Indian Institute of Management Kozhikode (IIM-K),Kozhikode,Kerala,South,G,DNP,DNP,DNP,8,7,8,8,8
+National Institute of Industrial Engineering (NITIE),Mumbai,Maharashtra,West,G,DNP,DNP,DNP,12,11,DNP,13,13
+Indian Institute of Management Raipur,Raipur,Chhattisgarh,East,G,DNP,DNP,DNP,25,DNP,40,DNP,DNP
+"Department of Management Studies, Indian Institute of Technology Roorkee",Roorkee,Uttarakhand,North,G,DNP,DNP,DNP,33,35,43,DNP,DNP
+"Bharathidasan Institute of Management, Tiruchirappalli",Tiruchirappalli,Tamil Nadu,South,P,DNP,DNP,DNP,39,35,35,33,31
+KIIT School of Management,Bhubaneswar,Odisha,East,P,DNP,DNP,DNP,52,49,55,55,56
+IILM Institute for Higher Education,New Delhi,Delhi,North,P,DNP,DNP,DNP,60,64,68,DNP,DNP
+Symbiosis Institute of Media and Communication,Pune,Maharashtra,West,P,DNP,DNP,DNP,76,DNP,DNP,179,DNP
+IILM Graduate School of Management,Greater Noida,Uttar Pradesh,North,P,DNP,DNP,DNP,88,DNP,DNP,DNP,DNP
+"Department of Business Administration, Tezpur University",Tezpur,Assam,East,G,DNP,DNP,DNP,100,107,128,133,145
+"CMS Institute of Management Studies, Coimbatore",Coimbatore,Tamil Nadu,South,P,DNP,DNP,DNP,109,DNP,DNP,DNP,DNP
+"Kirloskar Institute of Advanced Management Studies, Harihar",Harihar,Karnataka,South,P,DNP,DNP,DNP,135,138,155,149,160
+ABES Engineering College,Ghaziabad,Uttar Pradesh,North,P,DNP,DNP,DNP,146,DNP,176,172,177
+FOSTIIMA Business School,New Delhi,Delhi,North,P,DNP,DNP,DNP,152,DNP,DNP,DNP,228
+"School of Business, Mody University of Science & Technology",Sikar,Rajasthan,North,P,DNP,DNP,DNP,160,151,DNP,DNP,DNP
+St. Joseph's Institute of Management (JIM),Tiruchirappalli ,Tamil Nadu,South,P,DNP,DNP,DNP,164,DNP,207,229,DNP
+"Department of Management Studies, PSNA College of Engineering and Technology",Dindigul,Tamil Nadu,South,P,DNP,DNP,DNP,167,143,135,134,144
+"School of Management, Roorkee Institute of Technology",Roorkee,Uttarakhand,North,P,DNP,DNP,DNP,178,167,156,DNP,DNP
+"D.C. School of Management & Technology, Kottayam",Kottayam,Kerala,South,P,DNP,DNP,DNP,195,181,165,184,190
+Thakur Institute of Management Studies & Research,Mumbai,Maharashtra,West,P,DNP,DNP,DNP,214,DNP,DNP,DNP,DNP
+SRM Valliammai Engineering College,Chengalpattu District,Tamil Nadu,South,P,DNP,DNP,DNP,215,DNP,281,DNP,253
+"School of Management Studies, GIET University",Gunupur,Odisha,East,P,DNP,DNP,DNP,219,211,231,226,241
+PSIT College of Engineering,Kanpur,Uttar Pradesh,North,P,DNP,DNP,DNP,220,DNP,DNP,DNP,DNP
+Krupajal Management Studies,Bhubaneswar,Odisha,East,P,DNP,DNP,DNP,222,DNP,DNP,DNP,DNP
+"Uttaranchal Institute of Management, Uttaranchal University",Dehradun,Uttarakhand,North,P,DNP,DNP,DNP,226,234,DNP,DNP,DNP
+"Delhi Institute of Advanced Studies, New Delhi",New Delhi,Delhi,North,P,DNP,DNP,DNP,227,242,250,216,214
+"School of Management, KIET Group of Institutions",Ghaziabad,Uttar Pradesh,North,P,DNP,DNP,DNP,228,DNP,DNP,DNP,DNP
+Hallmark Business School,Tiruchirappalli,Tamil Nadu,South,P,DNP,DNP,DNP,232,222,227,222,210
+Excel Business School,Namakkal,Tamil Nadu,South,P,DNP,DNP,DNP,235,DNP,DNP,DNP,DNP
+Sacred Heart College,Tirupattur,Tamil Nadu,South,P,DNP,DNP,DNP,237,DNP,DNP,DNP,DNP
+Techno Main Salt Lake,Kolkata,West Bengal,East,P,DNP,DNP,DNP,238,DNP,DNP,DNP,DNP
+"Bharatiya Vidya Bhavan Institute of Management Science, Kolkata",Kolkata,West Bengal,East,P,DNP,DNP,DNP,240,219,240,DNP,DNP
+Measi Institute of Management,Chennai,Tamil Nadu,South,P,DNP,DNP,DNP,261,263,251,239,245
+"Department of Commerce & Business Administration, Tilka Manjhi Bhagalpur University",Bhagalpur,Bihar,East,G,DNP,DNP,DNP,270,268,275,233,243
+Regenesys Institute of Management Private Limited,Navi Mumbai,Maharashtra,West,P,DNP,DNP,DNP,272,DNP,DNP,104,DNP
+Institute of Management Education Research and Training (IMERT),Pune,Maharashtra,West,P,DNP,DNP,DNP,278,DNP,DNP,DNP,DNP
+Naran Lala School of Industrial Management & Computer Science,Navsari,Gujarat,West,P,DNP,DNP,DNP,279,DNP,DNP,DNP,DNP
+"CMR Centre for Business Studies, Bengaluru",Bengaluru,Karnataka,South,P,DNP,DNP,DNP,280,270,282,DNP,DNP
+MES-Advanced Institute of Management and Technology (MES-AIMAT),Kochi,Kerala,South,P,DNP,DNP,DNP,281,253,261,DNP,256
+"Faculty of Management, MJP Rohilkhand University",Bareilly,Uttar Pradesh,North,G,DNP,DNP,DNP,282,DNP,DNP,DNP,DNP
+Dr. Lankapalli Bullayya College,Visakhapatnam,Andhra Pradesh,South,P,DNP,DNP,DNP,284,DNP,DNP,DNP,DNP
+Dr. Panjabrao Deshmukh Institute of Management Technology & Research,Nagpur,Maharashtra,West,P,DNP,DNP,DNP,285,278,263,DNP,DNP
+SJC Institute of Technology (SJCIT),Chickballapur ,Karnataka,South,P,DNP,DNP,DNP,288,DNP,287,264,DNP
+Sinhgad Institute of Management,Pune,Maharashtra,West,P,DNP,DNP,DNP,289,266,273,227,DNP
+"School of Business Studies, Shobhit University",Saharanpur,Uttar Pradesh,North,P,DNP,DNP,DNP,290,174,151,140,134
+"Department of Management Studies, Indian Institute of Technology Madras",Chennai,Tamil Nadu,South,G,DNP,DNP,DNP,DNP,32,38,35,33
+"School of Management Studies, National Institute of Technology Calicut",Kozhikode,Kerala,South,G,DNP,DNP,DNP,DNP,76,80,83,DNP
+Jindal Global Business School,Sonipat,Haryana,North,P,DNP,DNP,DNP,DNP,77,DNP,DNP,DNP
+Lovely Professional University,Phagwara,Punjab,North,P,DNP,DNP,DNP,DNP,83,DNP,DNP,97
+"Apeejay School of Management, New Delhi",New Delhi,Delhi,North,P,DNP,DNP,DNP,DNP,91,102,DNP,DNP
+Institute of Rural Management,Jaipur,Rajasthan,North,P,DNP,DNP,DNP,DNP,96,96,DNP,78
+Jaipuria School of Business,Ghaziabad,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,111,131,107,107
+"International Institute of Management Studies, Pune",Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,133,DNP,DNP,216
+Eastern Institute for Integrated Learning In Management (EIILM),Kolkata,West Bengal,East,P,DNP,DNP,DNP,DNP,152,DNP,124,DNP
+Accurate Institute of Management and Technology,Greater Noida,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,156,147,128,120
+Sona School of Management,Salem,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,160,148,125,119
+"ICFAI Business School, Kolkata",Kolkata,West Bengal,East,P,DNP,DNP,DNP,DNP,169,DNP,DNP,DNP
+"Atharva Institute of Management Studies, Mumbai",Mumbai,Maharashtra,West,P,DNP,DNP,DNP,DNP,171,143,145,154
+Karunya School of Management,Coimbatore,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,177,217,234,239
+"Department of MBA, Sanjivani College of Engineering",Kopargaon,Maharashtra,West,P,DNP,DNP,DNP,DNP,187,208,DNP,DNP
+"MBA Department, Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College",Chennai,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,190,188,159,168
+Adarsh Institute of Management and Information Technology,Bengaluru,Karnataka,South,P,DNP,DNP,DNP,DNP,192,203,155,155
+"Faculty of Management, Jagannath University",Jaipur,Rajasthan,North,P,DNP,DNP,DNP,DNP,196,DNP,DNP,DNP
+Farook Institute of Management Studies,Kozhikode,Kerala,South,P,DNP,DNP,DNP,DNP,202,200,129,DNP
+School of Hospitality and Tourism Management,Jammu,Jammu and Kashmir,North,P,DNP,DNP,DNP,DNP,207,209,218,235
+M.O.P. Vaishnav College for Women (Autonomous),Chennai,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,210,DNP,DNP,DNP
+St. Berchmans Institute of Management Studies,Changanassery,Kerala,South,P,DNP,DNP,DNP,DNP,216,229,DNP,DNP
+Delhi School of Business (Vivekananda Institute of Professional Studies-Technical Campus),New Delhi,Delhi,North,P,DNP,DNP,DNP,DNP,223,270,DNP,DNP
+"School of Management Studies, Chaitanya Bharathi Institute of Technology",Hyderabad,Telangana,South,P,DNP,DNP,DNP,DNP,230,277,DNP,DNP
+"School of Business & Management, Jaipur National University",Jaipur,Rajasthan,North,P,DNP,DNP,DNP,DNP,233,252,DNP,DNP
+School of Commerce Management and Research ITM University,Atal Nagar,Chhattisgarh,East,P,DNP,DNP,DNP,DNP,239,DNP,DNP,DNP
+Holy Grace Academy of Management Studies,Thrissur,Kerala,South,P,DNP,DNP,DNP,DNP,240,243,DNP,DNP
+T. John Institute of Management & Science,Bengaluru,Karnataka,South,P,DNP,DNP,DNP,DNP,261,DNP,DNP,DNP
+Indira College of Engineering & Management�,Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,262,DNP,270,DNP
+A. J. Institute of Management (AJIM),Mangaluru,Karnataka,South,P,DNP,DNP,DNP,DNP,269,DNP,221,DNP
+"CH Institute of Management & Commerce, Indore",Indore,Madhya Pradesh,West,P,DNP,DNP,DNP,DNP,274,DNP,DNP,DNP
+Adhunik Institute of Productivity Management and Research,Ghaziabad,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,280,DNP,DNP,DNP
+Vaishali Institute of Business and Rural Management,Muzaffarpur,Bihar,East,P,DNP,DNP,DNP,DNP,282,298,DNP,264
+"Department of MBA, J. J. College of Engineering and Technology",Tiruchirappalli,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,283,271,255,258
+"Shailesh J. Mehta School of Management, IIT Bombay",Mumbai,Maharashtra,West,G,DNP,DNP,DNP,DNP,DNP,16,22,23
+Indian Institute of Management Rohtak,Rohtak,Haryana,North,G,DNP,DNP,DNP,DNP,DNP,36,DNP,DNP
+"Department of Management Studies, IIT (ISM) Dhanbad",Dhanbad,Jharkhand,East,G,DNP,DNP,DNP,DNP,DNP,81,80,79
+Gitam School of International Business,Visakhapatnam,Andhra Pradesh,South,P,DNP,DNP,DNP,DNP,DNP,86,DNP,DNP
+"Bharati Vidyapeeth University Institute of Mangement and Research, New Delhi",New Delhi,Delhi,North,P,DNP,DNP,DNP,DNP,DNP,90,82,80
+"Department of Business Management, University of Calcutta",Kolkata,West Bengal,East,G,DNP,DNP,DNP,DNP,DNP,98,76,72
+Indian Institute of Finance,Greater Noida,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,121,90,74
+Nehru College of Management,Coimbatore,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,132,122,123
+Indo Global College of Management and Technology,New Chandigarh,Punjab,North,P,DNP,DNP,DNP,DNP,DNP,136,DNP,DNP
+MIT School of Telecom Management,Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,145,167,185
+"Rajeev Business School, Pune",Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,153,DNP,DNP
+"Army Institute of Management and Technology, Greater Noida",Greater Noida,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,170,DNP,DNP
+St. Francis Institute of Management and Research,Mumbai,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,172,DNP,DNP
+SSM School of Management and Computer Applications,Namakkal,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,185,DNP,112
+"Dayananda Sagar College of Art, Science & Commerce, Bengaluru",Bengaluru,Karnataka,South,P,DNP,DNP,DNP,DNP,DNP,192,219,229
+RVS Institute of Management Studies,Coimbatore,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,194,195,187
+"Dr. G.D Pol Foundation, YMT College of Management",Navi Mumbai,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,216,DNP,250
+Musaliar Institute of Management,Pathanamthitta,Kerala,South,P,DNP,DNP,DNP,DNP,DNP,220,DNP,DNP
+Maharaja Agrasen Institute of Management and Technology,Yamuna Nagar,Haryana,North,P,DNP,DNP,DNP,DNP,DNP,221,199,207
+Future Institute of Management & Technology,Bareilly,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,233,DNP,DNP
+"Apex Institute of Technology, Chandigarh University, Mohali",Mohali,Punjab,North,P,DNP,DNP,DNP,DNP,DNP,235,DNP,DNP
+Vivekananda Institute of Information and Management Studies,Tiruchengode,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,238,DNP,DNP
+Punjab Institute of Management and Technology,Mandi Gobindgarh,Punjab,North,P,DNP,DNP,DNP,DNP,DNP,239,DNP,148
+St. Peter's College of Engineering and Technology,Chennai,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,249,DNP,DNP
+Sambhram Academy of Management Studies,Bengaluru,Karnataka,South,P,DNP,DNP,DNP,DNP,DNP,257,241,221
+Maharishi Arvind Institute of Engineering and Technology,Jaipur,Rajasthan,North,P,DNP,DNP,DNP,DNP,DNP,276,244,234
+"MITS School of Business, Madanapalle",Madanapalle,Andhra Pradesh,South,P,DNP,DNP,DNP,DNP,DNP,288,DNP,DNP
+"Department of Commerce & Management, KSKV Kachchh University",Bhuj,Gujarat,West,G,DNP,DNP,DNP,DNP,DNP,290,DNP,DNP
+Marathwada Mitramandal's Institute of management Education Research & Training,Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,292,272,DNP
+H. K. Institute of Management Studies & Research,Mumbai,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,294,266,251
+RMD Sinhgad School of Management Studies,Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,296,276,263
+"Patel Group of Institutions, Bhopal",Bhopal,Madhya Pradesh,West,P,DNP,DNP,DNP,DNP,DNP,297,275,DNP
+Rayat Institute of Management,Balachaur,Punjab,North,P,DNP,DNP,DNP,DNP,DNP,303,268,DNP
+Institute for Financial Management and Research (IFMR),Chittoor,Andhra Pradesh,South,P,DNP,DNP,DNP,DNP,DNP,DNP,50,50
+"Department of Business Economics, Delhi University (DU)",New Delhi,Delhi,North,G,DNP,DNP,DNP,DNP,DNP,DNP,60,55
+NIILM-Center for Management Studies (CMS),Greater Noida,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,67,DNP
+Thiagarajar School of Management,Madurai,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,DNP,78,81
+PES Institute of Technology - Department of MBA,Bengaluru,Karnataka,South,P,DNP,DNP,DNP,DNP,DNP,DNP,93,96
+"Shri Ram Murti Smarak International Business School, Unnao",Unnao,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,117,118
+Sanskriti School of Business,Mathura,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,118,122
+"College of Business Management, Commerce & Economics, Mody University, Laxmangarh",Laxmangarh,Rajasthan,North,P,DNP,DNP,DNP,DNP,DNP,DNP,123,126
+"Budge Budge Institute Of Technology, Kolkata",Kolkata,West Bengal,East,P,DNP,DNP,DNP,DNP,DNP,DNP,137,132
+Thangal Kunju Musaliar Institute of Management,Kollam,Kerala,South,P,DNP,DNP,DNP,DNP,DNP,DNP,139,141
+"MIT School of Business, Pune",Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,142,131
+Marthoma College of Management and Technology,Ernakulam,Kerala,South,P,DNP,DNP,DNP,DNP,DNP,DNP,153,159
+"Veltech B-School, Veltech Dr. RR & Dr. SR Technical University",Chennai,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,DNP,156,167
+Sahyadri College of Engineering & Management,Mangalore,Karnataka,South,P,DNP,DNP,DNP,DNP,DNP,DNP,161,DNP
+K. L. N. College of Engineering ,Madurai,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,DNP,162,147
+Adhiyamaan College Of Engineering (Autonomous) Department Of Management Studies,Hosur,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,DNP,168,DNP
+Institute of Professional Studies and Research (IPSAR),Cuttack,Odisha,East,P,DNP,DNP,DNP,DNP,DNP,DNP,174,DNP
+Geetanjali Institute of Technical Studies,Udaipur,Rajasthan,North,P,DNP,DNP,DNP,DNP,DNP,DNP,176,176
+"School of Management, Centurion University of Technology and Management",Bhubaneswar,Odisha,East,P,DNP,DNP,DNP,DNP,DNP,DNP,178,165
+Rajasthan Institute of Engineering and Technology,Jaipur,Rajasthan,North,P,DNP,DNP,DNP,DNP,DNP,DNP,187,189
+"Dewan Institute of Management Studies, Meerut",Meerut,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,190,173
+"APIIT Business School, Panipat",Panipat,Haryana,North,P,DNP,DNP,DNP,DNP,DNP,DNP,192,183
+Shri Aatm Vallabh Jain Girls (P.G.) College ,Sri Ganganagar,Rajasthan,North,P,DNP,DNP,DNP,DNP,DNP,DNP,201,DNP
+"Department of Management Studies, Rajalakshmi Engineering College",Chennai,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,DNP,203,223
+"CET School of Management, Thiruvananthapuram",Thiruvananthapuram,Kerala,South,G,DNP,DNP,DNP,DNP,DNP,DNP,206,191
+Institute of Advanced Management & Research,Ghaziabad,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,224,244
+"Institute of Productivity & Management, Meerut",Meerut,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,232,DNP
+Department of Management IIMT College of Engineering,Greater Noida,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,235,248
+"Chetana�s Institute of Management & Research, Mumbai",Mumbai,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,236,DNP
+Millennium Institute of Management,Aurangabad,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,237,DNP
+"Balaji Institute of Engineering and Management Studies (BEAM), Nellore",Nellore,Andhra Pradesh,South,P,DNP,DNP,DNP,DNP,DNP,DNP,238,DNP
+"Institute for Technology and Management, Bangalore",Bengaluru,Karnataka,South,P,DNP,DNP,DNP,DNP,DNP,DNP,240,230
+"Acropolis Technical Campus, Faculty of Management Studies",Indore,Madhya Pradesh,West,P,DNP,DNP,DNP,DNP,DNP,DNP,243,231
+"Sinhgad Institute of Management and Computer Application, Pune ",Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,247,242
+Adichunchanagiri Institute of Technology,Chikmagalur,Karnataka,South,P,DNP,DNP,DNP,DNP,DNP,DNP,250,DNP
+Datta Meghe Institute of Management Studies,Nagpur,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,253,DNP
+"Lakshmi Narain College of Technology (LNCT, Indore)",Indore,Madhya Pradesh,West,P,DNP,DNP,DNP,DNP,DNP,DNP,258,DNP
+"Institute of Productivity & Management, Ghaziabad",Ghaziabad,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,269,DNP
+"Shri Raojibhai Gokalbhai Patel Gujarati Professional Institute, Indore",Indore,Madhya Pradesh,West,P,DNP,DNP,DNP,DNP,DNP,DNP,271,260
+"Institute of Productivity & Management, Kanpur",kanpur,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,273,DNP
+Abasaheb Garware Institute of Management Studies,Sangli,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,277,DNP
+Department of Management Sciences (PUMBA),Pune,Maharashtra,West,G,DNP,DNP,DNP,DNP,DNP,DNP,DNP,43
+"Department of Management Studies, Indian Institute of Science, Bangalore",Bengaluru,Karnataka,South,G,DNP,DNP,DNP,DNP,DNP,DNP,DNP,44
+Amrita School of Business,Coimbatore,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,49
+Flame School of Business,Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,52
+Indus Business Academy,Greater Noida,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,73
+Master School of Management,Meerut,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,95
+"Army Institute of Management, Kolkata",Kolkata,West Bengal,East,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,111
+IIMT Management College,Meerut,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,124
+Heritage Business School,Kolkata,West Bengal,East,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,130
+Justice K S Hegde Institute of Management,Karkala,Karnataka,South,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,140
+Globsyn Business School,Kolkata,West Bengal,East,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,149
+Aditya Institue of Management Studies & Research,Mumbai,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,158
+Madurai Kamaraj University,Madurai,Tamil Nadu,South,G,DNP,DNP,DNP,DNP,DNP,DNP,DNP,163
+IPS Business School,Jaipur,Rajasthan,North,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,169
+Guru Nanak Khalsa Institute of Technology and Management-Technical Campus ( GNKITM-TC),Yamuna Nagar,Haryana,North,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,200
+Sai Balaji International Institute of Management Sciences (SBIIMS),Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,206
+Sinhgad Institute of Business Administration and Research,Pune,Maharashtra,West,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,212
+Disha Institute of Management and Technology,Raipur,Chhattisgarh,East,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,220
+"Heber Institute of Mangement Studies, Bishop Heber College",Tiruchirappalli,Tamil Nadu,South,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,246
+Hindustan Institute of Management and Computer Studies,Mathura,Uttar Pradesh,North,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,259
+"Patel Group of Institutions, Indore",Indore,Madhya Pradesh,West,P,DNP,DNP,DNP,DNP,DNP,DNP,DNP,262
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
+,,,,,DNP,,,,,,,
