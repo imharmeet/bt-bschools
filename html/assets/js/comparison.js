@@ -9,6 +9,15 @@ const config = {
       legend: {
         display: false
       },
+      title: {
+        display: true,
+        text: 'Overall Score',
+        align: 'start',
+        font: {
+          weight: 400,
+          size: 14,
+        }
+      },
     },
 
     layout: {

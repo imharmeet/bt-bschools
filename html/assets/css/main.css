@@ -226,7 +226,7 @@ body {
     text-transform: uppercase;
     color: var(--dark-gray);
     font-weight: 800;
-    padding: 3px 10px 3px 0;
+    padding: 3px 15px 3px 0;
 }
 
 .story-des {
@@ -1084,6 +1084,10 @@ body #bt-footer .toprow ul.social li svg {
 
     .videos {
         padding-top: 30px;
+    }
+
+    .video-col h4 {
+        min-height: 50px;
     }
 
     .methodology-sec .bdr-bt {

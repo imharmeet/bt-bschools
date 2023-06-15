@@ -7,7 +7,7 @@ var gradient1 = ctx02.createLinearGradient(0, 0, 0, 1000);
 gradient1.addColorStop(0, '#FCDA29');
 gradient1.addColorStop(1, 'Transparent');
 
-var myChar02t = new Chart(ctx02, {
+var myChart02 = new Chart(ctx02, {
   type: 'line',
   data: {
     labels: [2018, 2019, 2020, 2021, 2022, 2023],
