@@ -719,6 +719,9 @@ table.dataTable tbody td{padding: 0; padding-bottom: 15px;}
     cursor: pointer;
 }
 
+.comparison-chart .badge{border:1px solid #535353;background:transparent;color: #1F1C24;font-size: 14px;padding: 7px 10px;margin-right: 10px;}
+.comparison-chart .badge-parent.active .badge{border:1px solid #817878; background:#353535; color: #fff; }
+.comparison-chart .badge .ms-2{margin-left: 5px;}
 .select-col .select2-container .select2-selection--single {
     height: 22px;
 }
@@ -758,7 +761,7 @@ table.dataTable tbody td{padding: 0; padding-bottom: 15px;}
 }
 
 .chart-wrap {
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .chart-wrap .note {
