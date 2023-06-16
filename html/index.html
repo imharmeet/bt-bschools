@@ -258,14 +258,19 @@
                                                 1,000. Different weightage assigned to each of 5 parameters. Click on
                                                 any to
                                                 view its ranking.</p>
-                                        <div class="d-flex text-white">
-                                                Year <select id="select-ranking-year">
-                                                        <option></option>
+                                        <!-- <div class="d-flex text-white">
+                                                Year <select id="select-ranking-year" style="width: 150px; margin-right: 20px;">
+                                                        <option>2023</option>
+                                                        <option>2022</option>
+                                                        <option>2021</option>
+                                                        <option>2020</option>
                                                 </select>
-                                                Sector <select id="select-ranking-sector">
-                                                        <option></option>
+                                                Sector <select id="select-ranking-sector" style="width: 150px;">
+                                                        <option>All</option>
+                                                        <option>Government</option>
+                                                        <option>Private</option>
                                                 </select>
-                                        </div>
+                                        </div> -->
                                         <div class="ranking-data-wrapper"></div>
                                 </div>
                         </div>
@@ -993,13 +998,21 @@
                 <div class="container">
                         <div class="inner-container">
                                 <div class="main-title white-bg">
-                                        <h2>Executive MBA Rankings</h2>
+                                        <h2>Distance MBA Rankings</h2>
                                 </div>
+
                                 <div class="mba-rankings-data chart-data">
-                                        <p class="chart-text">Ranking based on score obtained out of the total of
-                                                1,000.</p>
-                                        <!-- <img src="assets/img/executive-mba-rankings.jpg" alt=""> -->
+                                        <form>
+                                        <p class="d-flex ai-center"><input type="radio" id="ex-mba" name="radio-group" checked value="Executive MBA">
+                                        <label for="ex-mba"><b>Executive MBA</b></label>
+                                        <input type="radio" id="one-mba" name="radio-group" value="1-Year MBA">
+                                        <label for="one-mba"><b>1-Year MBA</b></label>
+                                        </p>
+                                </form>
+                                        <div class="ranking-data-wrapper"></div>
                                 </div>
+                                <p class="info-text">1. Executive program (Online; 9-12 months) for general management were ranked. <br>2. No specialized executive programs were considered for ranking.
+                                        Ranking has been done based on Objective Data (information from secondary sources)</p>
                         </div><!-- Inner Container -->
                 </div>
         </section><!-- Executive MBA Rankings -->
@@ -1565,6 +1578,7 @@
         <!-- Performance Indicators -->
         <script src="assets/js/report.js"></script>
         <script src="assets/js/comparison.js"></script>
+        <script src="assets/js/mba-ranking.js"></script>
         <script src="assets/js/career-choices.js"></script>
         <script src="assets/js/main.js"></script>
 </body>
