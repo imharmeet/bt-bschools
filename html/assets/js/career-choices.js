@@ -32,7 +32,7 @@ var myChart02 = new Chart(ctx02, {
   },
   options: {
     responsive: true,
-    maintainAspectRatio: true,
+    maintainAspectRatio: false,
     plugins: {
       title: {
         display: true,
