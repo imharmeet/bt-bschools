@@ -237,6 +237,142 @@ var myChart02 = new Chart(ctx02, {
     }
   }
 });
+// Report Card Chart
+var ctx03 = document.getElementById('over-years-chart').getContext('2d');
+var gradient = ctx03.createLinearGradient(0, 10, 0, 1000);
+gradient.addColorStop(0, '#6DB49B');
+gradient.addColorStop(1, 'Transparent');
+
+var gradient1 = ctx03.createLinearGradient(0, 0, 0, 1000);
+gradient1.addColorStop(0, '#FCDA29');
+gradient1.addColorStop(1, 'Transparent');
+
+// Add margin below the labels
+const plugin = {
+  beforeInit(chart) {
+    const originalFit = chart.legend.fit;
+    chart.legend.fit = function fit() {
+      originalFit.bind(chart.legend)();
+      this.height += 15;
+    }
+  }
+}
+var myChart03 = new Chart(ctx03, {
+  type: 'line',
+  data: {
+    labels: [2019, 2020, 2021, 2022, 2023],
+    datasets: [{
+      backgroundColor: '#419195',
+      borderColor: 'rgb(255, 255, 255)',
+      label: 'Learning (250)',
+      fill: true,
+      data: [42, 55, 53, 50, 70, 65],
+      pointHoverRadius: 10,
+      spanGaps: true,
+    }, {
+      backgroundColor: '#A1D0BE',
+      borderColor: 'rgb(255, 255, 255)',
+      label: 'Living (150)',
+      fill: true,
+      data: [57, 44, 49, 64, 47, 46],
+      spanGaps: true,
+
+    }, {
+      backgroundColor: '#E6D8AC',
+      borderColor: 'rgb(255, 255, 255)',
+      label: 'Placement (250)',
+      fill: true,
+      data: [53, 67, 79, 48, 67, 54],
+      spanGaps: true,
+
+    }, {
+      backgroundColor: '#E29E37',
+      borderColor: 'rgb(255, 255, 255)',
+      label: 'Selection (150)',
+      fill: true,
+      data: [67, 54, 59, 58, 67, 56],
+      spanGaps: true,
+
+    }, {
+      backgroundColor: '#A02F1F',
+      borderColor: 'rgb(255, 255, 255)',
+      label: 'Future (200)',
+      fill: true,
+      data: [74, 64, 79, 83, 57, 96],
+      spanGaps: true,
+
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: {
+      datalabels: {
+        anchor: 'end',
+        align: 'top',
+        color: '#1F1C24',
+        formatter: function (value) {
+          return Math.round(value) + '%';
+        },
+        font: {
+          weight: 'bold',
+          size: 14,
+        }
+      },
+      legend: {
+        display: true,
+        position: 'top',
+        padding: 30,
+        labels: {
+          color: '#555359',
+          usePointStyle: true,
+          padding: 20,
+          font: {
+            size: 14,
+            weight: 400,
+          }
+        },
+      }
+    },
+    tension: .3,
+    scales: {
+      y: {
+        ticks: {
+          beginAtZero: true,
+        },
+        display: true,
+        grid: {
+          display: true,
+          color: '#504E54',
+          lineWidth: 0.5,
+          color: 'rgba(0, 0, 0, 0.1)',
+        },
+        font: {
+          size: 14,
+          weight: 600,
+        },
+        scaleLabel: {
+          display: true,
+          fontSize: 20
+        },
+        stacked: true,
+      },
+      x: {
+        ticks: {
+          beginAtZero: true,
+        },
+        display: true,
+        grid: {
+          borderColor: 'white',
+          color: 'rgba(0, 0, 0, 0.1)',
+          lineWidth: 0.5,
+        }
+      }
+
+    }
+  },
+  plugins: [ChartDataLabels, plugin],
+});
 
 // Performance Indicators
 var dataADS = [

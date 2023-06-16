@@ -469,6 +469,11 @@ body {
     padding-top: 0;
 }
 
+.report-card .scores-years .card-header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .report-card .scores-years .card {
     position: relative;
     z-index: 99;
