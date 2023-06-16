@@ -304,7 +304,7 @@ body {
 }
 
 .progress .score {
-    color: #1F1C24;
+    color: var(--dark-gray);
     font-weight: 700;
     font-size: 16px;
 }
@@ -436,7 +436,7 @@ body {
 .report-card .school-info p span,
 .school-rating-label p span {
     font-size: 16px;
-    color: #1F1C24;
+    color: var(--dark-gray);
     display: block;
     /* margin-bottom: 5px; */
 }
@@ -685,6 +685,25 @@ body {
     overflow-y: auto;
 }
 
+.select2-results__options::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.select2-results__options::-webkit-scrollbar-track {
+    background: #3e3e3e;
+}
+
+/* Handle */
+.select2-results__options::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.select2-results__options::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .select2-results__option {
     font-size: 14px;
     color: #A4A4A4;
@@ -715,6 +734,11 @@ body {
     font-size: 16px;
     margin-top: 20px;
 }
+
+/* #career-chart {
+    width: 90% !important;
+    height: 45% !important;
+} */
 
 /* ED-Tech MBA Rankings CSS */
 .rank-col {
@@ -930,6 +954,21 @@ body {
     color: var(--dark-gray);
     font-style: italic;
     font-weight: 600;
+}
+
+.performance-data p {
+    font-size: 16px;
+    color: var(--dark-gray);
+}
+
+.performance-data p select {
+    background: var(--dark-gray);
+    padding: 4px 10px;
+    color: var(--white);
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0 10px 10px;
 }
 
 /* Bt Footer CSS */
@@ -1599,6 +1638,11 @@ body #bt-footer .toprow ul.social li svg {
 
     .story-des {
         padding: 0 20px;
+    }
+
+    .story-des h1,
+    .story-des p {
+        max-width: 580px;
     }
 
     .story-des p {
