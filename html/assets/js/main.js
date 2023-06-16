@@ -66,13 +66,13 @@ var swiper = new Swiper(".vs-carousel", {
       spaceBetween: 10
     },
     768: {
-      slidesPerView: 3.5,
+      slidesPerView: 3.2,
       spaceBetween: 15,
       navigation: false
     },
     992: {
-      slidesPerView: 3.5,
-      spaceBetween: 20
+      slidesPerView: 3.2,
+      spaceBetween: 15
     },
   },
   // Pagination
@@ -94,12 +94,40 @@ var swiper = new Swiper(".videos-carousel", {
       spaceBetween: 10
     },
     768: {
-      slidesPerView: 2.5,
+      slidesPerView: 2.2,
       spaceBetween: 15,
       navigation: false
     },
     992: {
+      slidesPerView: 2.2,
+      spaceBetween: 15
+    },
+  },
+  // Pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+// Videos Carousel
+var swiper = new Swiper(".mba-ranking-carousel", {
+  spaceBetween: 15,
+  breakpoints: {
+    300: {
+      slidesPerView: 1.5,
+      spaceBetween: 20
+    },
+    575: {
       slidesPerView: 2.5,
+      spaceBetween: 10
+    },
+    768: {
+      slidesPerView: 3.5,
+      spaceBetween: 15,
+      navigation: false
+    },
+    992: {
+      slidesPerView: 3.3,
       spaceBetween: 20
     },
   },

@@ -1,16 +1,16 @@
 
 async function reportInit() {
-    const data = await d3.csv("assets/data/report.csv");
-    const rankXML = await d3.xml('assets/img/rank.svg');
-    const rankDIV = d3.select('#report-chart #rank-svg').node().append(rankXML.documentElement);
-    const data2022 = data.filter(d => d.year === '2022');
-    const schoolNames = [...new Set(data2022.map(d => d.institute))];
+  const data = await d3.csv("assets/data/report.csv");
+  const rankXML = await d3.xml('assets/img/rank.svg');
+  const rankDIV = d3.select('#report-chart #rank-svg').node().append(rankXML.documentElement);
+  const data2022 = data.filter(d => d.year === '2022');
+  const schoolNames = [...new Set(data2022.map(d => d.institute))];
 
     const select1 = $("#select1-report-chart").select2({
         data: schoolNames,
         placeholder: 'Search School  ',
 
-    });
+  });
 
 
     let institute = schoolNames[0];
@@ -22,20 +22,21 @@ async function reportInit() {
 
     
     drawChart();
+ 
 
-    async function drawChart() {
-        const selectedBankData = data.filter(d => d.institute === institute);
-        d3.select('#report-chart .school-name').text(institute);
-        selectedBankData.sort((a, b) => a.year - b.year);
-        const latestYearData = selectedBankData[selectedBankData.length - 1];
-        d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.rank);
-        d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
-        d3.select('#report-chart #school-report-sector').text(latestYearData.sector);
-        d3.select('#report-chart #school-report-state').text(latestYearData.state);
-        d3.select('#report-chart #school-report-zone').text(latestYearData.zone);
-        d3.select('#report-chart #school-rating-score').text(latestYearData.score);
+  async function drawChart() {
+    const selectedBankData = data.filter(d => d.institute === institute);
+    d3.select('#report-chart .school-name').text(institute);
+    selectedBankData.sort((a, b) => a.year - b.year);
+    const latestYearData = selectedBankData[selectedBankData.length - 1];
+    d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.rank);
+    d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
+    d3.select('#report-chart #school-report-sector').text(latestYearData.sector);
+    d3.select('#report-chart #school-report-state').text(latestYearData.state);
+    d3.select('#report-chart #school-report-zone').text(latestYearData.zone);
+    d3.select('#report-chart #school-rating-score').text(latestYearData.score);
 
-    }
+  }
 
 }
 
@@ -97,4 +98,4 @@ async function rankingInit() {
   });
 }
 
-rankingInit()     
+rankingInit();    
