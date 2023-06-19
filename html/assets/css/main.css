@@ -1389,9 +1389,22 @@ body #bt-footer .toprow ul.social li svg {
         padding-bottom: 10px;
     }
 
+
     #career-chart {
         width: 100% !important;
         height: 300px !important;
+        object-fit: cover;
+    }
+
+    #over-years-chart {
+        width: 94% !important;
+        height: 45% !important;
+        object-fit: cover;
+    }
+
+    #myChart04 {
+        width: 85% !important;
+        height: 42% !important;
         object-fit: cover;
     }
 
@@ -1610,6 +1623,11 @@ body #bt-footer .toprow ul.social li svg {
     }
 
     #career-chart {
+        width: 90% !important;
+        height: 45% !important;
+    }
+
+    #myChart04 {
         width: 90% !important;
         height: 45% !important;
     }
