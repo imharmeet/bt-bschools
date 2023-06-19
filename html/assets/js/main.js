@@ -272,7 +272,7 @@ var myChart02 = new Chart(ctx02, {
 //         }
 //     });
 
-    
+
 
 // Performance Chart
 var ctx04 = document.getElementById('myChart04').getContext('2d');
@@ -292,42 +292,42 @@ var myChart04 = new Chart(ctx04, {
     labels: ["Top 10", "Top 25", "Top 50", "Top 100"],
     datasets: [{
       label: '2023',
-      data: [23, 28, 23, 33, 35],
+      data: ['1920761', '1843200', '1855900', '1802000'],
       backgroundColor: '#37749B',
       borderColor: '#fff',
       borderWidth: 1,
-      categoryPercentage: .8,
+      categoryPercentage: .7,
       barPercentage: 1,
       // grouped: false,
-      order: 1
+      // order: 1
     },
     {
       label: '2022',
-      data: [36, 23, 12, 25, 17],
+      data: ['1770344', '1729309', '1688737', '1640249'],
       backgroundColor: '#549EA3',
       borderColor: '#fff',
       borderWidth: 1,
-      categoryPercentage: .8,
+      categoryPercentage: .7,
       barPercentage: 1,
 
     },
     {
       label: '2021',
-      data: [18, 13, 23, 33, 26],
+      data: ['1442614', '1424389', '1397622', '1338963'],
       backgroundColor: '#89C597',
       borderColor: '#fff',
       borderWidth: 1,
-      categoryPercentage: .8,
+      categoryPercentage: .7,
       barPercentage: 1,
 
     },
     {
       label: '2020',
-      data: [10, 34, 32, 22, 12],
+      data: ['1147003', '1146232', '1110082', '1069016'],
       backgroundColor: '#BEE296',
       borderColor: '#fff',
       borderWidth: 1,
-      categoryPercentage: .8,
+      categoryPercentage: .7,
       barPercentage: 1,
 
     }]
@@ -356,7 +356,7 @@ var myChart04 = new Chart(ctx04, {
         labels: {
           color: '#555359',
           usePointStyle: true,
-          padding: 20,
+          padding: 30,
           font: {
             size: 14,
             weight: 400,

@@ -27,9 +27,10 @@ a {
     display: flex;
 }
 
-.d-none{
+.d-none {
     display: none;
 }
+
 .f-wrap {
     flex-wrap: wrap;
 }
@@ -323,7 +324,7 @@ body {
 }
 
 .progress .progress-bar {
-    background: #549EA3;
+    background: #274E74;
     border-radius: 15px;
     padding: 6px;
 }
@@ -389,7 +390,7 @@ body {
 }
 
 .report-card .school-info p {
-    margin-right: 5%;
+    margin-right: 58px;
     color: #555359;
     font-size: 14px;
 }
@@ -402,6 +403,7 @@ body {
     bottom: -20px;
     background: #fff;
     padding: 0 25px 10px 0;
+    min-width: 25%;
 }
 
 .report-card .school-detail:before {
@@ -413,7 +415,7 @@ body {
     position: absolute;
     left: 1px;
     bottom: -20px;
-    border-radius: 0px 4px 0px 0px;
+    /* border-radius: 0px 4px 0px 0px; */
     z-index: 1;
 }
 
@@ -427,7 +429,7 @@ body {
     left: 27px;
     top: -30px;
     z-index: 9;
-    border-radius: 0 3px 0 0;
+    /* border-radius: 0 3px 0 0; */
 }
 
 .report-card .scores-years:after {
@@ -441,12 +443,16 @@ body {
     z-index: 9;
 }
 
-.report-card .school-info p span,
-.school-rating-label p span {
+.report-card .school-info p span {
     font-size: 16px;
     color: var(--dark-gray);
     display: block;
-    /* margin-bottom: 5px; */
+}
+
+.school-rating-label p span {
+    font-size: 14px;
+    color: var(--dark-gray);
+    display: block;
 }
 
 .school-rating-label p span b {
@@ -533,7 +539,7 @@ table.dataTable tbody td {
     background: #fff;
     padding: 12px 15px;
     border-radius: 8px;
-    margin: 20px 0 0 0;
+    margin: 0px;
     background-image: url(https://akm-img-a-in.tosshub.com/businesstoday/resource//best-bank-awards/assets/search.svg);
     background-repeat: no-repeat;
     background-position: 98% center;
@@ -655,6 +661,10 @@ table.dataTable tbody td {
     padding-bottom: 30px;
 }
 
+.articles-carousel.swiper .swiper-wrapper {
+    padding-bottom: 0;
+}
+
 .articles-carousel .swiper-slide {
     border: 1px solid #e5e5e5;
     border-radius: 6px;
@@ -770,9 +780,25 @@ table.dataTable tbody td {
     cursor: pointer;
 }
 
-.comparison-chart .badge{border:1px solid #535353;background:transparent;color: #1F1C24;font-size: 14px;padding: 7px 10px;margin-right: 10px;}
-.comparison-chart .badge-parent.active .badge{border:1px solid #817878; background:#353535; color: #fff; }
-.comparison-chart .badge .ms-2{margin-left: 5px;}
+.comparison-chart .badge {
+    border: 1px solid #535353;
+    background: transparent;
+    color: #1F1C24;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.comparison-chart .badge-parent.active .badge {
+    border: 1px solid #817878;
+    background: #353535;
+    color: #fff;
+}
+
+.comparison-chart .badge .ms-2 {
+    margin-left: 5px;
+}
+
 .select-col .select2-container .select2-selection--single {
     height: 22px;
 }
@@ -885,13 +911,14 @@ table.dataTable tbody td {
 }
 
 .notes {
-    margin: 20px 0;
+    margin: 20px 0 0;
 }
 
 .notes p {
-    color: #A3A3A3;
+    color: #7D7B80;
     font-style: italic;
-    padding: 3px 0;
+    padding: 3px 0 0;
+    line-height: 24px;
 }
 
 /* Visual Stories CSS */
@@ -1071,61 +1098,63 @@ table.dataTable tbody td {
     font-size: 14px;
     margin: 0 10px 10px;
 }
+
 .list-wrapper {
     padding: 15px;
     overflow: hidden;
-  }
-  
-  .list-item {
+}
+
+.list-item {
     border: 1px solid #EEE;
     background: #FFF;
     margin-bottom: 10px;
     padding: 10px;
     box-shadow: 0px 0px 10px 0px #EEE;
-  }
-  
-  .list-item h4 {
+}
+
+.list-item h4 {
     color: #FF7182;
     font-size: 18px;
-    margin: 0 0 5px;  
-  }
-  
-  .list-item p {
+    margin: 0 0 5px;
+}
+
+.list-item p {
     margin: 0;
-  }
-  
-  .simple-pagination ul {
+}
+
+.simple-pagination ul {
     margin: 0 0 20px;
     padding: 0;
     list-style: none;
     text-align: center;
-  }
-  
-  .simple-pagination li {
+}
+
+.simple-pagination li {
     display: inline-block;
     margin-right: 5px;
-  }
-  
-  .simple-pagination li a,
-  .simple-pagination li span {
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
     color: #666;
     padding: 5px 10px;
     text-decoration: none;
     border: 1px solid #EEE;
     background-color: #FFF;
     box-shadow: 0px 0px 10px 0px #EEE;
-  }
-  
-  .simple-pagination .current {
+}
+
+.simple-pagination .current {
     color: #FFF;
     background-color: #FF7182;
     border-color: #FF7182;
-  }
-  
-  .simple-pagination .prev.current,
-  .simple-pagination .next.current {
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
     background: #e04e60;
-  }
+}
+
 /* Bt Footer CSS */
 #bt-footer {
     width: 100%;
@@ -1282,7 +1311,7 @@ body #bt-footer .toprow ul.social li svg {
     }
 
     .mt-70 {
-        margin-top: 100px;
+        margin-top: 87px;
     }
 
     .container {
@@ -1356,7 +1385,7 @@ body #bt-footer .toprow ul.social li svg {
     .edtech-rankings-card,
     .career-choices-card,
     .videos {
-        padding-bottom: 100px;
+        padding-bottom: 87px;
     }
 
     .chart-data {
@@ -1371,7 +1400,7 @@ body #bt-footer .toprow ul.social li svg {
         font-size: 14px;
         line-height: 20px;
         color: var(--dark-gray);
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     .notes p {
@@ -1389,6 +1418,9 @@ body #bt-footer .toprow ul.social li svg {
         padding-bottom: 10px;
     }
 
+    .comparison-chart .filters .badge-parent {
+        margin-bottom: 5px;
+    }
 
     #career-chart {
         width: 100% !important;
@@ -1695,13 +1727,20 @@ body #bt-footer .toprow ul.social li svg {
         font-size: 20px;
     }
 
+    .articles-carousel {
+        padding-top: 30px;
+        margin-top: -28px;
+    }
+
+    .articles-carousel.swiper .swiper-pagination-bullets {
+        top: -5px;
+        bottom: inherit;
+        text-align: right;
+    }
+
     .title h2,
     .main-title h2 {
         font-size: 20px;
-    }
-
-    .chart-data {
-        padding-top: 40px;
     }
 
     .chart-text {
@@ -1817,20 +1856,21 @@ body #bt-footer .toprow ul.social li svg {
     }
 
     .cover-title h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .main-title {
-        top: -52px;
+        top: -47px;
+        left: -24px;
     }
 
     .title h2,
     .main-title h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .story-des h1 a {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .story-des {
@@ -1849,6 +1889,15 @@ body #bt-footer .toprow ul.social li svg {
     .methodology-sec {
         border-bottom: 1px solid #C2CDE3;
         padding-bottom: 25px;
+    }
+
+    .comparison-chart .filters .badge-parent {
+        margin-bottom: 0;
+    }
+
+    #myChart04 {
+        width: 93% !important;
+        height: 46% !important;
     }
 
     #bt-footer .footer-bot-nav ul {

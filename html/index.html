@@ -253,11 +253,9 @@
                                         <h2>B-School Ranking</h2>
                                 </div>
                                 <div class="ranking-data chart-data">
-                                        <p class="chart-text text-white">Ranking based on score obtained out of the
-                                                total of
-                                                1,000. Different weightage assigned to each of 5 parameters. Click on
-                                                any to
-                                                view its ranking.</p>
+                                        <p class="chart-text text-white">Ranking based on the score obtained out of a
+                                                total of 1,000. Different weightage has been assigned to each of the
+                                                five parameters. Click on any institute to view its performance</p>
                                         <!-- <div class="d-flex text-white">
                                                 Year <select id="select-ranking-year" style="width: 150px; margin-right: 20px;">
                                                         <option>2023</option>
@@ -272,6 +270,25 @@
                                                 </select>
                                         </div> -->
                                         <div class="ranking-data-wrapper"></div>
+                                        <div class="notes">
+                                                <p>Note: Ranking is based on objective data only. Only those
+                                                        B-schools that submitted their objective data have been ranked.
+                                                        Institutes like IIM Kozhikode, XLRI Xavier School of Management,
+                                                        Jamshedpur, etc., which did not submit their objective data on
+                                                        time or
+                                                        refused to participate, have not been ranked. Only those
+                                                        colleges that
+                                                        fulfilled the following criteria were considered eligible for
+                                                        participation in the ranking: i. Minimum three batches passed
+                                                        out ii.
+                                                        Offering full-time Post Graduate Programme in Management All
+                                                        scores have
+                                                        been rounded off to one decimal place; this may result in
+                                                        rounding off
+                                                        errors while adding the parameter-wise score DNP = Did Not
+                                                        Participate
+                                                </p>
+                                        </div>
                                 </div>
                         </div>
                 </div>
@@ -284,9 +301,10 @@
                                 </div>
                                 <div class="comparison-data chart-data">
                                         <p class="chart-text">The ranking is determined by the score achieved out of a
-                                                possible total of 1,000. The higher the score, the higher the corresponding rank.</p>
+                                                possible total of 1,000. The higher the score, the higher the
+                                                corresponding rank.</p>
                                         <div class="comparison-chart">
-                                                <div class="d-flex mt-3 filters"></div>
+                                                <div class="d-flex f-wrap mt-3 filters"></div>
                                                 <div class="comparison-header d-flex f-wrap jc-space-b">
                                                         <div class="select-col">
                                                                 <select class="form-select" id="option-1"
@@ -309,7 +327,7 @@
                                                 </div>
                                                 <div class="chart-wrap">
                                                         <canvas id="comparision-chart" height="150"></canvas>
-                                                        <p class="note">Note: The scores  of some institutes
+                                                        <p class="note">Note: The scores of some institutes
                                                                 are not available as they did not participate in
                                                                 the survey.</p>
                                                 </div>
@@ -325,6 +343,9 @@
                                         <h2>B-School Report Card</h2>
                                 </div>
                                 <div class="chart-data" style="width: 100%;">
+                                        <p class="chart-text text-white">A snapshot of how individual B-schools have
+                                                performed
+                                                over the years</p>
                                         <select id="select1-report-chart" style="width: 100%">
                                                 <option></option>
                                         </select>
@@ -343,7 +364,8 @@
                                                         <p>Zone<span id="school-report-zone"></span></p>
                                                 </div>
                                                 <div class="school-rating-label">
-                                                        <p><span>Overall Score (1,000) <b id="school-rating-score"></b></span>
+                                                        <p><span>Overall Score (1,000) <b
+                                                                                id="school-rating-score"></b></span>
                                                 </div>
                                         </div>
                                 </div>
@@ -354,6 +376,10 @@
                                                 <!-- <div class="over-year"></div> -->
                                                 <canvas id="over-years-chart"></canvas>
                                         </div>
+                                </div>
+                                <div class="notes">
+                                        <p>Note: The ranks of some institutes are not available as they did not
+                                                participate in the survey</p>
                                 </div>
                                 <!-- Report Chart Section: END-->
                         </div>
@@ -366,16 +392,19 @@
                                         <h2>performance indicators</h2>
                                 </div>
                                 <div class="performance-data chart-data">
-                                        <p>The Average of <select selected="Annula Domestic Salary" id="DataType">
-                                                        <option value="23, 28, 23, 33, 35">Annual Domestic Salary
+                                        <p>A snapshot of <select selected="Annula Domestic Salary" id="DataType">
+                                                        <option value="1920761, 1843200, 1855900, 1802000">Average
+                                                                Annual Domestic Salary
                                                         </option>
-                                                        <option value="36, 23, 12, 25, 17">Course Fees</option>
-                                                        <option value="18, 13, 23, 33, 26">Male to female ratio
+                                                        <option value="1770344, 1729309, 1688737, 1640249">Average
+                                                                Course Fees</option>
+                                                        <option value="1442614, 1424389, 1397622, 1338963">Male to
+                                                                Female Ratio
                                                         </option>
-                                                        <option value="10, 34, 32, 22, 12">Batch Strength</option>
-                                                </select> of the top 100 business schools of India
-                                                throughout the years.
-                                                <canvas id="myChart04"></canvas>
+                                                        <option value="1147003, 1146232, 1110082, 1069016">Average Batch
+                                                                Strength</option>
+                                                </select> of the Top 100 B-schools of India over the years</p>
+                                        <canvas id="myChart04"></canvas>
                                 </div>
                         </div><!-- Inner Container -->
                 </div>
@@ -384,12 +413,11 @@
                 <div class="container">
                         <div class="inner-container">
                                 <div class="main-title dark-bg">
-                                        <h2>Ed-tech mba rankings</h2>
+                                        <h2>top edtechs offering mba/pgdm</h2>
                                 </div>
                                 <div class="edtech-rankings-data chart-data">
-                                        <p class="chart-text text-white">Ranking based on score obtained out of the
-                                                total of
-                                                1,000.</p>
+                                        <p class="chart-text text-white">Management programmes offered by Top edtech
+                                                platforms in India</p>
                                         <div class="swiper mba-ranking-carousel">
                                                 <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
@@ -982,14 +1010,12 @@
                                                 <div class="swiper-pagination">&nbsp;</div>
                                         </div>
                                         <div class="notes">
-                                                <p>1. The Edtech companies have been ranked basis their MBA programs
-                                                        available in India.</p>
-                                                <p>2. The Edtech companies cannot offer any MBA program themselves. All
-                                                        MBA
-                                                        programs are offered jointly by any univesity/ recognized
-                                                        institute.</p>
-                                                <p>3. Ranking has been done based on Objective Data (information from
-                                                        secondary sources) + Perceptual Survey.</p>
+                                                <p>Note: The edtech companies have been ranked basis their MBA
+                                                        programmes available in India; the edtech companies cannot offer
+                                                        any MBA programme themselves. All MBA programmes are offered
+                                                        jointly by any university/recognised institute; ranking has been
+                                                        done based on Objective Data (information from secondary
+                                                        sources) + Perceptual Survey</p>
                                         </div>
                                 </div>
                         </div><!-- Inner Container -->
@@ -999,10 +1025,12 @@
                 <div class="container">
                         <div class="inner-container">
                                 <div class="main-title white-bg">
-                                        <h2>Distance MBA Rankings</h2>
+                                        <h2>Other mba rankings</h2>
                                 </div>
 
                                 <div class="mba-rankings-data chart-data">
+                                        <p class="chart-text">Rankings of Executive and 1-year MBA programmes offered by
+                                                Top B-schools</p>
                                         <form>
                                                 <p class="d-flex ai-center"><input type="radio" id="ex-mba"
                                                                 name="radio-group" checked value="Executive MBA">
@@ -1012,14 +1040,13 @@
                                                         <label for="one-mba"><b>1-Year MBA</b></label>
                                                 </p>
                                         </form>
-                                        <div class="ranking-data-wrapper"></div> 
+                                        <div class="ranking-data-wrapper"></div>
                                         <div class="ranking-data-wrapper ex-mba d-none"></div>
                                 </div>
-                                <p class="info-text">1. Executive program (Online; 9-12 months) for general management
-                                        were ranked. <br>2. No specialized executive programs were considered for
-                                        ranking.
-                                        Ranking has been done based on Objective Data (information from secondary
-                                        sources)</p>
+                                <p class="info-text">Note: Executive programme (Online; 9-12 months) for general
+                                        management were ranked. No specialised executive programmes were considered for
+                                        ranking; ranking has been done based on Objective Data (information from
+                                        secondary sources)</p>
                         </div><!-- Inner Container -->
                 </div>
         </section><!-- Executive MBA Rankings -->
@@ -1030,10 +1057,9 @@
                                         <h2>Career Choices</h2>
                                 </div>
                                 <div class="career-choices-data chart-data">
-                                        <p class="chart-text text-white">More number of students used to opt for family
-                                                or
-                                                entrepreneurship prior to 2020 among top 100 colleges which is not the
-                                                case now.
+                                        <p class="chart-text text-white">The average number of students who opted for
+                                                entrepreneurship and family businesses among the Top 100 Government and
+                                                Private Colleges, over the years
                                         </p>
                                         <canvas id="career-chart"></canvas>
                                 </div>
@@ -1217,17 +1243,18 @@
                                                         of
                                                         India's best business schools based on the most recent data
                                                         B-schools that offer..</p>
-                                                <div id="more-content" style="display: none;">
-                                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                                Accusamus
-                                                                dolorem
-                                                                consectetur hic consequuntur magni pariatur, illum
-                                                                expedita
-                                                                quaerat sit
-                                                                reprehenderit, ea nihil earum labore fuga ab! Hic
-                                                                distinctio ex
-                                                                ab?</p>
-                                                </div>
+                                                <!-- <div id="more-content" style="display: none;">
+                                                        <p>The BT-MDRA India's Best B-schools Survey 2022 - prepared
+                                                                jointly by
+                                                                Business
+                                                                Today and Marketing & Development Research Associates
+                                                                (MDRA), a
+                                                                leading
+                                                                market research firm - is considered the most scientific
+                                                                and
+                                                                methodical
+                                                                listing of the best business education. </p>
+                                                </div> -->
                                                 <div class="toggle-brn-wrap">
                                                         <a href="javascript:void(0)" class="read-more">read more</a>
                                                 </div>
@@ -1571,26 +1598,6 @@
                         Syndications Today
                 </p>
         </div>
-        <div class="box">
-                <div class="list-wrapper">
-                        <div class="list-item">
-                        
-                        </div>
-                        
-                      </div>
-                      
-                      <div class="pagination-container"></div>
-        </div>
-        <div class="box1">
-                <div class="list-wrapper">
-                        <div class="list-item">
-                        
-                        </div>
-                        
-                      </div>
-                      
-                      <div class="pagination-container"></div>
-        </div>
         <!-- JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
@@ -1599,12 +1606,13 @@
         <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
+        <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
         <script src="assets/js/report.js"></script>
         <script src="assets/js/comparison.js"></script>
         <script src="assets/js/mba-ranking.js"></script>
         <script src="assets/js/main.js"></script>
-        
+
 </body>
 
 </html>
