@@ -249,31 +249,24 @@ let exMbaSchools = [
       "sector": "Govt."
   }
 ]
-
 async function mbaRankingInit() {
-    // const rankingData = await d3.csv("assets/data/ranking-mba.csv");
     const table = d3.select('.mba-rankings-data .ranking-data-wrapper').append('table').attr('id', 'ranking-mba-table').attr('class', 'full-width')
     const thead = table.append('thead')
     const tbody = table.append('tbody')
     thead.append('tr').append('th')
     const rows = tbody.append('tr').append('td')
-  
+
+    const tableEx = d3.select('.mba-rankings-data .ranking-data-wrapper.ex-mba').append('table').attr('id', 'ex-mba-table').attr('class', 'full-width')
+    const theadEx  = tableEx.append('thead')
+    const tbodyEx  = tableEx.append('tbody')
+    theadEx.append('tr').append('th')
+    const rowsEx = tbodyEx.append('tr').append('td')
     let itemsPerPage = 5;
-  
     function insertDecimal(num) {
       return Number((num / 10));
    }
    let schoolData = []
-    function changeSchoolData(){
-      if($('.mba-rankings-data #ex-mba:checked').val()=='Executive MBA'){
-        schoolData = exMbaSchools
-      }
-      if($('.mba-rankings-data #one-mba').val()=='1-Year MBA'){
-        schoolData = oneYearSchools;
-      }
-    }
-    changeSchoolData()
-    let sym = [];
+
     $('#ranking-mba-table').DataTable({
       responsive: true,
       processing: true,
@@ -291,7 +284,7 @@ async function mbaRankingInit() {
           previous: '<img src="assets/img/right-arrow-dark.png" class="arrow left">',
         },
       },
-      data: schoolData,
+      data: oneYearSchools,    
       columns: [
         {
           render: (data, type, row) => {
@@ -304,6 +297,107 @@ async function mbaRankingInit() {
         },
       ],
     });
+   
+    $('#ex-mba-table').DataTable({
+        responsive: true,
+        processing: true,
+        searching: false,
+        bInfo: false,
+        "ordering": false,
+        "bLengthChange": false,
+        scrollX: true,
+        'pageLength': itemsPerPage,
+        language: {
+          searchPlaceholder: "Search here",
+          search: "",
+          paginate: {
+            next: '<img src="assets/img/right-arrow-dark.png" class="arrow right">',
+            previous: '<img src="assets/img/right-arrow-dark.png" class="arrow left">',
+          },
+        },
+        data: exMbaSchools,    
+        columns: [
+          {
+            render: (data, type, row) => {
+              return `<div class="school-detail"><div class="d-flex ai-center jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_221_6253)"><path d="M0 0.5V32.6104H51.791L42.8895 16.5552L51.791 0.5H0Z" fill="#D3C375"/><path d="M0 28.8757V29.6225H50.1726L49.5039 28.8757H0Z" fill="white"/>
+              <path d="M0 4.23308H49.506L50.1726 3.48633H0V4.23308Z" fill="white"/>
+              <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="14" font-weight="bold" letter-spacing="0.01em"><tspan x="-1.76913" y="14.4312">${row.rank}</tspan></text>
+              </g><defs><clipPath id="clip0_221_6253"><rect width="51.791" height="32.1104" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg><h5>${row.institute}<br><span>${row.program_name }</span></h5></div><span class="badge">${row.sector}</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score}</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(row.score)}%"></div></div></div></div> `
+            }
+          },
+        ],
+      });
+
+    $('#one-mba').on('click',()=>{
+        $('.ranking-data-wrapper').addClass('d-none')
+        $('.ranking-data-wrapper.ex-mba').removeClass('d-none')
+    })
+    $('#ex-mba').on('click',()=>{
+        $('.ranking-data-wrapper').removeClass('d-none')
+        $('.ranking-data-wrapper.ex-mba').addClass('d-none')
+    })      
+ 
 }
 
 mbaRankingInit()
+
+
+
+async function rankingInit() {
+    const rankingData = await d3.csv("assets/data/report.csv");
+    const table = d3.select('.ranking-data .ranking-data-wrapper').append('table').attr('id', 'ranking-table').attr('class', 'full-width')
+    const thead = table.append('thead')
+    const tbody = table.append('tbody')
+    thead.append('tr').append('th')
+    const rows = tbody.append('tr').append('td')
+  
+    let itemsPerPage = 5;
+  
+    function insertDecimal(num) {
+      return Number((num / 10));
+   }
+  
+  
+   $('#select-ranking-year').select2({minimumResultsForSearch: Infinity});
+   $('#select-ranking-sector').select2({minimumResultsForSearch: Infinity}).on('change', function(e) {
+       if($(this).val()==='Government'){
+          let filteredData = rankingData.filter(d => d.sector == 'G')
+          rankingData.push(...filteredData)
+          console.log(filteredData)
+          console.log(rankingData)
+       }
+     });
+    let sym = [];
+    $('#ranking-table').DataTable({
+      responsive: true,
+      processing: true,
+      bInfo: false,
+      "ordering": false,
+      "bLengthChange": false,
+      scrollX: true,
+      'pageLength': itemsPerPage,
+      language: {
+        searchPlaceholder: "Search here",
+        search: "",
+        paginate: {
+          next: '<img src="assets/img/right-arrow.png" class="arrow right">',
+          previous: '<img src="assets/img/right-arrow.png" class="arrow left">',
+        },
+      },
+      data: rankingData,
+      columns: [
+        {
+          render: (data, type, row) => {
+            return `<div class="school-detail"><div class="d-flex ai-center jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_221_6253)"><path d="M0 0.5V32.6104H51.791L42.8895 16.5552L51.791 0.5H0Z" fill="#D3C375"/><path d="M0 28.8757V29.6225H50.1726L49.5039 28.8757H0Z" fill="white"/>
+            <path d="M0 4.23308H49.506L50.1726 3.48633H0V4.23308Z" fill="white"/>
+            <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="14" font-weight="bold" letter-spacing="0.01em"><tspan x="-1.76913" y="14.4312">${row.rank}</tspan></text>
+            </g><defs><clipPath id="clip0_221_6253"><rect width="51.791" height="32.1104" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg><h5>${row.institute}</h5></div><span class="badge">${changeName(row.sector)} </span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score}</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(row.score)}%"></div></div></div></div> `
+          }
+        },
+      ],
+    });
+  }
+  
+  rankingInit();   
