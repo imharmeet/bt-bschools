@@ -149,6 +149,18 @@ var gradient1 = ctx02.createLinearGradient(0, 0, 0, 1000);
 gradient1.addColorStop(0, '#FCDA29');
 gradient1.addColorStop(1, 'Transparent');
 
+
+// Add margin below the labels
+const plugin02 = {
+  beforeInit(chart) {
+    const originalFit = chart.legend.fit;
+    chart.legend.fit = function fit() {
+      originalFit.bind(chart.legend)();
+      this.height += 15;
+    }
+  }
+}
+
 var myChart02 = new Chart(ctx02, {
   type: 'line',
   data: {
@@ -235,8 +247,10 @@ var myChart02 = new Chart(ctx02, {
       }
 
     }
-  }
+  },
+  plugins: [ChartDataLabels, plugin02],
 });
+
 // Report Card Chart
 var ctx03 = document.getElementById('over-years-chart').getContext('2d');
 var gradient = ctx03.createLinearGradient(0, 10, 0, 1000);
@@ -300,12 +314,11 @@ var myChart03 = new Chart(ctx03, {
       fill: true,
       data: [74, 64, 79, 83, 57, 96],
       spanGaps: true,
-
     }]
   },
   options: {
     responsive: true,
-    maintainAspectRatio: true,
+    maintainAspectRatio: false,
     plugins: {
       datalabels: {
         anchor: 'end',
@@ -374,84 +387,138 @@ var myChart03 = new Chart(ctx03, {
   plugins: [ChartDataLabels, plugin],
 });
 
-// Performance Indicators
-var dataADS = [
-  ['2020', '2021', '2022', '2023'],
-  // ['2023', '2022', '2021', '2020'],
-  [1920761, 1843200, 1855900, 1802000],
-  [1770344, 1729309, 1688737, 1640249],
-  [1442614, 1424389, 1397622, 1338963],
-  [1147003, 1146232, 1110082, 1069016],
-];
-var dataCF = [
-  // ['2020', '2021', '2022', '2023'],
-  ['2023', '2022', '2021', '2020'],
-
-  [29.63, 30.48, 25.49, 24.49],
-  [22.54, 23.53, 19.63, 19.61],
-  [17.01, 17.62, 14.78, 14.71],
-  [12.29, 12.68, 10.77, 10.64],
-];
-var dataMTFR = [
-  ['2022-23', '2021-22', '2020-21', '2019-20'],
-  [2.3, 2.1, 2.2, 2.1],
-  [2, 1.9, 2.1, 2.3],
-  [2, 1.9, 2, 2],
-  [1.6, 1.6, 1.6, 1.7],
-];
-var dataBS = [
-  // ['2020', '2021', '2022', '2023'],
-  ['2023', '2022', '2021', '2020'],
-
-  [438, 423, 397, 413],
-  [373, 377, 369, 340],
-  [286, 291, 285, 264],
-  [233, 240, 235, 226],
-];
-
-$(function () {
-
-  // Initial chart
-  var chart = c3.generate({
-    data: {
-      rows: dataADS,
-      type: 'bar',
+// Performance Chart
+var ctx04 = document.getElementById('myChart04').getContext('2d');
+// Add margin below the labels
+const marginBt = {
+  beforeInit(chart) {
+    const originalFit = chart.legend.fit;
+    chart.legend.fit = function fit() {
+      originalFit.bind(chart.legend)();
+      this.height += 15;
+    }
+  }
+}
+var myChart04 = new Chart(ctx04, {
+  type: 'bar',
+  data: {
+    labels: ["Top 10", "Top 25", "Top 50", "Top 100"],
+    datasets: [{
+      label: '2023',
+      data: [23, 28, 23, 33, 35],
+      backgroundColor: '#37749B',
+      borderColor: '#fff',
+      borderWidth: 1,
+      categoryPercentage: .8,
+      barPercentage: 1,
+      // grouped: false,
+      order: 1
     },
-    axis: {
-      y: {
-        label: {
-          text: '₹ lakhs',
-          position: 'outer-right'
+    {
+      label: '2022',
+      data: [36, 23, 12, 25, 17],
+      backgroundColor: '#549EA3',
+      borderColor: '#fff',
+      borderWidth: 1,
+      categoryPercentage: .8,
+      barPercentage: 1,
+
+    },
+    {
+      label: '2021',
+      data: [18, 13, 23, 33, 26],
+      backgroundColor: '#89C597',
+      borderColor: '#fff',
+      borderWidth: 1,
+      categoryPercentage: .8,
+      barPercentage: 1,
+
+    },
+    {
+      label: '2020',
+      data: [10, 34, 32, 22, 12],
+      backgroundColor: '#BEE296',
+      borderColor: '#fff',
+      borderWidth: 1,
+      categoryPercentage: .8,
+      barPercentage: 1,
+
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y',
+    plugins: {
+      datalabels: {
+        anchor: 'end',
+        align: 'top',
+        color: '#1F1C24',
+        formatter: function (value) {
+          return Math.round(value) + '%';
+        },
+        font: {
+          weight: 'bold',
+          size: 14,
         }
       },
-      x: {
-        tick: {
-          categories: ['Top 10', 'Top 25', 'Top 50', 'Top 100']
+      legend: {
+        display: true,
+        position: 'top',
+        padding: 30,
+        labels: {
+          color: '#555359',
+          usePointStyle: true,
+          padding: 20,
+          font: {
+            size: 14,
+            weight: 400,
+          }
+        },
+      }
+    },
+    tension: .3,
+    scales: {
+      y: {
+        ticks: {
+          beginAtZero: true,
+        },
+        display: true,
+        grid: {
+          display: true,
+          color: '#504E54',
+          lineWidth: 0.5,
+          color: 'rgba(0, 0, 0, 0.1)',
+        },
+        font: {
+          size: 14,
+          weight: 600,
+        },
+        scaleLabel: {
+          display: true,
+          fontSize: 20
         },
       },
-      rotated: true
-    },
-    color: {
-      pattern: ['#BEE296', '#89C597', '#549EA3', '#37749B']
-    },
-
-  });
-
-  // Redraw chart depending on which option is selected
-  $("#DataType").change(function (evt) {
-    var timeSelection = eval($("#DataType").val());
-    var chart = c3.generate({
-      data: {
-        rows: timeSelection,
-        type: 'bar'
-      },
-      axis: {
-        rotated: true
-      },
-      color: {
-        pattern: ['#BEE296', '#89C597', '#549EA3', '#37749B']
+      x: {
+        ticks: {
+          beginAtZero: true,
+        },
+        display: true,
+        grid: {
+          borderColor: 'white',
+          color: 'rgba(0, 0, 0, 0.1)',
+          lineWidth: 0.5,
+        }
       }
-    });
-  });
 
+    }
+  },
+  plugins: [marginBt]
 });
+
+const salary = document.getElementById('DataType');
+salary.addEventListener('change', salaryData);
+function salaryData() {
+  myChart04.data.datasets[0].data = salary.value.split(',');
+  myChart04.update();
+}
