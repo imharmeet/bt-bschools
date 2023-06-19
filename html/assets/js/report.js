@@ -25,13 +25,20 @@ async function reportInit() {
  
 
   async function drawChart() {
+    function changeName(name) {
+        if(name === 'G'){
+            name = 'Govt.'
+        }else{
+            name ='Pvt.'}
+        return name;
+     }
     const selectedBankData = data.filter(d => d.institute === institute);
     d3.select('#report-chart .school-name').text(institute);
     selectedBankData.sort((a, b) => a.year - b.year);
     const latestYearData = selectedBankData[selectedBankData.length - 1];
     d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.rank);
     d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
-    d3.select('#report-chart #school-report-sector').text(latestYearData.sector);
+    d3.select('#report-chart #school-report-sector').text(changeName(latestYearData.sector));
     d3.select('#report-chart #school-report-state').text(latestYearData.state);
     d3.select('#report-chart #school-report-zone').text(latestYearData.zone);
     d3.select('#report-chart #school-rating-score').text(latestYearData.score);
@@ -56,6 +63,7 @@ async function rankingInit() {
   function insertDecimal(num) {
     return Number((num / 10));
  }
+
 
  $('#select-ranking-year').select2({minimumResultsForSearch: Infinity});
  $('#select-ranking-sector').select2({minimumResultsForSearch: Infinity}).on('change', function(e) {
