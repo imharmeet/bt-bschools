@@ -1084,12 +1084,12 @@ table.dataTable tbody td {
     font-weight: 600;
 }
 
-.performance-data p {
+.performance-data .select-cate {
     font-size: 16px;
     color: var(--dark-gray);
 }
 
-.performance-data p select {
+.performance-data .select-cate select {
     background: var(--dark-gray);
     padding: 4px 10px;
     color: var(--white);

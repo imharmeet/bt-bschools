@@ -1,4 +1,4 @@
-function changeName(name) {
+function changeNameReport(name) {
   if (name === 'G') {
     name = 'Government'
   } else {
@@ -43,7 +43,7 @@ async function reportInit() {
     const latestYearData = selectedBankData[selectedBankData.length - 1];
     d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.rank);
     d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
-    d3.select('#report-chart #school-report-sector').text(changeName(latestYearData.sector));
+    d3.select('#report-chart #school-report-sector').text(changeNameReport(latestYearData.sector));
     d3.select('#report-chart #school-report-state').text(latestYearData.state);
     d3.select('#report-chart #school-report-zone').text(latestYearData.zone);
     d3.select('#report-chart #school-rating-score').text(latestYearData.score)
