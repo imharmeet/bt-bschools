@@ -286,51 +286,64 @@ const marginBt = {
     }
   }
 }
+// const ads = ['23' ,'28', '23', '33', '35'], ['23' ,'28', '23', '33', '35'];
+var dataADS = [
+  [1920761, 1843200, 1855900, 1802000],
+  [1770344, 1729309, 1688737, 1640249],
+  [1442614, 1424389, 1397622, 1338963],
+  [1147003, 1146232, 1110082, 1069016],
+];
+var dataCourseFee = [
+  [29.63, 30.48, 25.49, 24.49],
+  [22.54, 23.53, 19.63, 19.61],
+  [17.01, 17.62, 14.78, 14.71],
+  [12.29, 12.68, 10.77, 10.64],
+];
 var myChart04 = new Chart(ctx04, {
   type: 'bar',
   data: {
     labels: ["Top 10", "Top 25", "Top 50", "Top 100"],
     datasets: [{
       label: '2023',
-      data: [23, 28, 23, 33, 35],
+      data: dataADS[0],
       backgroundColor: '#37749B',
       borderColor: '#fff',
       borderWidth: 1,
       categoryPercentage: .8,
       barPercentage: 1,
-      // grouped: false,
       order: 1
     },
-    {
-      label: '2022',
-      data: [36, 23, 12, 25, 17],
-      backgroundColor: '#549EA3',
-      borderColor: '#fff',
-      borderWidth: 1,
-      categoryPercentage: .8,
-      barPercentage: 1,
+    // {
+    //   label: '2022',
+    //   data: dataADS[1],
+    //   backgroundColor: '#549EA3',
+    //   borderColor: '#fff',
+    //   borderWidth: 1,
+    //   categoryPercentage: .8,
+    //   barPercentage: 1,
 
-    },
-    {
-      label: '2021',
-      data: [18, 13, 23, 33, 26],
-      backgroundColor: '#89C597',
-      borderColor: '#fff',
-      borderWidth: 1,
-      categoryPercentage: .8,
-      barPercentage: 1,
+    // },
+    // {
+    //   label: '2021',
+    //   data: dataADS[2],
+    //   backgroundColor: '#89C597',
+    //   borderColor: '#fff',
+    //   borderWidth: 1,
+    //   categoryPercentage: .8,
+    //   barPercentage: 1,
 
-    },
-    {
-      label: '2020',
-      data: [10, 34, 32, 22, 12],
-      backgroundColor: '#BEE296',
-      borderColor: '#fff',
-      borderWidth: 1,
-      categoryPercentage: .8,
-      barPercentage: 1,
+    // },
+    // {
+    //   label: '2020',
+    //   data: dataADS[3],
+    //   backgroundColor: '#BEE296',
+    //   borderColor: '#fff',
+    //   borderWidth: 1,
+    //   categoryPercentage: .8,
+    //   barPercentage: 1,
 
-    }]
+    // }
+  ]
   },
   options: {
     responsive: true,
@@ -406,6 +419,8 @@ var myChart04 = new Chart(ctx04, {
 const salary = document.getElementById('DataType');
 salary.addEventListener('change', salaryData);
 function salaryData() {
-  myChart04.data.datasets[0].data = salary.value.split(',');
+  myChart04.data.datasets.data = dataCourseFee
+  // myChart04.data.datasets[0].data = salary.value.split(',');
+  // console.log(myChart04.data.datasets[0].data)
   myChart04.update();
 }

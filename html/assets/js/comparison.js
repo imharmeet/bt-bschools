@@ -54,12 +54,12 @@ async function compareInit() {
 
 
 
-  console.log(data)
+  // console.log(data)
 $('.comparison-card select').on('change', function () {
 
   const selected = $(this).val();
   const selectedSchool = data.filter(d => d.institute === institute);
-  console.log(selectedSchool)
+  // console.log(selectedSchool)
   // const selectedSchoolName = selectedSchool.institute;
   // const selectedSchoolRankings = selectedSchool.map(d => d.score)
   
