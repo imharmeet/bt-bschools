@@ -251,31 +251,173 @@ var myChart02 = new Chart(ctx02, {
   plugins: [ChartDataLabels, plugin02],
 });
 
-// Report Card Chart
-
-
-// var items = $(".list-wrapper .list-item");
-//     var numItems = items.length;
-//     var perPage = 4;
-
-//     items.slice(perPage).hide();
-
-//     $('.pagination-container').pagination({
-//         items: numItems,
-//         itemsOnPage: perPage,
-//         prevText: "&laquo;",
-//         nextText: "&raquo;",
-//         onPageClick: function (pageNumber) {
-//             var showFrom = perPage * (pageNumber - 1);
-//             var showTo = showFrom + perPage;
-//             items.hide().slice(showFrom, showTo).show();
-//         }
-//     });
-
-    
 
 // Performance Chart
-var ctx04 = document.getElementById('myChart04').getContext('2d');
+// var ctx04 = document.getElementById('myChart04').getContext('2d');
+// Add margin below the labels
+// const marginBt = {
+//   beforeInit(chart) {
+//     const originalFit = chart.legend.fit;
+//     chart.legend.fit = function fit() {
+//       originalFit.bind(chart.legend)();
+//       this.height += 15;
+//     }
+//   }
+// }
+// var myChart04 = new Chart(ctx04, {
+//   type: 'bar',
+//   data: {
+//     labels: ["Top 10", "Top 25", "Top 50", "Top 100"],
+//     datasets: [{
+//       label: '2023',
+//       data: ['1920761', '1843200', '1855900', '1802000'],
+//       backgroundColor: '#37749B',
+//       borderColor: '#fff',
+//       borderWidth: 1,
+//       categoryPercentage: .7,
+//       barPercentage: 1,
+//     },
+//     {
+//       label: '2022',
+//       data: ['1770344', '1729309', '1688737', '1640249'],
+//       backgroundColor: '#549EA3',
+//       borderColor: '#fff',
+//       borderWidth: 1,
+//       categoryPercentage: .7,
+//       barPercentage: 1,
+
+//     },
+//     {
+//       label: '2021',
+//       data: ['1442614', '1424389', '1397622', '1338963'],
+//       backgroundColor: '#89C597',
+//       borderColor: '#fff',
+//       borderWidth: 1,
+//       categoryPercentage: .7,
+//       barPercentage: 1,
+
+//     },
+//     {
+//       label: '2020',
+//       data: ['1147003', '1146232', '1110082', '1069016'],
+//       backgroundColor: '#BEE296',
+//       borderColor: '#fff',
+//       borderWidth: 1,
+//       categoryPercentage: .7,
+//       barPercentage: 1,
+
+//     }]
+//   },
+//   options: {
+//     responsive: true,
+//     maintainAspectRatio: false,
+//     indexAxis: 'y',
+//     plugins: {
+//       datalabels: {
+//         anchor: 'end',
+//         align: 'top',
+//         color: '#1F1C24',
+//         formatter: function (value) {
+//           return Math.round(value) + '%';
+//         },
+//         font: {
+//           weight: 'bold',
+//           size: 14,
+//         }
+//       },
+//       legend: {
+//         display: true,
+//         position: 'top',
+//         padding: 30,
+//         labels: {
+//           color: '#555359',
+//           usePointStyle: true,
+//           padding: 30,
+//           font: {
+//             size: 14,
+//             weight: 400,
+//           }
+//         },
+//       }
+//     },
+//     tension: .3,
+//     scales: {
+//       y: {
+//         ticks: {
+//           beginAtZero: true,
+//         },
+//         display: true,
+//         grid: {
+//           display: true,
+//           color: '#504E54',
+//           lineWidth: 0.5,
+//           color: 'rgba(0, 0, 0, 0.1)',
+//         },
+//         font: {
+//           size: 14,
+//           weight: 600,
+//         },
+//         scaleLabel: {
+//           display: true,
+//           fontSize: 20
+//         },
+//       },
+//       x: {
+//         ticks: {
+//           beginAtZero: true,
+//         },
+//         display: true,
+//         grid: {
+//           borderColor: 'white',
+//           color: 'rgba(0, 0, 0, 0.1)',
+//           lineWidth: 0.5,
+//         }
+//       }
+
+//     }
+//   },
+//   plugins: [marginBt]
+// });
+
+// const salary = document.getElementById('DataType');
+// salary.addEventListener('change', salaryData);
+// function salaryData() {
+//   myChart04.data.datasets[0].data = salary.value.split(',');
+//   myChart04.update();
+// }
+
+
+
+
+// Get the select dropdown element
+let dataSelect = document.getElementById('data-select');
+// Set up initial chart data and labels
+let datasets = [
+  {
+    label: '2023',
+    data: [1920761, 1843200, 1855900, 1802000],
+    backgroundColor: '#37749B',
+  },
+  {
+    label: '2022',
+    data: [1770344, 1729309, 1688737, 1640249],
+    backgroundColor: '#549EA3',
+  },
+  {
+    label: '2021',
+    data: [1442614, 1424389, 1397622, 1338963],
+    backgroundColor: '#89C597',
+  },
+  {
+    label: '2020',
+    data: [1147003, 1146232, 1110082, 1069016],
+    backgroundColor: '#BEE296',
+  }
+];
+let labels = ["Top 10", "Top 25", "Top 50", "Top 100"];
+
+// Create the chart with initial data
+const ctx04 = document.getElementById('myChart04').getContext('2d');
 // Add margin below the labels
 const marginBt = {
   beforeInit(chart) {
@@ -286,70 +428,27 @@ const marginBt = {
     }
   }
 }
-// const ads = ['23' ,'28', '23', '33', '35'], ['23' ,'28', '23', '33', '35'];
-var dataADS = [
-  [1920761, 1843200, 1855900, 1802000],
-  [1770344, 1729309, 1688737, 1640249],
-  [1442614, 1424389, 1397622, 1338963],
-  [1147003, 1146232, 1110082, 1069016],
-];
-var dataCourseFee = [
-  [29.63, 30.48, 25.49, 24.49],
-  [22.54, 23.53, 19.63, 19.61],
-  [17.01, 17.62, 14.78, 14.71],
-  [12.29, 12.68, 10.77, 10.64],
-];
-var myChart04 = new Chart(ctx04, {
+const chart = new Chart(ctx04, {
   type: 'bar',
   data: {
-    labels: ["Top 10", "Top 25", "Top 50", "Top 100"],
-    datasets: [{
-      label: '2023',
-      data: dataADS[0],
-      backgroundColor: '#37749B',
-      borderColor: '#fff',
-      borderWidth: 1,
-      categoryPercentage: .8,
-      barPercentage: 1,
-      order: 1
-    },
-    // {
-    //   label: '2022',
-    //   data: dataADS[1],
-    //   backgroundColor: '#549EA3',
-    //   borderColor: '#fff',
-    //   borderWidth: 1,
-    //   categoryPercentage: .8,
-    //   barPercentage: 1,
-
-    // },
-    // {
-    //   label: '2021',
-    //   data: dataADS[2],
-    //   backgroundColor: '#89C597',
-    //   borderColor: '#fff',
-    //   borderWidth: 1,
-    //   categoryPercentage: .8,
-    //   barPercentage: 1,
-
-    // },
-    // {
-    //   label: '2020',
-    //   data: dataADS[3],
-    //   backgroundColor: '#BEE296',
-    //   borderColor: '#fff',
-    //   borderWidth: 1,
-    //   categoryPercentage: .8,
-    //   barPercentage: 1,
-
-    // }
-  ]
+    labels: labels,
+    datasets: datasets
   },
   options: {
     responsive: true,
     maintainAspectRatio: false,
     indexAxis: 'y',
     plugins: {
+      title: {
+        display: true,
+        position: 'bottom',
+        //text: '(₹ lakhs)',
+        align: 'end',
+        font: {
+          weight: 'normal',
+          size: 14,
+        }
+      },
       datalabels: {
         anchor: 'end',
         align: 'top',
@@ -377,7 +476,6 @@ var myChart04 = new Chart(ctx04, {
         },
       }
     },
-    tension: .3,
     scales: {
       y: {
         ticks: {
@@ -410,17 +508,115 @@ var myChart04 = new Chart(ctx04, {
           lineWidth: 0.5,
         }
       }
-
     }
-  },
-  plugins: [marginBt]
+  }
 });
+// Event listener for select dropdown change
+dataSelect.addEventListener('change', function () {
+  // Get the selected value
+  const selectedValue = dataSelect.value;
+  // Update the chart data and labels based on the selected value
+  if (selectedValue === 'data1') {
+    datasets = [
+      {
+        label: '2020',
+        data: [1920761, 1843200, 1855900, 1802000],
+        backgroundColor: '#37749B',
+      },
+      {
+        label: '2021',
+        data: [1770344, 1729309, 1688737, 1640249],
+        backgroundColor: '#549EA3',
+      },
+      {
+        label: '2022',
+        data: [1442614, 1424389, 1397622, 1338963],
+        backgroundColor: '#89C597',
+      },
+      {
+        label: '2023',
+        data: [1147003, 1146232, 1110082, 1069016],
+        backgroundColor: '#BEE296',
+      }
+    ];
+    $('.chart-title .title01').removeClass('d-none');
+  } else if (selectedValue === 'data2') {
+    datasets = [
+      {
+        label: '2023',
+        data: [29.63, 30.48, 25.49, 24.49],
+        backgroundColor: '#37749B',
+      },
+      {
+        label: '2022',
+        data: [22.54, 23.53, 19.63, 19.61],
+        backgroundColor: '#549EA3',
+      },
+      {
+        label: '2021',
+        data: [17.01, 17.62, 14.78, 14.71],
+        backgroundColor: '#89C597',
+      },
+      {
+        label: '2020',
+        data: [12.29, 12.68, 10.77, 10.64],
+        backgroundColor: '#BEE296',
+      }
+    ];
+    $('.chart-title .title02').removeClass('d-none');
+  } else if (selectedValue === 'data3') {
+    datasets = [
+      {
+        label: '2022-23',
+        data: [2.3, 2.1, 2.2, 2.1],
+        backgroundColor: '#37749B',
+      },
+      {
+        label: '2021-22',
+        data: [2, 1.9, 2.1, 2.3],
+        backgroundColor: '#549EA3',
+      },
+      {
+        label: '2020-21',
+        data: [2, 1.9, 2, 2],
+        backgroundColor: '#89C597',
+      },
+      {
+        label: '2019-20',
+        data: [1.6, 1.6, 1.6, 1.7],
+        backgroundColor: '#BEE296',
+      }
+    ];
+    $('.chart-title .title03').removeClass('d-none');
+  } else if (selectedValue === 'data4') {
+    datasets = [
+      {
+        label: '2023',
+        data: [438, 423, 397, 413],
+        backgroundColor: '#37749B',
+      },
+      {
+        label: '2022',
+        data: [373, 377, 369, 340],
+        backgroundColor: '#549EA3',
+      },
+      {
+        label: '2021',
+        data: [286, 291, 285, 264],
+        backgroundColor: '#89C597',
+      },
+      {
+        label: '2020',
+        data: [233, 240, 235, 226],
+        backgroundColor: '#BEE296',
+      }
+    ];
+    $('.chart-title .title04').removeClass('d-none');
+  }
 
-const salary = document.getElementById('DataType');
-salary.addEventListener('change', salaryData);
-function salaryData() {
-  myChart04.data.datasets.data = dataCourseFee
-  // myChart04.data.datasets[0].data = salary.value.split(',');
-  // console.log(myChart04.data.datasets[0].data)
-  myChart04.update();
-}
+  // Update the chart with the new data and labels
+  chart.data.datasets = datasets;
+  chart.data.labels = labels;
+  chart.update();
+  plugins: [marginBt];
+});
