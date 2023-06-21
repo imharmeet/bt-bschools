@@ -337,13 +337,19 @@ async function mbaRankingInit() {
     ],
   });
 
-  $('#one-mba').on('click', () => {
-    $('.ranking-data-wrapper').addClass('d-none')
-    $('.ranking-data-wrapper.ex-mba').removeClass('d-none')
+  $('#one-mba').on('click', (e) => {
+    e.preventDefault()
+    $('.ranking-data-wrapper').addClass('d-none');
+    $('.ranking-data-wrapper.ex-mba').removeClass('d-none');
+    $('#ex-prog').addClass('d-none');
+    $('#one-prog').removeClass('d-none');
   })
-  $('#ex-mba').on('click', () => {
-    $('.ranking-data-wrapper').removeClass('d-none')
-    $('.ranking-data-wrapper.ex-mba').addClass('d-none')
+  $('#ex-mba').on('click', (e) => {
+    e.preventDefault()
+    $('.ranking-data-wrapper').removeClass('d-none');
+    $('.ranking-data-wrapper.ex-mba').addClass('d-none');
+    $('#ex-prog').removeClass('d-none');
+    $('#one-prog').addClass('d-none');
   })
 
 }
@@ -353,7 +359,7 @@ mbaRankingInit()
 
 
 async function rankingInit() {
-  const rankingData = await d3.csv("assets/data/report.csv");
+  let rankingData = await d3.csv("assets/data/report.csv");
   const table = d3.select('.ranking-data .ranking-data-wrapper').append('table').attr('id', 'ranking-table').attr('class', 'full-width')
   const thead = table.append('thead')
   const tbody = table.append('tbody')
@@ -367,17 +373,9 @@ async function rankingInit() {
   }
 
 
-  $('#select-ranking-year').select2({ minimumResultsForSearch: Infinity });
-  $('#select-ranking-sector').select2({ minimumResultsForSearch: Infinity }).on('change', function (e) {
-    if ($(this).val() === 'Government') {
-      let filteredData = rankingData.filter(d => d.sector == 'G')
-      rankingData.push(...filteredData)
-      console.log(filteredData)
-      console.log(rankingData)
-    }
-  });
+
   let sym = [];
-  $('#ranking-table').DataTable({
+  let rankingTable = $('#ranking-table').DataTable({
     responsive: true,
     processing: true,
     bInfo: false,
@@ -406,6 +404,29 @@ async function rankingInit() {
         }
       },
     ],
+  });
+
+  $('#select-ranking-year').select2({ minimumResultsForSearch: Infinity });
+  $('#select-ranking-sector').select2({ minimumResultsForSearch: Infinity }).on('change', function (e) {
+    var sortBy = $(this).val();
+    console.log(sortBy)
+    switch (sortBy) {
+      case 'name':
+        rankingTable
+          .order([[0, 'asc']])
+          .draw();
+        break;
+        console.log(rankingTable.order())
+    }
+    // if ($(this).val() === 'Government') {
+    //   // let filteredData = rankingData.filter(d => d.sector == 'G')
+    //   console.log('true')
+    //   // rankingData = filteredData
+    //   // rankingTable.ajax.reload()
+    //   rankingTable.order([[1, 'asc']]).draw()
+    //   // console.log(filteredData)
+    //   // console.log(rankingData)
+    // }
   });
 }
 
