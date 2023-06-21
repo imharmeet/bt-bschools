@@ -404,7 +404,7 @@ body {
     text-align: right;
     margin-top: 20px;
     position: absolute;
-    right: 0;
+    right: -1px;
     bottom: -20px;
     background: #fff;
     padding: 0 25px 10px 0;
@@ -1202,6 +1202,16 @@ input[type="search"]::-webkit-search-cancel-button {
 .simple-pagination .prev.current,
 .simple-pagination .next.current {
     background: #e04e60;
+}
+
+.select2-results__option {
+    padding: 9px 0;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable,
+.select2-container--default .select2-results__option--selected {
+    background: transparent;
+    color: var(--white);
 }
 
 /* Bt Footer CSS */

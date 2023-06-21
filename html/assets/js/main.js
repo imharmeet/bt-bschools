@@ -372,7 +372,7 @@ const chart = new Chart(ctx04, {
         ticks: {
           beginAtZero: true,
           font: {
-            size: 14,
+            size: 12,
             weight: '600',
           }
         },
