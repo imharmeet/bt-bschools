@@ -2,7 +2,7 @@ function changeNameReport(name) {
   if (name === 'G') {
     name = 'Government'
   } else {
-    name = 'Pvt.'
+    name = 'Private'
   }
   return name;
 }
@@ -92,25 +92,30 @@ async function reportInit() {
         datasets: [{
           backgroundColor: '#419195',
           borderColor: 'rgb(255, 255, 255)',
-          label: 'Learning (250)',
+          label: 'Placement (250)',
           fill: true,
           data: selectedSchoolLearning,
-          pointHoverRadius: 10,
+          pointHoverRadius: 6,
+          pointRadius: 4,
           spanGaps: true,
         }, {
           backgroundColor: '#A1D0BE',
           borderColor: 'rgb(255, 255, 255)',
-          label: 'Living (150)',
+          label: 'Learning (250)',
           fill: true,
           data: selectedLivingExp,
+          pointHoverRadius: 6,
+          pointRadius: 4,
           spanGaps: true,
 
         }, {
           backgroundColor: '#E6D8AC',
           borderColor: 'rgb(255, 255, 255)',
-          label: 'Placement (250)',
+          label: 'Living (150)',
           fill: true,
           data: selectedPlacement,
+          pointHoverRadius: 6,
+          pointRadius: 4,
           spanGaps: true,
 
         }, {
@@ -119,6 +124,8 @@ async function reportInit() {
           label: 'Selection (150)',
           fill: true,
           data: selectedSelection,
+          pointHoverRadius: 6,
+          pointRadius: 4,
           spanGaps: true,
 
         }, {
@@ -127,8 +134,9 @@ async function reportInit() {
           label: 'Future (200)',
           fill: true,
           data: selectedFuture,
+          pointHoverRadius: 6,
+          pointRadius: 4,
           spanGaps: true,
-
         }]
       },
       options: {
@@ -139,9 +147,6 @@ async function reportInit() {
             anchor: 'end',
             align: 'top',
             color: '#1F1C24',
-            // formatter: function (value) {
-            //   return Math.round(value) + '%';
-            // },
             font: {
               weight: 'bold',
               size: 14,
@@ -151,11 +156,11 @@ async function reportInit() {
             display: true,
             position: 'top',
             align: "start",
-            padding: 30,
+            padding: 0,
             labels: {
               color: '#555359',
               usePointStyle: true,
-              padding: 24,
+              padding: 26,
               font: {
                 size: 14,
                 weight: 400,
@@ -168,6 +173,10 @@ async function reportInit() {
           y: {
             ticks: {
               beginAtZero: true,
+              font: {
+                size: 16,
+                weight: '600',
+              }
             },
             display: true,
             grid: {
@@ -189,6 +198,10 @@ async function reportInit() {
           x: {
             ticks: {
               beginAtZero: true,
+              font: {
+                size: 16,
+                weight: '600',
+              }
             },
             display: true,
             grid: {

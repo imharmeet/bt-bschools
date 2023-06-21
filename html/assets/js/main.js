@@ -1,6 +1,3 @@
-// AOS.init();
-// 
-
 // 
 $('.archive-btn').click(function () {
   $('.archive-list').toggle(300);
@@ -190,12 +187,12 @@ var myChart02 = new Chart(ctx02, {
     plugins: {
       title: {
         display: true,
-        text: 'No. of Students',
+        //text: 'No. of Students',
         align: 'start',
         font: {
           weight: 400,
-          size: 14,
-        }
+          size: 16,
+        },
       },
       legend: {
         display: true,
@@ -217,6 +214,11 @@ var myChart02 = new Chart(ctx02, {
       y: {
         ticks: {
           beginAtZero: true,
+          color: '#A3A3A3',
+          font: {
+            size: 16,
+            weight: 400,
+          }
         },
         display: true,
         grid: {
@@ -237,6 +239,11 @@ var myChart02 = new Chart(ctx02, {
       x: {
         ticks: {
           beginAtZero: true,
+          color: '#A3A3A3',
+          font: {
+            size: 16,
+            weight: 400,
+          }
         },
         display: true,
         grid: {
@@ -253,142 +260,6 @@ var myChart02 = new Chart(ctx02, {
 
 
 // Performance Chart
-// var ctx04 = document.getElementById('myChart04').getContext('2d');
-// Add margin below the labels
-// const marginBt = {
-//   beforeInit(chart) {
-//     const originalFit = chart.legend.fit;
-//     chart.legend.fit = function fit() {
-//       originalFit.bind(chart.legend)();
-//       this.height += 15;
-//     }
-//   }
-// }
-// var myChart04 = new Chart(ctx04, {
-//   type: 'bar',
-//   data: {
-//     labels: ["Top 10", "Top 25", "Top 50", "Top 100"],
-//     datasets: [{
-//       label: '2023',
-//       data: ['1920761', '1843200', '1855900', '1802000'],
-//       backgroundColor: '#37749B',
-//       borderColor: '#fff',
-//       borderWidth: 1,
-//       categoryPercentage: .7,
-//       barPercentage: 1,
-//     },
-//     {
-//       label: '2022',
-//       data: ['1770344', '1729309', '1688737', '1640249'],
-//       backgroundColor: '#549EA3',
-//       borderColor: '#fff',
-//       borderWidth: 1,
-//       categoryPercentage: .7,
-//       barPercentage: 1,
-
-//     },
-//     {
-//       label: '2021',
-//       data: ['1442614', '1424389', '1397622', '1338963'],
-//       backgroundColor: '#89C597',
-//       borderColor: '#fff',
-//       borderWidth: 1,
-//       categoryPercentage: .7,
-//       barPercentage: 1,
-
-//     },
-//     {
-//       label: '2020',
-//       data: ['1147003', '1146232', '1110082', '1069016'],
-//       backgroundColor: '#BEE296',
-//       borderColor: '#fff',
-//       borderWidth: 1,
-//       categoryPercentage: .7,
-//       barPercentage: 1,
-
-//     }]
-//   },
-//   options: {
-//     responsive: true,
-//     maintainAspectRatio: false,
-//     indexAxis: 'y',
-//     plugins: {
-//       datalabels: {
-//         anchor: 'end',
-//         align: 'top',
-//         color: '#1F1C24',
-//         formatter: function (value) {
-//           return Math.round(value) + '%';
-//         },
-//         font: {
-//           weight: 'bold',
-//           size: 14,
-//         }
-//       },
-//       legend: {
-//         display: true,
-//         position: 'top',
-//         padding: 30,
-//         labels: {
-//           color: '#555359',
-//           usePointStyle: true,
-//           padding: 30,
-//           font: {
-//             size: 14,
-//             weight: 400,
-//           }
-//         },
-//       }
-//     },
-//     tension: .3,
-//     scales: {
-//       y: {
-//         ticks: {
-//           beginAtZero: true,
-//         },
-//         display: true,
-//         grid: {
-//           display: true,
-//           color: '#504E54',
-//           lineWidth: 0.5,
-//           color: 'rgba(0, 0, 0, 0.1)',
-//         },
-//         font: {
-//           size: 14,
-//           weight: 600,
-//         },
-//         scaleLabel: {
-//           display: true,
-//           fontSize: 20
-//         },
-//       },
-//       x: {
-//         ticks: {
-//           beginAtZero: true,
-//         },
-//         display: true,
-//         grid: {
-//           borderColor: 'white',
-//           color: 'rgba(0, 0, 0, 0.1)',
-//           lineWidth: 0.5,
-//         }
-//       }
-
-//     }
-//   },
-//   plugins: [marginBt]
-// });
-
-// const salary = document.getElementById('DataType');
-// salary.addEventListener('change', salaryData);
-// function salaryData() {
-//   myChart04.data.datasets[0].data = salary.value.split(',');
-//   myChart04.update();
-// }
-
-
-
-
 // Get the select dropdown element
 let dataSelect = document.getElementById('data-select');
 // Set up initial chart data and labels
@@ -468,9 +339,9 @@ const chart = new Chart(ctx04, {
         labels: {
           color: '#555359',
           usePointStyle: true,
-          padding: 20,
+          padding: 40,
           font: {
-            size: 14,
+            size: 16,
             weight: 400,
           }
         },
@@ -480,6 +351,10 @@ const chart = new Chart(ctx04, {
       y: {
         ticks: {
           beginAtZero: true,
+          font: {
+            size: 16,
+            weight: '600',
+          }
         },
         display: true,
         grid: {
@@ -487,10 +362,6 @@ const chart = new Chart(ctx04, {
           color: '#504E54',
           lineWidth: 0.5,
           color: 'rgba(0, 0, 0, 0.1)',
-        },
-        font: {
-          size: 14,
-          weight: 600,
         },
         scaleLabel: {
           display: true,
@@ -500,6 +371,10 @@ const chart = new Chart(ctx04, {
       x: {
         ticks: {
           beginAtZero: true,
+          font: {
+            size: 14,
+            weight: '600',
+          }
         },
         display: true,
         grid: {
