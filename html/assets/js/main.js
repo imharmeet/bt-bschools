@@ -2,6 +2,8 @@
 // 
 
 // 
+Chart.defaults.font.family = "Open Sans"
+
 $('.archive-btn').click(function () {
   $('.archive-list').toggle(300);
 });
@@ -452,7 +454,7 @@ const chart = new Chart(ctx04, {
       datalabels: {
         anchor: 'end',
         align: 'top',
-        color: '#1F1C24',
+        color: '#7D7B80',
         formatter: function (value) {
           return Math.round(value) + '%';
         },
@@ -466,7 +468,7 @@ const chart = new Chart(ctx04, {
         position: 'top',
         padding: 30,
         labels: {
-          color: '#555359',
+          color: '#7D7B80',
           usePointStyle: true,
           padding: 20,
           font: {
@@ -511,10 +513,17 @@ const chart = new Chart(ctx04, {
     }
   }
 });
+
+if(dataSelect.value=='data1'){
+  let title01 = '<div class="title01">(₹ lakhs)</div>'
+  $('.chart-title').html(title01);
+}
+
 // Event listener for select dropdown change
 dataSelect.addEventListener('change', function () {
   // Get the selected value
   const selectedValue = dataSelect.value;
+
   // Update the chart data and labels based on the selected value
   if (selectedValue === 'data1') {
     datasets = [
@@ -539,7 +548,8 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-    $('.chart-title .title01').removeClass('d-none');
+    
+    
   } else if (selectedValue === 'data2') {
     datasets = [
       {
@@ -563,7 +573,7 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-    $('.chart-title .title02').removeClass('d-none');
+   
   } else if (selectedValue === 'data3') {
     datasets = [
       {
@@ -587,7 +597,6 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-    $('.chart-title .title03').removeClass('d-none');
   } else if (selectedValue === 'data4') {
     datasets = [
       {
@@ -611,9 +620,27 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-    $('.chart-title .title04').removeClass('d-none');
   }
-
+  if(dataSelect.value=='data1'){
+    let title01 = '<div class="notes">(₹ lakhs)</div>'
+    $('.chart-title').html(title01);
+  }
+  if(dataSelect.value=='data2'){
+    let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee+ other fees </p>    </div>'
+    $('.chart-title').html(title02);
+  }
+  if(dataSelect.value=='data3'){
+    let title03 = '<div class="notes"><p>Note: Figures are the number of male students enrolled per female student</p></div>'
+    $('.chart-title').html(title03);
+  }
+  if(dataSelect.value=='data4'){
+    let title04 = '<div class="notes">No. of students</div>'
+    $('.chart-title').html(title04);
+  }
+  if(dataSelect.value=='data5'){
+    let title05 = ' <div class="notes">figures in times<p>Note: ROI is calculated as average annual domestic salary/Course fees (Tuition fee + Other fees) for the entire course</p></div>'
+    $('.chart-title').html(title05);
+  }
   // Update the chart with the new data and labels
   chart.data.datasets = datasets;
   chart.data.labels = labels;

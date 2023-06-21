@@ -256,7 +256,7 @@
                                         <p class="chart-text text-white">Ranking based on the score obtained out of a
                                                 total of 1,000. Different weightage has been assigned to each of the
                                                 five parameters. Click on any institute to view its performance</p>
-                                        <!-- <div class="d-flex text-white">
+                                        <div class="d-flex text-white">
                                                 Year <select id="select-ranking-year" style="width: 150px; margin-right: 20px;">
                                                         <option>2023</option>
                                                         <option>2022</option>
@@ -268,15 +268,14 @@
                                                         <option>Government</option>
                                                         <option>Private</option>
                                                 </select>
-                                        </div> -->
+                                        </div>
                                         <div class="ranking-data-wrapper"></div>
                                         <div class="notes">
                                                 <p>Note: Ranking is based on objective data only. Only those
                                                         B-schools that submitted their objective data have been ranked.
                                                         Institutes like IIM Kozhikode, XLRI Xavier School of Management,
                                                         Jamshedpur, etc., which did not submit their objective data on
-                                                        time or
-                                                        refused to participate, have not been ranked. Only those
+                                                        time or refused to participate, have not been ranked. Only those
                                                         colleges that
                                                         fulfilled the following criteria were considered eligible for
                                                         participation in the ranking: i. Minimum three batches passed
@@ -303,9 +302,8 @@
                                         <p class="chart-text">The ranking is determined by the score achieved out of a
                                                 possible total of 1,000. The higher the score, the higher the
                                                 corresponding rank.</p>
-                                        <div class="comparison-chart">
-                                                <div class="d-flex f-wrap mt-3 filters"></div>
-                                                <div class="comparison-header d-flex f-wrap jc-space-b">
+                                                <!-- <div class="comparison-header d-flex f-wrap jc-space-b filters"></div> -->
+                                                <!-- <div class="comparison-header d-flex f-wrap jc-space-b">
                                                         <div class="select-col">
                                                                 <select class="form-select" id="option-1"
                                                                         data-placeholder="Pick a school">
@@ -324,14 +322,36 @@
                                                                         <option></option>
                                                                 </select>
                                                         </div>
-                                                </div>
-                                                <div class="chart-wrap">
-                                                        <canvas id="comparision-chart" height="150"></canvas>
+                                                </div> -->
+                                                <div class="comparison-chart" id="comparison-chart">
+                                                        <div class="d-flex f-wrap menu"></div>
+                                                        <div class="comparison-header d-flex f-wrap jc-space-b">
+                                                            <div class="select-col">
+                                                                <select id="select1-comparison-chart" aria-label="Default select example">
+                                                                    <option selected disabled>Select a institute</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select-col">
+                                                                <select id="select2-comparison-chart"  aria-label="Default select example">
+                                                                    <option selected disabled>Select a institute</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select-col">
+                                                                <select id="select3-comparison-chart"  aria-label="Default select example">
+                                                                    <option selected disabled>Select a institute</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                      
+                                                    </div>
+                                                    <div class="chart-wrap ">
+                                                        <canvas id="myChart" height="150" ></canvas>
                                                         <p class="note">Note: The scores of some institutes
                                                                 are not available as they did not participate in
                                                                 the survey.</p>
                                                 </div>
-                                        </div>
+                                        
                                 </div>
                         </div><!-- Inner Container -->
                 </div>
@@ -394,27 +414,28 @@
                                 <div class="performance-data chart-data">
                                         <div class="select-cate">
                                                 A snapshot of
-                                                <select selected="Annula Domestic Salary" id="data-select">
-                                                        <option value="data1">Average
-                                                                Annual Domestic Salary
+                                                <select selected="Annual Domestic Salary" id="data-select">
+                                                        <option value="data1">Average Annual Domestic Salary
                                                         </option>
-                                                        <option value="data2">Average
-                                                                Course Fees</option>
-                                                        <option value="data3">Male to
-                                                                Female Ratio
-                                                        </option>
-                                                        <option value="data4">Average Batch
-                                                                Strength</option>
+                                                        <option value="data2">Average Course Fees</option>
+                                                        <option value="data3">Male to Female Ratio </option>
+                                                        <option value="data4">Average Batch Strength</option>
                                                 </select>
                                                 of the Top 100 B-schools of India over the years
                                         </div>
                                         <canvas id="myChart04"></canvas>
                                 </div>
                                 <div class="chart-title">
-                                        <span class="title01 d-none">(₹ lakhs)</span>
-                                        <span class="title02 d-none">figures in times</span>
-                                        <span class="title03 d-none">No. of students</span>
-                                        <span class="title04 d-none"></span>
+                                        <!-- <div class="title01 d-none">(₹ lakhs)</div>
+                                        <div class="title02 d-none"> (₹ lakhs)
+                                        <p>Note: Average course fees include tuition fee+ other fees </p>    </div>
+                                        <div class="title03 d-none">
+                                         <p>Note: Figures are the number of male students enrolled per female student</p>
+                                        </div>
+                                        <div class="title04 d-none">No. of students</div>
+                                        <div class="title05s d-none">figures in times
+                                        <p>Note: ROI is calculated as average annual domestic salary/Course fees (Tuition fee + Other fees) for the entire course</p>
+                                        </div> -->
                                 </div>
                         </div><!-- Inner Container -->
                 </div>
@@ -1053,10 +1074,11 @@
                                         <div class="ranking-data-wrapper"></div>
                                         <div class="ranking-data-wrapper ex-mba d-none"></div>
                                 </div>
-                                <p class="info-text">Note: Executive programme (Online; 9-12 months) for general
+                                <p class="info-text" id="ex-prog">Note: Executive programme (Online; 9-12 months) for general
                                         management were ranked. No specialised executive programmes were considered for
                                         ranking; ranking has been done based on Objective Data (information from
                                         secondary sources)</p>
+                                <p class="info-text ex-mba d-none" id="one-prog">Note: MBA programmes for working executives (Offline, 12-18 months) were ranked; ranking is based on Objective and Perceptual survey data. B-Schools that have not submitted their data were ranked on the basis of publicly available data</p>        
                         </div><!-- Inner Container -->
                 </div>
         </section><!-- Executive MBA Rankings -->
