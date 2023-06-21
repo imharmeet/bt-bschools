@@ -196,6 +196,7 @@ async function reportInit() {
             stacked: true,
           },
           x: {
+            offset: true,
             ticks: {
               beginAtZero: true,
               font: {
