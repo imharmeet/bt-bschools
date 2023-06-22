@@ -300,7 +300,7 @@ let datasets = [
   }
 ];
 let labels = ["Top 10", "Top 25", "Top 50", "Top 100"];
-
+let labelsRatio = ["Top 1-25", "Top 26-50", "Top 51-75", "Top 76-100"];
 // Create the chart with initial data
 const ctx04 = document.getElementById('myChart04').getContext('2d');
 // Add margin below the labels
@@ -324,16 +324,16 @@ const chart = new Chart(ctx04, {
     maintainAspectRatio: false,
     indexAxis: 'y',
     plugins: {
-      title: {
-        display: true,
-        position: 'bottom',
-        //text: '(₹ lakhs)',
-        align: 'end',
-        font: {
-          weight: 'normal',
-          size: 14,
-        }
-      },
+      // title: {
+      //   display: true,
+      //   position: 'bottom',
+      //   // text: '(₹ lakhs)',
+      //   align: 'end',
+      //   font: {
+      //     weight: 'normal',
+      //     size: 14,
+      //   }
+      // },
       datalabels: {
         anchor: 'end',
         align: 'top',
@@ -344,7 +344,8 @@ const chart = new Chart(ctx04, {
         font: {
           weight: 'bold',
           size: 14,
-        }
+        },
+
       },
       legend: {
         display: true,
@@ -388,7 +389,16 @@ const chart = new Chart(ctx04, {
           font: {
             size: 12,
             weight: '600',
-          }
+          },
+        //   callback: function (value, index, values) {
+        //     // const valueType = selectedTab.type;
+        //     // let value2 = value.toString() 
+        //     if (dataSelect.value == 'data1') {
+        //        return truncate(value);
+        //     } else{
+
+        //     }
+        // }
         },
         display: true,
         grid: {
@@ -398,7 +408,8 @@ const chart = new Chart(ctx04, {
         }
       }
     }
-  }
+  },
+  plugins: [marginBt]
 });
 
 if (dataSelect.value == 'data1') {
@@ -435,8 +446,9 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-
-
+    let title01 = '<div class="notes">(₹ lakhs)</div>'
+    $('.chart-title').html(title01);
+    chart.data.labels = labels;
   } else if (selectedValue === 'data2') {
     datasets = [
       {
@@ -460,7 +472,9 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-
+    let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee+ other fees </p>    </div>'
+    $('.chart-title').html(title02);
+    chart.data.labels = labels;
   } else if (selectedValue === 'data3') {
     datasets = [
       {
@@ -484,6 +498,9 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
+    let title03 = '<div class="notes"><p>Note: Figures are the number of male students enrolled per female student</p></div>'
+    $('.chart-title').html(title03);
+    chart.data.labels = labels;
   } else if (selectedValue === 'data4') {
     datasets = [
       {
@@ -507,6 +524,9 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
+    let title04 = '<div class="notes">No. of students</div>'
+    chart.data.labels = labels;
+    $('.chart-title').html(title04);
   } else if (selectedValue === 'data5') {
     datasets = [
       {
@@ -530,30 +550,19 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-  }
-  if (dataSelect.value == 'data1') {
-    let title01 = '<div class="notes">(₹ lakhs)</div>'
-    $('.chart-title').html(title01);
-  }
-  if (dataSelect.value == 'data2') {
-    let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee+ other fees </p>    </div>'
-    $('.chart-title').html(title02);
-  }
-  if (dataSelect.value == 'data3') {
-    let title03 = '<div class="notes"><p>Note: Figures are the number of male students enrolled per female student</p></div>'
-    $('.chart-title').html(title03);
-  }
-  if (dataSelect.value == 'data4') {
-    let title04 = '<div class="notes">No. of students</div>'
-    $('.chart-title').html(title04);
-  }
-  if (dataSelect.value == 'data5') {
+    chart.data.labels = labels;
     let title05 = ' <div class="notes">figures in times<p>Note: ROI is calculated as average annual domestic salary/Course fees (Tuition fee + Other fees) for the entire course</p></div>'
     $('.chart-title').html(title05);
+    chart.data.labels = labelsRatio
   }
+
   // Update the chart with the new data and labels
   chart.data.datasets = datasets;
-  chart.data.labels = labels;
+  // plugins: [marginBt];
   chart.update();
-  plugins: [marginBt];
+  
 });
+function formatCurrency(val) {
+  
+  return splice(val);
+}

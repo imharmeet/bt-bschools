@@ -161,15 +161,9 @@ async function comparisonInit() {
         bank3AllYears = _.where(data, { institute: bank3.institute });
 
 
-      const years = _.uniq(data.map(d => +d.year));
-      // ascending order
-      years.sort((a, b) => a - b);
-      // console.log(years)
-      // if (bank1AllYears[0].group_def.toString().toLowerCase() !== bank1AllYears[0].group_type.toString().toLowerCase()) {
-      //     d3.select('#comparison-chart #select1-comparison-help').text(bank1AllYears[0].group_def);
-      // } else {
-      //     d3.select('#comparison-chart #select1-comparison-help').text('');
-      // }
+        bank1GroupedByYears = _.groupBy(bank1AllYears, 'year');
+        bank2GroupedByYears = _.groupBy(bank2AllYears, 'year');
+        bank3GroupedByYears = _.groupBy(bank3AllYears, 'year');
 
         // get selected tab
         const selectedTab = comparisonTabs.filter(d => d.selected)[0];
@@ -177,7 +171,6 @@ async function comparisonInit() {
         const years = _.uniq(data.map(d => +d.year));
         // ascending order
         years.sort((a, b) => a - b);
-        console.log(years)
         // if (bank1AllYears[0].group_def.toString().toLowerCase() !== bank1AllYears[0].group_type.toString().toLowerCase()) {
         //     d3.select('#comparison-chart #select1-comparison-help').text(bank1AllYears[0].group_def);
         // } else {
