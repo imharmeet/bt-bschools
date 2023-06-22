@@ -36,9 +36,12 @@ var swiper = new Swiper(".articles-carousel", {
       spaceBetween: 20
     },
     1200: {
-      slidesPerView: 4,
+      slidesPerView: 3.5,
       spaceBetween: 15
     },
+  },
+  mousewheel: {
+    releaseOnEdges: true,
   },
   navigation: {
     nextEl: ".swiper-button-next",
@@ -74,6 +77,9 @@ var swiper = new Swiper(".vs-carousel", {
       spaceBetween: 15
     },
   },
+  mousewheel: {
+    releaseOnEdges: true,
+  },
   // Pagination
   pagination: {
     el: ".swiper-pagination",
@@ -102,6 +108,9 @@ var swiper = new Swiper(".videos-carousel", {
       spaceBetween: 15
     },
   },
+  mousewheel: {
+    releaseOnEdges: true,
+  },
   // Pagination
   pagination: {
     el: ".swiper-pagination",
@@ -129,6 +138,9 @@ var swiper = new Swiper(".mba-ranking-carousel", {
       slidesPerView: 3.3,
       spaceBetween: 20
     },
+  },
+  mousewheel: {
+    releaseOnEdges: true,
   },
   // Pagination
   pagination: {
@@ -389,7 +401,7 @@ const chart = new Chart(ctx04, {
   }
 });
 
-if(dataSelect.value=='data1'){
+if (dataSelect.value == 'data1') {
   let title01 = '<div class="title01">(₹ lakhs)</div>'
   $('.chart-title').html(title01);
 }
@@ -423,8 +435,8 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-    
-    
+
+
   } else if (selectedValue === 'data2') {
     datasets = [
       {
@@ -448,7 +460,7 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-   
+
   } else if (selectedValue === 'data3') {
     datasets = [
       {
@@ -495,24 +507,47 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
+  } else if (selectedValue === 'data5') {
+    datasets = [
+      {
+        label: '2023',
+        data: [1.27, 1.03, 0.86, 0.92],
+        backgroundColor: '#37749B',
+      },
+      {
+        label: '2022',
+        data: [1.36, 1.05, 0.89, 0.9],
+        backgroundColor: '#549EA3',
+      },
+      {
+        label: '2021',
+        data: [1.16, 0.9, 0.86, 0.78],
+        backgroundColor: '#89C597',
+      },
+      {
+        label: '2020',
+        data: [1.2, .95, 0.81, 0.84],
+        backgroundColor: '#BEE296',
+      }
+    ];
   }
-  if(dataSelect.value=='data1'){
+  if (dataSelect.value == 'data1') {
     let title01 = '<div class="notes">(₹ lakhs)</div>'
     $('.chart-title').html(title01);
   }
-  if(dataSelect.value=='data2'){
+  if (dataSelect.value == 'data2') {
     let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee+ other fees </p>    </div>'
     $('.chart-title').html(title02);
   }
-  if(dataSelect.value=='data3'){
+  if (dataSelect.value == 'data3') {
     let title03 = '<div class="notes"><p>Note: Figures are the number of male students enrolled per female student</p></div>'
     $('.chart-title').html(title03);
   }
-  if(dataSelect.value=='data4'){
+  if (dataSelect.value == 'data4') {
     let title04 = '<div class="notes">No. of students</div>'
     $('.chart-title').html(title04);
   }
-  if(dataSelect.value=='data5'){
+  if (dataSelect.value == 'data5') {
     let title05 = ' <div class="notes">figures in times<p>Note: ROI is calculated as average annual domestic salary/Course fees (Tuition fee + Other fees) for the entire course</p></div>'
     $('.chart-title').html(title05);
   }
