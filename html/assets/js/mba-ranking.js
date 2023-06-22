@@ -296,11 +296,15 @@ async function mbaRankingInit() {
     columns: [
       {
         render: (data, type, row) => {
-          return `<div class="school-detail"><div class="d-flex ai-top jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          return `<div class="school-detail"><div class="d-flex ai-top jc-space-b"><div class="d-flex ai-center"><svg class="rank desktop" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_221_6253)"><path d="M0 0.5V32.6104H51.791L42.8895 16.5552L51.791 0.5H0Z" fill="#D3C375"/><path d="M0 28.8757V29.6225H50.1726L49.5039 28.8757H0Z" fill="white"/>
             <path d="M0 4.23308H49.506L50.1726 3.48633H0V4.23308Z" fill="white"/>
             <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" text-anchor="middle" alignment-baseline="middle" font-family="Open Sans" font-size="14px" font-weight="bold" letter-spacing="0.01em" x="1" y="16"><tspan>${row.rank}</tspan></text>
-            </g><defs><clipPath id="clip0_221_6253"><rect width="51.791" height="32.1104" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg><h5>${row.institute}<br><span>${row.program_name}</span></h5></div><span class="badge">${row.sector}</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score}</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(row.score)}%"></div></div></div></div> `
+            </g><defs><clipPath id="clip0_221_6253"><rect width="51.791" height="32.1104" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg>
+            
+            <svg class="rank mobile" width="33" height="52" viewBox="0 0 33 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_279_142)"><path d="M32.1104 -6.10352e-05L-9.53674e-05 -6.24387e-05L-9.76313e-05 51.791L16.0551 42.8894L32.1103 51.791L32.1104 -6.10352e-05Z" fill="#D3C375" /> <path d="M3.73438 -6.10352e-05L2.98762 -6.10678e-05L2.98762 50.1725L3.73437 49.5039L3.73438 -6.10352e-05Z" fill="white" /> <path d="M28.3773 -6.10678e-05L28.3773 49.506L29.124 50.1725L29.124 -6.10352e-05L28.3773 -6.10678e-05Z" fill="white" /><text fill="#1F1C24"stroke-width="0.5"xml:space="preserve" style="white-space: initial" font-family="Open Sans" font-size="14" font-weight="bold" letter-spacing="0.01em" x="15" y="29.2901" text-anchor="middle"><tspan>${row.rank}</tspan></text> </g><defs><clipPath id="clip0_279_142"><rect width="51.791" height="32.1104" fill="white" transform="translate(32.1104 -6.10352e-05) rotate(90)" /></clipPath></defs></svg>
+            <h5>${row.institute}<br><span>${row.program_name}</span></h5></div><span class="badge">${row.sector}</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score}</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(row.score)}%"></div></div></div></div> `
         }
       },
     ],
