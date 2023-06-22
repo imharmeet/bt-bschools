@@ -84,8 +84,6 @@ async function reportInit() {
       }
     }
 
-  
-    
     var myChart03 = new Chart(ctx03, {
       type: 'line',
       data: {
