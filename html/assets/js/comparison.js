@@ -171,7 +171,7 @@ async function comparisonInit() {
       const years = _.uniq(data.map(d => +d.year));
       // ascending order
       years.sort((a, b) => a - b);
-      console.log(years)
+      // console.log(years)
       // if (bank1AllYears[0].group_def.toString().toLowerCase() !== bank1AllYears[0].group_type.toString().toLowerCase()) {
       //     d3.select('#comparison-chart #select1-comparison-help').text(bank1AllYears[0].group_def);
       // } else {
@@ -329,7 +329,7 @@ async function comparisonInit() {
                   y: {
                       beginAtZero: true,
                       color: '#7D7B80',
-                      max: selectedTab.maxValue,
+                      // max: selectedTab.maxValue,
                       grid: {
                         display: true,
                         color: '#F5F4F5',
@@ -339,7 +339,7 @@ async function comparisonInit() {
                         display: true,
                         fontSize: 15,
                       },
-                      stacked: false,
+                      stacked: true,
                       display:true,
                       ticks: {
                           crossAlign:"far",

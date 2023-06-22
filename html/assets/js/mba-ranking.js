@@ -338,18 +338,20 @@ async function mbaRankingInit() {
   });
 
   $('#one-mba').on('click', (e) => {
-    e.preventDefault()
+    
     $('.ranking-data-wrapper').addClass('d-none');
     $('.ranking-data-wrapper.ex-mba').removeClass('d-none');
     $('#ex-prog').addClass('d-none');
     $('#one-prog').removeClass('d-none');
+    e.stopPropagation()
   })
   $('#ex-mba').on('click', (e) => {
-    e.preventDefault()
+   
     $('.ranking-data-wrapper').removeClass('d-none');
     $('.ranking-data-wrapper.ex-mba').addClass('d-none');
     $('#ex-prog').removeClass('d-none');
     $('#one-prog').addClass('d-none');
+    e.stopPropagation()
   })
 
 }

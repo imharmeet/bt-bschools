@@ -74,7 +74,7 @@ async function reportInit() {
     gradient1.addColorStop(1, 'Transparent');
 
     // Add margin below the labels
-    const plugin = {
+    const marginBottom = {
       beforeInit(chart) {
         const originalFit = chart.legend.fit;
         chart.legend.fit = function fit() {
@@ -84,7 +84,51 @@ async function reportInit() {
       }
     }
 
+    const tooltip = {
+			beforeRender: function (chart) {
+				if (chart.config.options.showAllTooltips) {
+					// create an array of tooltips
+					// we can't use the chart tooltip because there is only one tooltip per chart
+					chart.pluginTooltips = [];
+					chart.config.data.datasets.forEach(function (dataset, i) {
+						chart.getDatasetMeta(i).data.forEach(function (sector, j) {
+							chart.pluginTooltips.push(new Chart.Tooltip({
+								_chart: chart.chart,
+								_chartInstance: chart,
+								_data: chart.data,
+								_options: chart.options,
+								_active: [sector]
+							}, chart));
+						});
+					});
 
+					// turn off normal tooltips
+					chart.options.tooltips.enabled = false;
+				}
+			},
+			afterDraw: function (chart, easing) {
+				if (chart.config.options.showAllTooltips) {
+					// we don't want the permanent tooltips to animate, so don't do anything till the animation runs atleast once
+					if (!chart.allTooltipsOnce) {
+						if (easing !== 1)
+							return;
+						chart.allTooltipsOnce = true;
+					}
+
+					// turn on tooltips
+					chart.options.tooltips.enabled = true;
+					Chart.helpers.each(chart.pluginTooltips, function (tooltip) {
+						tooltip.initialize();
+						tooltip.update();
+						// we don't actually need this since we are not animating tooltips
+						tooltip.pivot();
+						tooltip.transition(easing).draw();
+					});
+					chart.options.tooltips.enabled = false;
+				}
+			}
+		}
+    
     var myChart03 = new Chart(ctx03, {
       type: 'line',
       data: {
@@ -142,39 +186,44 @@ async function reportInit() {
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: {
-          datalabels: {
-            anchor: 'end',
-            align: 'top',
-            color: '#1F1C24',
-            font: {
-              weight: 'bold',
-              size: 14,
-            }
-          },
-          legend: {
-            display: true,
-            position: 'top',
-            align: "start",
-            padding: 0,
-            labels: {
-              color: '#555359',
-              usePointStyle: true,
-              padding: 26,
-              font: {
-                size: 14,
-                weight: 400,
-              }
-            },
-          }
+        tooltips:{
+        	showAllTooltips: true
         },
+      
+        // plugins: {
+        //   datalabels: {
+        //     anchor: 'end',
+        //     align: 'top',
+        //     color: '#1F1C24',
+        //     font: {
+        //       weight: 'bold',
+        //       size: 14,
+        //     }
+        //   },
+        //   legend: {
+        //     display: true,
+        //     position: 'top',
+        //     align: "start",
+        //     padding: 0,
+        //     labels: {
+        //       color: '#555359',
+        //       usePointStyle: true,
+        //       padding: 26,
+        //       font: {
+        //         size: 14,
+        //         weight: 400,
+        //       }
+        //     },
+        //   }
+        // },
         tension: .3,
         scales: {
           y: {
+            beginAtZero: true,
             ticks: {
-              beginAtZero: true,
+            
               font: {
-                size: 16,
+                size: 15,
                 weight: '600',
               }
             },
@@ -214,7 +263,7 @@ async function reportInit() {
 
         }
       },
-      plugins: [ChartDataLabels, plugin],
+      plugins: [marginBottom,tooltip],
     });
     myChart03.update();
 
