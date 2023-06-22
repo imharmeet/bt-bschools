@@ -288,18 +288,18 @@ async function mbaRankingInit() {
       searchPlaceholder: "Search here",
       search: "",
       paginate: {
-        next: '<img src="assets/img/right-arrow-dark.png" class="arrow right">',
-        previous: '<img src="assets/img/right-arrow-dark.png" class="arrow left">',
+        next: '<img src="https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/right-arrow-dark.png" class="arrow right">',
+        previous: '<img src="https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/right-arrow-dark.png" class="arrow left">',
       },
     },
     data: oneYearSchools,
     columns: [
       {
         render: (data, type, row) => {
-          return `<div class="school-detail"><div class="d-flex ai-center jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          return `<div class="school-detail"><div class="d-flex ai-top jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_221_6253)"><path d="M0 0.5V32.6104H51.791L42.8895 16.5552L51.791 0.5H0Z" fill="#D3C375"/><path d="M0 28.8757V29.6225H50.1726L49.5039 28.8757H0Z" fill="white"/>
             <path d="M0 4.23308H49.506L50.1726 3.48633H0V4.23308Z" fill="white"/>
-            <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" text-anchor="middle" alignment-baseline="middle" font-family="Open Sans" font-size="14px" font-weight="bold" letter-spacing="0.01em"><tspan x="-1.76913" y="14.4312">${row.rank}</tspan></text>
+            <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" text-anchor="middle" alignment-baseline="middle" font-family="Open Sans" font-size="14px" font-weight="bold" letter-spacing="0.01em" x="1" y="16"><tspan>${row.rank}</tspan></text>
             </g><defs><clipPath id="clip0_221_6253"><rect width="51.791" height="32.1104" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg><h5>${row.institute}<br><span>${row.program_name}</span></h5></div><span class="badge">${row.sector}</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score}</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(row.score)}%"></div></div></div></div> `
         }
       },
@@ -319,18 +319,18 @@ async function mbaRankingInit() {
       searchPlaceholder: "Search here",
       search: "",
       paginate: {
-        next: '<img src="assets/img/right-arrow-dark.png" class="arrow right">',
-        previous: '<img src="assets/img/right-arrow-dark.png" class="arrow left">',
+        next: '<img src="https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/right-arrow-dark.png" class="arrow right">',
+        previous: '<img src="https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/right-arrow-dark.png" class="arrow left">',
       },
     },
     data: exMbaSchools,
     columns: [
       {
         render: (data, type, row) => {
-          return `<div class="school-detail"><div class="d-flex ai-center jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          return `<div class="school-detail"><div class="d-flex ai-top jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_221_6253)"><path d="M0 0.5V32.6104H51.791L42.8895 16.5552L51.791 0.5H0Z" fill="#D3C375"/><path d="M0 28.8757V29.6225H50.1726L49.5039 28.8757H0Z" fill="white"/>
               <path d="M0 4.23308H49.506L50.1726 3.48633H0V4.23308Z" fill="white"/>
-              <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" text-anchor="middle" alignment-baseline="middle" font-family="Open Sans" font-size="14px" font-weight="bold" letter-spacing="0.01em"><tspan x="-1.76913" y="14.4312">${row.rank}</tspan></text>
+              <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" text-anchor="middle" alignment-baseline="middle" font-family="Open Sans" font-size="14px" font-weight="bold" letter-spacing="0.01em" x="1" y="16"><tspan>${row.rank}</tspan></text>
               </g><defs><clipPath id="clip0_221_6253"><rect width="51.791" height="32.1104" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg><h5>${row.institute}<br><span>${row.program_name}</span></h5></div><span class="badge">${row.sector}</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score}</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(row.score)}%"></div></div></div></div> `
         }
       },
@@ -359,7 +359,7 @@ mbaRankingInit()
 
 
 async function rankingInit() {
-  let rankingData = await d3.csv("assets/data/report.csv");
+  let rankingData = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
   const table = d3.select('.ranking-data .ranking-data-wrapper').append('table').attr('id', 'ranking-table').attr('class', 'full-width')
   const thead = table.append('thead')
   const tbody = table.append('tbody')
@@ -387,18 +387,18 @@ async function rankingInit() {
       searchPlaceholder: "Search here",
       search: "",
       paginate: {
-        next: '<img src="assets/img/right-arrow.png" class="arrow right">',
-        previous: '<img src="assets/img/right-arrow.png" class="arrow left">',
+        next: '<img src="https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/right-arrow.png" class="arrow right">',
+        previous: '<img src="https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/right-arrow.png" class="arrow left">',
       },
     },
     data: rankingData,
     columns: [
       {
         render: (data, type, row) => {
-          return `<div class="school-detail"><div class="d-flex ai-center jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          return `<div class="school-detail"><div class="d-flex ai-top jc-space-b"><div class="d-flex ai-center"><svg class="rank" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_221_6253)"><path d="M0 0.5V32.6104H51.791L42.8895 16.5552L51.791 0.5H0Z" fill="#D3C375"/><path d="M0 28.8757V29.6225H50.1726L49.5039 28.8757H0Z" fill="white"/>
             <path d="M0 4.23308H49.506L50.1726 3.48633H0V4.23308Z" fill="white"/>
-            <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" text-anchor="middle" alignment-baseline="middle" font-family="Open Sans" font-size="14px" font-weight="bold" letter-spacing="0.01em"><tspan x="-1.76913" y="14.4312">${row.rank}</tspan></text>
+            <text transform="translate(19.7129 7.40234)" fill="#1F1C24" xml:space="preserve" style="white-space: pre" text-anchor="middle" alignment-baseline="middle" font-family="Open Sans" font-size="14px" font-weight="bold" letter-spacing="0.01em" x="1" y="16"><tspan>${row.rank}</tspanx=></text>
             </g><defs><clipPath id="clip0_221_6253"><rect width="51.791" height="32.1104" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg>
             <h5>${row.institute}</h5></div><span class="badge">${changeName(row.sector)} </span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score}</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(row.score)}%"></div></div></div></div> `
         }
