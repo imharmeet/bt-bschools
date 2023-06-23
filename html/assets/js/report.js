@@ -141,10 +141,10 @@ async function reportInit() {
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        tooltips:{
-        	showAllTooltips: true
+        tooltips: {
+          showAllTooltips: true
         },
-      
+
         // plugins: {
         //   datalabels: {
         //     anchor: 'end',
@@ -176,7 +176,7 @@ async function reportInit() {
           y: {
             beginAtZero: true,
             ticks: {
-            
+
               font: {
                 size: 15,
                 weight: '600',
@@ -226,6 +226,3 @@ async function reportInit() {
 }
 
 reportInit();
-
-
-

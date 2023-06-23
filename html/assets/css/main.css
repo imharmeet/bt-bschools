@@ -1545,10 +1545,13 @@ body #bt-footer .toprow ul.social li svg {
         position: relative;
     }
 
-    #over-years-chart {
+    /* #over-years-chart {
         width: 94% !important;
         height: 45% !important;
         object-fit: cover;
+    } */
+    #chart-container {
+        min-height: 400px;
     }
 
     #myChart04 {
