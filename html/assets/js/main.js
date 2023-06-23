@@ -479,22 +479,22 @@ dataSelect.addEventListener('change', function () {
     datasets = [
       {
         label: '2022-23',
-        data: [2.3, 2.1, 2.2, 2.1],
+        data: [2.3, 2, 2, 1.6],
         backgroundColor: '#37749B',
       },
       {
         label: '2021-22',
-        data: [2, 1.9, 2.1, 2.3],
+        data: [2.1, 1.9, 1.9, 1.6],
         backgroundColor: '#549EA3',
       },
       {
         label: '2020-21',
-        data: [2, 1.9, 2, 2],
+        data: [2.2, 2.1, 2, 1.6],
         backgroundColor: '#89C597',
       },
       {
         label: '2019-20',
-        data: [1.6, 1.6, 1.6, 1.7],
+        data: [2.1, 2.3, 2, 1.7],
         backgroundColor: '#BEE296',
       }
     ];
@@ -505,22 +505,22 @@ dataSelect.addEventListener('change', function () {
     datasets = [
       {
         label: '2023',
-        data: [438, 423, 397, 413],
+        data: [438, 373, 286, 233],
         backgroundColor: '#37749B',
       },
       {
         label: '2022',
-        data: [373, 377, 369, 340],
+        data: [423, 377, 291, 240],
         backgroundColor: '#549EA3',
       },
       {
         label: '2021',
-        data: [286, 291, 285, 264],
+        data: [397, 369, 285, 235],
         backgroundColor: '#89C597',
       },
       {
         label: '2020',
-        data: [233, 240, 235, 226],
+        data: [413, 340, 264, 226],
         backgroundColor: '#BEE296',
       }
     ];
@@ -546,7 +546,7 @@ dataSelect.addEventListener('change', function () {
       },
       {
         label: '2020',
-        data: [1.2, .95, 0.81, 0.84],
+        data: [1.2, 0.95, 0.81, 0.84],
         backgroundColor: '#BEE296',
       }
     ];

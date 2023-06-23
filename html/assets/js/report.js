@@ -18,6 +18,7 @@ async function reportInit() {
 
   const select1 = $("#select1-report-chart").select2({
     data: schoolNames,
+    maximumSelectionLength: 1,
     placeholder: 'Search School  ',
 
   });

@@ -242,7 +242,12 @@ body {
     padding: 3px 8px 3px 0;
     letter-spacing: 0.4px;
 }
-
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display{
+    font-size: 12px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    top: 2px;
+}
 .methodology-quote .cover-title h2 {
     padding-right: 20px;
 }

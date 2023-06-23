@@ -4,38 +4,44 @@ const comparisonTabs = [
         name: 'Overall (1,000)',
         field: 'score',
         selected: true,
-        maxValue: 1000
+        maxValue: 1000,
+        text:'Overall Score'
     },
     {
         name: 'Placement (250)',
         field: 'placement_score',
         selected: false,
-        maxValue: 250
+        maxValue: 250,
+        text:'Placement Performance Score'
     },
     {
         name: 'Learning (250)',
         field: 'learning_exp',
         selected: false,
-        maxValue: 250
+        maxValue: 250,
+        text:'Learning Experience Score'
     },
     {
         name: 'Living (150)',
         field: 'living_exp',
         selected: false,
-        maxValue: 150
+        maxValue: 150,
+        text:'Living Experience Score'
     },
 
     {
         name: 'Selection (150)',
         field: 'selection_process',
         selected: false,
-        maxValue: 150
+        maxValue: 150,
+        text:'Selection Process, Governance & Establishment Score'
     },
     {
         name: 'Future (200)',
         field: 'future',
         selected: false,
-        maxValue: 200
+        maxValue: 200,
+        text:'Future Orientation Score'
     },
 
 ];
@@ -138,15 +144,15 @@ async function comparisonInit() {
     // institute1 = first institute in the list
     bank1 = data[0];
     // institute2 = second institute in the list
-    bank2 = data[1];
+    bank2 = data[6];
     // institute3 = third institute in the list
-    bank3 = data[2];
+    bank3 = data[7];
 
     // trigger select 
     select1.val(bank1.institute).trigger('change');
     select2.val(bank2.institute).trigger('change');
     select3.val(bank3.institute).trigger('change');
-
+       
     drawChart();
 
     function drawChart() {
@@ -164,7 +170,6 @@ async function comparisonInit() {
         bank1GroupedByYears = _.groupBy(bank1AllYears, 'year');
         bank2GroupedByYears = _.groupBy(bank2AllYears, 'year');
         bank3GroupedByYears = _.groupBy(bank3AllYears, 'year');
-
         // get selected tab
         const selectedTab = comparisonTabs.filter(d => d.selected)[0];
 
@@ -212,73 +217,61 @@ async function comparisonInit() {
         // draw chart
         const ctx = document.getElementById('myChart').getContext('2d');
 
-        const colors = {
-            yellow: {
-                default: "rgba(226, 158, 55, 1)",
-                half: "rgba(226, 158, 55, 0.2)",
-                zero: "rgba(226, 158, 55, 0)"
-            },
-            blue: {
-                default: "rgba(65, 145, 149, 1)",
-                half: "rgba(65, 145, 149, 0.2)",
-                zero: "rgba(65, 145, 149, 0)"
-            },
-            red: {
-                default: "rgba(160, 47, 31, 1)",
-                half: "rgba(160, 47, 31, 0.2)",
-                zero: "rgba(160, 47, 31, 0)"
+        // const colors = {
+        //     yellow: {
+        //         default: "rgba(226, 158, 55, 1)",
+        //         half: "rgba(226, 158, 55, 0.2)",
+        //         zero: "rgba(226, 158, 55, 0)"
+        //     },
+        //     blue: {
+        //         default: "rgba(65, 145, 149, 1)",
+        //         half: "rgba(65, 145, 149, 0.2)",
+        //         zero: "rgba(65, 145, 149, 0)"
+        //     },
+        //     red: {
+        //         default: "rgba(160, 47, 31, 1)",
+        //         half: "rgba(160, 47, 31, 0.2)",
+        //         zero: "rgba(160, 47, 31, 0)"
 
+        //     },
+        // };
+
+
+        const colors = {
+            grey: {
+                default: "rgba(199, 199, 199, 0.32)",
+                zero: "rgba(255, 255, 255, 0)"
             },
         };
-
+        
 
         var gradient = ctx.createLinearGradient(0, 0, 0, 1000);
-        gradient.addColorStop(0, colors.yellow.default);
-        gradient.addColorStop(0.25, colors.yellow.zero);
-        gradient.addColorStop(1, colors.yellow.zero);
+        gradient.addColorStop(0, colors.grey.default);
+        gradient.addColorStop(0.25, colors.grey.zero);
+        gradient.addColorStop(1, colors.grey.zero);
 
-        var gradient1 = ctx.createLinearGradient(0, 0, 0, 1000);
-        gradient1.addColorStop(0, colors.blue.default);
-        gradient1.addColorStop(0.25, colors.blue.zero);
-        gradient1.addColorStop(1, colors.blue.zero);
-
-
-        var gradient2 = ctx.createLinearGradient(0, 0, 0, 1000);
-        gradient2.addColorStop(0, colors.red.default);
-        gradient2.addColorStop(0.25, colors.red.zero);
-        gradient2.addColorStop(1, colors.red.zero);
+        console.log(selectedTab.selected)
 
 
 
-        // let  fill, backgroundColor;
-        // console.log(selectedTab.maxValue)
-        // if (selectedTab.field === 'score') {
-        //     chartType = 'line';
-        //     fill = true;
-        //     backgroundColor = 'solid';
-        // } else {
-        //     chartType = selectedTab.chartType;
-        //     fill = false;
-        //     backgroundColor = 'solid';
-        // }
 
         let bankDataSet = [{
             label: bank1.institute,
             data: bank1Data.map(d => d.value),
-            backgroundColor: gradient2,
-            borderColor: '#A02F1F',
+            backgroundColor: gradient,
+            borderColor: '#F0B32F',
             spanGaps: true,
             pointStyle: 'circle',
             pointRadius: 5,
             pointHoverRadius: 7,
-            pointBackgroundColor: '#A02F1F',
+            pointBackgroundColor: '#F0B32F',
             fill: true,
 
         },
         {
             label: bank2.institute,
             data: bank2Data.map(d => d.value),
-            backgroundColor: gradient1,
+            backgroundColor: gradient,
             borderColor: '#419195',
             fill: true,
             spanGaps: true,
@@ -292,13 +285,13 @@ async function comparisonInit() {
             label: bank3.institute,
             data: bank3Data.map(d => d.value),
             backgroundColor: gradient,
-            borderColor: '#F0B32F',
+            borderColor: '#A02F1F',
             fill: true,
             spanGaps: true,
             pointStyle: 'circle',
             pointRadius: 5,
             pointHoverRadius: 7,
-            pointBackgroundColor: '#F0B32F'
+            pointBackgroundColor: '#A02F1F'
 
         },
 
@@ -308,7 +301,6 @@ async function comparisonInit() {
         // if (bank1Data[0].value > bank2Data[0].value) {
         //     bankDataSet = bankDataSet.reverse();
         // }
-
 
 
         myChart = new Chart(ctx, {
@@ -383,7 +375,7 @@ async function comparisonInit() {
                     title: {
                         padding: 27,
                         display: true,
-                        text: 'Overall Score',
+                        text: selectedTab.text,
                         align: 'start',
                         font: {
                             weight: 400,
