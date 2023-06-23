@@ -18,7 +18,6 @@ async function reportInit() {
 
   const select1 = $("#select1-report-chart").select2({
     data: schoolNames,
-    maximumSelectionLength: 1,
     placeholder: 'Search School  ',
 
   });
@@ -142,42 +141,42 @@ async function reportInit() {
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        tooltips:{
-        	showAllTooltips: true
+        tooltips: {
+          showAllTooltips: true
         },
-      
-        // plugins: {
-        //   datalabels: {
-        //     anchor: 'end',
-        //     align: 'top',
-        //     color: '#1F1C24',
-        //     font: {
-        //       weight: 'bold',
-        //       size: 14,
-        //     }
-        //   },
-        //   legend: {
-        //     display: true,
-        //     position: 'top',
-        //     align: "start",
-        //     padding: 0,
-        //     labels: {
-        //       color: '#555359',
-        //       usePointStyle: true,
-        //       padding: 26,
-        //       font: {
-        //         size: 14,
-        //         weight: 400,
-        //       }
-        //     },
-        //   }
-        // },
+
+        plugins: {
+          datalabels: {
+            anchor: 'end',
+            align: 'top',
+            color: '#1F1C24',
+            font: {
+              weight: 'bold',
+              size: 14,
+            }
+          },
+          legend: {
+            display: true,
+            position: 'top',
+            align: "start",
+            padding: 0,
+            labels: {
+              color: '#555359',
+              usePointStyle: true,
+              padding: 26,
+              font: {
+                size: 13,
+                weight: 400,
+              }
+            },
+          }
+        },
         tension: .3,
         scales: {
           y: {
             beginAtZero: true,
             ticks: {
-            
+
               font: {
                 size: 15,
                 weight: '600',
@@ -227,6 +226,3 @@ async function reportInit() {
 }
 
 reportInit();
-
-
-
