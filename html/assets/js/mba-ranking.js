@@ -455,16 +455,13 @@ async function rankingInit() {
 
   $("#select-ranking-year").on("change", function (e) {
     const filterByYear = $(this).val();
-    console.log(filterByYear);
     yearFilterValue = filterByYear;
     filteredData();
   });
 
   $("#select-ranking-sector").on("change", function (e) {
     const filterBySector = $(this).val();
-    console.log(filterBySector);
     sectorFilterValue = filterBySector;
-    console.log(filteredData());
   });
 
   const thead = table.append("thead");
@@ -528,7 +525,6 @@ async function rankingInit() {
 
   const filteredData = () => {
     filterRankingData = rankingData.filter((d) => d.year === yearFilterValue);
-    console.log("after filtering by year:", filterRankingData);
     if (sectorFilterValue === "All") {
       filterRankingData = filterRankingData.filter(
         (d) => d.sector === "G" || d.sector === "P"
@@ -590,7 +586,6 @@ async function rankingInit() {
       ],
     });
 
-    console.log("after filtering by sector:", filterRankingData);
     return filterRankingData;
   };
 
