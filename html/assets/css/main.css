@@ -1781,6 +1781,9 @@ body #bt-footer .toprow ul.social li svg {
 
     .chart-data h5 span {
         font-size: 12px;
+        line-height: 16px;
+        display: block;
+        margin-top: 5px;
     }
 
     .report-card .select2-container--default .select2-selection--single .select2-selection__rendered {

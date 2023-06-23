@@ -18,7 +18,7 @@ async function reportInit() {
 
   const select1 = $("#select1-report-chart").select2({
     data: schoolNames,
-    placeholder: 'Search School  ',
+    placeholder: 'Indian Institute of Management Calcutta (IIM-C)',
 
   });
 
@@ -174,11 +174,12 @@ async function reportInit() {
         tension: .3,
         scales: {
           y: {
+            max: 1000,
             beginAtZero: true,
             ticks: {
 
               font: {
-                size: 15,
+                size: 12,
                 weight: '600',
               }
             },
@@ -204,7 +205,7 @@ async function reportInit() {
             ticks: {
               beginAtZero: true,
               font: {
-                size: 16,
+                size: 12,
                 weight: '600',
               }
             },

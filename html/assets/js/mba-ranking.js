@@ -341,23 +341,22 @@ async function mbaRankingInit() {
     ],
   });
 
-  $('#one-mba').on('click', (e) => {
+  $('#one-mba').on('change', (e) => {
 
-    $('.ranking-data-wrapper').addClass('d-none');
+    $('.ranking-data-wrapper.yr-mba').addClass('d-none');
     $('.ranking-data-wrapper.ex-mba').removeClass('d-none');
     $('#ex-prog').addClass('d-none');
     $('#one-prog').removeClass('d-none');
     e.stopPropagation()
   })
-  $('#ex-mba').on('click', (e) => {
+  $('#ex-mba').on('change', (e) => {
 
-    $('.ranking-data-wrapper').removeClass('d-none');
+    $('.ranking-data-wrapper.yr-mba').removeClass('d-none');
     $('.ranking-data-wrapper.ex-mba').addClass('d-none');
     $('#ex-prog').removeClass('d-none');
     $('#one-prog').addClass('d-none');
-    e.stopPropagation()
+    // e.stopPropagation()
   })
-
 }
 
 mbaRankingInit()
@@ -365,13 +364,13 @@ mbaRankingInit()
 
 
 async function rankingInit() {
-  let rankingData = await d3.csv("assets/data/report.csv");
+  let rankingData = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
   const table = d3.select('.ranking-data .ranking-data-wrapper').append('table').attr('id', 'ranking-table').attr('class', 'full-width')
   const thead = table.append('thead')
   const tbody = table.append('tbody')
   thead.append('tr').append('th')
   const rows = tbody.append('tr').append('td')
-  let filterRankingData = rankingData.filter(d=>d.year==='2023')
+  let filterRankingData = rankingData.filter(d => d.year === '2023')
   let itemsPerPage = 5;
 
   function insertDecimal(num) {
