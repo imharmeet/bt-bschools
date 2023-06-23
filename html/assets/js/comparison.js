@@ -5,28 +5,28 @@ const comparisonTabs = [
         field: 'score',
         selected: true,
         maxValue: 1000,
-        text:'Overall Score'
+        text: 'Overall Score'
     },
     {
         name: 'Placement (250)',
         field: 'placement_score',
         selected: false,
         maxValue: 250,
-        text:'Placement Performance Score'
+        text: 'Placement Performance Score'
     },
     {
         name: 'Learning (250)',
         field: 'learning_exp',
         selected: false,
         maxValue: 250,
-        text:'Learning Experience Score'
+        text: 'Learning Experience Score'
     },
     {
         name: 'Living (150)',
         field: 'living_exp',
         selected: false,
         maxValue: 150,
-        text:'Living Experience Score'
+        text: 'Living Experience Score'
     },
 
     {
@@ -34,14 +34,14 @@ const comparisonTabs = [
         field: 'selection_process',
         selected: false,
         maxValue: 150,
-        text:'Selection Process, Governance & Establishment Score'
+        text: 'Selection Process, Governance & Establishment Score'
     },
     {
         name: 'Future (200)',
         field: 'future',
         selected: false,
         maxValue: 200,
-        text:'Future Orientation Score'
+        text: 'Future Orientation Score'
     },
 
 ];
@@ -152,7 +152,7 @@ async function comparisonInit() {
     select1.val(bank1.institute).trigger('change');
     select2.val(bank2.institute).trigger('change');
     select3.val(bank3.institute).trigger('change');
-       
+
     drawChart();
 
     function drawChart() {
@@ -243,7 +243,7 @@ async function comparisonInit() {
                 zero: "rgba(255, 255, 255, 0)"
             },
         };
-        
+
 
         var gradient = ctx.createLinearGradient(0, 0, 0, 1000);
         gradient.addColorStop(0, colors.grey.default);
@@ -310,6 +310,8 @@ async function comparisonInit() {
                 datasets: bankDataSet
             },
             options: {
+                responsive: true,
+                maintainAspectRatio: false,
                 tension: 0.1,
                 legend: {
                     labels: {
@@ -387,8 +389,6 @@ async function comparisonInit() {
                         display: false
                     }
                 },
-                responsive: true,
-                maintainAspectRatio: true
             }
         });
     }

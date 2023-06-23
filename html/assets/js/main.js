@@ -201,23 +201,38 @@ var myChart02 = new Chart(ctx02, {
     plugins: {
       title: {
         display: true,
-        //text: 'No. of Students',
+        text: 'No. of Students',
         align: 'start',
+        color: '#A3A3A3',
         font: {
           weight: 400,
           size: 16,
         },
+        padding: {
+          bottom: 20
+        },
       },
       legend: {
         display: true,
-        position: 'top',
+        position: 'bottom',
         padding: 30,
         labels: {
+          generateLabels: function (chart) {
+            const originalLabels = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+            originalLabels.forEach(label => {
+              if (label.datasetIndex === 0) { // Modify labels for the first dataset
+                label.fillStyle = '#FCDA29'; // Set the desired color for the legend dot point
+              } else {
+                label.fillStyle = '#6DB49B';
+              }
+            });
+            return originalLabels;
+          },
           color: '#FFFFFF',
           usePointStyle: true,
           padding: 20,
           font: {
-            size: 14,
+            size: 13,
             weight: 400,
           }
         },
@@ -354,9 +369,9 @@ const chart = new Chart(ctx04, {
         labels: {
           color: '#7D7B80',
           usePointStyle: true,
-          padding: 40,
+          padding: 20,
           font: {
-            size: 16,
+            size: 14,
             weight: 400,
           }
         },
@@ -367,7 +382,7 @@ const chart = new Chart(ctx04, {
         ticks: {
           beginAtZero: true,
           font: {
-            size: 16,
+            size: 14,
             weight: '600',
           }
         },
@@ -390,15 +405,15 @@ const chart = new Chart(ctx04, {
             size: 12,
             weight: '600',
           },
-        //   callback: function (value, index, values) {
-        //     // const valueType = selectedTab.type;
-        //     // let value2 = value.toString() 
-        //     if (dataSelect.value == 'data1') {
-        //        return truncate(value);
-        //     } else{
+          //   callback: function (value, index, values) {
+          //     // const valueType = selectedTab.type;
+          //     // let value2 = value.toString() 
+          //     if (dataSelect.value == 'data1') {
+          //        return truncate(value);
+          //     } else{
 
-        //     }
-        // }
+          //     }
+          // }
         },
         display: true,
         grid: {
@@ -560,9 +575,9 @@ dataSelect.addEventListener('change', function () {
   chart.data.datasets = datasets;
   // plugins: [marginBt];
   chart.update();
-  
+
 });
 function formatCurrency(val) {
-  
+
   return splice(val);
 }
