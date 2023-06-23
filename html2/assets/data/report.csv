@@ -1,0 +1,1435 @@
+institute,rank,score,state,zone,sector,year,learning_exp,living_exp,placement_score,selection_process,future
+"Indian Institute of Management, Calcutta",1,899.9,West Bengal,East,G,2023,213.9,143.5,227.6,135.4,179.5
+"Indian Institute of Management, Ahmedabad",2,897.1,Gujarat,West,G,2023,226,141.3,226.8,135.5,167.5
+"Indian Institute of Management, Bangalore",3,892.3,Karnataka,South,G,2023,216.9,144.3,231.1,130.7,169.3
+"Indian Institute of Management, Lucknow",4,861.8,Uttar Pradesh,North,G,2023,204.3,138.9,217.5,132.8,168.3
+"S. P. Jain Institute of Management and Research, Mumbai",5,856.6,Maharashtra,West,P,2023,213.7,133.3,206,124.4,179.2
+"Indian Institute of Management, Indore",6,847.3,Madhya Pradesh,West,G,2023,203.3,137.1,201.1,127,178.8
+"Management Development Institute (MDI), Gurgaon",7,811,Haryana,North,P,2023,196,132.3,203.8,120.2,158.7
+"Faculty of Management Studies (FMS), University of Delhi, New Delhi",8,794.8,Delhi,North,G,2023,196.1,131.3,212.7,121.7,133
+"Indian Institute of Foreign Trade, New Delhi",9,789.6,Delhi,North,G,2023,189.5,129.7,203.8,115.6,151
+"SVKM's NMIMS, School of Business Management, Mumbai",10,775,Maharashtra,West,P,2023,185.1,129.5,200,115.4,145
+"International Management Institute (IMI), New Delhi",11,773.1,Delhi,North,P,2023,187.3,126.7,187.3,115.3,156.5
+"Indian Institute of Management, Shillong",12,762.7,Meghalaya,East,G,2023,185.1,131.8,197.6,111.1,137.1
+"Institute of Management Technology (IMT), Ghaziabad",13,761.5,Uttar Pradesh,North,P,2023,191.8,129.1,181,111.2,148.4
+"Symbiosis Institute of Business Management (SIBM), Pune",14,757.1,Maharashtra,West,P,2023,194,126.9,195.3,106.1,134.8
+"Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",15,756.1,Maharashtra,West,P,2023,181.7,123.6,190.3,114.3,146.2
+"Department of Management Studies, IIT Delhi, New Delhi",16,751.5,Delhi,North,G,2023,185.4,132.8,184.5,119.5,129.3
+"Great Lakes Institute of Management, Chennai",17,751.4,Tamil Nadu,South,P,2023,187.5,129.3,183.4,108.3,142.9
+"Indian Institute of Management, Udaipur",18,751.1,Rajasthan,North,G,2023,186.8,126.6,184,107.3,146.4
+"Indian Institute of Management, Tiruchirappalli",19,750.4,Tamil Nadu,South,G,2023,179.9,128.8,182.7,123.6,135.4
+"Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",20,749.1,Odisha,East,P,2023,182.2,126.4,193.4,117.1,130
+"T. A. Pai Management Institute (TAPMI), Manipal",21,748.4,Karnataka,South,P,2023,178.9,128.2,173,109.3,159
+"Jamnalal Bajaj Institute of Management Studies (JBIMS), Mumbai",22,747,Maharashtra,West,G,2023,188.7,120.1,199.2,113.6,125.4
+"ICFAI Business School, Hyderabad",23,744.8,Telangana,South,P,2023,187.1,126.6,171.7,114.2,145.2
+"Indian Institute of Management, Nagpur",24,740.7,Maharashtra,West,G,2023,184.1,138.3,180.9,112.6,124.8
+"K J Somaiya Institute of Management, Mumbai",25,740.2,Maharashtra,West,P,2023,183.2,126.5,171,108.8,150.7
+"Jagdish Sheth School of Management (JAGSOM), Bengaluru",26,735.7,Karnataka,South,P,2023,187.7,124.2,165.7,106.5,151.6
+"Goa Institute of Management, Sanquelim",27,732.1,Goa,West,P,2023,188,124.9,170.5,112.8,135.9
+"Indian Institute of Management, Kashipur",28,726.2,Uttarakhand,North,G,2023,183.6,126.8,183.6,112.4,119.8
+"Institute of Rural Management, Anand",29,725.9,Gujarat,West,P,2023,175.8,132,178.3,112.6,127.2
+"SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",29,725.9,Karnataka,South,P,2023,179.5,122.9,175,104.9,143.6
+"Birla Institute of Management Technology (BIMTECH), Greater Noida",31,725.3,Uttar Pradesh,North,P,2023,181.9,129,173.4,113,128
+"Department of Industrial and Management Engineering, IIT, Kanpur",32,724.5,Uttar Pradesh,North,G,2023,187.4,121.5,176.3,111.5,127.8
+"Lal Bahadur Shastri Institute of Management, New Delhi",33,722.7,Delhi,North,P,2023,183.6,121.5,173.5,109.6,134.5
+"Indian Institute of Management, Amritsar",34,720.2,Punjab,North,G,2023,178.9,116,177.4,108.7,139.2
+"Sydenham Institute of Management Studies, Research & Entrepreneurship Education (SIMSREE), Mumbai",35,717.7,Maharashtra,West,G,2023,181.1,113,178.7,111.3,133.6
+"Institute of Management, Nirma University, Ahmedabad",36,717.5,Gujarat,West,P,2023,180.6,126.5,169,112.8,128.6
+"National Institute of Agricultural Extension Management (MANAGE), Hyderabad",37,707.6,Telangana,South,G,2023,185.9,128,173.7,100.4,119.6
+"Symbiosis Institute of Operations Management, Nashik",38,705.4,Maharashtra,West,P,2023,179.6,118.3,173.4,108.7,125.4
+"Prin. L.N. Welingkar Institute of Management Development & Research, Mumbai",39,705,Maharashtra,West,P,2023,183.5,108.5,166.4,106.7,139.9
+"Rajagiri Centre for Business Studies, Kochi",40,704.3,Kerala,South,P,2023,180,124.8,158.5,95.2,145.8
+"Symbiosis Institute of International Business (SIIB), Pune",41,700.6,Maharashtra,West,P,2023,183,122.5,169.8,97.6,127.7
+"Loyola Institute of Business Administration (LIBA), Chennai",42,699.8,Tamil Nadu,South,P,2023,183.2,115.3,160.3,107.8,133.2
+"Indian Institute of Management, Sambalpur",43,695.5,Odisha,East,G,2023,176.9,122,172,110,114.6
+"Institute of Management Technology, Nagpur",44,689,Maharashtra,West,P,2023,173.2,126.1,167.4,101,121.3
+"Institute of Public Enterprise (IPE), Hyderabad",45,686.3,Telangana,South,P,2023,181.7,117.8,154.6,107.9,124.3
+Indian Institute of Management Bodh Gaya,46,681.1,Bihar,East,G,2023,179.1,125.5,176.1,112.9,87.5
+"Department of Commerce, Delhi School of Economics, University of Delhi, New Delhi",47,680.8,Delhi,North,G,2023,165.3,123.2,174.4,108.9,109
+"Indian Institute of Forest Management (IIFM), Bhopal",48,675.6,Madhya Pradesh,West,G,2023,180.5,133.3,170,102.7,89.1
+"IILM Institute for Business and Management, Gurugram",49,675.4,Haryana,North,P,2023,175.9,119.2,152.1,99.4,128.8
+"Symbiosis Institute of Digital and Telecom Management, Pune",50,674.4,Maharashtra,West,P,2023,164.5,113.6,169.3,99.8,127.2
+"Shri Dharmasthala Manjunatheshwara Institute for Management Development (SDMIMD), Mysuru",51,668.9,Karnataka,South,P,2023,162,112.2,162,110.9,121.8
+"Balaji Institute of Modern Management (BIMM), Pune",52,665.9,Maharashtra,West,P,2023,159.6,117.8,157.9,107.8,122.8
+"Amity Business School, Amity University, Noida",53,664.9,Uttar Pradesh,North,P,2023,169.2,125.7,151.7,97.7,120.6
+"Institute of Management Studies, Banaras Hindu University",54,664.6,Uttar Pradesh,North,G,2023,168.6,112.7,165.4,101.2,116.7
+"Symbiosis Institute of Business Management, Hyderabad",55,663.7,Telangana,South,P,2023,165.5,117.7,149.2,101.3,130
+"Prin. L.N. Welingkar Institute of Management Development and Research, Bengaluru",56,663.5,Karnataka,South,P,2023,175.2,112.1,148.9,100.6,126.7
+"Department of Management, BITS, Pilani",57,656.7,Rajasthan,North,P,2023,175.5,125,164.3,103.2,88.7
+"SIES College of Management Studies, Navi Mumbai",58,655.5,Maharashtra,West,P,2023,177.3,100.8,157.7,98.6,121.1
+"International Management Institute, Bhubaneswar",59,654.9,Odisha,East,P,2023,165.1,117.3,157.1,98.1,117.3
+"ITM Business School, Navi Mumbai",60,654,Maharashtra,West,P,2023,172.9,117.1,157.2,98.4,108.4
+"VIT Business School, Vellore",60,654,Tamil Nadu,South,P,2023,164.5,115.8,140.6,101.9,131.2
+"SOIL Institute of Management, Gurugram",62,653.5,Haryana,North,P,2023,174.8,113.8,160.1,93.4,111.4
+"International Management Institute (IMI), Kolkata",63,653.4,West Bengal,East,P,2023,160.1,112.7,157.9,99.1,123.6
+"Jagan Institute of Management Studies (JIMS), New Delhi",64,653.3,Delhi,North,P,2023,183.8,94.7,156.5,99.2,119.1
+"School of Business and Management, Christ (Deemed to be University), Bengaluru ",65,651.5,Karnataka,South,P,2023,154.7,109.9,158,103.7,125.2
+"School of Management Studies, National Institute of Technology Calicut",66,649.7,Kerala,South,G,2023,183,125.9,150.4,99.4,91
+"Jaipuria Institute of Management, Lucknow",67,649.4,Uttar Pradesh,North,P,2023,163.3,114.4,154.8,102.3,114.6
+"Indian Institute of Social Welfare and Business Management (IISWBM), Kolkata",68,647.1,West Bengal,East,G,2023,172.7,120.4,158.1,103.7,92.2
+"Pune Institute of Business Management (PIBM), Pune",69,646.5,Maharashtra,West,P,2023,174.5,100.9,153.1,91.9,126.1
+"Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM), Pune",70,645.8,Maharashtra,West,G,2023,177.3,109.8,158.4,97.1,103.2
+"Prestige Institute of Management and Research, Indore",71,644.1,Madhya Pradesh,West,P,2023,164.8,115.7,154.3,95,114.3
+"Institute of Health Management Research, IIHMR University, Jaipur",72,643.2,Rajasthan,North,P,2023,163.3,113.8,156.6,96.4,113.1
+"SCMS Cochin School of Business, Ernakulam",73,642.2,Kerala,South,P,2023,177.6,121.8,146.4,86.4,110
+"Jaipuria Institute of Management, Noida",74,639.4,Uttar Pradesh,North,P,2023,168.1,101.4,150.1,94.1,125.7
+"International School of Business & Media (ISBM), Pune",75,638.8,Maharashtra,West,P,2023,178.7,109.6,158.9,92.7,98.9
+"Symbiosis Centre for Information Technology (SCIT), Pune",76,638.7,Maharashtra,West,P,2023,162.7,103.3,162.8,95.6,114.3
+"Chitkara Business School, Rajpura",77,638.2,Punjab,North,P,2023,173.5,103.6,148.8,81.3,131
+"N. L. Dalmia Institute of Management Studies and Research, Mumbai",78,638.1,Maharashtra,West,P,2023,179.6,98.7,142.6,96,121.2
+"Xavier Institute of Social Service (XISS), Ranchi",79,637,Jharkhand,East,P,2023,156.3,91.8,153.3,107.3,128.3
+"Symbiosis School of Banking and Finance, Pune",80,636.4,Maharashtra,West,P,2023,158,112,159.3,93.2,113.9
+University School of Management Studies,81,630.5,Delhi,North,G,2023,165.5,119,134.2,96.4,115.4
+"Universal Business School, Mumbai",82,628.6,Maharashtra,West,P,2023,172.1,122.5,145.4,76.2,112.4
+"Fortune Institute of International Business (FIIB), New Delhi",83,626.1,Delhi,North,P,2023,169.1,101.7,139.3,100.5,115.5
+International School of Management Excellence,84,625.4,Karnataka,South,P,2023,170.9,113,132.9,93.8,114.8
+"Jaipuria Institute of Management, Jaipur",85,624.6,Rajasthan,North,P,2023,162.6,101.5,141.8,97.5,121.2
+"Institute of Agri Business Management, Bikaner",86,624.3,Rajasthan,North,G,2023,150,124,148.4,89.2,112.7
+"IIEBM, Indus Business School, Pune",86,624.3,Maharashtra,West,P,2023,163.2,106.5,154.9,89.7,110
+Shoolini University of Biotechnology & Management Sciences,88,623.9,Himachal Pradesh,North,P,2023,161.9,115.2,138.6,89.1,119.1
+"Balaji Institute of Management & Human Resource Development, Pune",89,623.5,Maharashtra,West,P,2023,154.1,109.9,152.7,89.8,117
+"Jagannath International Management School, New Delhi",90,622.6,Delhi,North,P,2023,170.8,88.5,146.3,99,118
+Institute of Rural Management,91,621.4,Rajasthan,North,P,2023,178.3,95.4,138.4,97.8,111.5
+"Kristu Jayanti College, Bengaluru ",92,620.1,Karnataka,South,P,2023,151.9,123.4,148.7,86.1,110
+"School of Management, DY Patil (Deemed to be University), Navi Mumbai",93,620,Maharashtra,West,P,2023,154.1,122.7,140,88.7,114.5
+"AIMS School of Business, Bengaluru ",94,619.8,Karnataka,South,P,2023,169.9,105,139.4,87.2,118.3
+"I.T.S School of Management, Ghaziabad",95,619.3,Uttar Pradesh,North,P,2023,162.2,110.4,143.8,87.7,115.2
+"School of Business Studies, Sharda University",96,616.6,Uttar Pradesh,North,P,2023,182.5,119,99.7,88.9,126.5
+"Punjab College of Technical Education, Ludhiana",97,615.4,Punjab,North,P,2023,161,107.5,146.8,84.7,115.4
+"Department of Business Administration, Tezpur University",98,607.9,Assam,East,G,2023,126.1,122.4,149.5,103.6,106.3
+"Jaipuria Institute of Management, Indore",99,607.8,Madhya Pradesh,West,P,2023,162.7,109.7,146.7,86.6,102.1
+"Amity Business School, Gurugram",100,607.7,Haryana,North,P,2023,170.2,121.7,121.2,88.8,105.8
+"Faculty of Management Studies, Manav Rachna International Institute of Research and Studies, Faridabad",101,607.6,Haryana,North,P,2023,177.5,118.2,112.5,98,101.4
+"College of Management, SRM Institute of Science and Technology",102,604.6,Tamil Nadu,South,P,2023,165.3,122.3,129.6,83.7,103.7
+"CMS Business School JAIN (Deemed-to-be University), Bengaluru ",103,601.9,Karnataka,South,P,2023,137.2,112.7,149.5,87.8,114.7
+"School of Management, Hindustan Institute of Technology & Science, Chennai",104,601,Tamil Nadu,South,P,2023,163.4,118.8,124.7,93.6,100.5
+Global Institute of Business Studies (GIBS Business School),105,600.1,Karnataka,South,P,2023,149.4,103,149,80.3,118.4
+"Prestige Institute of Management & Research, Gwalior",106,596.6,Madhya Pradesh,West,P,2023,152.3,111,142.4,91.3,99.6
+"Amity Business School, Gwalior",107,595.8,Madhya Pradesh,West,P,2023,158.6,122.9,137.7,65.5,111.1
+"R.V. Institute of Management, Bengaluru ",108,594.3,Karnataka,South,P,2023,164.3,89,138.4,89.9,112.7
+"Narayana Business School, Ahmedabad",109,591.6,Gujarat,West,P,2023,170.4,100.5,152.1,91.6,77
+"Rungta College of Engineering & Technology, Bhilai",110,591.2,Chhattisgarh,East,P,2023,158,107.7,123.7,90.5,111.3
+"Shri Ram Murti Smarak International Business School, Lucknow",111,590.8,Uttar Pradesh,North,P,2023,157.2,113.9,127.3,90.7,101.7
+"Calcutta Business School, Bishnupur",112,589.6,West Bengal,East,P,2023,143.8,113.3,139.7,77.6,115.2
+"Bharath Institute of Higher Education and Research, Chennai",113,588.8,Tamil Nadu,South,P,2023,151.5,103.8,148.8,90.2,94.5
+"Amity University Chhattisgarh, Raipur",114,588.6,Chhattisgarh,East,P,2023,153.6,117.7,132.4,74.3,110.6
+"Bharati Vidyapeeth University Institute of Mangement and Research, New Delhi",115,588.2,Delhi,North,P,2023,141.5,109,145.9,94.4,97.4
+"Symbiosis Institute of Computer Studies and Research, Pune",116,588.1,Maharashtra,West,P,2023,139.1,111.3,146,91.1,100.6
+"Neville Wadia Institute of Management Studies and Research, Pune",117,587.2,Maharashtra,West,P,2023,145.1,116.3,119.5,91.1,115.2
+"Jaipuria Institute of Management, Ghaziabad",118,587,Uttar Pradesh,North,P,2023,151.1,101.8,145.1,93.5,95.5
+"School of Business, Woxsen University",119,586.1,Telangana,South,P,2023,144.7,124.1,122.8,83.5,111
+"Institute of Insurance and Risk Management (IIRM), Hyderabad",120,585.8,Telangana,South,G,2023,148.3,108.6,149.2,90.9,88.8
+"School of Management, ITM University, Gwalior",121,583.9,Madhya Pradesh,West,P,2023,163.5,108.5,124.1,84.5,103.3
+MET Institute of Management,122,583.4,Tamil Nadu,West,P,2023,151.7,81.3,148,91,111.4
+"Department of Management Studies, Mepco Schlenk Engineering College, Sivakasi",122,583.4,Maharashtra,South,P,2023,160.9,111.2,125.1,91.3,94.9
+"Aurora's Business School, Hyderabad",124,583.1,Telangana,South,P,2023,167.5,97.7,135.5,70.6,111.8
+"Institute of Management Studies, Noida",125,582.9,Uttar Pradesh,North,P,2023,155.3,101,133.5,94.1,99
+"Ajay Kumar Garg Institute of Management, Ghaziabad",126,582.7,Uttar Pradesh,North,P,2023,165.2,106.9,136.1,76.7,97.8
+"Amity Business School, Jaipur",127,582.6,Rajasthan,North,P,2023,159.5,116.9,103.1,89.4,113.7
+"Balaji Institute of Telecom & Management, Pune",128,581.9,Maharashtra,West,P,2023,146.9,112.3,147.8,85.7,89.2
+"School of Management, IMS Unison University, Dehradun",129,581.5,Uttarakhand,North,P,2023,139.6,96,152,83.6,110.3
+"Department of Management Studies, Kongu Engineering College",130,580.9,Tamil Nadu,South,P,2023,164.1,109.3,101.3,98.6,107.6
+"School of Commerce and Management Studies, Dayananda Sagar University",131,580.6,Karnataka,South,P,2023,158.8,116.2,139.6,77.2,88.8
+"Faculty of Management Studies & Research, Aligarh Muslim University, Aligarh",132,578.7,Uttar Pradesh,North,G,2023,157.9,108.7,122,89.3,100.8
+"K L Business School, K L E Foundation (Deemed to be University), Guntur",133,577.8,Andhra Pradesh,South,P,2023,145.1,94.3,143.8,83,111.6
+"ICBM-School of Business Excellence, Hyderabad",133,577.8,Telangana,South,P,2023,157.4,88.7,135.5,88.8,107.4
+"ICFAI Business School, Dehradun",135,574.9,Uttarakhand,North,P,2023,140.9,98,136.2,87.3,112.5
+"Amity Business School, Mumbai",136,574.8,Maharashtra,West,P,2023,155.3,108.3,120.6,74.8,115.8
+"School of Business Studies, Shobhit University, Meerut",137,574.5,Uttar Pradesh,North,P,2023,154.7,111.6,119.4,85.5,103.3
+"School of Management & Commerce, Poornima University, Jaipur",138,570.5,Rajasthan,North,P,2023,152.3,106,137.9,80.6,93.7
+"Bharati Vidyapeeth's Institute of Management Studies and Research, Navi Mumbai",139,570.3,Maharashtra,West,P,2023,151.4,110.5,119.6,94.9,93.9
+"MIT College of Management, Pune",140,569.5,Maharashtra,West,P,2023,154.3,117.6,118,73.5,106.1
+"SCMS School of Technology and Management, Ernakulam",141,569.2,Kerala,South,P,2023,141,96.8,126.3,91.4,113.7
+"Quantum School of Business, Quantum University, Roorkee",142,568.9,Uttarakhand,North,P,2023,148.4,109.6,130.9,89.8,90.2
+International School of Business and Media,143,568.4,Karnataka,South,P,2023,159.4,120.3,145,91,52.7
+"School of Management, MIT World Peace University, Pune",144,567.2,Maharashtra,West,P,2023,118.7,119.1,139.2,85.9,104.3
+"Doon Business School, Dehradun",145,566.9,Uttarakhand,North,P,2023,141.6,107.2,131.7,81.8,104.6
+"Vignana Jyothi Institute of Management, Hyderabad",146,566.3,Telangana,South,P,2023,156.7,97.4,128.7,90.1,93.4
+"School of Management Studies, Reva University, Bengaluru ",147,566.1,Karnataka,South,P,2023,140.7,106.9,134.7,77.6,106.2
+"School of Business, Galgotias University, Greater Noida",148,565.2,Uttar Pradesh,North,P,2023,135.4,101.3,135.8,76.5,116.2
+"Institute of Management & Information Science, Bhubaneswar",149,564.6,Odisha,East,P,2023,157.6,103.6,135.6,87.3,80.5
+"Vivekananda Institute of Management Studies, Coimbatore",150,564.3,Tamil Nadu,South,P,2023,170.5,112.8,120.8,63.9,96.3
+Institute of Health Management Research,151,564.2,Karnataka,South,P,2023,163.7,103.5,140.2,79.8,77
+"Sri Sairam Institute of Management Studies, Chennai",152,564,Tamil Nadu,South,P,2023,148.9,102.9,125.8,91.3,95.1
+"Dr. SNS Rajalakshmi College of Arts and Science (Autonomous), Coimbatore",153,562.5,Tamil Nadu,South,P,2023,166.1,108.9,95.9,78.8,112.8
+"Faculty of Commerce and Management, Maharaja Agrasen Himalayan Garhwal University",154,562.4,Uttarakhand,North,P,2023,163.9,104.5,118,72.4,103.6
+"Siva Sivani Institute of Management, Hyderabad",155,562.2,Telangana,South,P,2023,129.8,103,121.7,97.7,110
+"Saintgits Institute of Management, Kottayam",156,562,Kerala,South,P,2023,155.1,111.4,98.3,90,107.2
+"IPS Academy, Institute of Business Management and Research, Indore",157,560.7,Madhya Pradesh,West,P,2023,148.8,97.9,120.1,91.1,102.8
+Chandragupt Institute of Management Patna,158,558.5,Bihar,East,G,2023,146.9,115.5,137.5,72.3,86.3
+"Vivekanand Education Society's Business School, Mumbai",159,558.2,Maharashtra,West,P,2023,152.6,92.2,127,76.6,109.8
+"SASMIRA's Institute of Management Studies and Research, Mumbai",160,557,Maharashtra,West,P,2023,153,78.8,125.1,94.4,105.7
+"ICFAI University Tripura, Agartala",161,556.4,Tripura,East,P,2023,148.2,115.1,116.3,69.4,107.4
+"Chandigarh Business School of Administration, Mohali",162,555.6,Punjab,North,P,2023,153.8,85.4,128.8,85.4,102.2
+"IIKM The Corporate B-School, Chennai",163,553.5,Tamil Nadu,South,P,2023,154.8,91.3,127.2,77.9,102.3
+Indira School of Business Studies PGDM,164,553.3,Maharashtra,West,P,2023,135.9,95.5,130.1,94.7,97.1
+"ICFAI University, Jharkhand, Ranchi",165,551.9,Jharkhand,East,P,2023,159.3,104.2,138.2,73.8,76.4
+"School of Management, Sree Saraswathi Thyagaraja College, Coimbatore",166,551.8,Tamil Nadu,South,P,2023,139.2,100.2,134.5,80.2,97.7
+"Department of MBA, Sanjivani College of Engineering",167,551.6,Maharashtra,West,P,2023,135.2,115.5,133.8,76.6,90.5
+"School of Management, Centurion University of Technology and Management",168,551.5,Odisha,East,P,2023,151.8,101.3,124.9,76.4,97.1
+"School of Management, Sir Padampat Singhania University",169,551.3,Rajasthan,North,P,2023,135.9,118.7,133.5,78.2,85
+"MM Institute of Management, Ambala",170,551,Haryana,North,P,2023,141.7,114.4,119.3,92.4,83.2
+"DJ Academy for Managerial Excellence, Coimbatore",171,550.7,Tamil Nadu,South,P,2023,155.2,115.5,99.3,84,96.7
+"Hindusthan College of Engineering and Technology, Coimbatore",172,547.4,Tamil Nadu,South,P,2023,163.3,114.1,87,81.4,101.6
+"The Business School, University of Jammu, Jammu",173,546.4,Jammu and Kashmir,North,G,2023,134.8,108.3,134,97.7,71.6
+"Adithya School of Business Management, Coimbatore",174,546.1,Tamil Nadu,South,P,2023,157.4,102.2,111.6,74.1,100.8
+"Kalaignarkarunanidhi Institute of Technology, Coimbatore",175,545.9,Tamil Nadu,South,P,2023,148.4,108.2,115.6,82,91.7
+"Alkesh Dinesh Mody Institute for Financial and Management Studies, University of Mumbai",176,542.7,Maharashtra,West,G,2023,126.7,100.3,133.4,90.7,91.6
+"Durgadevi Saraf Institute of Management Studies, Mumbai",177,542.1,Maharashtra,West,P,2023,138.6,90.9,123,86.5,103.1
+"Vivekanand Education Society Institute of Management Studies and Research, Mumbai",178,542,Maharashtra,West,P,2023,154.3,90.9,125.8,79,92
+"IBMR Business School, Gurugram",179,541.4,Haryana,North,P,2023,149.2,84.4,133,73.2,101.6
+GL Bajaj Institute of Technology and Management,180,541.3,Uttar Pradesh,North,P,2023,142.3,110.8,122.5,84.5,81.2
+Krupanidhi Group of Institutions,181,538.8,Karnataka,South,P,2023,138.5,84.1,140.3,74.2,101.7
+"Institute of Engineering & Management, Kolkata",182,538.2,West Bengal,East,P,2023,141.8,86.8,100,98.4,111.2
+"Tecnia Institute of Advanced Studies, New Delhi",183,536.6,Delhi,North,P,2023,155.7,94.3,103.5,90.5,92.6
+"Lala Lajpatrai Institute of Management, Mumbai",184,536.3,Maharashtra,West,P,2023,136.2,85.7,135.8,85.4,93.2
+K.S. Rangasamy College of Technology - MBA,185,534.6,Tamil Nadu,South,P,2023,149.4,110.9,130.4,76.4,67.5
+Heritage Business School,186,534.4,West Bengal,East,P,2023,155.2,101.9,123.3,76.2,77.8
+"Trident School of Business, Trident Academy of Technology",187,534,Odisha,East,P,2023,156.6,88.9,124,80.6,83.9
+"LEAD College of Management, Palakkad",188,533.9,Kerala,South,P,2023,141.6,94.4,131.5,82.4,84
+"Faculty of Management Studies, M. S. University of Baroda",189,533.5,Gujarat,West,G,2023,113.8,101.7,137,88.7,92.3
+"Department of Management Studies, Easwari Engineering College, Chennai",190,533.2,Tamil Nadu,South,P,2023,139.9,105.3,110.3,90.4,87.3
+"Department of MBA, SNS College of Technology, Coimbatore",191,533,Tamil Nadu,South,P,2023,137.2,106.1,118.7,88.6,82.4
+"Velalar College of Engineering and Technology, Erode",192,531.9,Tamil Nadu,South,P,2023,153.7,113.7,91.2,80.5,92.8
+"Faculty of Management Science, Shri Ram Murti Smarak College of Engineering & Technology, Bareilly",193,531.7,Uttar Pradesh,North,P,2023,167.2,108.7,113.8,80.7,61.3
+"School of Management, Presidency University, Bengaluru ",194,530.3,Karnataka,South,P,2023,123,95.5,124.7,91.7,95.4
+"Sri Ramakrishna College of Arts and Science, Coimbatore",195,529.9,Tamil Nadu,South,P,2023,161.1,106.3,93.8,79.8,88.9
+"Department of Management Studies, CMR Institute of Technology",196,529.8,Karnataka,South,P,2023,153.1,109.3,90,75.2,102.2
+"Amity Business School, Lucknow",197,528.9,Uttar Pradesh,North,P,2023,138.7,107.1,97.3,82.2,103.6
+"Bharatiya Vidya Bhavan Institute of Management Science, Kolkata",198,528.5,West Bengal,East,P,2023,145.6,85,119.4,91.4,87.1
+"Department of Management Studies and Research Centre, B.M.S. College of Engineering, Bengaluru",199,527,Karnataka,South,P,2023,127.9,101.5,125.3,98,74.3
+"Medi-Caps University, Indore",200,526,Madhya Pradesh,West,P,2023,137.5,104.1,116.4,80,88
+"Chandigarh School of Business, Jhanjeri",201,525.3,Punjab,North,P,2023,115,95.6,123,84.4,107.3
+"Teerthanker Mahaveer Institute of Management & Technology, Moradabad",202,525.2,Uttar Pradesh,North,P,2023,137.7,98,115.7,76,97.8
+"V. M. Patel Institute of Management, Ganpat University",203,523,Gujarat,West,P,2023,145.9,105.1,99.5,82.9,89.6
+"Department of MBA, CMR College of Engineering & Technology, Hyderabad",204,522.7,Telangana,South,P,2023,152.7,94.5,106.4,94.4,74.7
+"Faculty of Management, JECRC University, Jaipur",205,522,Rajasthan,North,P,2023,139.5,105.5,122.7,61.5,92.8
+JSS Academy of Higher Education & Research,206,521.8,Karnataka,South,P,2023,146.2,114.4,87.5,91.1,82.6
+"Hindusthan College of Arts & Science, Coimbatore",207,521.2,Tamil Nadu,South,P,2023,137.5,87.1,120.2,75.6,100.8
+"School of Business & Management, NSHM Knowledge Campus, Durgapur",208,519,West Bengal,East,P,2023,126.1,100.1,97,87.4,108.4
+"Tilak Raj Chadha Institute of Management & Technology, Yamuna Nagar",209,517.7,Haryana,North,P,2023,141.8,100.6,123.7,85.4,66.2
+"Hindusthan Institute of Technology, Coimbatore",210,517.1,Tamil Nadu,South,P,2023,136.3,119,123.4,78.4,60
+"St. Joseph’s PG College, Hyderabad",210,517.1,Telangana,South,P,2023,125.4,72.4,121.1,93.1,105.1
+"GNVS Institute of Management, Mumbai",212,517,Maharashtra,West,P,2023,133.1,82.9,124.8,78.9,97.3
+"Department of Management, Rathinam College of Arts & Science, Coimbatore",213,516.8,Tamil Nadu,South,P,2023,160.5,103.7,98.5,69.5,84.6
+"Karnatak Law Society’s Institute of Management Education & Research, Belagavi",214,516.7,Karnataka,South,P,2023,149.7,95.5,116.2,92.4,62.9
+"Rajshree Institute of Management & Technology, Bareilly",215,515.6,Uttar Pradesh,North,P,2023,144.4,110.6,97.2,74.5,88.9
+Dayananda Sagar College of Engineering,216,515.1,Karnataka,South,P,2023,158.4,94.9,125.8,67,69
+"Francis Xavier Department of Management Studies (FXDoMS), Tirunelveli",217,514.9,Tamil Nadu,South,P,2023,146.1,109.5,100.4,81.7,77.2
+"School of Management, Model Institute of Engineering and Technology, Jammu",217,514.9,Jammu and Kashmir,North,P,2023,152.8,86.3,122.1,83.9,69.8
+"The Oxford College of Business Management, Bengaluru ",219,514.1,Karnataka,South,P,2023,148.7,100.5,95.4,88.4,81.1
+"OM Kothari Institute of Management & Research, Kota",220,513.2,Rajasthan,North,P,2023,145.9,102.8,93.8,85,85.7
+Hallmark Business School,221,512.9,Tamil Nadu,South,P,2023,134.9,114.3,115.3,70.8,77.6
+VLB Janakiammal College of Arts and Science,222,512.8,Tamil Nadu,South,P,2023,143.7,116.3,113,74.8,65
+"Central Institute of Business Management, Research & Development, Nagpur",223,512.1,Maharashtra,West,P,2023,156,85.3,74.9,90.9,105
+"CMR University School of Management, Bengaluru",224,511.8,Karnataka,South,P,2023,138,86.5,105.8,72.1,109.4
+"Jagran Lakecity Business School, Jagran Lakecity University, Bhopal",225,509.5,Madhya Pradesh,West,P,2023,137.9,110.1,92.3,73.1,96.1
+"Centre for Management Studies, Presidency College",226,506.9,Karnataka,South,P,2023,126.8,83.3,139.9,80.4,76.5
+Institute of Information Technology and Management,227,504.6,Delhi,North,P,2023,128.1,64.1,130.1,83.3,99
+Prestige Institute of Management Dewas,228,503,Madhya Pradesh,West,P,2023,145.2,65.1,115.7,88.1,88.9
+"Coimbatore Institute of Management and Technology, Coimbatore",229,502.8,Tamil Nadu,South,P,2023,154,111.9,99.3,78.1,59.5
+"MIET Business School, Meerut",230,500.9,Uttar Pradesh,North,P,2023,133.3,95.1,97.8,85.6,89.1
+"Department of Management Studies, Jawaharlal Nehru New College of Engineering-MBA",230,500.9,Karnataka,South,P,2023,143.4,76.9,108.8,94.2,77.6
+"Sardar Vallabhbhai Patel International School of Textiles & Management, Coimbatore",232,500.3,Tamil Nadu,South,G,2023,159.8,86.4,85.3,81.6,87.2
+"Faculty of Commerce and Management, Assam Down Town University",233,498.2,Assam,East,P,2023,131.7,111.2,70.6,79.4,105.3
+"IA School of Management Studies, Bengaluru ",234,495.1,Karnataka,South,P,2023,120,103.6,96.2,83.5,91.8
+"Institute of Business Management, GLA University, Mathura",235,491.7,Uttar Pradesh,North,P,2023,114.7,89.9,101.5,85.6,100
+"Department of MBA, Sagar Institute of Research & Technology, Bhopal",236,491.3,Madhya Pradesh,West,P,2023,117.8,96.7,117.8,78,81
+Netaji Subhas Institute of Business Management,237,490.3,Jharkhand,East,P,2023,138.3,113.3,132.7,81.3,24.7
+"Poddar Management and Technical Campus, Jaipur",238,486.3,Rajasthan,North,P,2023,137,53.6,113.8,76.2,105.7
+"B.L.D.E. Association’s A.S. Patil College of Commerce (Autonomous), Vijayapura",239,486.1,Karnataka,South,P,2023,149.5,116.8,57.9,75,86.9
+"School of Management Studies, JIS University",240,483.9,West Bengal,East,P,2023,141.4,108.6,77.4,65.8,90.7
+Adarsh Institute of Management and Information Technology,241,483.6,Karnataka,South,P,2023,133.9,52.3,140.2,70.4,86.8
+"Post Graduate Department of Management Studies, P E S College of Engineering",242,483.2,Karnataka,South,P,2023,144.3,93.8,87.7,76.8,80.6
+"Atharva Institute of Management Studies, Mumbai",243,481.6,Maharashtra,West,P,2023,140.5,56.6,128.4,82.3,73.8
+"S. V. Institute of Management, Kadi",244,478.7,Gujarat,West,P,2023,98.8,104.3,94.9,93.6,87.1
+Bharati Vidyapeeth (Deemed to be University) Institute of Management and Rural Development Administration,245,477.8,Maharashtra,West,P,2023,159.2,65.7,78.6,88.9,85.4
+"Department of Business Administration and Research, Shri Sant Gajanan Maharaj College of Engineering, Shegaon",246,475.1,Maharashtra,West,P,2023,122.7,108.5,81.9,93.5,68.5
+"Pranveer Singh Institute of Technology, Kanpur",247,473.4,Uttar Pradesh,North,P,2023,119.1,96.1,119,80.7,58.5
+"T. John College, Bengaluru",248,470.6,Karnataka,South,P,2023,130.6,103.3,88.6,82.8,65.3
+"Department of Management Studies, The Oxford College of Engineering, Bengaluru ",249,469.3,Karnataka,South,P,2023,128.4,98.1,80.8,90.4,71.6
+"Department of Business Administration, Kanpur Institute of Technology, Kanpur",250,467.6,Uttar Pradesh,North,P,2023,115.2,100.8,116.8,71.2,63.6
+"Lakshmi Narain College of Technology, Bhopal",251,464.4,Madhya Pradesh,West,P,2023,140.2,91.1,105.7,89,38.4
+"Postgraduate Department of Business Management, Sardar Patel University, Vallabh Vidyanagar, Anand",252,460.8,Gujarat,West,G,2023,140,98.7,99,76.2,46.9
+"Dr. V. N. Bedekar Institute of Management Studies, Thane",253,459.9,Maharashtra,West,P,2023,141.1,54.6,111.5,84.7,68
+"ITM Vocational University, Vadodara",254,458.9,Gujarat,West,P,2023,110,103.8,103.2,83,58.9
+JSS Centre for Management,255,458.2,Karnataka,South,P,2023,99,74.3,115.2,68.5,101.2
+"Faculty of Commerce & Business Management, Amrapali Institute of Technology Sciences, Haldwani",256,457,Uttarakhand,North,P,2023,108.4,104.7,87.7,92.5,63.7
+"Global Business School, Hubli",257,442.4,Karnataka,South,P,2023,123.4,61.2,91.6,76.3,89.9
+School of Commerce Management and Research ITM University,258,440.3,Chhattisgarh,East,P,2023,110.6,91.6,119.8,83.8,34.5
+"Sinhgad Business School, Pune",259,440,Maharashtra,West,P,2023,121.3,49.2,124,81.3,64.2
+"Department of Business Management, Indus International University",260,438.7,Himachal Pradesh,North,P,2023,119,116,66.9,66.6,70.2
+"DAV Institute of Management, Faridabad",261,433,Haryana,North,P,2023,134,61.1,89.5,77.6,70.8
+"Sahrdaya Institute of Management Studies, Thrissur",262,431,Kerala,South,P,2023,122.4,105.8,74.5,68.6,59.7
+"Acropolis Faculty of Management & Research, Indore",263,428.2,Madhya Pradesh,West,P,2023,79.1,70.7,113.4,92.7,72.3
+Sheila Raheja School of Business Management & Research,264,426.6,Maharashtra,West,P,2023,126,57.2,103.5,72,67.9
+"Amjad Ali Khan College of Business Administration, Hyderabad",265,425,Telangana,South,P,2023,112.4,54.1,82.8,73.8,101.9
+"Astha School of Management, Bhubaneswar",266,420.3,Odisha,East,P,2023,137.1,91,92.2,74.6,25.4
+"Bharati Vidyapeeth (Deemed to be University), Institute of Management, Kolhapur",267,420.2,Maharashtra,West,P,2023,116.4,67.8,88.5,76.5,71
+IMS Business School ,268,391.5,West Bengal,East,P,2023,90.9,62.3,94,70,74.3
+"Chetan Business School, Hubli",269,382.3,Karnataka,South,P,2023,120.1,47.8,94.4,69.6,50.4
+"Department of Economics, Commerce and Management, Martin Luther Christian University, Shillong",270,378,Meghalaya,East,P,2023,101.1,69.1,52.8,74.1,80.9
+"Techno India, Salt Lake",271,377.1,West Bengal,East,P,2023,67,60.8,79.1,73.8,96.4
+"Shiksha Mandal's Govindram Seksaria College of Commerce, Department of Advanced Management Studies",272,369.6,Maharashtra,West,P,2023,78,93.1,60.1,79.9,58.5
+"Indian Institute of Management, Calcutta",1,902.8,West Bengal,East,G,2022,214.7,142.5,225.1,134.6,185.9
+"Indian Institute of Management, Ahmedabad",2,900.2,Gujarat,West,G,2022,224.6,141.8,226.6,135.6,171.6
+"Indian Institute of Management, Bangalore",3,889.3,Karnataka,South,G,2022,217.2,142,228.9,131.7,169.5
+"Indian Institute of Management, Lucknow",4,864.1,Uttar Pradesh,North,G,2022,204.4,139.7,213.6,133.3,173.1
+"S. P. Jain Institute of Management and Research, Mumbai",5,863.7,Maharashtra,West,P,2022,214.6,136.7,213.5,121.6,177.3
+"XLRI - Xavier School of Management, Jamshedpur",6,859.1,Jharkhand,East,P,2022,206.6,138.9,208.9,134.8,169.9
+"Indian Institute of Management, Indore",7,857,Madhya Pradesh,West,G,2022,205.6,137.9,202.2,126.2,185.1
+"Management Development Institute (MDI), Gurgaon",8,810.2,Haryana,North,P,2022,189.3,133.7,204,123.1,160.1
+"Faculty of Management Studies (FMS), University of Delhi, New Delhi",9,789.3,Delhi,North,G,2022,188.5,133.6,211.7,121,134.5
+"Indian Institute of Foreign Trade, New Delhi",10,787.6,Delhi,North,G,2022,185.1,127.6,202.5,114.4,158
+"SVKM's NMIMS, School of Business Management, Mumbai",11,774.8,Maharashtra,West,P,2022,185,132.7,196.5,116.9,143.7
+"International Management Institute (IMI), New Delhi",12,773.3,Delhi,North,P,2022,189.3,126,186.6,114.7,156.7
+"Indian Institute of Management, Shillong",13,761.9,Meghalaya,East,G,2022,185.1,131.4,197.6,111,136.8
+"Institute of Management Technology (IMT), Ghaziabad",14,755.6,Uttar Pradesh,North,P,2022,187.4,129.1,180.8,113.5,144.8
+"Symbiosis Institute of Business Management (SIBM), Pune",15,752.7,Maharashtra,West,P,2022,192.7,125.7,195.5,105.7,133.1
+"Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",16,750.5,Maharashtra,West,P,2022,181.4,121.3,189.4,114,144.4
+"Department of Management Studies, IIT Delhi, New Delhi",17,748.8,Delhi,North,G,2022,184.6,133.2,184.3,119,127.7
+"Great Lakes Institute of Management, Chennai",18,748,Tamil Nadu,South,P,2022,184.9,129.3,181.6,109,143.2
+"Indian Institute of Management, Udaipur",19,747.9,Rajasthan,North,G,2022,183.8,126.4,184.3,107.9,145.5
+"Indian Institute of Management, Tiruchirappalli",20,747.1,Tamil Nadu,South,G,2022,177.4,128.1,187.4,122.7,131.5
+"Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",21,747,Odisha,East,P,2022,180.3,126.7,192.9,117.1,130
+"T. A. Pai Management Institute (TAPMI), Manipal",22,744.8,Karnataka,South,P,2022,176.7,127.4,169.4,109,162.3
+"Jamnalal Bajaj Institute of Management Studies (JBIMS), Mumbai",23,744.6,Maharashtra,West,G,2022,187.1,118.1,197.2,113.4,128.8
+"Vinod Gupta School of Management (VGSoM), IIT, Kharagpur",24,740.5,West Bengal,East,G,2022,183.8,130.8,188.6,114,123.3
+"ICFAI Business School, Hyderabad",25,738.8,Telangana,South,P,2022,185.6,126.3,168.6,113.1,145.2
+"Indian Institute of Management, Nagpur",26,733.6,Maharashtra,West,G,2022,182.2,138.6,181.5,111.4,119.9
+"K J Somaiya Institute of Management, Mumbai",27,730.1,Maharashtra,West,P,2022,182.7,124.9,167.2,107.6,147.7
+"Jagdish Sheth School of Management (JAGSOM), Bengaluru",28,726,Karnataka,South,P,2022,184.9,120.9,164.4,104.1,151.7
+"Indian Institute of Management, Kashipur",29,723.1,Uttarakhand,North,G,2022,181.7,126.7,183.2,113.2,118.3
+"Goa Institute of Management, Sanquelim",30,721.5,Goa,West,P,2022,186.2,122.1,168.2,113.1,131.9
+"Institute of Rural Management, Anand",31,717.2,Gujarat,West,P,2022,171.3,132.4,181,109.8,122.7
+"SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",32,716,Karnataka,South,P,2022,177.9,119.3,173.1,106.6,139.1
+"Department of Industrial and Management Engineering, IIT, Kanpur",33,715.7,Uttar Pradesh,North,G,2022,187.1,119.2,173.8,110.7,124.9
+"Birla Institute of Management Technology (BIMTECH), Greater Noida",34,713,Uttar Pradesh,North,P,2022,180.6,130.1,170.4,112.4,119.5
+"Lal Bahadur Shastri Institute of Management, New Delhi",35,710.1,Delhi,North,P,2022,181.4,118,171.7,109.4,129.6
+"Indian Institute of Management, Amritsar",36,709.2,Punjab,North,G,2022,175.9,111.7,178.9,107.8,134.9
+"Sydenham Institute of Management Studies, Research & Entrepreneurship Education (SIMSREE), Mumbai",37,702.5,Maharashtra,West,G,2022,175.7,107.6,177.3,108,133.9
+"Institute of Management, Nirma University, Ahmedabad",38,702.1,Gujarat,West,P,2022,171.9,124.1,165.8,112.3,128
+"National Institute of Agricultural Extension Management (MANAGE), Hyderabad",39,697.6,Telangana,South,G,2022,182.8,123.6,171.8,100.6,118.8
+"Symbiosis Institute of International Business (SIIB), Pune",40,695.6,Maharashtra,West,P,2022,183.6,120.9,166.4,96.7,128
+"Symbiosis Institute of Operations Management, Nashik",41,695.4,Maharashtra,West,P,2022,173.8,116.1,170.5,108.6,126.4
+"Prin. L.N. Welingkar Institute of Management Development & Research, Mumbai",42,694.9,Maharashtra,West,P,2022,182.5,106.6,164.6,108,133.2
+"Rajagiri Centre for Business Studies, Kochi",43,693.1,Kerala,South,P,2022,175.5,122.8,159.6,97.7,137.5
+"Loyola Institute of Business Administration (LIBA), Chennai",44,692.2,Tamil Nadu,South,P,2022,178.8,113.7,160.9,107.3,131.5
+"Indian Institute of Management, Sambalpur",44,692.2,Odisha,East,G,2022,176.7,119.1,171.9,111.3,113.2
+"Institute of Management Technology, Nagpur",46,687.8,Maharashtra,West,P,2022,167.1,127.1,165.4,99.6,128.6
+"Institute of Public Enterprise (IPE), Hyderabad",47,684.4,Telangana,South,P,2022,181.4,117,154.9,107.2,123.9
+"Department of Commerce, Delhi School of Economics, University of Delhi, New Delhi",48,672.1,Delhi,North,G,2022,167.2,114.7,171,109.6,109.6
+"Symbiosis Institute of Business Management (SIBM), Bangalore",49,671.4,Karnataka,South,P,2022,169.6,109.8,166.4,97,128.6
+"Indian Institute of Forest Management (IIFM), Bhopal",50,671,Madhya Pradesh,West,G,2022,174.2,137.1,167.8,103.1,88.8
+"IILM Institute for Business and Management, Gurugram",51,669.7,Haryana,North,P,2022,170.7,117.5,153.5,98.9,129.1
+"Symbiosis Institute of Digital and Telecom Management, Pune",52,668.4,Maharashtra,West,P,2022,164.2,111.9,166,99.8,126.5
+"Balaji Institute of Modern Management (BIMM), Pune",53,668.1,Maharashtra,West,P,2022,165.8,120,157.9,108.4,116
+"Amity Business School, Amity University, Noida",54,666.8,Uttar Pradesh,North,P,2022,166.3,129,148.5,97.8,125.2
+"Shri Dharmasthala Manjunatheshwara Institute for Management Development (SDMIMD), Mysuru",55,666.3,Karnataka,South,P,2022,160.2,111.9,162.4,109.9,121.9
+"Prin. L.N. Welingkar Institute of Management Development and Research, Bengaluru",56,664.6,Karnataka,South,P,2022,177,111.8,145.9,101.7,128.2
+"Department of Management Studies, National Institute of Technology, Tiruchirappalli",57,662.1,Tamil Nadu,South,G,2022,161.7,136.2,160.8,114.1,89.3
+"Symbiosis Institute of Business Management, Hyderabad",58,660.6,Telangana,South,P,2022,164.5,117.3,144.1,104.4,130.3
+"SIES College of Management Studies, Navi Mumbai",59,658.7,Maharashtra,West,P,2022,175.4,101.1,162.4,100.2,119.6
+"Department of Management, BITS, Pilani",60,658.5,Rajasthan,North,P,2022,171.1,127.6,163.3,102.6,93.9
+"SOIL Institute of Management, Gurugram",61,658.2,Haryana,North,P,2022,170.3,113.1,166.6,94.6,113.6
+"ITM Business School, Navi Mumbai",62,658.1,Maharashtra,West,P,2022,172.8,115.9,157,104.3,108.1
+"VIT Business School, Vellore",63,652.8,Tamil Nadu,South,P,2022,166.3,115.7,138,101.7,131.1
+"Jagan Institute of Management Studies (JIMS), New Delhi",64,651.7,Delhi,North,P,2022,180.2,94.3,155.9,101.9,119.4
+"International Management Institute, Bhubaneswar",65,651.6,Odisha,East,P,2022,163.9,116.5,156,100.1,115.1
+"School of Business and Management, Christ (Deemed to be University), Bengaluru ",66,651,Karnataka,South,P,2022,152.6,110.7,158.9,104.9,123.9
+"International Management Institute (IMI), Kolkata",67,648.9,West Bengal,East,P,2022,161.9,113.8,153.7,102.3,117.2
+"Institute of Management Technology, Hyderabad",68,648.6,Telangana,South,P,2022,162.4,119,160.7,91.3,115.2
+"Jaipuria Institute of Management, Lucknow",69,648.4,Uttar Pradesh,North,P,2022,162.7,111.2,154,106,114.5
+"Indian Institute of Social Welfare and Business Management (IISWBM), Kolkata",70,648.2,West Bengal,East,G,2022,169.2,117.5,154.6,105.3,101.6
+"Pune Institute of Business Management (PIBM), Pune",71,647.1,Maharashtra,West,P,2022,172.5,102.6,151.8,95.2,125
+"Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM), Pune",72,646.6,Maharashtra,West,G,2022,171.3,105.9,159.7,101.7,108
+"Prestige Institute of Management and Research, Indore",73,646.5,Madhya Pradesh,West,P,2022,170.5,115.2,153.4,93.4,114
+Xavier Institute of Management & Entrepreneurship (XIME),74,642.5,Karnataka,South,P,2022,168.2,110.9,146.5,106.4,110.5
+"SCMS Cochin School of Business, Ernakulam",75,640.4,Kerala,South,P,2022,173,120.8,143.7,85.6,117.3
+"Jaipuria Institute of Management, Noida",76,640,Uttar Pradesh,North,P,2022,166.7,102.9,151.2,93.7,125.5
+"Institute of Management Studies, Ghaziabad",77,638.1,Uttar Pradesh,North,P,2022,171.9,105.2,143.6,100.7,116.7
+"International School of Business & Media (ISBM), Pune",78,636.5,Maharashtra,West,P,2022,176.2,107.9,158.7,90.6,103.1
+"Symbiosis Centre for Information Technology (SCIT), Pune",79,635.5,Maharashtra,West,P,2022,162,102.1,163.1,94.5,113.8
+"N. L. Dalmia Institute of Management Studies and Research, Mumbai",80,634.7,Maharashtra,West,P,2022,177.7,96.3,141.9,97.3,121.5
+"Chitkara Business School, Rajpura",81,634.5,Punjab,North,P,2022,173.2,102.7,149.8,79.3,129.5
+"Xavier Institute of Social Service (XISS), Ranchi",82,633.9,Jharkhand,East,P,2022,157.2,89.2,151.6,107.2,128.7
+University School of Management Studies,83,627.8,Delhi,North,G,2022,165.6,117.2,129.3,99.9,115.8
+"Universal Business School, Mumbai",84,624.6,Maharashtra,West,P,2022,170.9,120.7,141.2,79.2,112.6
+"Department of Management, BIT Mesra Ranchi",85,624.2,Jharkhand,East,P,2022,158.9,123.1,111.8,102.2,128.2
+"Fortune Institute of International Business (FIIB), New Delhi",86,622.3,Delhi,North,P,2022,166.7,97.1,139.4,97.4,121.7
+International School of Management Excellence,87,621.9,Karnataka,South,P,2022,174.1,109.1,132.8,92.1,113.8
+"Institute of Agri Business Management, Bikaner",88,618.5,Rajasthan,North,G,2022,151.5,122.8,142.3,89.2,112.7
+"Balaji Institute of Management & Human Resource Development, Pune",89,618.1,Maharashtra,West,P,2022,160,109.3,154.8,90.6,103.4
+"Jaipuria Institute of Management, Jaipur",90,616.5,Rajasthan,North,P,2022,163.7,101,136,95.9,119.9
+Shoolini University of Biotechnology & Management Sciences,91,615.9,Himachal Pradesh,North,P,2022,159.1,115.2,136.7,84.5,120.4
+"IIEBM, Indus Business School, Pune",92,615.5,Maharashtra,West,P,2022,160,108.5,154.6,88.6,103.8
+"GL Bajaj Institute of Management & Research, Greater Noida",93,615.4,Uttar Pradesh,North,P,2022,168.2,105.1,152,81.8,108.3
+"AIMS School of Business, Bengaluru ",94,614.6,Karnataka,South,P,2022,168.9,107.2,134.7,85.5,118.3
+"Kristu Jayanti College, Bengaluru ",95,614.4,Karnataka,South,P,2022,142.1,121.2,143.3,86.3,121.5
+"Jagannath International Management School, New Delhi",96,608.4,Delhi,North,P,2022,167.3,87.9,137.4,98.8,117
+"Punjab College of Technical Education, Ludhiana",97,606.5,Punjab,North,P,2022,160.9,108.1,140.1,83.1,114.3
+"I.T.S School of Management, Ghaziabad",98,606.2,Uttar Pradesh,North,P,2022,160.7,107.8,140.9,87.7,109.1
+"School of Business Studies, Sharda University",99,604.5,Uttar Pradesh,North,P,2022,167.5,116.7,116.3,87.1,116.9
+"School of Management, DY Patil (Deemed to be University), Navi Mumbai",100,604.1,Maharashtra,West,P,2022,140.7,119.3,138.3,91.8,114
+"Faculty of Management Studies, Manav Rachna International Institute of Research and Studies, Faridabad",101,603.9,Haryana,North,P,2022,178.7,117.8,113.6,92.7,101.1
+"Amity Business School, Gwalior",101,603.9,Madhya Pradesh,West,P,2022,162.9,121.1,129.8,74.8,115.3
+"Jaipuria Institute of Management, Indore",103,603.7,Madhya Pradesh,West,P,2022,160.3,108.1,143.1,87.3,104.9
+"M S Ramaiah Institute of Management, Bengaluru ",104,603.5,Karnataka,South,P,2022,162.5,103.7,138.9,91.6,106.8
+"ICFAI Business School, ICFAI University",105,603.1,Rajasthan,North,P,2022,150.9,106.5,141.3,91.8,112.6
+"College of Management, SRM Institute of Science and Technology",105,603.1,Tamil Nadu,South,P,2022,165.2,121.9,128.9,83.3,103.8
+"Acharya Bangalore B-School, Bengaluru",107,602.6,Karnataka,South,P,2022,158.5,98.6,138.2,88.4,118.9
+"School of Management, Hindustan Institute of Technology & Science, Chennai",108,602.2,Tamil Nadu,South,P,2022,162.3,116.5,128.9,93.6,100.9
+"Amity Business School, Gurugram",109,602.1,Haryana,North,P,2022,166.4,117.6,117.2,88.2,112.7
+"Gian Jyoti Institute of Management and Technology, Mohali",110,601.7,Punjab,North,P,2022,164.1,104.4,133.3,79.1,120.8
+"Kirloskar Institute of Advanced Management Studies, Pune",111,600.5,Maharashtra,West,P,2022,157.2,112.1,140.7,86.4,104.1
+"CMS Business School JAIN (Deemed-to-be University), Bengaluru ",112,599,Karnataka,South,P,2022,135,111.2,149.5,87.6,115.7
+Dayananda Sagar Business School,113,598.6,Karnataka,South,P,2022,165.3,110.8,139,67,116.5
+"Department of Management Studies, Pondicherry University, Puducherry",113,598.6,Puducherry,South,G,2022,140.5,108.5,138.7,103.7,107.2
+"Balaji Institute of International Business (BIIB), Pune",115,598.1,Maharashtra,West,P,2022,162.7,117.1,129.3,95.8,93.2
+"School of Management Studies, Bannari Amman Institute of Technology, Erode",116,596.5,Tamil Nadu,South,P,2022,158.4,114.4,143,77.7,103
+"Rungta College of Engineering & Technology, Bhilai",117,595.7,Chhattisgarh,East,P,2022,167,107.2,122.3,89.7,109.5
+"R.V. Institute of Management, Bengaluru ",118,595.1,Karnataka,South,P,2022,162.1,88.6,140.7,87.5,116.2
+"Shri Ram Murti Smarak International Business School, Lucknow",119,594.8,Uttar Pradesh,North,P,2022,162.2,114.3,126.9,90,101.4
+"Jaipuria Institute of Management, Ghaziabad",120,593.9,Uttar Pradesh,North,P,2022,150.6,101,141.2,97,104.1
+"Amity University Chhattisgarh, Raipur",121,592.7,Chhattisgarh,East,P,2022,163.4,121,113.8,77.9,116.6
+"Symbiosis Institute of Computer Studies and Research, Pune",121,592.7,Maharashtra,West,P,2022,142.2,107.7,147.1,89.9,105.8
+"Taxila Business School, Jaipur ",123,592.3,Rajasthan,North,P,2022,158.5,112.3,152.1,81.3,88.1
+"Neville Wadia Institute of Management Studies and Research, Pune",124,591.9,Maharashtra,West,P,2022,150.3,116,119.5,90.6,115.5
+"School of Management, ITM University, Gwalior",125,591.2,Madhya Pradesh,West,P,2022,166.6,108.5,114.9,86.8,114.4
+"Calcutta Business School, Bishnupur",126,590.1,West Bengal,East,P,2022,138.1,111.7,139.1,78.2,123
+"Bharath Institute of Higher Education and Research, Chennai",127,588.3,Tamil Nadu,South,P,2022,149.7,103.8,150.8,89.8,94.2
+"School of Management, IMS Unison University, Dehradun",128,588.1,Uttarakhand,North,P,2022,144.6,98.1,149.3,83.4,112.7
+"Department of Management Studies, Mepco Schlenk Engineering College, Sivakasi",129,586.7,Tamil Nadu,South,P,2022,158,109.8,125.5,99.3,94.1
+"Institute of Management Studies, Noida",130,585.6,Uttar Pradesh,North,P,2022,162.7,99.1,134.5,90,99.3
+"Institute of Insurance and Risk Management (IIRM), Hyderabad",131,585.2,Telangana,South,G,2022,148.8,106,148.6,92.7,89.1
+"Ajay Kumar Garg Institute of Management, Ghaziabad",132,584.9,Uttar Pradesh,North,P,2022,164.5,106.5,137.8,78.1,98
+"Faculty of Management Studies & Research, Aligarh Muslim University, Aligarh",133,584,Uttar Pradesh,North,G,2022,157.9,106,119.7,88.9,111.5
+"Amity Business School, Jaipur",134,580.1,Rajasthan,North,P,2022,160.8,118.9,98.8,86.3,115.3
+"Balaji Institute of Telecom & Management, Pune",135,579.8,Maharashtra,West,P,2022,142.6,111,141.9,94.8,89.5
+"International School of Informatics & Management Technical Campus, Jaipur",136,578.9,Rajasthan,North,P,2022,159.4,111.4,115.7,77.9,114.5
+"MIT College of Management, Pune",137,578.1,Maharashtra,West,P,2022,149.8,118.3,123.3,73.7,113
+"K L Business School, K L E Foundation (Deemed to be University), Guntur",138,578,Andhra Pradesh,South,P,2022,144.3,95.9,139,83.1,115.7
+"Sairam Institute of Management Studies, Chennai",139,576.5,Tamil Nadu,South,P,2022,154.5,105.2,127.3,90.4,99.1
+"SCMS School of Technology and Management, Ernakulam",140,573.6,Kerala,South,P,2022,139.5,98.5,130.9,90.9,113.8
+"Department of Management Studies, Kongu Engineering College",141,572.6,Tamil Nadu,South,P,2022,161.5,108.4,96.7,96,110
+"ICBM-School of Business Excellence, Hyderabad",142,571.2,Telangana,South,P,2022,161.2,94,129.7,84.6,101.7
+"Quantum School of Business, Quantum University, Roorkee",143,570.6,Uttarakhand,North,P,2022,158.5,108.5,126.2,89.8,87.6
+"School of Management Studies, Reva University, Bengaluru ",144,570.4,Karnataka,South,P,2022,154.5,108,123.2,75.5,109.2
+"ICFAI Business School, Dehradun",145,570,Uttarakhand,North,P,2022,134,96.7,138.7,86.5,114.1
+"Department of Management Studies, KLS Gogte Institute of Technology, Belagavi",146,569.4,Karnataka,South,P,2022,160.3,98.3,129.8,80.3,100.7
+"Bharati Vidyapeeth's Institute of Management Studies and Research, Navi Mumbai",147,569.1,Maharashtra,West,P,2022,148.9,113.3,116.6,93.6,96.7
+"School of Business, Galgotias University, Greater Noida",148,567.7,Uttar Pradesh,North,P,2022,137.6,98.5,136.4,80.4,114.8
+"Institute of Business Studies and Research, Navi Mumbai",148,567.7,Maharashtra,West,P,2022,162,103.5,141.4,74.5,86.3
+"Institute of Management & Information Science, Bhubaneswar",150,566.6,Odisha,East,P,2022,156.1,109.7,133,89.3,78.5
+"Doon Business School, Dehradun",151,566.4,Uttarakhand,North,P,2022,146.5,105.3,128.6,80.3,105.7
+"Dr. SNS Rajalakshmi College of Arts and Science (Autonomous), Coimbatore",152,565.7,Tamil Nadu,South,P,2022,163.6,107.8,103.2,77.4,113.7
+"Amity Business School, Mumbai",153,563.6,Maharashtra,West,P,2022,154.1,99.6,121.9,73.1,114.9
+"School of Management & Commerce, Sanskriti University, Mathura",154,563.4,Uttar Pradesh,North,P,2022,163.2,108.5,110.8,87,93.9
+"Dhruva College of Management, Hyderabad",155,562.9,Telangana,South,P,2022,155.7,116.1,110.3,86.5,94.3
+International School of Business and Media,156,561,Karnataka,South,P,2022,164,115.9,151,90.6,39.5
+SASMIRA's Business School,157,559.5,Maharashtra,West,P,2022,134.8,86.4,147.2,73.3,117.8
+"IIKM The Corporate B-School, Chennai",158,559.4,Tamil Nadu,South,P,2022,157.7,96.4,122.7,78,104.6
+"Vignana Jyothi Institute of Management, Hyderabad",159,556.8,Telangana,South,P,2022,155.4,95.4,120.7,88.8,96.5
+Lexicon Management Institute of Leadership and Excellence,160,555.4,Maharashtra,West,P,2022,152.1,68.6,141,85.9,107.8
+"Lloyd Business School, Greater Noida",161,555.1,Uttar Pradesh,North,P,2022,162.9,91.5,132.6,82.2,85.9
+"School of Management, MIT World Peace University, Pune",162,554.2,Maharashtra,West,P,2022,115.7,114,139.3,81.2,104
+International Institute of Health Management Research,163,554.1,Delhi,North,P,2022,168.7,66.8,139.5,80,99.1
+"ICFAI University Tripura, Agartala",164,552.1,Tripura,East,P,2022,144,114.1,115.9,67.2,110.9
+"Saintgits Institute of Management, Kottayam",165,551.6,Kerala,South,P,2022,143.7,112.2,105.6,87.9,102.2
+"IPS Academy, Institute of Business Management and Research, Indore",166,551.4,Madhya Pradesh,West,P,2022,147.7,93.9,118.2,92.2,99.4
+"Siva Sivani Institute of Management, Hyderabad",167,551.2,Telangana,South,P,2022,124.3,102.5,118.2,96.1,110.1
+"School of Management, Sree Saraswathi Thyagaraja College, Coimbatore",168,550.5,Tamil Nadu,South,P,2022,142.7,93.4,128.7,82.3,103.4
+"FMS-Wisdom, Banasthali Vidyapith, Banasthali",169,549.8,Rajasthan,North,P,2022,148.1,88.7,106,94,113
+Chandragupt Institute of Management Patna,170,549.4,Bihar,East,G,2022,148.2,113.4,129.3,71,87.5
+"IIMT College of management, Greater Noida",171,548.3,Uttar Pradesh,North,P,2022,136.4,114,127.6,84.9,85.4
+"Vivekanand Education Society's Business School, Mumbai",172,546.9,Maharashtra,West,P,2022,152.5,91.2,120.4,75.2,107.6
+"Vivekanand Education Society Institute of Management Studies and Research, Mumbai",173,546.2,Maharashtra,West,P,2022,151.2,91.1,131.8,78.8,93.3
+"Chandigarh Business School of Administration, Mohali",174,546,Punjab,North,P,2022,138.9,88.7,119.9,83.6,114.9
+"ICFAI University, Jharkhand, Ranchi",175,545.4,Jharkhand,East,P,2022,162.2,100.7,135.2,71.9,75.4
+"Kalaignarkarunanidhi Institute of Technology, Coimbatore",176,544.7,Tamil Nadu,South,P,2022,149.3,104.1,117.5,81.5,92.3
+"School of Management, Sir Padampat Singhania University",177,544.6,Rajasthan,North,P,2022,131.2,117.5,119.1,80.7,96.1
+"SASMIRA's Institute of Management Studies and Research, Mumbai",178,542.1,Maharashtra,West,P,2022,155.8,66.8,115.1,87.4,117
+"DJ Academy for Managerial Excellence, Coimbatore",179,541.5,Tamil Nadu,South,P,2022,154.9,115,93.9,80.7,97
+"Adithya School of Business Management, Coimbatore",180,541,Tamil Nadu,South,P,2022,154.3,107.8,91.5,76.6,110.8
+"Agriculture and Food Management Institute, Mysuru",180,541,Karnataka,South,P,2022,161.6,107.4,131.3,77.6,63.1
+"Hindusthan College of Engineering and Technology, Coimbatore",182,539.4,Tamil Nadu,South,P,2022,161.5,111,85.9,85.6,95.4
+"KCT Business School, Coimbatore",183,537,Tamil Nadu,South,P,2022,136.7,107.9,111.5,78,102.9
+"Lala Lajpatrai Institute of Management, Mumbai",184,536,Maharashtra,West,P,2022,135.3,85.7,137.8,84.3,92.9
+"Alkesh Dinesh Mody Institute for Financial and Management Studies, University of Mumbai",185,535.8,Maharashtra,West,G,2022,127,98.8,126.9,88.8,94.3
+"Faculty of Management, JECRC University, Jaipur",186,535,Rajasthan,North,P,2022,144,104.9,124.1,69,93
+Regional College of Management,187,534.1,Odisha,East,P,2022,158.6,97,137.7,77.4,63.4
+"MM Institute of Management, Ambala",188,533.5,Haryana,North,P,2022,142.2,111.6,110.7,91,78
+"GNA Business School, GNA University",189,528.3,Punjab,North,P,2022,161.3,116.7,97.7,65.8,86.8
+"The Business School, University of Jammu, Jammu",190,528,Jammu and Kashmir,North,G,2022,138.3,107.6,128.3,96.9,56.9
+"Institute of Engineering & Management, Kolkata",191,526.9,West Bengal,East,P,2022,148.4,85.4,81.8,98.8,112.5
+"Tecnia Institute of Advanced Studies, New Delhi",192,526.3,Delhi,North,P,2022,154.9,94.2,101.5,82.8,92.9
+"Teerthanker Mahaveer Institute of Management & Technology, Moradabad",193,525.7,Uttar Pradesh,North,P,2022,152.5,100.4,128.4,77.4,67
+"Department of MBA, CMR College of Engineering & Technology, Hyderabad",194,525.1,Telangana,South,P,2022,155.3,86.3,106.1,90.4,87
+"Nehru School of Management, Thrissur",195,523.2,Kerala,South,P,2022,125.7,107.9,102.9,88.3,98.4
+"IBMR Business School, Gurugram",196,522,Haryana,North,P,2022,146.4,62.8,131.3,83.1,98.4
+Krupanidhi Group of Institutions,197,521.6,Karnataka,South,P,2022,123.2,78.4,146.1,66.6,107.3
+"Guru Nanak Institute of Management Studies, Mumbai",198,521.3,Maharashtra,West,P,2022,148.8,76.8,114.7,92,89
+"Chandigarh School of Business, Jhanjeri",199,520.9,Punjab,North,P,2022,111.9,96.3,122,81.3,109.4
+"Department of Management, IIS (Deemed to be University)",200,520.2,Rajasthan,North,P,2022,134.3,109.9,96.1,72.8,107.1
+"LEAD College of Management, Palakkad",201,520,Kerala,South,P,2022,137.1,87.1,131.1,78.6,86.1
+"Faculty of Management Science, Shri Ram Murti Smarak College of Engineering & Technology, Bareilly",202,519.2,Uttar Pradesh,North,P,2022,161.2,108.7,109.1,79.2,61
+VLB Janakiammal College of Arts and Science,203,519,Tamil Nadu,South,P,2022,146.1,119.6,111,73.9,68.4
+"Faculty of Management Studies, M. S. University of Baroda",204,518.3,Gujarat,West,G,2022,107.9,99.6,131.1,75.4,104.3
+"Amity Business School, Lucknow",205,518.2,Uttar Pradesh,North,P,2022,133.4,107.1,94.5,72.6,110.6
+"School of Management, Presidency University, Bengaluru ",206,517.8,Karnataka,South,P,2022,126.3,94.6,115.6,88.9,92.4
+"Department of Management Studies, Easwari Engineering College, Chennai",207,517,Tamil Nadu,South,P,2022,135.8,104.6,107.1,89.4,80.1
+"Department of MBA, SNS College of Technology, Coimbatore",208,516,Tamil Nadu,South,P,2022,129.3,103.4,113.2,78.7,91.4
+Shri Jaysukhlal Vadhar Institute of Management Studies,209,515.9,Gujarat,West,P,2022,151.3,99.5,117.8,54.7,92.6
+"Sri Ramakrishna College of Arts and Science, Coimbatore",210,515.5,Tamil Nadu,South,P,2022,161.4,103.2,81.9,84,85
+"Department of Management Studies and Research Centre, B.M.S. College of Engineering, Bengaluru",211,514.9,Karnataka,South,P,2022,121.7,102.8,121,94.8,74.6
+"Tilak Raj Chadha Institute of Management & Technology, Yamuna Nagar",212,513.4,Haryana,North,P,2022,133,102.1,105.6,88,84.7
+"DKTE Society’s Textile and Engineering Institute, Ichalkaranji",213,513,Maharashtra,West,P,2022,109.7,116.6,105,76.3,105.4
+Prestige Institute of Management Dewas,214,512.9,Madhya Pradesh,West,P,2022,150.9,74.4,109.9,86.2,91.5
+Dayananda Sagar College of Engineering,215,512.3,Karnataka,South,P,2022,155.3,93.7,126,64.4,72.9
+"Medi-Caps University, Indore",216,512.1,Madhya Pradesh,West,P,2022,138.3,98.4,106.5,78.2,90.7
+"Hindusthan College of Arts & Science, Coimbatore",217,511.1,Tamil Nadu,South,P,2022,130,86.6,110,80.8,103.7
+"Jagran Lakecity Business School, Jagran Lakecity University, Bhopal",218,510.8,Madhya Pradesh,West,P,2022,141.6,111.8,101.6,74.7,81.1
+"Hindusthan Institute of Technology, Coimbatore",219,510.6,Tamil Nadu,South,P,2022,138.6,118.6,125.1,78.1,50.2
+"St. Joseph’s PG College, Hyderabad",220,510.2,Telangana,South,P,2022,125.6,86.6,109.8,91.8,96.4
+"Coimbatore Institute of Management and Technology, Coimbatore",221,510.1,Tamil Nadu,South,P,2022,147.8,113.9,124,75.1,49.3
+Vishwa Vishwani Institute of Systems and Management,222,509.7,Telangana,South,P,2022,121.9,94.6,125.6,82.8,84.8
+"The Oxford College of Business Management, Bengaluru ",223,508.5,Karnataka,South,P,2022,140.4,100.2,89.3,92.5,86.1
+"Central Institute of Business Management, Research & Development, Nagpur",224,508.4,Maharashtra,West,P,2022,157.1,82.4,67.9,91.8,109.2
+"School of Business & Management, NSHM Knowledge Campus, Durgapur",225,508.1,West Bengal,East,P,2022,123.2,94.2,103.9,80.1,106.7
+"Rajshree Institute of Management & Technology, Bareilly",226,506.7,Uttar Pradesh,North,P,2022,141.1,115,85.5,76.6,88.5
+"Karnatak Law Society’s Institute of Management Education & Research, Belagavi",227,506.1,Karnataka,South,P,2022,145.4,94.4,111.9,91.2,63.2
+"ITM Business School, Warangal",228,504.7,Telangana,South,P,2022,126.2,102.2,130.6,76,69.7
+"GNVS Institute of Management, Mumbai",229,503.5,Maharashtra,West,P,2022,138.3,80.1,114.5,75.4,95.2
+"Department of Management Studies, G. Pullaiah College of Engineering and Technology (Autonomous), Kurnool",230,499.3,Andhra Pradesh,South,P,2022,148.8,87,89.1,66.6,107.8
+"Department of Management, Rathinam College of Arts & Science, Coimbatore",231,497.7,Tamil Nadu,South,P,2022,161,101.8,85.3,75.6,74
+"Francis Xavier Department of Management Studies (FXDoMS), Tirunelveli",232,496.2,Tamil Nadu,South,P,2022,146.9,107.2,86.1,75,81
+"MIET Business School, Meerut",233,487.9,Uttar Pradesh,North,P,2022,127.3,89.8,106.9,83.4,80.5
+"Sandip Institute of Technology and Research Centre, Nashik",234,487.1,Maharashtra,West,P,2022,136.3,104.6,90,81.5,74.7
+"Sardar Vallabhbhai Patel International School of Textiles & Management, Coimbatore",235,485.4,Tamil Nadu,South,G,2022,149,85.9,68,92.1,90.4
+"School of Management, Model Institute of Engineering and Technology, Jammu",236,482.4,Jammu and Kashmir,North,P,2022,144.5,80.6,111.1,82.4,63.8
+"IA School of Management Studies, Bengaluru ",237,482.1,Karnataka,South,P,2022,117.3,102.8,84.4,86,91.6
+"Department of Management, Presidency College, Bengaluru ",238,477.4,Karnataka,South,P,2022,112.2,82.1,129.6,76.6,76.9
+Netaji Subhas Institute of Business Management,239,477.2,Jharkhand,East,P,2022,139.7,113.2,123.8,78.7,21.8
+"Pranveer Singh Institute of Technology, Kanpur",240,475.7,Uttar Pradesh,North,P,2022,115.9,94.6,110.3,83.7,71.2
+"Institute of Business Management, GLA University, Mathura",241,475.6,Uttar Pradesh,North,P,2022,104.6,93.3,98.7,77.1,101.9
+"CMR University School of Management, Bengaluru",241,475.6,Karnataka,South,P,2022,120.7,80.7,103.7,60,110.5
+Haryana School of Business,243,474.6,Haryana,North,G,2022,112.4,107.1,79.6,82,93.5
+"Lakshmi Narain College of Technology, Bhopal",244,472.2,Madhya Pradesh,West,P,2022,128.5,89.9,115.4,93.7,44.7
+"Post Graduate Department of Management Studies, P E S College of Engineering",245,468.4,Karnataka,South,P,2022,130.2,96.5,98.6,76,67.1
+"B.L.D.E. Association’s A.S. Patil College of Commerce (Autonomous), Vijayapura",246,467.1,Karnataka,South,P,2022,136.4,116.6,51.2,76.2,86.7
+"Department of Business Administration and Research, Shri Sant Gajanan Maharaj College of Engineering, Shegaon",247,466.2,Maharashtra,West,P,2022,124,116,77.8,87.1,61.3
+"S. V. Institute of Management, Kadi",248,464.2,Gujarat,West,P,2022,98.4,101,107.5,85.5,71.8
+"Sau. Leena Kishor Mamidwar Institute of Management Studies & Research, Chandrapur",249,462.5,Maharashtra,West,P,2022,119.6,62.8,86.4,91,102.7
+"Poddar Management and Technical Campus, Jaipur",250,461.1,Rajasthan,North,P,2022,146.1,56.3,113.8,76.8,68.1
+"Department of Business Administration, Kanpur Institute of Technology, Kanpur",251,460.1,Uttar Pradesh,North,P,2022,115,103.3,106.9,73.3,61.6
+"Aristotle PG College, Hyderabad",252,459.8,Telangana,South,P,2022,111.4,94.6,91.2,73.8,88.8
+"Dr. V. N. Bedekar Institute of Management Studies, Thane",253,457.4,Maharashtra,West,P,2022,140.7,52.9,110.5,85,68.3
+"Seshadripuram Institute of Management Studies, Bengaluru ",254,444.4,Karnataka,South,P,2022,90.8,69.6,116.3,90.9,76.8
+"Department of Management Studies, The Oxford College of Engineering, Bengaluru ",255,443.1,Karnataka,South,P,2022,112.3,100.9,78.5,86.7,64.7
+"Global Business School, Hubli",256,440.3,Karnataka,South,P,2022,118.1,60.8,89,75.7,96.7
+"ITM Vocational University, Vadodara",257,440.1,Gujarat,West,P,2022,98.1,84.8,107.4,72.8,77
+"Faculty of Commerce & Business Management, Amrapali Institute of Technology Sciences, Haldwani",258,435.8,Uttarakhand,North,P,2022,101.9,103.2,84.4,79.2,67.1
+"Sahrdaya Institute of Management Studies, Thrissur",259,435.7,Kerala,South,P,2022,121.9,104,83.8,70.3,55.7
+MGM Institute of Management,260,433.4,Maharashtra,West,P,2022,106.4,98.2,64.4,87.3,77.1
+"T. John College, Bengaluru",261,433.2,Karnataka,South,P,2022,119.2,98,73.4,86.1,56.5
+"Department of Business Administration, Prasad V. Potluri Siddhartha Institute of Technology, Vijayawada",262,430.5,Andhra Pradesh,South,P,2022,107.4,91.5,89.3,79.2,63.1
+"Shri Vaishnav Institute of Management, Indore",263,428.8,Madhya Pradesh,West,P,2022,127.3,95.4,67.2,82.8,56.1
+"Postgraduate Department of Business Management, Sardar Patel University, Vallabh Vidyanagar, Anand",264,426.8,Gujarat,West,G,2022,124.4,89.8,93.9,72.7,46
+"Baba Farid College of Management & Technology, Bathinda",265,422.5,Punjab,North,P,2022,100.4,84.8,108.7,66.4,62.2
+"Indirapuram Institute of Higher Studies, Ghaziabad",266,419.2,Uttar Pradesh,North,P,2022,130.9,65.8,110.2,64.6,47.7
+"Astha School of Management, Bhubaneswar",267,418.5,Odisha,East,P,2022,137.1,89.9,93.8,72.6,25.1
+"Sinhgad Business School, Pune",268,418.4,Maharashtra,West,P,2022,124.8,41.5,113.4,79.7,59
+Sheila Raheja School of Business Management & Research,269,403.5,Maharashtra,West,P,2022,129.2,58.7,82.5,67.7,65.4
+"DAV Institute of Management, Faridabad",270,402.1,Haryana,North,P,2022,106.6,61.7,78.4,79.1,76.3
+"C K Shah Vijapurwala Institute of Management, Vadodara",271,399.1,Gujarat,West,P,2022,98.6,83.8,82.6,80.6,53.5
+"Chetan Business School, Hubli",272,395.7,Karnataka,South,P,2022,129.7,39.7,110.1,66.1,50.1
+"Indore Management Institute and Research Centre, Indore",273,392.2,Madhya Pradesh,West,P,2022,108.4,33.8,94.4,69.3,86.3
+"AMS School of Informatics, Hyderabad",274,381.1,Telangana,South,P,2022,107.7,62.4,112.1,66.2,32.7
+Institute of Management Study (IMS Kolkata),275,373.8,West Bengal,East,P,2022,90.9,31.7,73.1,83.1,95
+"Department of Management Sciences & Research, G. S. College of Commerce & Economics, Nagpur",276,369.6,Maharashtra,West,P,2022,73.1,67.7,103.5,70.9,54.4
+"Amjad Ali Khan College of Business Administration, Hyderabad",277,361.7,Telangana,South,P,2022,103.9,49.4,77.1,80.1,51.2
+"Department of Management Studies, SJB Institute of Technology",278,344.3,Karnataka,South,P,2022,92,85.7,74.2,79.6,12.8
+"Shiksha Mandal's Govindram Seksaria College of Commerce, Department of Advanced Management Studies",279,341.8,Maharashtra,West,P,2022,70.8,84.9,63.7,79.1,43.3
+Vidyasagar Institute of Management,280,289.1,Madhya Pradesh,West,P,2022,50.8,92,54.8,76.3,15.2
+IMS Business School ,281,279.9,West Bengal,East,P,2022,76.4,32.6,70.3,76.6,24
+"Indian Institute of Management, Calcutta",1,897.2,West Bengal,East,G,2021,217.4,142.5,222.5,133.2,181.6
+"Indian Institute of Management, Ahmedabad",2,897.1,Gujarat,West,G,2021,230.3,142.8,222.4,135.3,166.3
+"Indian Institute of Management, Bangalore",3,885.2,Karnataka,South,G,2021,216.4,142,222,133.1,171.7
+"Indian Institute of Management, Lucknow",4,879.5,Uttar Pradesh,North,G,2021,211,141.4,221.4,132.7,173
+"S. P. Jain Institute of Management & Research (SPJIMR), Mumbai",5,865.1,Maharashtra,West,P,2021,209.3,133,221.3,124.3,177.2
+"XLRI - Xavier School of Management, Jamshedpur",6,862.3,Jharkhand,East,P,2021,205.5,138.6,213.2,132.8,172.2
+"Indian Institute of Management, Indore",7,853.7,Madhya Pradesh,West,G,2021,198,137.3,209.1,129.6,179.7
+"Management Development Institute (MDI), Gurgaon",8,813.9,Haryana,North,P,2021,193.1,132.7,202,130.3,155.8
+"Faculty of Management Studies (FMS), University of Delhi, New Delhi",9,780.3,Delhi,North,G,2021,188.2,130.3,212,117.9,131.9
+"Indian Institute of Foreign Trade, New Delhi",10,771.2,Delhi,North,G,2021,185.3,126.8,197.7,117.2,144.2
+"SVKM's NMIMS, School of Business Management, Mumbai",11,771,Maharashtra,West,P,2021,180.1,132.5,195.3,117.3,145.8
+"Institute of Management Technology (IMT), Ghaziabad",12,759.7,Uttar Pradesh,North,P,2021,189,128.6,179.3,113.7,149.1
+"Indian Institute of Management, Shillong",13,756.2,Meghalaya,East,G,2021,186.9,129.6,194.6,116.1,129
+"International Management Institute (IMI), New Delhi",14,750.8,Delhi,North,P,2021,187.8,125,177,116.2,144.8
+"Symbiosis Institute of Business Management (SIBM), Pune",15,748.6,Maharashtra,West,P,2021,188.3,124.3,194.8,108.2,133
+"Department of Management Studies, IIT Delhi, New Delhi",16,746,Delhi,North,G,2021,183.7,130.8,193.8,113,124.7
+"Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",17,744,Maharashtra,West,P,2021,177.2,121,186.1,114.7,145
+"Indian Institute of Management, Tiruchirappalli",18,742.8,Tamil Nadu,South,G,2021,181.6,127.9,180.9,116.6,135.8
+"Great Lakes Institute of Management, Chennai",19,740.8,Tamil Nadu,South,P,2021,184.9,128.8,179.2,105.1,142.8
+"Indian Institute of Management, Udaipur",20,740.6,Rajasthan,North,G,2021,180,127.8,176.9,109.3,146.6
+"Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",21,740.2,Odisha,East,P,2021,185,129.4,181.6,114,130.2
+"T. A. Pai Management Institute (TAPMI), Manipal",21,740.2,Karnataka,South,P,2021,178.4,127.7,170.5,101.4,162.2
+"Jamnalal Bajaj Institute of Management Studies (JBIMS), Mumbai",23,739.3,Maharashtra,West,G,2021,186.6,117.4,200.3,113.3,121.7
+"Vinod Gupta School of Management (VGSoM), IIT, Kharagpur",24,739.1,West Bengal,East,G,2021,184.1,130.6,183.5,113.7,127.2
+"ICFAI Business School, Hyderabad",25,736.1,Telangana,South,P,2021,184.5,126.1,166.1,115.8,143.6
+"Goa Institute of Management, Sanquelim",26,718.4,Goa,West,P,2021,178.9,122.3,169.6,112.8,134.8
+"Indian Institute of Management, Kashipur",27,715.3,Uttarakhand,North,G,2021,179.9,124.8,181.3,110.7,118.6
+"Indian Institute of Management, Nagpur",28,713.7,Maharashtra,West,G,2021,181.8,124.6,178.9,109.5,118.9
+"K J Somaiya Institute of Management, Mumbai",29,713.2,Maharashtra,West,P,2021,183.5,128.7,161.1,112.8,127.1
+"Jagdish Sheth School of Management (JAGSOM), Bengaluru",30,710.2,Karnataka,South,P,2021,180.3,120.5,160.8,104.1,144.5
+"Institute of Rural Management, Anand",31,709.6,Gujarat,West,P,2021,170.8,129.5,175.7,113,120.6
+"SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",32,708.5,Karnataka,South,P,2021,177.2,118.8,168.2,107.9,136.4
+"Department of Industrial and Management Engineering, IIT, Kanpur",33,707.8,Uttar Pradesh,North,G,2021,182.3,116.7,176.4,104.6,127.8
+"Indian Institute of Management, Amritsar",34,706.7,Punjab,North,G,2021,178.2,118.2,174.8,108.4,127.1
+"Birla Institute of Management Technology (BIMTECH), Greater Noida",35,706.3,Uttar Pradesh,North,P,2021,182.7,129.9,163.5,112.7,117.5
+"Lal Bahadur Shastri Institute of Management, New Delhi",36,703.8,Delhi,North,P,2021,178.4,118.6,165.5,108.1,133.2
+"Institute of Management, Nirma University, Ahmedabad",37,701.3,Gujarat,West,P,2021,171.5,124.5,163.8,112.8,128.7
+"Sydenham Institute of Management Studies, Research & Entrepreneurship Education (SIMSREE), Mumbai",38,697.8,Maharashtra,West,G,2021,177.7,104.4,168.5,113,134.2
+"National Institute of Agricultural Extension Management (MANAGE), Hyderabad",39,696.3,Telangana,South,G,2021,180.2,123.9,169.6,103.5,119.1
+"Symbiosis Institute of International Business (SIIB), Pune",40,694,Maharashtra,West,P,2021,181.9,120.1,167.9,96,128.1
+"Prin. L.N. Welingkar Institute of Management Development & Research, Mumbai",41,691.6,Maharashtra,West,P,2021,177,108.4,161.9,109.7,134.6
+"Rajagiri Centre for Business Studies, Kochi",42,689.6,Kerala,South,P,2021,177.6,121.2,163.8,99.1,127.9
+"Loyola Institute of Business Administration (LIBA), Chennai",43,686.7,Tamil Nadu,South,P,2021,176.2,116.4,160.8,105,128.3
+"Symbiosis Institute of Operations Management, Nashik",44,685.4,Maharashtra,West,P,2021,170.3,115.9,171.6,102.3,125.3
+"Indian Institute of Management, Sambalpur",45,677.2,Odisha,East,G,2021,173,108.8,173.9,111.5,110
+"Institute of Public Enterprise (IPE), Hyderabad",46,676.7,Telangana,South,P,2021,180.6,116,155.1,103,122
+"Institute of Management Technology, Nagpur",47,676.6,Maharashtra,West,P,2021,172.2,130.4,154.1,97.3,122.6
+"PSG Institute of Management, Coimbatore",48,675.9,Tamil Nadu,South,P,2021,172.7,118.5,154.9,102.7,127.1
+"Asia-Pacific Institute of Management, New Delhi",49,675.5,Delhi,North,P,2021,173.3,117.4,155.2,100.7,128.9
+"IILM Institute for Business and Management, Gurugram",50,674.3,Haryana,North,P,2021,175.5,118.6,153.6,99.6,127
+"Indian Institute of Forest Management (IIFM), Bhopal",51,672.4,Madhya Pradesh,West,G,2021,176.2,129.8,172.3,104.3,89.8
+"Department of Commerce, Delhi School of Economics, University of Delhi, New Delhi",52,671.3,Delhi,North,G,2021,172.3,115.8,164.6,102.7,115.9
+"Balaji Institute of Modern Management (BIMM), Pune",53,671.1,Maharashtra,West,P,2021,173.4,123.8,150.4,103.3,120.2
+"Symbiosis Institute of Digital and Telecom Management, Pune",54,670.8,Maharashtra,West,P,2021,165.6,115.6,168.4,102,119.2
+"Amity Business School, Amity University, Noida",55,670.5,Uttar Pradesh,North,P,2021,171.5,129,145.7,98,126.3
+"Department of Management Studies, National Institute of Technology, Tiruchirappalli",56,668.6,Tamil Nadu,South,G,2021,166.5,132.5,162.3,107.3,100
+"Shri Dharmasthala Manjunatheshwara Institute for Management Development (SDMIMD), Mysuru",57,667.6,Karnataka,South,P,2021,165.1,111.9,155.2,109.7,125.7
+"Prin. L.N. Welingkar Institute of Management Development & Research, Bengaluru",58,665,Karnataka,South,P,2021,174.1,113.9,146.3,100.7,130
+"Symbiosis Institute of Business Management, Hyderabad",59,664.8,Telangana,South,P,2021,165.4,119.4,147.4,102,130.6
+"SIES College of Management Studies, Navi Mumbai",60,663.5,Maharashtra,West,P,2021,174.9,105.6,156.7,101,125.3
+"School of Business and Management, Christ (Deemed to be University), Bengaluru ",61,662.9,Karnataka,South,P,2021,163,114,156,101.3,128.6
+"ITM Business School, Navi Mumbai",62,657,Maharashtra,West,P,2021,171.2,116.4,152.2,100.8,116.4
+"Department of Management, BITS, Pilani",63,656.6,Rajasthan,North,P,2021,171.9,122.1,144.6,101.9,116.1
+"Jagan Institute of Management Studies (JIMS), New Delhi",64,656.3,Delhi,North,P,2021,178.2,93.1,160.6,105.9,118.5
+"SOIL Institute of Management, Gurugram",65,656,Haryana,North,P,2021,172,107.4,164.8,96.6,115.2
+"Indus Business Academy (IBA), Bengaluru ",66,654.5,Karnataka,South,P,2021,173.5,114.5,155.5,93.8,117.2
+"VIT Business School, Vellore",67,654.3,Tamil Nadu,South,P,2021,171.5,119.9,133,99.2,130.7
+"Pune Institute of Business Management (PIBM), Pune",68,652.3,Maharashtra,West,P,2021,176.2,102.5,155.6,95,123
+"Jaipuria Institute of Management, Lucknow",69,650.8,Uttar Pradesh,North,P,2021,164.8,107.7,154.5,103.7,120.1
+"International Management Institute, Bhubaneswar",70,649.3,Odisha,East,P,2021,165.6,116.4,160.9,93.6,112.8
+"Gitam Institute of Management, Visakhapatnam",71,648.7,Andhra Pradesh,South,P,2021,164.4,120.6,138.1,103,122.6
+"Prestige Institute of Management and Research, Indore",72,648.6,Madhya Pradesh,West,P,2021,169.2,111.5,146.6,101.5,119.8
+"Indian Institute of Social Welfare and Business Management (IISWBM), Kolkata",73,648.5,West Bengal,East,G,2021,173.1,115.2,140.5,101.7,118
+"Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM), Pune",74,645.2,Maharashtra,West,G,2021,172.3,104.5,165.3,98.3,104.8
+"SCMS Cochin School of Business, Ernakulam",75,644.4,Kerala,South,P,2021,172.8,118.5,135.9,90.5,126.7
+"School of Management Studies, Motilal Nehru National Institute of Technology (MNNIT), Prayagraj",76,640.7,Uttar Pradesh,North,G,2021,173.8,128.3,128.9,98.3,111.4
+"International School of Business & Media (ISBM), Pune",77,640.4,Maharashtra,West,P,2021,173.9,115.2,155.9,91.8,103.6
+"Institute of Management Technology, Hyderabad",78,639.7,Telangana,South,P,2021,167.3,117.9,149.3,90.2,115
+"Jaipuria Institute of Management, Noida",79,638.7,Uttar Pradesh,North,P,2021,164,103.3,149.3,94.2,127.9
+"School of Business – University of Petroleum & Energy Studies, Dehradun",80,638.4,Uttarakhand,North,P,2021,164.3,114.4,144.5,94,121.2
+"Institute of Management Studies, Ghaziabad",81,637,Uttar Pradesh,North,P,2021,171.9,106.7,144.3,103.8,110.3
+"Chitkara Business School, Rajpura",82,635.5,Punjab,North,P,2021,171.6,110.3,144.7,83.9,125
+"N. L. Dalmia Institute of Management Studies and Research, Mumbai",83,635.1,Maharashtra,West,P,2021,174.8,96,142.5,103.8,118
+"Symbiosis Centre for Information Technology (SCIT), Pune",83,635.1,Maharashtra,West,P,2021,163.9,101.1,161.2,93.1,115.8
+"Xavier Institute of Social Service (XISS), Ranchi",85,632.5,Jharkhand,East,P,2021,165.3,92.1,144.5,103.1,127.5
+"Universal Business School, Mumbai",86,631.3,Maharashtra,West,P,2021,167.3,123.5,147,81.8,111.7
+"Fortune Institute of International Business (FIIB), New Delhi",87,631.2,Delhi,North,P,2021,166.3,96.4,143.8,99.4,125.3
+"Symbiosis School of Banking and Finance, Pune",88,631.1,Maharashtra,West,P,2021,154.5,119.3,154.8,87.3,115.2
+"AIMS School of Business, Bengaluru ",89,630.2,Karnataka,South,P,2021,170.1,116.9,135.1,89.5,118.6
+"Institute of Agribusiness Management, Bikaner",90,629,Rajasthan,North,G,2021,163.3,118.5,151.2,90.1,105.9
+"Jaipuria Institute of Management, Jaipur",91,625.7,Rajasthan,North,P,2021,163.3,102.3,136.8,101.5,121.8
+"School of Development Studies, IIHMR University, Jaipur",92,624.6,Rajasthan,North,P,2021,167.2,112.6,144.8,90.1,109.9
+"Xavier Institute of Management & Entrepreneurship, Kochi",93,623.2,Kerala,South,P,2021,168.8,113.5,137.5,86.2,117.2
+"Balaji Institute of Management and Human Resource Development (BIMHRD), Pune",94,621,Maharashtra,West,P,2021,158.5,105.5,153.1,90.9,113
+"School of Management, NIT, Rourkela",95,619.5,Odisha,East,G,2021,174.2,123.3,130.8,92.8,98.4
+"Manipal Institute of Management, Manipal",96,619.2,Karnataka,South,P,2021,165.6,121.9,122.7,86.6,122.4
+"Kristu Jayanti College, Bengaluru ",97,617.6,Karnataka,South,P,2021,152.6,126.4,139.8,82.4,116.4
+"IIEBM, Indus Business School, Pune",98,617.2,Maharashtra,West,P,2021,158.7,108.2,149.1,92.2,109
+"G.L. Bajaj Institute of Management and Research, Greater Noida",99,613.5,Uttar Pradesh,North,P,2021,170,102,147.3,81.4,112.8
+"Faculty of Management Studies, Manav Rachna International Institute of Research and Studies, Faridabad",100,612.9,Haryana,North,P,2021,169.4,115.2,126.6,92.5,109.2
+"Acharya Bangalore B School, Bengaluru",101,612.8,Karnataka,South,P,2021,155.1,108.9,142.6,90.7,115.5
+"I.T.S School of Management, Ghaziabad",102,611.8,Uttar Pradesh,North,P,2021,166.6,111,132.5,90.8,110.9
+"Punjab College of Technical Education, Ludhiana",103,607.6,Punjab,North,P,2021,163.2,103.1,141,84.6,115.7
+"Jagannath International Management School, New Delhi",104,606.6,Delhi,North,P,2021,171.3,82.2,141,95.9,116.2
+"JK Business School, Gurugram",105,606.2,Haryana,North,P,2021,162.4,120.3,147.3,81.7,94.5
+"School of Management, D. Y. Patil (Deemed to be University), Navi Mumbai",106,605.3,Maharashtra,West,P,2021,142.8,117.2,136,91,118.3
+"Department of Management Studies, Pondicherry University, Puducherry",107,604.8,Puducherry,South,G,2021,147.6,108.2,137.3,99.2,112.5
+"Amity Business School, Gwalior",108,604.7,Madhya Pradesh,West,P,2021,160.6,123.1,129.7,75.2,116.1
+"School of Management, SRM Institute of Science and Technology, Chennai",109,604.3,Tamil Nadu,South,P,2021,165.6,121.3,126.9,81.6,108.9
+"Amity Business School, Gurugram",110,602.4,Haryana,North,P,2021,165.9,115.1,120.5,87.6,113.3
+"School of Management, Hindustan Institute of Technology and Science, Chennai",111,601.5,Tamil Nadu,South,P,2021,160.2,120,127.3,92.2,101.8
+"Neville Wadia Institute of Management Studies and Research, Pune",112,601.3,Maharashtra,West,P,2021,153.6,116,132.6,82.1,117
+"Amity University Chhattisgarh, Raipur",113,600.9,Chhattisgarh,East,P,2021,165.3,120.7,120.8,79.5,114.6
+"Jaipuria Institute of Management, Indore",113,600.9,Madhya Pradesh,West,P,2021,162.9,107.8,146.1,82.2,101.9
+"University School of Business, Chandigarh University, Mohali",115,600.3,Punjab,North,P,2021,163.2,103.5,142.4,85.8,105.4
+"M S Ramaiah Institute of Management, Bengaluru ",116,599.7,Karnataka,South,P,2021,147.7,104.5,139.6,90.4,117.5
+"CMS Business School JAIN (Deemed-to-be University), Bengaluru ",117,598.5,Karnataka,South,P,2021,147,111.2,151.8,79.8,108.7
+"School of Management Studies, Bannari Amman Institute of Technology, Erode",118,598.2,Tamil Nadu,South,P,2021,163,115.8,134.6,83,101.8
+"Kirloskar Institute of Advanced Management Studies, Pune",119,597.8,Maharashtra,West,P,2021,151.7,107.2,144.5,87.7,106.7
+"Gian Jyoti Institute of Management and Technology, Mohali",120,597.6,Punjab,North,P,2021,161.4,91.6,144.9,78.6,121.1
+"Institute of Management, JK Lakshmipat University, Jaipur",121,597.3,Rajasthan,North,P,2021,160.6,114.1,130.9,81,110.7
+"Rungta College of Engineering & Technology, Bhilai",122,597.1,Chhattisgarh,East,P,2021,165.6,112.2,118.9,90.6,109.8
+"Jaipuria Institute of Management, Ghaziabad",123,597,Uttar Pradesh,North,P,2021,147.9,99,139,97.6,113.5
+"Suryadatta Institute of Management, Pune",124,596.4,Maharashtra,West,P,2021,165,102.1,136.9,79.2,113.2
+"Balaji Institute of International Business (BIIB), Pune",125,595.8,Maharashtra,West,P,2021,162.7,113.1,126.8,94.4,98.8
+"Shri Ram Murti Smarak International Business School, Lucknow",125,595.8,Uttar Pradesh,North,P,2021,163.2,113.5,127.5,89.8,101.8
+"Taxila Business School, Jaipur ",127,595.7,Rajasthan,North,P,2021,145.9,108.3,154.9,87.1,99.5
+"School of Management, ITM University, Gwalior",128,595.6,Madhya Pradesh,West,P,2021,163.9,108.5,125.7,81.4,116.1
+"R.V. Institute of Management, Bengaluru ",129,595.5,Karnataka,South,P,2021,161.2,83.3,139.4,90.1,121.5
+"Calcutta Business School, Bishnupur",130,595.2,West Bengal,East,P,2021,147,110.3,141.1,78.5,118.3
+"Prestige Institute of Management, Gwalior",131,594.9,Madhya Pradesh,West,P,2021,166.1,105,124.1,89.5,110.2
+"Balaji Institute of Telecom & Management, Pune",132,594.7,Maharashtra,West,P,2021,151,110.3,148.1,95.5,89.8
+"Department of Management Studies, Mepco Schlenk Engineering College, Sivakasi",133,594.6,Tamil Nadu,South,P,2021,153.5,110,134,95,102.1
+"School of Management, IMS Unison University, Dehradun",134,594.3,Uttarakhand,North,P,2021,151.2,92.8,145.7,87.1,117.5
+"Symbiosis Institute of Computer Studies and Research, Pune",135,594.2,Maharashtra,West,P,2021,147.1,104.9,147.5,88.5,106.2
+"Institute of Management Studies, Noida",136,594.1,Uttar Pradesh,North,P,2021,163.3,102.5,131.6,91,105.7
+"Bharath Institute of Higher Education and Research, Chennai",137,593.9,Tamil Nadu,South,P,2021,162.2,105.1,145.2,91.1,90.3
+"Bharati Vidyapeeth's Institute of Management Studies and Research, Navi Mumbai",138,593.7,Maharashtra,West,P,2021,164.3,114.5,117.9,93,104
+"School of Management & Commerce, Poornima University, Jaipur",139,593.4,Rajasthan,North,P,2021,164.9,105.2,129.9,85.6,107.8
+"Ajay Kumar Garg Institute of Management, Ghaziabad",140,593,Uttar Pradesh,North,P,2021,170,105,139.7,74.7,103.6
+"Faculty of Management Studies & Research, Aligarh Muslim University, Aligarh",141,591.7,Uttar Pradesh,North,G,2021,155.1,103.4,132.7,90.5,110
+"K L Business School, K L E Foundation (Deemed to be University), Guntur",142,591.3,Andhra Pradesh,South,P,2021,147.1,103.1,133.5,91.1,116.5
+"Kongu Business School, Erode",143,591.1,Tamil Nadu,South,P,2021,159.5,107.7,117.5,92.7,113.7
+"Institute of Insurance and Risk Management (IIRM), Hyderabad",144,590.9,Telangana,South,G,2021,146.9,105.5,152.9,90.6,95
+"International School of Informatics & Management Technical Campus, Jaipur",145,590.3,Rajasthan,North,P,2021,160,107.1,128.5,78.9,115.8
+"Amity Business School, Jaipur",146,589,Rajasthan,North,P,2021,165.5,117.5,106.1,83.1,116.8
+"School of Management Studies, Reva University, Bengaluru ",147,587.1,Karnataka,South,P,2021,158.6,104.8,134.9,79.2,109.6
+"Dhruva College of Management, Hyderabad",148,586.9,Telangana,South,P,2021,160.8,116.1,122.8,93.6,93.6
+"MIT College of Management, Pune",149,585.6,Maharashtra,West,P,2021,153.7,115.6,124.4,80.5,111.4
+"Shri Ramdeobaba College of Engineering and Management, Nagpur",150,583.2,Maharashtra,West,P,2021,160.2,93.3,125.6,82.5,121.6
+"Sri Sairam Institute of Management Studies, Chennai",151,581.4,Tamil Nadu,South,P,2021,159.9,107.6,119.3,87,107.6
+"School of Management, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai",152,580,Tamil Nadu,South,P,2021,146.6,115.8,117,90.2,110.4
+"St Aloysius Institute of Management and Information Technology, Mangaluru",153,578.7,Karnataka,South,P,2021,136.6,114,126,91.8,110.3
+"ICBM School of Business Excellence, Hyderabad",154,577.4,Telangana,South,P,2021,158.9,90,136.2,83.9,108.4
+"Department of MBA, KLS Gogte Institute of Technology, Belagavi",155,576.9,Karnataka,South,P,2021,157.3,102.2,126.5,83.4,107.5
+"ICFAI Business School, Dehradun",156,576.2,Uttarakhand,North,P,2021,137.3,109.3,136,83.5,110.1
+"SCMS School of Technology and Management, Ernakulam",156,576.2,Kerala,South,P,2021,135.2,102.6,131.8,91.8,114.8
+"Aurora's Business School, Hyderabad",158,576.1,Telangana,South,P,2021,159.6,93.8,137.8,74.8,110.1
+"Dr. SNS Rajalakshmi College of Arts and Science (Autonomous), Coimbatore",159,576,Tamil Nadu,South,P,2021,168.1,106.9,113.8,80.5,106.7
+"School of Management & Commerce, Sanskriti University, Mathura",160,575.7,Uttar Pradesh,North,P,2021,159.6,107.6,119,84.7,104.8
+"Quantum School of Business, Quantum University, Roorkee",161,574.7,Uttarakhand,North,P,2021,152,104.9,135.9,88.2,93.7
+"Saintgits Institute of Management, Kottayam",162,574.5,Kerala,South,P,2021,160.2,110.4,97.3,89.9,116.7
+"Institute of Business Studies and Research (IBSAR), Navi Mumbai",163,573.2,Maharashtra,West,P,2021,168,99.9,149.8,68.3,87.2
+"ICFAI University Tripura, Agartala",164,571.2,Tripura,East,P,2021,156,110.4,121.2,76.8,106.8
+"Lloyd Business School, Greater Noida",165,571,Uttar Pradesh,North,P,2021,159.3,89.7,139.9,78.5,103.6
+"Kalaignarkarunanidhi Institute of Technology, Coimbatore",166,570.8,Tamil Nadu,South,P,2021,153.3,116,113.2,81.8,106.5
+"Institute of Management & Information Science, Bhubaneswar",167,569.5,Odisha,East,P,2021,162.1,108.6,128.2,88.4,82.2
+"Doon Business School, Dehradun",168,569.1,Uttarakhand,North,P,2021,151.6,101.8,128.9,80.7,106.1
+"Narayana Business School, Ahmedabad",169,569,Gujarat,West,P,2021,138.1,89.7,145.3,86,109.9
+"ITM Business School, Chennai",170,568.6,Tamil Nadu,South,P,2021,159.2,89.8,116.3,89.2,114.1
+"SASMIRA's Institute of Management Studies and Research, Mumbai",171,568.3,Maharashtra,West,P,2021,163.4,82.5,122.2,87.2,113
+"Amity Business School, Mumbai",171,568.3,Maharashtra,West,P,2021,151.4,107.6,119.6,72.9,116.8
+"School of Business & Economics, Adamas University, Kolkata",173,568.2,West Bengal,East,P,2021,170.3,119.4,92.9,71.2,114.4
+"School of Management & Commerce, K.R. Mangalam University, Gurugram",174,567.8,Haryana,North,P,2021,146.3,90.9,137.1,77.9,115.6
+"IIKM The Corporate B-School, Chennai",175,567.4,Tamil Nadu,South,P,2021,160,92.9,126,79.2,109.3
+"Vignana Jyothi Institute of Management, Hyderabad",176,567.2,Telangana,South,P,2021,150.6,95.3,125.1,93.1,103.1
+"Vivekanand Education Society Institute of Management Studies and Research, Mumbai",177,566,Maharashtra,West,P,2021,161.5,90.7,131.9,84.6,97.3
+"School of Business, Galgotias University, Greater Noida",178,565.7,Uttar Pradesh,North,P,2021,122.7,102.4,136.7,82.5,121.4
+"Saveetha School of Management, Chennai",179,565.5,Tamil Nadu,South,P,2021,155.7,99.9,113.5,81.9,114.5
+"ICFAI University, Jharkhand, Ranchi",180,565.3,Jharkhand,East,P,2021,164.9,111.5,125.3,80.2,83.4
+"ISBR Business School, Bengaluru ",181,565.2,Karnataka,South,P,2021,145.6,91.6,126.8,92,109.2
+"Bharatiya Vidya Bhavan's Usha Lakshmi Mittal Institute of Management, New Delhi",182,564.9,Delhi,North,P,2021,157.2,72,144.3,82.9,108.5
+"IIMT College of management, Greater Noida",183,564.6,Uttar Pradesh,North,P,2021,150.3,104.5,133.2,82.3,94.3
+"Vivekananda Institute of Management Studies, Coimbatore",184,564.3,Tamil Nadu,South,P,2021,153.7,111.5,125.3,70.8,103
+"School of Management, MIT World Peace University, Pune",185,563.2,Maharashtra,West,P,2021,112.7,113,138,89.6,109.9
+"IPS Academy, Institute of Business Management and Research, Indore",186,563.1,Madhya Pradesh,West,P,2021,150.7,93,121.5,85.2,112.7
+"DJ Academy for Managerial Excellence, Coimbatore",187,562.8,Tamil Nadu,South,P,2021,149.6,117.2,120.3,79.4,96.3
+"Dayananda Sagar College of Management & Information Technology, Bengaluru ",188,562.3,Karnataka,South,P,2021,127.5,104.3,136,94.3,100.2
+"St. Joseph’s Institute of Management, Bengaluru",189,562.2,Karnataka,South,P,2021,141.8,88.1,133.1,96.8,102.4
+"School of Management, Sree Saraswathi Thyagaraja College, Coimbatore",190,562,Tamil Nadu,South,P,2021,165.5,111.9,125.4,79.4,79.8
+"Adithya School of Business Management, Coimbatore",191,561.7,Tamil Nadu,South,P,2021,155.9,110,126.9,70.8,98.1
+"Chandigarh Business School of Administration, Mohali",192,561,Punjab,North,P,2021,145.1,97.3,113.5,86.8,118.3
+"FMS-Wisdom, Banasthali Vidyapith, Banasthali",193,560.9,Rajasthan,North,P,2021,145.7,85.1,111.8,97.7,120.6
+"Siva Sivani Institute of Management, Hyderabad",193,560.9,Telangana,South,P,2021,136.9,102,121.4,94,106.6
+"Axis Institute of Planning and Management, Kanpur",195,560.8,Uttar Pradesh,North,P,2021,138.4,102.4,134.4,77.1,108.5
+"Vivekanand Education Society Business School, Mumbai",196,559.3,Maharashtra,West,P,2021,152.7,89.1,131.8,78.2,107.5
+"Hindusthan College of Engineering and Technology, Coimbatore",197,558.4,Tamil Nadu,South,P,2021,161.9,108.2,93,87.2,108.1
+"Agriculture and Food Management Institute, Mysuru",198,557.4,Karnataka,South,P,2021,161.9,102.6,140.9,78.8,73.2
+"Department of MBA, SNS College of Technology, Coimbatore",199,556.1,Tamil Nadu,South,P,2021,144.4,103.4,124.2,84.4,99.7
+"Faculty of Management, JECRC University, Jaipur",200,555.8,Rajasthan,North,P,2021,159.6,108.6,115.8,69.9,101.9
+"Hindusthan College of Arts and Science, Coimbatore",201,555.7,Tamil Nadu,South,P,2021,142.8,83,127.5,79.5,122.9
+"Prestige Institute of Management, Dewas",202,553.6,Madhya Pradesh,West,P,2021,161.6,93.7,118.3,87.5,92.5
+"Nehru School of Management, Thrissur",203,553.2,Kerala,South,P,2021,132.1,108.7,131.4,83.6,97.4
+"DKTE Society's Textile & Engineering Institute, Ichalkaranji",204,552.9,Maharashtra,West,P,2021,120.6,115.6,126.1,85.5,105.1
+"Teerthanker Mahaveer Institute of Management & Technology, Moradabad",205,552.2,Uttar Pradesh,North,P,2021,158.9,97.9,125.2,77.5,92.7
+"Lala Lajpatrai Institute of Management, Mumbai",206,548.4,Maharashtra,West,P,2021,137.9,85,138.3,83.1,104.1
+"The Business School, University of Jammu, Jammu",207,547.8,Jammu and Kashmir,North,G,2021,143.5,107.9,133,98.1,65.3
+"Velalar College of Engineering and Technology, Erode",208,546.6,Tamil Nadu,South,P,2021,150.9,102.4,110.4,80.9,102
+"MLR Institute of Technology, Hyderabad",209,546,Telangana,South,P,2021,154.1,109.5,112.9,81.4,88.1
+"IES's Management College and Research Centre, Mumbai",210,545.9,Maharashtra,West,P,2021,132,94.2,127.5,94.7,97.5
+"KCT Business School, Coimbatore",211,544.8,Tamil Nadu,South,P,2021,129.1,106.9,118.3,81.5,109
+"Department of MBA, CMR College of Engineering and Technology, Hyderabad",212,544.2,Telangana,South,P,2021,157.1,88.6,113.2,90.3,95
+"IBMR Business School, Gurugram",213,543.3,Haryana,North,P,2021,130.4,86,133.5,82.7,110.7
+"Lead College of Management, Palakkad",214,541.7,Kerala,South,P,2021,151.4,82.5,126.1,79.4,102.3
+"Durgadevi Saraf Institute of Management Studies, Mumbai",215,541.2,Maharashtra,West,P,2021,153.3,90.5,105.9,81.8,109.7
+"MM Institute of Management (MMIM), Ambala",216,540.2,Haryana,North,P,2021,132.6,110.7,115.3,90.1,91.5
+"Faculty of Management Science, Shri Ram Murti Smarak College of Engineering and Technology, Bareilly",217,539.4,Uttar Pradesh,North,P,2021,151.1,110,117.3,88.1,72.9
+"Institute of Engineering & Management, Kolkata",218,535.8,West Bengal,East,P,2021,156.3,85.3,84.9,95.1,114.2
+"Tecnia Institute of Advanced Studies, New Delhi",219,535.5,Delhi,North,P,2021,158.1,97.1,89,93.7,97.6
+"SGPC's Guru Nanak Institute of Management Studies, Mumbai",220,534.2,Maharashtra,West,P,2021,140.9,76.4,125.4,92.6,98.9
+"Sri Ramakrishna Arts and Science College, Coimbatore",221,533.5,Tamil Nadu,South,P,2021,152,102.3,106.2,80.1,92.9
+"OM Kothari Institute of Management & Research, Kota",222,532.4,Rajasthan,North,P,2021,147,96.7,117.1,82.1,89.5
+"Amity Business School, Lucknow",222,532.4,Uttar Pradesh,North,P,2021,134.5,122.1,102.6,80.9,92.3
+"Department of Management, Rathinam College of Arts & Science, Coimbatore",224,531.6,Tamil Nadu,South,P,2021,161.8,109.1,99.4,77.6,83.7
+"Department of Management Studies, G Pullaiah College of Engineering and Technology (Autonomous), Kurnool",225,530.9,Andhra Pradesh,South,P,2021,148.9,106.7,108.1,65.5,101.7
+"Central Institute of Business Management Research & Development, Nagpur",226,530,Maharashtra,West,P,2021,159.8,81.6,79.3,95.6,113.7
+"Medi-Caps University, Indore",227,527.7,Madhya Pradesh,West,P,2021,125.2,98.2,119.1,86.8,98.4
+"Bharatesh Education Trust’s Global Business School, Belgaum",228,527.3,Karnataka,South,P,2021,161.8,100.7,112.2,90,62.6
+"Department of Management Studies and Research Center, BMS College of Engineering, Bengaluru ",229,526.4,Karnataka,South,P,2021,131,95.8,122.3,92.7,84.6
+"MIET Business School, Meerut",230,526.2,Uttar Pradesh,North,P,2021,129.6,98.6,108.6,82,107.4
+"Tula's Institute, Dehradun",231,524.2,Uttarakhand,North,P,2021,137.2,112.6,121,66.8,86.6
+"Parul Institute of Management and Research, Vadodara",232,523.1,Gujarat,West,P,2021,121.4,88.5,119.3,71.3,122.6
+"Department of Management Studies, Easwari Engineering College, Chennai",233,520,Tamil Nadu,South,P,2021,142.4,98.8,108.1,89.5,81.2
+"Department of Business Administration, Gandhi Institute for Technological Advancement (GITA), Bhubaneswar",234,519.1,Odisha,East,P,2021,143.6,108.6,121.8,86.2,58.9
+"M. S. Patel Institute of Management Studies, M. S. University of Baroda, Vadodara",235,518.8,Gujarat,West,G,2021,102.8,96.7,133.2,82,104.1
+"The Oxford College of Business Management, Bengaluru ",236,518.3,Karnataka,South,P,2021,127.8,98.7,107.9,90.1,93.8
+"School of Management, Model Institute of Engineering and Technology, Jammu",237,517.1,Jammu and Kashmir,North,P,2021,137.8,89.6,113.1,80.5,96.1
+"School of Management, Presidency University, Bengaluru ",238,516.2,Karnataka,South,P,2021,117.9,90.4,112.3,89.8,105.8
+"Sardar Vallabhbhai Patel International School of Textiles and Management, Coimbatore",239,514.3,Tamil Nadu,South,G,2021,146.8,85.4,107.8,83,91.3
+"Institute of Business Management, GLA University, Mathura",240,512.8,Uttar Pradesh,North,P,2021,120.7,97.4,104.7,79.6,110.4
+"Tilak Raj Chadha Institute of Management & Technology, Yamuna Nagar",241,510,Haryana,North,P,2021,121.8,102.8,118.1,92.5,74.8
+"Jagran Lakecity Business School, Jagran Lakecity University, Bhopal",242,509.7,Madhya Pradesh,West,P,2021,147.8,107,114,71.8,69.1
+"Department of Management, Central University of Rajasthan, Ajmer",243,509,Rajasthan,North,G,2021,146.2,121.1,68.6,91.6,81.5
+"IA School of Management Studies, Bengaluru ",244,508.6,Karnataka,South,P,2021,121.5,103.9,108.9,84.6,89.7
+"St. Joseph's PG College, Hyderabad",244,508.6,Telangana,South,P,2021,127,74.7,110.1,86.9,109.9
+"Department of MBA, Greater Noida Institute of Technology, Greater Noida",246,508.5,Uttar Pradesh,North,P,2021,110.1,93.6,132.8,75.9,96.1
+"Hindusthan Institute of Technology, Coimbatore",247,507.8,Tamil Nadu,South,P,2021,117.4,128,124.8,78.5,59.1
+"Rajshree Institute of Management Technology, Bareilly",248,504.6,Uttar Pradesh,North,P,2021,138.5,112,77.7,74.8,101.6
+"Institute of Business Management & Research (IBMR), Hubli",249,502,Karnataka,South,P,2021,126.3,78.7,126.9,63.2,106.9
+"Indirapuram Institute of Higher Studies, Ghaziabad",250,500.8,Uttar Pradesh,North,P,2021,156.6,95.5,99.2,71.1,78.4
+"School of Business & Management, NSHM Knowledge Campus, Durgapur",251,499.8,West Bengal,East,P,2021,113.7,97.6,116.4,75.1,97
+"CMRU School of Management, Bengaluru",252,498.3,Karnataka,South,P,2021,110.7,100.3,129.2,71.3,86.8
+"Karnataka Law Society’s Institute of Management Education & Research, Belagavi",253,497.9,Karnataka,South,P,2021,135,91,117.3,84.5,70.1
+"ITM Business School, Warangal",254,496,Telangana,South,P,2021,112.6,102.4,132.2,76.2,72.6
+"Dr. V. N. Bedekar Institute of Management Studies, Thane",255,488.9,Maharashtra,West,P,2021,145.6,60.6,116.7,82.2,83.8
+"Francis Xavier Department of Management Studies (FXDoMS), Tirunelveli",256,488.7,Tamil Nadu,South,P,2021,152.5,92.8,88.1,80.2,75.1
+"Acropolis Faculty of Management and Research, Indore",257,482.3,Madhya Pradesh,West,P,2021,136.6,52.2,123,93,77.5
+"Poddar Management and Technical Campus, Jaipur",258,481.7,Rajasthan,North,P,2021,147,83.7,106.4,76.8,67.8
+"Dr. D.Y. Patil Vidyapeeth'S Global Business School Research Centre, Pune",259,480.6,Maharashtra,West,P,2021,137.6,89.6,67.7,79.9,105.8
+"GNVS Institute of Management, Mumbai",260,479.7,Maharashtra,West,P,2021,129.2,77.5,112.4,75,85.6
+"B.L.D.E. Association’s A.S. Patil College of Commerce (Autonomous), Vijayapura",261,475.5,Karnataka,South,P,2021,139.9,115.7,56.9,76.7,86.3
+"GRG School of Management Studies, PSGR Krishnammal College for Women, Coimbatore",262,472.4,Tamil Nadu,South,P,2021,130.9,84.5,67.4,84.8,104.8
+"Netaji Subhas Institute of Business Management, Jamshedpur",263,467.8,Jharkhand,East,P,2021,139.4,109.9,111.8,74.6,32.1
+"Faculty of Commerce Business Management, Amrapali Institute of Technology Sciences, Haldwani",264,462.6,Uttarakhand,North,P,2021,122.9,107.9,88.7,77.3,65.8
+"Postgraduate Department of Business Management, Sardar Patel University, Vallabh Vidyanagar, Anand",265,458.7,Gujarat,West,G,2021,127.5,90.8,117.2,76.9,46.3
+"S. V. Institute of Management, Kadi",266,458,Gujarat,West,P,2021,96.4,102.6,112,79.2,67.8
+"Lakshmi Narain College of Technology, Bhopal",267,457.9,Madhya Pradesh,West,P,2021,107.8,89.7,114.9,89.1,56.4
+"Department of Management, Presidency College, Bengaluru ",268,454.7,Karnataka,South,P,2021,103.7,82.5,108.6,80.5,79.4
+"Guru Nanak College (Autonomous), Chennai",269,454.6,Tamil Nadu,South,P,2021,115,105.3,64.4,93,76.9
+"People's Institute of Management & Research, Bhopal",270,451.7,Madhya Pradesh,West,P,2021,76.9,89.1,136.4,76.4,72.9
+"Department of Business Administration and Research, Shri Sant Gajanan Maharaj College of Engineering, Shegaon",271,450.7,Maharashtra,West,P,2021,112.7,113.3,76.9,90.4,57.4
+"Sau Leena Kishor Mamidwar Institute of Management Studies & Research, Chandrapur",272,448.7,Maharashtra,West,P,2021,114.4,64.4,101.5,85.3,83.1
+"Pranveer Singh Institute of Technology, Kanpur",273,442.9,Uttar Pradesh,North,P,2021,97.1,98.9,106.3,80.5,60.1
+"Department of Business Administration, Kanpur Institute of Technology, Kanpur",274,442.3,Uttar Pradesh,North,P,2021,108.9,98.5,96.5,76,62.4
+"Sahrdaya Institute of Management Studies, Thrissur",275,441.8,Kerala,South,P,2021,115.5,108.1,88.8,71.7,57.7
+"Royal School of Business, Royal Global University, Guwahati",276,440.7,Assam,East,P,2021,123,102.6,67.2,82,65.9
+"M.A.M. Business School, Tiruchirappalli",277,439.8,Tamil Nadu,South,P,2021,96.9,85.6,116.5,69,71.8
+"Virudhunagar Hindu Nadars' Senthikumara Nadar College, Virudhunagar",278,439.7,Tamil Nadu,South,P,2021,132.3,92.7,110.8,78.7,25.2
+"Global Business School, Hubli",279,437.7,Karnataka,South,P,2021,112.5,60.5,102.9,82.8,79
+"Baba Farid College of Management & Technology, Bathinda",280,437.4,Punjab,North,P,2021,101.9,92,111.2,69.8,62.5
+"Seshadripuram Institute of Management Studies, Bengaluru ",281,437,Karnataka,South,P,2021,97.7,62.9,111.4,84,81
+"Department of MBA, Sagar Institute of Research & Technology, Bhopal",281,437,Madhya Pradesh,West,P,2021,120.5,89.5,97,78.2,51.8
+"Department of Management Science, S.A. Engineering College, Chennai",283,435.4,Tamil Nadu,South,P,2021,125.9,92.4,72.7,81.6,62.8
+"C K Shah Vijapurwala Institute of Management, Vadodara",284,435.1,Gujarat,West,P,2021,83.6,79,102.7,92.8,77
+"JSPM's Jayawant Institute of Management Studies, Pune",285,432.6,Maharashtra,West,P,2021,83.8,91.5,108.3,70.8,78.2
+"Department of Management Studies, The Oxford College of Engineering, Bengaluru ",286,432.2,Karnataka,South,P,2021,123.5,90.2,82.3,90.1,46.1
+"Pyramid College of Business & Technology, Phagwara",287,431.6,Punjab,North,P,2021,106.5,40.6,135.7,53.8,95
+"S.B.Jain Institute of Technology, Management & Research, Nagpur",287,431.6,Maharashtra,West,P,2021,120.6,78.9,91.1,71,70
+"Sinhgad Business School, Pune",289,429.4,Maharashtra,West,P,2021,122.4,55,111.2,78.8,62
+"Astha School of Management, Bhubaneswar",290,418.6,Odisha,East,P,2021,146.3,87.5,85,75.7,24.1
+"Avanthi Degree & PG College, Hyderabad",291,418,Telangana,South,P,2021,90.6,44.2,113,78.1,92.1
+"Sunshine Group of Institutions, Rajkot",292,416,Gujarat,West,P,2021,104.3,47.4,89.2,75.1,100
+"Department of Business Administration, Prasad V Potluri Siddhartha Institute of Technology, Vijayawada",293,412.1,Andhra Pradesh,South,P,2021,100.7,88,91.7,79.9,51.8
+"T. John College, Bengaluru",294,408.8,Karnataka,South,P,2021,117.2,97.7,56.5,83.4,54
+"D.A.V. Institute of Management, Faridabad",295,408.7,Haryana,North,P,2021,127.2,58.3,86.2,80.7,56.3
+"Surana College, Bengaluru ",296,408.1,Karnataka,South,P,2021,105.3,66.3,90.8,85.5,60.2
+"ITM Vocational University, Vadodara",297,403.5,Gujarat,West,P,2021,96.9,71.2,100.5,72.1,62.8
+"Chetan Business School, Hubli",298,401.9,Karnataka,South,P,2021,132.4,42.2,97.6,71.9,57.8
+"Department of Business Administration Bhavnagar University, Bhavnagar",299,401,Gujarat,West,G,2021,83.8,72.3,102.6,78.7,63.6
+"Indore Management Institute and Research Centre, Indore",300,400.4,Madhya Pradesh,West,P,2021,102.1,31.2,113.9,66.9,86.3
+"Shri Vaishnav Institute of Management, Indore",301,399.8,Madhya Pradesh,West,P,2021,124.7,99.5,62.5,85.3,27.8
+"AISSMS Institute of Management, Pune",302,383.4,Maharashtra,West,P,2021,113.4,72.6,79.6,73.6,44.2
+"Amjad Ali Khan College of Business Administration, Hyderabad",303,364.4,Telangana,South,P,2021,78.1,47.9,75.8,76,86.6
+"Department of Economics, Commerce and Management, Martin Luther Christian University, Shillong",304,349.8,Meghalaya,East,P,2021,110.1,51.7,24.3,70.4,93.3
+"Sarojini Naidu Vanita Maha Vidyalaya, Hyderabad",305,340,Telangana,South,P,2021,98.3,63,65,79.5,34.2
+"Indian Institute of Management, Ahmedabad",1,895.7,Gujarat,West,G,2020,212.1,142.1,231.3,134.9,175.3
+"Indian Institute of Management, Calcutta",2,895.3,West Bengal,East,G,2020,211.9,139.2,225,134.5,184.7
+"Indian Institute of Management, Bangalore",3,876.1,Karnataka,South,G,2020,211.3,139.7,218.8,130.7,175.6
+"S. P. Jain Institute of Management and Research, Mumbai",4,863.6,Maharashtra,West,P,2020,210.8,131.4,220.7,123,177.7
+"XLRI - Xavier School of Management, Jamshedpur",5,854.5,Jharkhand,East,P,2020,200,137.4,210.3,128.8,178
+"Indian Institute of Management, Indore",6,852.9,Madhya Pradesh,West,G,2020,199.8,137.8,208.3,128.7,178.3
+"Management Development Institute (MDI), Gurgaon",7,826.3,Haryana,North,P,2020,200.9,135.4,202.8,126.6,160.6
+Indian Institute of Management Kozhikode (IIM-K),8,820.6,Kerala,South,G,2020,201.6,134.7,202.4,124.5,157.4
+"Faculty of Management Studies (FMS), University of Delhi, New Delhi",9,820.6,Delhi,North,G,2020,189.8,126,223,121.1,128.2
+"SVKM's NMIMS, School of Business Management, Mumbai",10,785.8,Maharashtra,West,P,2020,183.7,131.4,202.4,119.8,148.5
+"Indian Institute of Foreign Trade, New Delhi",11,770.1,Delhi,North,G,2020,186.8,122.8,198.6,118.4,143.5
+National Institute of Industrial Engineering (NITIE),12,767.4,Maharashtra,West,G,2020,189.9,121.7,199.9,118.9,137
+"Institute of Management Technology (IMT), Ghaziabad",13,765.5,Uttar Pradesh,North,P,2020,186.9,128.6,187.5,111.7,150.8
+"International Management Institute (IMI), New Delhi",14,763.8,Delhi,North,P,2020,189.8,123.7,186,116.5,147.8
+"Department of Management Studies, IIT Delhi, New Delhi",15,755.7,Delhi,North,G,2020,199.2,128,199.4,110.4,118.7
+"Indian Institute of Management, Shillong",16,752.3,Meghalaya,East,G,2020,185.9,128.6,197.5,120.9,119.4
+"Symbiosis Institute of Business Management (SIBM), Pune",17,751.6,Maharashtra,West,P,2020,190.9,124.8,196.7,107.5,131.7
+"Indian Institute of Management, Tiruchirappalli",18,751.3,Tamil Nadu,South,G,2020,182.8,125.4,193.1,118.2,131.8
+"Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",19,747.3,Maharashtra,West,P,2020,177.1,118.9,190.6,115.9,144.8
+"Great Lakes Institute of Management, Chennai",20,746.8,Tamil Nadu,South,P,2020,185.2,129.9,175.4,106.9,149.4
+"T. A. Pai Management Institute (TAPMI), Manipal",21,746.7,Karnataka,South,P,2020,183.6,126.8,171.3,100.4,164.6
+"Indian Institute of Management, Udaipur",22,745.6,Rajasthan,North,G,2020,183.8,124.1,178.4,106.6,152.7
+"Vinod Gupta School of Management (VGSoM), IIT, Kharagpur",23,743.6,West Bengal,East,G,2020,185.5,132.5,192.2,111.9,121.5
+"Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",24,740.4,Odisha,East,P,2020,182.5,129,190.2,115.2,123.5
+Indian Institute of Management Raipur,25,718.6,Chhattisgarh,East,G,2020,185.6,127.2,183.2,108.4,114.2
+"Goa Institute of Management, Sanquelim",26,714.8,Goa,West,P,2020,179.3,122.2,172.3,105.8,135.2
+"Indian Institute of Management, Kashipur",27,709.5,Uttarakhand,North,G,2020,178.4,119.8,187.2,108.6,115.5
+"K J Somaiya Institute of Management, Mumbai",28,708,Maharashtra,West,P,2020,184.2,126.1,166.5,108.8,122.4
+"Institute of Rural Management, Anand",29,707.2,Gujarat,West,P,2020,170.7,128.5,181.6,111.1,115.3
+"Indian Institute of Management, Nagpur",30,706.7,Maharashtra,West,G,2020,180.9,122.1,176.9,108.1,118.7
+"SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",31,706.2,Karnataka,South,P,2020,177.8,118.5,168.9,101.1,139.9
+"Indian Institute of Management, Amritsar",32,703.2,Punjab,North,G,2020,180.6,117.8,173,107.8,124
+"Department of Management Studies, Indian Institute of Technology Roorkee",33,703.1,Uttarakhand,North,G,2020,180.6,123.2,177.9,105.4,116
+"Birla Institute of Management Technology (BIMTECH), Greater Noida",34,703,Uttar Pradesh,North,P,2020,185.4,127.6,165.1,109.2,115.7
+"Lal Bahadur Shastri Institute of Management, New Delhi",35,700.5,Delhi,North,P,2020,177.8,118.8,170.5,108.2,125.2
+"Institute of Management, Nirma University, Ahmedabad",36,692.3,Gujarat,West,P,2020,176.6,122.6,158.6,110.6,123.9
+"Sydenham Institute of Management Studies, Research & Entrepreneurship Education (SIMSREE), Mumbai",37,691.3,Maharashtra,West,G,2020,178.2,102,176.7,109.7,124.7
+"Prin. L.N. Welingkar Institute of Management Development & Research, Mumbai",38,690.8,Maharashtra,West,P,2020,184.1,106.6,161.8,108.1,130.2
+"Bharathidasan Institute of Management, Tiruchirappalli",39,690.7,Tamil Nadu,South,P,2020,180.2,120.5,165.7,105.5,118.8
+"Symbiosis Institute of International Business (SIIB), Pune",40,682.2,Maharashtra,West,P,2020,181.1,117.6,159.9,96.1,127.5
+"PSG Institute of Management, Coimbatore",41,680.5,Tamil Nadu,South,P,2020,173.9,119.1,164.2,103.8,119.5
+"Rajagiri Centre for Business Studies, Kochi",42,679.8,Kerala,South,P,2020,179.3,118.8,165.1,95.5,121.1
+"Loyola Institute of Business Administration (LIBA), Chennai",43,673.1,Tamil Nadu,South,P,2020,172.3,117.5,163.2,100.7,119.4
+"Department of Commerce, Delhi School of Economics, University of Delhi, New Delhi",44,672.4,Delhi,North,G,2020,173.5,114.2,171.7,104.5,108.5
+"Institute of Public Enterprise (IPE), Hyderabad",45,672,Telangana,South,G,2020,183.2,116.1,155.6,99.7,117.4
+"Symbiosis Institute of Operations Management, Nashik",46,669,Maharashtra,West,P,2020,170.9,107.7,169.1,98.6,122.7
+"Institute of Management Technology, Nagpur",47,668.4,Maharashtra,West,P,2020,171.8,132.4,153.6,93,117.6
+"Department of Management Studies, National Institute of Technology, Tiruchirappalli",48,667.9,Tamil Nadu,South,G,2020,168.6,133.5,167.4,108.6,89.8
+"Balaji Institute of Modern Management (BIMM), Pune",49,666.7,Maharashtra,West,P,2020,168.5,124.1,160.4,100.6,113.1
+"IILM Institute for Business and Management, Gurugram",50,666.6,Haryana,North,P,2020,177.3,117.8,155.7,94.9,120.9
+"Amity Business School, Amity University, Noida",51,662.8,Uttar Pradesh,North,P,2020,176.7,125.4,148.8,92.8,119.1
+KIIT School of Management,52,662.7,Odisha,East,P,2020,173,122.5,155.2,95.4,116.6
+"Symbiosis Institute of Digital and Telecom Management, Pune",53,657.7,Maharashtra,West,P,2020,168.6,115.3,162.7,96.7,114.4
+"Shri Dharmasthala Manjunatheshwara Institute for Management Development (SDMIMD), Mysuru",54,657.5,Karnataka,South,P,2020,162.8,108.3,151.8,105.6,129
+"SIES College of Management Studies, Navi Mumbai",55,657,Maharashtra,West,P,2020,177.4,101.5,161.1,97.5,119.5
+"Prin. L.N. Welingkar Institute of Management Development and Research, Bengaluru",56,656.6,Karnataka,South,P,2020,172.8,114.1,149,94.9,125.8
+"School of Business and Management, Christ (Deemed to be University), Bengaluru ",57,654.3,Karnataka,South,P,2020,164.6,112.2,154.6,99.3,123.6
+"ITM Business School, Navi Mumbai",58,649.3,Maharashtra,West,P,2020,173.9,114.7,149.4,99.1,112.2
+"Jagan Institute of Management Studies (JIMS), New Delhi",59,648.2,Delhi,North,P,2020,180.3,91.4,158.1,104.9,113.5
+IILM Institute for Higher Education,60,645.3,Delhi,North,P,2020,172.4,100.6,149.2,95.6,127.5
+"Symbiosis Institute of Business Management, Hyderabad",61,645.2,Telangana,South,P,2020,166.6,119.9,149.5,96.7,112.5
+"Indus Business Academy (IBA), Bengaluru ",62,644.9,Karnataka,South,P,2020,173.5,114.5,152.2,90.9,113.8
+"Department of Management, BITS, Pilani",62,644.9,Rajasthan,North,P,2020,177,118.9,140.8,97.1,111.1
+"Jaipuria Institute of Management, Lucknow",64,643.8,Uttar Pradesh,North,P,2020,167.4,106.9,151,102.4,116.1
+"International Management Institute, Bhubaneswar",65,643.2,Odisha,East,P,2020,168.2,116.7,158.9,89.4,110
+"SCMS Cochin School of Business, Ernakulam",66,643,Kerala,South,P,2020,172.1,119.5,141.4,86.5,123.5
+"Gitam Institute of Management, Visakhapatnam",67,642.6,Andhra Pradesh,South,P,2020,164.3,119.8,140.4,101.1,117
+"Prestige Institute of Management and Research, Indore",68,641.1,Madhya Pradesh,West,P,2020,169.6,109.8,146.9,99.5,115.3
+"Pune Institute of Business Management (PIBM), Pune",69,639.4,Maharashtra,West,P,2020,178.1,100.8,153.3,90.1,117.1
+"School of Management Studies, Motilal Nehru National Institute of Technology (MNNIT), Prayagraj",70,636.9,Uttar Pradesh,North,G,2020,175.7,127.2,134.7,92.6,106.7
+"AIMS School of Business, Bengaluru ",71,634,Karnataka,South,P,2020,177,116.8,136.6,90.1,113.5
+"N. L. Dalmia Institute of Management Studies and Research, Mumbai",72,622.5,Maharashtra,West,P,2020,171.7,84.5,154.2,101.5,110.6
+"Jaipuria Institute of Management, Noida",73,621.6,Uttar Pradesh,North,P,2020,166,96,149,92,118.6
+"School of Business – University of Petroleum & Energy Studies, Dehradun",74,620.1,Uttarakhand,North,P,2020,155.5,110.7,145.6,89.8,118.5
+"International School of Business & Media (ISBM), Pune",75,618.5,Maharashtra,West,P,2020,170.3,113.1,153.4,89,92.7
+Symbiosis Institute of Media and Communication,76,618.4,Maharashtra,West,P,2020,153.1,111.5,141.6,93.7,118.5
+"Fortune Institute of International Business (FIIB), New Delhi",77,617.5,Delhi,North,P,2020,167.6,88.8,149,93.4,118.7
+"Xavier Institute of Social Service (XISS), Ranchi",78,616.7,Jharkhand,East,P,2020,164.6,87.9,147.2,97,120
+"Chitkara Business School, Rajpura",79,616,Punjab,North,P,2020,176.8,111.1,137,81.5,109.6
+"School of Development Studies, IIHMR University, Jaipur",80,614.6,Rajasthan,North,P,2020,168.7,112,140.9,86.7,106.3
+"School of Management, NIT Rourkela",81,614,Odisha,East,G,2020,185.5,123.4,126.6,93.1,85.4
+"Symbiosis Centre for Information Technology (SCIT), Pune",82,611.1,Maharashtra,West,P,2020,161.3,95.8,157.6,91.4,105
+"Balaji Institute of Management & Human Resource Development, Pune",83,610.4,Maharashtra,West,P,2020,154.6,104.9,155.8,87.3,107.8
+"SOIL Institute of Management, Gurugram",84,610.2,Haryana,North,P,2020,155.7,95.8,155.7,93.2,109.8
+"Jaipuria Institute of Management, Jaipur",85,608.2,Rajasthan,North,P,2020,161.7,100.5,131.6,97.6,116.8
+Shoolini University of Biotechnology & Management Sciences,86,606.7,Himachal Pradesh,North,P,2020,168.8,109,146.1,81.7,101.1
+"VIT Business School, Vellore",86,606.7,Tamil Nadu,South,P,2020,164.5,122.2,126.1,88.4,105.5
+IILM Graduate School of Management,88,604.5,Uttar Pradesh,North,P,2020,144.6,113.9,141.2,90.8,114
+"Universal Business School, Mumbai",89,603.7,Maharashtra,West,P,2020,168.7,119.3,130.7,77.6,107.4
+"Xavier Institute of Management & Entrepreneurship, Kochi",90,602.9,Kerala,South,P,2020,165.2,111.9,130.2,83.1,112.5
+"Kristu Jayanti College, Bengaluru ",91,600.7,Karnataka,South,P,2020,154.6,121.9,135.9,78.2,110.1
+"Manipal Institute of Management, Manipal",92,599.6,Karnataka,South,P,2020,168.3,120.8,114.6,80.9,115
+"Department of Management Studies, Pondicherry University, Puducherry",93,599,Puducherry,South,G,2020,144.6,109,142.7,95.2,107.5
+"GL Bajaj Institute of Management & Research, Greater Noida",94,598.3,Uttar Pradesh,North,P,2020,168.7,98.8,145.1,78,107.7
+"IIEBM, Indus Business School, Pune",95,597.5,Maharashtra,West,P,2020,154.6,107.5,142.5,89.5,103.4
+"Faculty of Management Studies, Manav Rachna International Institute of Research and Studies, Faridabad",95,597.5,Haryana,North,P,2020,170.5,112.8,117.9,89.1,107.2
+"Department of Management, BIT Mesra Ranchi",97,597.1,Jharkhand,East,P,2020,138.2,126,122.9,100.8,109.2
+"I.T.S School of Management, Ghaziabad",98,596.6,Uttar Pradesh,North,P,2020,168.8,109.3,124,87.5,107
+"Jagannath International Management School, New Delhi",99,595.5,Delhi,North,P,2020,168.9,72.4,148.1,93.2,112.9
+"Department of Business Administration, Tezpur University",100,593.8,Assam,East,G,2020,157.3,120.8,116.5,101.2,98
+"School of Management, DY Patil (Deemed to be University), Navi Mumbai",101,591.4,Maharashtra,West,P,2020,137.2,118,134.6,87.8,113.8
+"ICFAI Business School, ICFAI University",102,590.4,Rajasthan,North,P,2020,138.9,104.5,143.8,92.1,111.1
+"Suryadatta Institute of Management, Pune",103,589.4,Maharashtra,West,P,2020,166.7,101.3,135.5,77.4,108.5
+"School of Management, SRM Institute of Science and Technology, Chennai",104,588.3,Tamil Nadu,South,P,2020,167.3,119.2,120.6,79.9,101.3
+"School of Management, IMS Unison University, Dehradun",105,587.2,Uttarakhand,North,P,2020,149,91.4,148.9,84.1,113.8
+"JK Business School, Gurugram",106,584.7,Haryana,North,P,2020,158.4,114.4,144.2,79.4,88.3
+"Neville Wadia Institute of Management Studies and Research, Pune",107,580.9,Maharashtra,West,P,2020,149.4,117.4,120.9,80.2,113
+"Rungta College of Engineering & Technology, Bhilai",108,579.9,Chhattisgarh,East,P,2020,162.6,111.1,114.1,86.6,105.5
+"CMS Institute of Management Studies, Coimbatore",109,579.8,Tamil Nadu,South,P,2020,157.7,112.1,135.8,76,98.2
+"School of Management, ITM University, Gwalior",110,579.3,Madhya Pradesh,West,P,2020,164.7,108.1,113.3,80.2,113
+"School of Management Studies, Bannari Amman Institute of Technology, Erode",111,579,Tamil Nadu,South,P,2020,163.9,113.9,127.2,82.4,91.6
+"Institute of Management Studies, Noida",112,576.8,Uttar Pradesh,North,P,2020,166.8,97.4,122.3,88,102.3
+"M S Ramaiah Institute of Management, Bengaluru ",113,576.6,Karnataka,South,P,2020,139.1,101.9,134.9,87.3,113.4
+"Taxila Business School, Jaipur ",114,576.4,Rajasthan,North,P,2020,139.5,109.1,155.2,83.9,88.7
+"Bharati Vidyapeeth's Institute of Management Studies and Research, Navi Mumbai",115,575.8,Maharashtra,West,P,2020,165.4,113.7,111.7,91.7,93.3
+"International School of Informatics & Management Technical Campus, Jaipur",116,575.3,Rajasthan,North,P,2020,159.3,104.9,121.4,77.8,111.9
+"Department of Management Studies, Mepco Schlenk Engineering College, Sivakasi",117,574.9,Tamil Nadu,South,P,2020,149.2,112.1,128.8,93.4,91.4
+"Shri Ram Murti Smarak International Business School, Lucknow",118,574.6,Uttar Pradesh,North,P,2020,162.4,113.5,124.4,83.8,90.5
+"Gian Jyoti Institute of Management and Technology, Mohali",119,574.5,Punjab,North,P,2020,153.8,86.7,139.1,76.8,118.1
+"School of Management, Hindustan Institute of Technology & Science, Chennai",120,574.4,Tamil Nadu,South,P,2020,158.3,118.3,118.3,89.1,90.4
+"University School of Business, Chandigarh University, Mohali",121,573.7,Punjab,North,P,2020,150.5,97,133.1,85.1,108
+"Institute of Management, JK Lakshmipat University, Jaipur",122,572.9,Rajasthan,North,P,2020,157.5,113,115.8,79.6,107
+"Bharath Institute of Higher Education and Research, Chennai",123,572.5,Tamil Nadu,South,P,2020,159.9,106.4,139.8,87.7,78.7
+"School of Management & Commerce, Poornima University, Jaipur",124,572.3,Rajasthan,North,P,2020,164.6,104.1,119.1,83.6,100.9
+"Balaji Institute of Telecom & Management, Pune",125,571.5,Maharashtra,West,P,2020,145.7,111.6,144.6,91.5,78.1
+"Jaipuria Institute of Management, Indore",125,571.5,Madhya Pradesh,West,P,2020,155.6,95.4,144.3,79.3,96.9
+"Jaipuria Institute of Management, Ghaziabad",127,570.9,Uttar Pradesh,North,P,2020,138.8,98.6,129.2,93.9,110.4
+"Ajay Kumar Garg Institute of Management, Ghaziabad",128,570.6,Uttar Pradesh,North,P,2020,168,103,135.2,72.6,91.8
+"Calcutta Business School, Bishnupur",129,569.7,West Bengal,East,P,2020,144,110.8,135.8,76.7,102.4
+"Balaji Institute of International Business (BIIB), Pune",130,568.8,Maharashtra,West,P,2020,160.1,111.8,121.8,91.8,83.3
+"CMS Business School JAIN (Deemed-to-be University), Bengaluru ",131,568.5,Karnataka,South,P,2020,141,111.3,135.4,78.3,102.5
+"MIT College of Management, Pune",132,567.9,Maharashtra,West,P,2020,146.4,114.5,119.8,79.9,107.3
+"R.V. Institute of Management, Bengaluru ",133,567.7,Karnataka,South,P,2020,158.1,81.9,128.9,85.1,113.7
+"Prestige Institute of Management & Research, Gwalior",134,566.9,Madhya Pradesh,West,P,2020,167.7,98.6,112.6,81.9,106.1
+"Kirloskar Institute of Advanced Management Studies, Harihar",135,565.9,Karnataka,South,P,2020,134.4,116,142.2,83.4,89.9
+"Kirloskar Institute of Advanced Management Studies, Pune",136,565.4,Maharashtra,West,P,2020,144.3,101.9,146.5,83.3,89.4
+"School of Management Studies, Reva University, Bengaluru ",137,564.6,Karnataka,South,P,2020,154.9,101.4,128.9,76.8,102.6
+"Kongu Business School, Erode",138,563.9,Tamil Nadu,South,P,2020,153.5,108.4,102.9,89.4,109.7
+"Quantum School of Business, Quantum University, Roorkee",139,563.8,Uttarakhand,North,P,2020,153.2,101.1,135.9,84.1,89.5
+"Faculty of Management Studies & Research, Aligarh Muslim University, Aligarh",139,563.8,Uttar Pradesh,North,G,2020,150,102.9,122.7,86.4,101.8
+"School of Management, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai",141,563.3,Tamil Nadu,South,P,2020,145.5,114.4,106.7,87.5,109.2
+"Shri Ramdeobaba College of Engineering and Management, Nagpur",142,562.9,Maharashtra,West,P,2020,159.4,92.2,114.2,80.4,116.7
+"Dhruva College of Management, Hyderabad",143,561.8,Telangana,South,P,2020,155.8,116.4,118.7,89.9,81
+"Symbiosis Institute of Computer Studies and Research, Pune",144,561.1,Maharashtra,West,P,2020,137.4,104,137.7,85.5,96.5
+"Saintgits Institute of Management, Kottayam",145,560.9,Kerala,South,P,2020,158.3,109.7,95.1,86.4,111.4
+ABES Engineering College,146,560.4,Uttar Pradesh,North,P,2020,141.3,115.5,128.8,84.7,90.1
+"K L Business School, K L E Foundation (Deemed to be University), Guntur",147,558.8,Andhra Pradesh,South,P,2020,140.4,95.3,123.7,86.6,112.8
+"School of Management & Commerce, Sanskriti University, Mathura",148,557.9,Uttar Pradesh,North,P,2020,155.3,107.3,114.5,83,97.8
+"Sairam Institute of Management Studies, Chennai",149,557.4,Tamil Nadu,South,P,2020,157.2,107.3,110.8,83.3,98.8
+"Dr. SNS Rajalakshmi College of Arts and Science (Autonomous), Coimbatore",150,557,Tamil Nadu,South,P,2020,172.8,102.7,110.6,77.7,93.2
+"Aurora's Business School, Hyderabad",151,556.1,Telangana,South,P,2020,153.1,93.7,127.5,73.9,107.9
+FOSTIIMA Business School,152,555.6,Delhi,North,P,2020,145.7,90.7,149.2,80.3,89.7
+"St Aloysius Institute of Management and Information Technology, Mangaluru",153,555.2,Karnataka,South,P,2020,132.7,108.8,120.6,86.9,106.2
+"Institute of Business Studies and Research, Navi Mumbai",154,553.6,Maharashtra,West,P,2020,168.3,94.7,149.2,69.4,72
+"Department of Management Studies, KLS Gogte Institute of Technology, Belagavi",155,552.7,Karnataka,South,P,2020,152.8,100.9,119.3,81,98.7
+"ICFAI Business School, Dehradun",155,552.7,Uttarakhand,North,P,2020,133.3,99.4,132.2,81.9,105.9
+"SCMS School of Technology and Management, Ernakulam",157,552.3,Kerala,South,P,2020,128.9,100.9,123.5,89,110
+"ICFAI University Tripura, Agartala",158,552,Tripura,East,P,2020,154,108.2,116.8,74.7,98.3
+"ICBM-School of Business Excellence, Hyderabad",159,551.1,Telangana,South,P,2020,155.3,82.8,128.2,82.2,102.6
+"School of Business, Mody University of Science & Technology",160,551,Rajasthan,North,P,2020,142.1,109.2,121,84.9,93.8
+"Institute of Management & Information Science, Bhubaneswar",161,550.6,Odisha,East,P,2020,162.1,107.8,119.3,84.6,76.8
+"ISBR Business School, Bengaluru ",162,550.4,Karnataka,South,P,2020,140.3,89.7,126.3,88.6,105.5
+"IIKM The Corporate B-School, Chennai",163,550.3,Tamil Nadu,South,P,2020,160.7,91.4,117.7,77.3,103.2
+St. Joseph's Institute of Management (JIM),164,547.1,Tamil Nadu,South,P,2020,149.2,86,129,71.2,111.7
+"Saveetha School of Management, Chennai",165,544.7,Tamil Nadu,South,P,2020,154.4,98.2,103.1,79.3,109.7
+"School of Management & Commerce, K.R. Mangalam University, Gurugram",166,544.2,Haryana,North,P,2020,135.6,88.4,135.8,73.6,110.8
+"Department of Management Studies, PSNA College of Engineering and Technology",167,542.3,Tamil Nadu,South,P,2020,131.1,113.7,132.3,80.9,84.3
+"ITM Business School, Chennai",168,542.1,Tamil Nadu,South,P,2020,155.4,86.5,106.1,86.1,108
+"Vivekananda Institute of Management Studies, Coimbatore",169,541,Tamil Nadu,South,P,2020,148.8,111.7,118.4,67.8,94.3
+"Kalaignarkarunanidhi Institute of Technology, Coimbatore",170,539.6,Tamil Nadu,South,P,2020,143,114.9,107.7,80.8,93.2
+"DJ Academy for Managerial Excellence, Coimbatore",171,539.2,Tamil Nadu,South,P,2020,147.6,120.3,112.6,77.9,80.8
+"Lloyd Business School, Greater Noida",172,538.3,Uttar Pradesh,North,P,2020,152.6,86,133.4,75.9,90.4
+"Agriculture and Food Management Institute, Mysuru",173,537.4,Karnataka,South,P,2020,160.1,104.1,133.7,77.1,62.4
+"Alkesh Dinesh Mody Institute for Financial and Management Studies, University of Mumbai",174,537.3,Maharashtra,West,P,2020,130.2,103,116.5,89.6,98
+"KCT Business School, Coimbatore",175,535.9,Tamil Nadu,South,P,2020,131.6,106.7,112.9,79.3,105.4
+"DKTE Society’s Textile and Engineering Institute, Ichalkaranji",176,535.1,Maharashtra,West,P,2020,117.7,114.7,119.1,83.2,100.4
+"Nehru School of Management, Thrissur",177,534.8,Kerala,South,P,2020,134.4,110.6,125.2,81,83.6
+"School of Management, Roorkee Institute of Technology",178,533.3,Uttarakhand,North,P,2020,147.4,103.4,119.4,68.2,94.9
+"School of Business, Galgotias University, Greater Noida",179,532.9,Uttar Pradesh,North,P,2020,108.9,100.7,132.5,74.4,116.4
+"Vivekanand Education Society Institute of Management Studies and Research, Mumbai",180,532.4,Maharashtra,West,P,2020,157.7,86.2,127,81.7,79.8
+"SASMIRA's Institute of Management Studies and Research, Mumbai",180,532.4,Maharashtra,West,P,2020,162.2,64.5,115.8,83.9,106
+"Narayana Business School, Ahmedabad",182,531.5,Gujarat,West,P,2020,113.7,85.2,145.3,83.3,104
+"IIMT College of management, Greater Noida",183,530.9,Uttar Pradesh,North,P,2020,145.7,103.2,122.4,80.6,79
+"Vignana Jyothi Institute of Management, Hyderabad",184,529.8,Telangana,South,P,2020,133.2,93.6,119,89.2,94.8
+"Durgadevi Saraf Institute of Management Studies, Mumbai",185,528.8,Maharashtra,West,P,2020,150.3,87.1,103.7,80.2,107.5
+"IPS Academy, Institute of Business Management and Research, Indore",186,528.6,Madhya Pradesh,West,P,2020,137.8,90.6,114.8,83.5,101.9
+"Dayananda Sagar College of Management & Information Technology, Bengaluru ",187,528.1,Karnataka,South,P,2020,123.1,102.4,122.5,91.9,88.2
+Prestige Institute of Management Dewas,188,527,Madhya Pradesh,West,P,2020,154.9,93.7,113,84.9,80.5
+"MLR Institute of Technology, Hyderabad",189,526.4,Telangana,South,P,2020,148.7,110.4,108.5,82,76.8
+"Teerthanker Mahaveer Institute of Management & Technology, Moradabad",190,522.5,Uttar Pradesh,North,P,2020,155.2,94.2,115.4,74.9,82.8
+"LEAD College of Management, Palakkad",191,522.2,Kerala,South,P,2020,147.4,83.2,119.1,77.8,94.7
+Shri Jaysukhlal Vadhar Institute of Management Studies,191,522.2,Gujarat,West,P,2020,136.3,89.8,117.6,74.2,104.3
+"IBMR Business School, Gurugram",193,521.3,Haryana,North,P,2020,124.9,84.2,127.6,81.6,103
+"School of Management, MIT World Peace University, Pune",194,520.9,Maharashtra,West,P,2020,106,106.9,120.6,82.7,104.7
+"D.C. School of Management & Technology, Kottayam",195,519.8,Kerala,South,P,2020,117.5,120,112.3,83.5,86.5
+"Tecnia Institute of Advanced Studies, New Delhi",196,519.4,Delhi,North,P,2020,154.9,91.6,94.2,91.5,87.2
+"Siva Sivani Institute of Management, Hyderabad",197,518.8,Telangana,South,P,2020,122,97.6,115.1,92.1,92
+"Chandigarh Business School of Administration, Mohali",198,518.7,Punjab,North,P,2020,130.4,87.7,109.1,84.1,107.4
+"Velalar College of Engineering and Technology, Erode",199,517.7,Tamil Nadu,South,P,2020,148.3,100.5,98.3,78.9,91.7
+"Department of MBA, SNS College of Technology, Coimbatore",200,516.9,Tamil Nadu,South,P,2020,133.8,101.7,113,82.1,86.3
+"MM Institute of Management, Ambala",201,516,Haryana,North,P,2020,127.8,111.4,110.5,86.8,79.5
+"Institute of Engineering & Management, Kolkata",202,513.8,West Bengal,East,P,2020,150.2,82.7,86,88.5,106.4
+"Central Institute of Business Management, Research & Development, Nagpur",203,513.5,Maharashtra,West,P,2020,156.2,75.3,80.2,92.5,109.3
+"Faculty of Management Science, Shri Ram Murti Smarak College of Engineering & Technology, Bareilly",204,513.4,Uttar Pradesh,North,P,2020,141.7,111.2,111.4,85,64.1
+"Department of Management, Rathinam College of Arts & Science, Coimbatore",205,512.4,Tamil Nadu,South,P,2020,158.7,108.2,97.3,77.5,70.7
+"The Business School, University of Jammu, Jammu",206,510.1,Jammu and Kashmir,North,G,2020,134.1,110.6,123.2,92.4,49.8
+"Tula's Institute, Dehradun",207,508,Uttarakhand,North,P,2020,133.9,111.5,117.2,70.4,75
+"OM Kothari Institute of Management & Research, Kota",208,506.9,Rajasthan,North,P,2020,145.6,92.2,111.1,80.5,77.5
+"Guru Nanak Institute of Management Studies, Mumbai",209,506,Maharashtra,West,P,2020,138.2,73,117.6,88.7,88.5
+"Bharatesh Education Trust’s Global Business School, Belgaum",210,505.1,Karnataka,South,P,2020,156.3,99.9,98,86.9,64
+"Department of MBA, CMR College of Engineering & Technology, Hyderabad",211,497.9,Telangana,South,P,2020,153.8,85.3,105,87,66.8
+"MIET Business School, Meerut",212,496.4,Uttar Pradesh,North,P,2020,122,96.8,98.3,80.3,99
+"Department of Management Studies and Research Centre, B.M.S. College of Engineering, Bengaluru",213,495.9,Karnataka,South,P,2020,123.4,93.4,117.1,89.3,72.7
+Thakur Institute of Management Studies & Research,214,495.8,Maharashtra,West,P,2020,128.8,103.8,91.5,82,89.7
+SRM Valliammai Engineering College,215,494.4,Tamil Nadu,South,P,2020,128,115.5,119.1,73.8,58
+"School of Management, Model Institute of Engineering and Technology, Jammu",216,492.2,Jammu and Kashmir,North,P,2020,134.7,91,107.2,78.5,80.8
+"Tilak Raj Chadha Institute of Management & Technology, Yamuna Nagar",217,491.2,Haryana,North,P,2020,117.6,102.2,110.6,88.8,72
+"Sri Ramakrishna College of Arts and Science, Coimbatore",218,490.8,Tamil Nadu,South,P,2020,143.2,101.3,88.7,78.8,78.8
+"School of Management Studies, GIET University",219,490.4,Odisha,East,P,2020,141.8,109.8,110.4,62.6,65.8
+PSIT College of Engineering,220,489,Uttar Pradesh,North,P,2020,106.5,108.2,118.2,84.4,71.7
+"Department of Management Studies, Easwari Engineering College, Chennai",221,488.8,Tamil Nadu,South,P,2020,133.6,96.4,105.7,85.6,67.5
+Krupajal Management Studies,222,487.3,Odisha,East,P,2020,101.1,97.1,130.7,82.9,75.5
+"School of Management, Presidency University, Bengaluru ",223,483.3,Karnataka,South,P,2020,111.6,80.5,109,84.7,97.5
+"The Oxford College of Business Management, Bengaluru ",224,482,Karnataka,South,P,2020,119.1,98.4,100.9,85.8,77.8
+"St. Joseph’s PG College, Hyderabad",225,479.8,Telangana,South,P,2020,121.8,70.2,99.7,83.8,104.3
+"Uttaranchal Institute of Management, Uttaranchal University",226,477.4,Uttarakhand,North,P,2020,115,102.7,106,82.4,71.3
+"Delhi Institute of Advanced Studies, New Delhi",227,475,Delhi,North,P,2020,128.2,63,118.3,86,79.5
+"School of Management, KIET Group of Institutions",228,474.9,Uttar Pradesh,North,P,2020,121.1,93.4,99,77.7,83.7
+"School of Business & Management, NSHM Knowledge Campus, Durgapur",229,472.8,West Bengal,East,P,2020,106.4,91.2,116.6,75,83.6
+"Karnatak Law Society’s Institute of Management Education & Research, Belagavi",230,471.5,Karnataka,South,P,2020,123.8,88.8,113.7,82.7,62.5
+"Department of Business Administration, Gandhi Institute for Technological Advancement (GITA), Bhubaneswar",231,470.8,Odisha,East,P,2020,139.1,105.7,117.4,83.4,25.2
+Hallmark Business School,232,469.4,Tamil Nadu,South,P,2020,134.2,90,114,70.7,60.5
+"Dr. V. N. Bedekar Institute of Management Studies, Thane",233,468.1,Maharashtra,West,P,2020,138.3,61.5,114,80.4,73.9
+"ITM Business School, Warangal",234,465.3,Telangana,South,P,2020,105,99.4,121.9,76.1,62.9
+Excel Business School,235,464.9,Tamil Nadu,South,P,2020,120.3,104.8,84.7,76.1,79
+"IA School of Management Studies, Bengaluru ",236,464.3,Karnataka,South,P,2020,109.7,103.9,92.2,81.9,76.6
+Sacred Heart College,237,463.2,Tamil Nadu,South,P,2020,131.7,109.2,49.4,75.1,97.8
+Techno Main Salt Lake,238,461.1,West Bengal,East,P,2020,114.5,54.1,98.2,93.5,100.8
+"Department of MBA, Greater Noida Institute of Technology, Greater Noida",239,460.9,Uttar Pradesh,North,P,2020,89.3,92.6,121,75.3,82.7
+"Bharatiya Vidya Bhavan Institute of Management Science, Kolkata",240,458.3,West Bengal,East,P,2020,135.6,56.8,122.3,78.4,65.2
+"Francis Xavier Department of Management Studies (FXDoMS), Tirunelveli",241,455.7,Tamil Nadu,South,P,2020,137.8,91.1,90.6,79.3,56.9
+"Jagran Lakecity Business School, Jagran Lakecity University, Bhopal",242,455.1,Madhya Pradesh,West,P,2020,133.4,105.5,78.9,68.1,69.2
+"Faculty of Commerce & Business Management, Amrapali Institute of Technology Sciences, Haldwani",243,454.1,Uttarakhand,North,P,2020,118.3,107.5,86.8,75.7,65.8
+"M.S. Patel Institute of Management Studies, Faculty of Management Studies - The Maharaja Sayajirao University of Baroda, Vadodara",244,453,Gujarat,West,G,2020,100.5,69.4,127.7,80.7,74.7
+"Indirapuram Institute of Higher Studies, Ghaziabad",245,452.9,Uttar Pradesh,North,P,2020,152.9,92.7,71.5,73.1,62.7
+"Postgraduate Department of Business Management, Sardar Patel University, Vallabh Vidyanagar, Anand",246,452.8,Gujarat,West,G,2020,120.4,89.6,113.8,74.6,54.4
+"Aristotle PG College, Hyderabad",247,451.3,Telangana,South,P,2020,119.4,82.8,77.7,71.3,100.1
+"Poddar Management and Technical Campus, Jaipur",248,445,Rajasthan,North,P,2020,143.8,80,92.1,72.3,56.8
+"Institute of Business Management, GLA University, Mathura",249,444.8,Uttar Pradesh,North,P,2020,112.3,88.8,70.4,76,97.3
+"School of Commerce and Management, Netaji Subhas University, Jamshedpur",250,443.3,Jharkhand,East,P,2020,136.3,110.8,109.1,73.9,13.2
+"S. V. Institute of Management, Kadi",251,441.9,Gujarat,West,P,2020,96.3,97.4,102,78.3,67.9
+MGM Institute of Management,252,441.7,Maharashtra,West,P,2020,103.4,96.6,83.7,87.6,70.4
+"Virudhunagar Hindu Nadars' Senthikumara Nadar College, Virudhunagar",253,440.1,Tamil Nadu,South,P,2020,131.5,95,105.8,77.6,30.2
+"GNVS Institute of Management, Mumbai",254,438.6,Maharashtra,West,P,2020,120.3,64.7,107.2,75.8,70.6
+"Department of Business Administration, Kanpur Institute of Technology, Kanpur",255,438,Uttar Pradesh,North,P,2020,108.7,96.7,96.3,75.6,60.7
+"Royal School of Business, Royal Global University, Guwahati",256,436.6,Assam,East,P,2020,124.8,103.4,66,80,62.4
+"Department of Management, Presidency College, Bengaluru ",257,429.2,Karnataka,South,P,2020,104.4,82.1,98.7,78.5,65.5
+"B.L.D.E. Association’s A.S. Patil College of Commerce (Autonomous), Vijayapura",258,426.9,Karnataka,South,P,2020,133.1,113,32.8,75.8,72.2
+"Acropolis Faculty of Management & Research, Indore",259,422.6,Madhya Pradesh,West,P,2020,122.4,34.8,112.4,90.5,62.5
+"M.A.M. Business School, Tiruchirappalli",260,422.3,Tamil Nadu,South,P,2020,97.6,85.8,106.1,69,63.8
+Measi Institute of Management,261,420.2,Tamil Nadu,South,P,2020,115.2,60.1,89.3,74.6,81
+"Department of Management Studies, The Oxford College of Engineering, Bengaluru ",262,418.6,Karnataka,South,P,2020,115.3,79.6,86.5,86.1,51.1
+"Department of MBA, Sagar Institute of Research & Technology, Bhopal",263,411.7,Madhya Pradesh,West,P,2020,116.2,85,94.3,74.8,41.4
+"Global Business School, Hubli",264,410.7,Karnataka,South,P,2020,107.8,60.5,98.7,80.8,62.9
+"Baba Farid College of Management & Technology, Bathinda",265,406.3,Punjab,North,P,2020,73.7,90.5,110.6,69.5,62
+"Astha School of Management, Bhubaneswar",266,405.9,Odisha,East,P,2020,140.3,83.6,83.9,74.6,23.5
+"Sinhgad Business School, Pune",267,405.1,Maharashtra,West,P,2020,119.4,59,106.2,77.8,42.7
+"Department of Management Sciences & Research, G. S. College of Commerce & Economics, Nagpur",268,403.9,Maharashtra,West,P,2020,99.6,59.7,108.5,79.5,56.6
+"Institute of Business Management and Research, Hubli",269,403.6,Karnataka,South,P,2020,107,68,108.3,64,56.3
+"Department of Commerce & Business Administration, Tilka Manjhi Bhagalpur University",270,402,Bihar,East,G,2020,71.6,93.7,81.2,87.3,68.2
+"Seshadripuram Institute of Management Studies, Bengaluru ",271,401.6,Karnataka,South,P,2020,92.5,59.7,97.5,82.3,69.6
+Regenesys Institute of Management Private Limited,272,398.8,Maharashtra,West,P,2020,144.1,68.2,30,53.9,102.6
+"Department of Management Science, S.A. Engineering College, Chennai",273,395.5,Tamil Nadu,South,P,2020,115.7,91.4,67.5,80,40.9
+"C K Shah Vijapurwala Institute of Management, Vadodara",274,395.2,Gujarat,West,P,2020,75.8,74.7,91.5,88.2,65
+"Shri Vaishnav Institute of Management, Indore",275,394.2,Madhya Pradesh,West,P,2020,118.3,94.2,65.2,83.2,33.3
+"Avanthi Degree & PG College, Hyderabad",276,394.1,Telangana,South,P,2020,91.4,47.4,98,77.3,80
+"JSPM's Jayawant Institute of Management Studies, Pune",277,389.7,Maharashtra,West,P,2020,88.9,80.6,91.1,70.3,58.8
+Institute of Management Education Research and Training (IMERT),278,388.1,Maharashtra,West,P,2020,92.4,64.9,85.1,80.2,65.5
+Naran Lala School of Industrial Management & Computer Science,279,388,Gujarat,West,P,2020,85.4,50,128.5,79.5,44.6
+"CMR Centre for Business Studies, Bengaluru",280,382.5,Karnataka,South,P,2020,106.8,81.6,94,71,29.1
+MES-Advanced Institute of Management and Technology (MES-AIMAT),281,382.3,Kerala,South,P,2020,101.2,85.9,63.6,78.9,52.7
+"Faculty of Management, MJP Rohilkhand University",282,380.9,Uttar Pradesh,North,G,2020,98.1,100.9,29.7,85.8,66.4
+"Pranveer Singh Institute of Technology, Kanpur",283,377.5,Uttar Pradesh,North,P,2020,77.3,94.3,89.8,71.5,44.6
+Dr. Lankapalli Bullayya College,284,375.6,Andhra Pradesh,South,P,2020,106.2,41.5,99.5,80.8,47.6
+Dr. Panjabrao Deshmukh Institute of Management Technology & Research,285,375.4,Maharashtra,West,P,2020,93.4,79.7,66.5,84.9,50.9
+"Chetan Business School, Hubli",286,369.4,Karnataka,South,P,2020,127.4,41.8,86.4,70.7,43.1
+"Surana College, Bengaluru ",287,369,Karnataka,South,P,2020,101.6,64.9,74.8,81.9,45.8
+SJC Institute of Technology (SJCIT),288,362,Karnataka,South,P,2020,103.9,81.6,18.1,100.4,58
+Sinhgad Institute of Management,289,347,Maharashtra,West,P,2020,72.8,68.5,95.2,76.9,33.6
+"School of Business Studies, Shobhit University",290,340.2,Uttar Pradesh,North,P,2020,68.8,68.4,74.9,55.6,72.5
+"Amjad Ali Khan College of Business Administration, Hyderabad",291,336.6,Telangana,South,P,2020,75.5,46.1,69.4,74.9,70.7
+"Department of Economics, Commerce and Management, Martin Luther Christian University, Shillong",292,322.4,Meghalaya,East,P,2020,89,56.6,25.1,63.1,88.6
+"Indian Institute of Management, Ahmedabad",1,889.6,Gujarat,West,G,2019,221.4,139.4,224.5,134.6,169.7
+"Indian Institute of Management, Calcutta",2,888.1,West Bengal,East,G,2019,212.9,138.2,222.4,133.8,180.8
+"XLRI - Xavier School of Management, Jamshedpur",3,853.4,Jharkhand,East,P,2019,195.5,138,211.9,127.6,180.4
+"S. P. Jain Institute of Management and Research, Mumbai",4,850.2,Maharashtra,West,P,2019,210.8,126.8,219.1,123.3,170.2
+"Indian Institute of Management, Indore",5,827.3,Madhya Pradesh,West,G,2019,202.4,138.4,207.6,122.8,156.1
+"Management Development Institute (MDI), Gurgaon",6,807.4,Haryana,North,P,2019,197.3,136.7,201.7,121.2,150.5
+Indian Institute of Management Kozhikode (IIM-K),7,801.3,Kerala,South,G,2019,191.6,136.3,195.3,126.6,151.5
+"Faculty of Management Studies (FMS), University of Delhi, New Delhi",8,774.5,Delhi,North,G,2019,189.6,123.7,220.2,118.3,122.7
+"SVKM's NMIMS, School of Business Management, Mumbai",9,774.1,Maharashtra,West,P,2019,186.2,127.3,203.5,120.7,136.4
+"Indian Institute of Foreign Trade, New Delhi",10,767.3,Delhi,North,G,2019,187.1,120.5,200.8,117.6,141.3
+National Institute of Industrial Engineering (NITIE),11,749.9,Maharashtra,West,G,2019,188.5,118.7,200.8,113.5,128.4
+"Institute of Management Technology (IMT), Ghaziabad",12,744.7,Uttar Pradesh,North,P,2019,186.9,126.1,188.7,110.6,132.4
+"International Management Institute (IMI), New Delhi",13,743.7,Delhi,North,P,2019,190.4,119.5,189.4,112.9,131.5
+"Indian Institute of Management, Shillong",14,741.8,Meghalaya,East,G,2019,183.5,129.6,191.9,118.8,118
+"Symbiosis Institute of Business Management (SIBM), Pune",15,741.7,Maharashtra,West,P,2019,189.8,120.7,192.8,106.9,131.5
+"Indian Institute of Management, Tiruchirappalli",16,738.8,Tamil Nadu,South,G,2019,181.4,123.4,191.5,116.1,126.4
+"Department of Management Studies, IIT Delhi, New Delhi",17,737.4,Delhi,North,G,2019,190.6,125.3,194.3,107.4,119.8
+"Great Lakes Institute of Management, Chennai",18,737.1,Tamil Nadu,South,P,2019,182.6,125.9,180.7,106.3,141.6
+"T. A. Pai Management Institute (TAPMI), Manipal",19,737,Karnataka,South,P,2019,180.5,123.8,173.8,102.3,156.6
+"Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",20,736.3,Odisha,East,P,2019,181.3,127.3,190.4,116.5,120.8
+"Indian Institute of Management, Udaipur",21,734.4,Rajasthan,North,G,2019,182.1,119.9,186.8,110.2,135.4
+"Vinod Gupta School of Management (VGSoM), IIT, Kharagpur",22,733.5,West Bengal,East,G,2019,183,128.1,192.9,110.8,118.7
+"Jamnalal Bajaj Institute of Management Studies (JBIMS), Mumbai",23,729.8,Maharashtra,West,G,2019,183.6,110.6,205.1,113.5,117
+"Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",24,729.4,Maharashtra,West,P,2019,178.4,114.4,190.2,116.2,130.2
+"K J Somaiya Institute of Management, Mumbai",25,719.8,Maharashtra,West,P,2019,185.7,125.8,173.8,110.1,124.4
+"Goa Institute of Management, Sanquelim",26,714.9,Goa,West,P,2019,177.3,119.1,183.8,104.4,130.3
+"Birla Institute of Management Technology (BIMTECH), Greater Noida",27,709.5,Uttar Pradesh,North,P,2019,182.4,125,173.9,109.1,119.1
+"Institute of Rural Management, Anand",28,706.9,Gujarat,West,P,2019,176.4,128.9,182.7,109.1,109.8
+"SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",29,706.8,Karnataka,South,P,2019,175.2,117.3,173.7,105.4,135.2
+"Lal Bahadur Shastri Institute of Management, New Delhi",30,705.8,Delhi,North,P,2019,180.4,115.5,174.4,108.8,126.7
+"Indian Institute of Management, Kashipur",31,702.8,Uttarakhand,North,G,2019,180.4,109.3,188.3,111.5,113.3
+"Department of Management Studies, Indian Institute of Technology Madras",32,699.8,Tamil Nadu,South,G,2019,176.4,122.9,184.5,103.6,112.4
+"Prin. L.N. Welingkar Institute of Management Development & Research, Mumbai",33,698.9,Maharashtra,West,P,2019,182.8,104.3,172.7,108.4,130.7
+"Institute of Management, Nirma University, Ahmedabad",34,696.2,Gujarat,West,P,2019,176,119.8,160.7,110.4,129.3
+"Bharathidasan Institute of Management, Tiruchirappalli",35,693.2,Tamil Nadu,South,P,2019,179.8,119.4,175.1,107,111.9
+"Department of Management Studies, Indian Institute of Technology Roorkee",35,693.2,Uttarakhand,North,G,2019,180.2,123.3,174,104.9,110.8
+"ICFAI Business School, Hyderabad",37,688.3,Telangana,South,P,2019,181,126.2,156.8,109.3,115
+"Rajagiri Centre for Business Studies, Kochi",38,687.1,Kerala,South,P,2019,177.4,114.1,172.4,100,123.2
+"Sydenham Institute of Management Studies, Research & Entrepreneurship Education (SIMSREE), Mumbai",39,687,Maharashtra,West,G,2019,179.9,99.2,182.5,101.8,123.6
+"National Institute of Agricultural Extension Management (MANAGE), Hyderabad",40,686.5,Telangana,South,G,2019,189.3,124.6,175,106.5,91.1
+"Asia-Pacific Institute of Management, New Delhi",41,672.8,Delhi,North,P,2019,180.5,109.1,173.2,89.8,120.2
+"Department of Commerce, Delhi School of Economics, University of Delhi, New Delhi",42,671.7,Delhi,North,G,2019,174,113.8,177.3,105.1,101.5
+"Symbiosis Institute of International Business (SIIB), Pune",43,671.1,Maharashtra,West,P,2019,179.9,114.1,161.9,90.5,124.7
+"Loyola Institute of Business Administration (LIBA), Chennai",44,670.2,Tamil Nadu,South,P,2019,170.3,111.8,170.2,101.4,116.5
+"Amity Business School, Amity University, Noida",45,669.5,Uttar Pradesh,North,P,2019,172.4,120.6,159.3,96,121.2
+"Balaji Institute of Modern Management (BIMM), Pune",46,666.9,Maharashtra,West,P,2019,168.5,121.8,162.7,104.3,109.6
+"Department of Management Studies, National Institute of Technology, Tiruchirappalli",47,665.3,Tamil Nadu,South,G,2019,168.4,133.8,169.2,111.7,82.2
+"Institute of Public Enterprise (IPE), Hyderabad",48,664.7,Telangana,South,G,2019,180.2,113.4,154.4,101.6,115.1
+KIIT School of Management,49,663.9,Odisha,East,P,2019,172,122.9,166.7,90.9,111.4
+"IILM Institute for Business and Management, Gurugram",50,662.8,Haryana,North,P,2019,180.4,113.7,154.4,88.6,125.7
+"SIES College of Management Studies, Navi Mumbai",51,657.7,Maharashtra,West,P,2019,180.2,98.4,162.2,100,116.9
+"School of Business and Management, Christ (Deemed to be University), Bengaluru ",52,657.3,Karnataka,South,P,2019,167.3,111.3,156.3,95.8,126.6
+"Institute of Management Technology, Nagpur",53,654.5,Maharashtra,West,P,2019,171.6,125.2,154.8,92,110.9
+"Prin. L.N. Welingkar Institute of Management Development and Research, Bengaluru",54,654.1,Karnataka,South,P,2019,174.3,110.4,151.4,90.2,127.8
+"Shri Dharmasthala Manjunatheshwara Institute for Management Development (SDMIMD), Mysuru",55,653.9,Karnataka,South,P,2019,166.3,108.1,152.1,104.3,123.1
+Xavier Institute of Management & Entrepreneurship (XIME),56,650.1,Karnataka,South,P,2019,171.2,102.9,151,104.2,120.8
+"ITM Business School, Navi Mumbai",57,649.6,Maharashtra,West,P,2019,178.6,112.8,148.9,100.6,108.7
+"Indus Business Academy (IBA), Bengaluru ",58,647,Karnataka,South,P,2019,175.6,111.3,156.4,88.3,115.4
+"Indian Institute of Social Welfare and Business Management (IISWBM), Kolkata",59,646.1,West Bengal,East,G,2019,180.4,104.5,152.5,99.5,109.2
+"Symbiosis Institute of Operations Management, Nashik",60,646,Maharashtra,West,P,2019,170.1,92.4,166.9,93,123.6
+"Symbiosis Institute of Digital and Telecom Management, Pune",61,643.7,Maharashtra,West,P,2019,166.3,112.6,163.6,91.7,109.5
+"SCMS Cochin School of Business, Ernakulam",62,643.5,Kerala,South,P,2019,179.5,116,140.9,85.7,121.4
+"Jagan Institute of Management Studies (JIMS), New Delhi",63,641.9,Delhi,North,P,2019,179.6,87.9,160.3,104.6,109.5
+IILM Institute for Higher Education,64,640.7,Delhi,North,P,2019,175.5,99.9,147.6,94.9,122.8
+"Symbiosis Institute of Business Management, Hyderabad",65,640.2,Telangana,South,P,2019,166,117.6,152.1,94,110.5
+"Gitam Institute of Management, Visakhapatnam",66,639.9,Andhra Pradesh,South,P,2019,169,116.3,134.6,104.6,115.4
+"AIMS School of Business, Bengaluru ",67,639.7,Karnataka,South,P,2019,177.4,115.1,145.4,88.2,113.6
+"Jaipuria Institute of Management, Lucknow",67,639.7,Uttar Pradesh,North,P,2019,168,108.8,144.8,103.4,114.7
+"Prestige Institute of Management and Research, Indore",69,638.8,Madhya Pradesh,West,P,2019,168.2,110.1,144.2,100.2,116.1
+"Pune Institute of Business Management (PIBM), Pune",70,638.1,Maharashtra,West,P,2019,179.3,98,152.1,88,120.7
+"School of Management Studies, Motilal Nehru National Institute of Technology (MNNIT), Prayagraj",71,637.4,Uttar Pradesh,North,G,2019,175.4,124.3,140.5,90.2,107
+"International Management Institute, Bhubaneswar",72,629.2,Odisha,East,P,2019,173.2,116.6,148,88.2,103.2
+"Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM), Pune",73,626.4,Maharashtra,West,G,2019,169.2,114.3,152.4,98.9,91.6
+"Chitkara Business School, Rajpura",74,624.4,Punjab,North,P,2019,172.5,108.8,148.1,84.9,110.1
+"School of Development Studies, IIHMR University, Jaipur",75,623.2,Rajasthan,North,P,2019,171.1,113.8,145.1,86.2,107
+"School of Management Studies, National Institute of Technology Calicut",76,621.3,Kerala,South,G,2019,162,120.9,147.3,92.2,98.9
+Jindal Global Business School,77,621.2,Haryana,North,P,2019,169.9,112.9,147.1,78.7,112.6
+"Punjab College of Technical Education, Ludhiana",78,620.9,Punjab,North,P,2019,170.7,109.2,142.5,83.8,114.7
+"Jaipuria Institute of Management, Noida",79,620.8,Uttar Pradesh,North,P,2019,166.8,90.7,154.1,88.8,120.4
+"Fortune Institute of International Business (FIIB), New Delhi",80,620.7,Delhi,North,P,2019,169.7,87.4,149.9,91.3,122.4
+"N. L. Dalmia Institute of Management Studies and Research, Mumbai",80,620.7,Maharashtra,West,P,2019,178.2,86.9,158.4,105.8,91.4
+"International School of Business & Media (ISBM), Pune",82,618.7,Maharashtra,West,P,2019,168.9,114.9,149.9,87.9,97.1
+"Institute of Management Technology, Hyderabad",83,618.2,Telangana,South,P,2019,165,114,143.1,88.5,107.6
+Lovely Professional University,83,618.2,Punjab,North,P,2019,165.9,112.6,139.9,86.6,113.2
+"Xavier Institute of Social Service (XISS), Ranchi",85,615.5,Jharkhand,East,P,2019,164.7,82.1,147.7,100.9,120.1
+"Universal Business School, Mumbai",86,615.2,Maharashtra,West,P,2019,168.9,117.6,142.6,78.3,107.8
+"Jaipuria Institute of Management, Jaipur",87,610.1,Rajasthan,North,P,2019,166.1,95.1,137.7,99.4,111.8
+"Balaji Institute of Management & Human Resource Development, Pune",88,608.6,Maharashtra,West,P,2019,154.1,103.5,161.7,87.7,101.6
+Shoolini University of Biotechnology & Management Sciences,89,603.7,Himachal Pradesh,North,P,2019,169,109.2,145.7,83.1,96.7
+"VIT Business School, Vellore",90,601.1,Tamil Nadu,South,P,2019,165.1,117.5,128.2,87.5,102.8
+"Apeejay School of Management, New Delhi",91,598.3,Delhi,North,P,2019,153.1,104.5,142.1,90.3,108.3
+"Department of Management Studies, Pondicherry University, Puducherry",92,597.9,Puducherry,South,G,2019,151.1,106.7,141.2,95.4,103.5
+"Kristu Jayanti College, Bengaluru ",93,597.4,Karnataka,South,P,2019,153.2,117.1,141.7,78.2,107.2
+"GL Bajaj Institute of Management & Research, Greater Noida",94,596.6,Uttar Pradesh,North,P,2019,167.6,96.8,144.3,80.7,107.2
+"Xavier Institute of Management & Entrepreneurship, Kochi",95,592.6,Kerala,South,P,2019,162.6,110.2,128.8,82.9,108.1
+Institute of Rural Management,96,592.2,Rajasthan,North,P,2019,161.4,114.9,127.6,87.3,101
+"Faculty of Management Studies, Manav Rachna International Institute of Research and Studies, Faridabad",97,592,Haryana,North,P,2019,172,110.5,113.9,88,107.6
+"Manipal Institute of Management, Manipal",97,592,Karnataka,South,P,2019,165.5,119.1,110.1,81,116.3
+"I.T.S School of Management, Ghaziabad",99,591.6,Uttar Pradesh,North,P,2019,167.9,107.9,130,87,98.8
+"School of Management, SRM Institute of Science and Technology, Chennai",100,590.4,Tamil Nadu,South,P,2019,165,115.6,131,80.7,98.1
+"IIEBM, Indus Business School, Pune",101,590.2,Maharashtra,West,P,2019,152,106.4,141.6,87.9,102.3
+"School of Management, Hindustan Institute of Technology & Science, Chennai",102,588.6,Tamil Nadu,South,P,2019,163.7,118.3,123.6,87.7,95.3
+"Jagannath International Management School, New Delhi",103,586.8,Delhi,North,P,2019,172.1,70.4,151.1,85.5,107.7
+"JK Business School, Gurugram",104,584.6,Haryana,North,P,2019,159.8,115.9,139.1,80.2,89.6
+"School of Management, IMS Unison University, Dehradun",105,582.2,Uttarakhand,North,P,2019,151.3,98.5,142.6,84.2,105.6
+"Rungta College of Engineering & Technology, Bhilai",106,580.7,Chhattisgarh,East,P,2019,164.3,110.5,119.2,86.8,99.9
+"Department of Business Administration, Tezpur University",107,578.2,Assam,East,G,2019,161.8,119.1,115.3,96.4,85.6
+"School of Management, DY Patil (Deemed to be University), Navi Mumbai",107,578.2,Maharashtra,West,P,2019,144.1,115.3,122.5,86.9,109.4
+"School of Management Studies, Bannari Amman Institute of Technology, Erode",109,577.1,Tamil Nadu,South,P,2019,161.8,116.9,137.1,80.7,80.6
+"Symbiosis Centre for Information Technology (SCIT), Pune",110,575.1,Maharashtra,West,P,2019,165.5,87.1,145,90.1,87.4
+Jaipuria School of Business,111,573.3,Uttar Pradesh,North,P,2019,166.8,108.9,127.6,78.4,91.6
+"Neville Wadia Institute of Management Studies and Research, Pune",112,572.9,Maharashtra,West,P,2019,153.4,112.9,117.9,79.1,109.6
+"International School of Informatics & Management Technical Campus, Jaipur",113,571,Rajasthan,North,P,2019,160.5,106.6,115.2,80.4,108.3
+Regional College of Management,114,569.9,Odisha,East,P,2019,158,110.9,118.9,88,94.1
+"School of Management & Commerce, Poornima University, Jaipur",115,567.4,Rajasthan,North,P,2019,157.9,103.5,117.2,83.5,105.3
+"Ajay Kumar Garg Institute of Management, Ghaziabad",116,566.5,Uttar Pradesh,North,P,2019,165.8,100.5,133.4,71,95.8
+"Bharati Vidyapeeth's Institute of Management Studies and Research, Navi Mumbai",117,566.3,Maharashtra,West,P,2019,161.6,111.7,109.9,87.8,95.3
+"Prestige Institute of Management & Research, Gwalior",118,565.4,Madhya Pradesh,West,P,2019,167.3,97.7,116.5,80.7,103.2
+"Shri Ram Murti Smarak International Business School, Lucknow",119,564.9,Uttar Pradesh,North,P,2019,161.5,110.7,119.7,85.5,87.5
+"Saintgits Institute of Management, Kottayam",120,563.9,Kerala,South,P,2019,160.1,110.5,99.7,85,108.6
+"Department of Management Studies, Mepco Schlenk Engineering College, Sivakasi",121,563.6,Tamil Nadu,South,P,2019,143.3,110.5,136.8,90.1,82.9
+"MIT College of Management, Pune",122,562.7,Maharashtra,West,P,2019,152.5,112.4,119.3,80,98.5
+"M S Ramaiah Institute of Management, Bengaluru ",123,561.9,Karnataka,South,P,2019,145.1,99.8,120.4,86.7,109.9
+"University School of Business, Chandigarh University, Mohali",124,560.8,Punjab,North,P,2019,149.6,92.9,126.8,81.9,109.6
+"Institute of Management Studies, Noida",125,560.1,Uttar Pradesh,North,P,2019,164.1,95.3,117.8,87.1,95.8
+"Balaji Institute of Telecom & Management, Pune",126,558.3,Maharashtra,West,P,2019,148.2,110.4,142.4,89,68.3
+"Kongu Business School, Erode",127,557.3,Tamil Nadu,South,P,2019,159.7,108.1,92.7,88.4,108.4
+"School of Management & Commerce, Sanskriti University, Mathura",127,557.3,Uttar Pradesh,North,P,2019,153.5,104.9,114.4,83.2,101.3
+"Institute of Management, JK Lakshmipat University, Jaipur",129,556.8,Rajasthan,North,P,2019,162.4,109.9,106.8,80.6,97.1
+"School of Management, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai",130,556.3,Tamil Nadu,South,P,2019,142.8,114.1,109.7,86.5,103.2
+"Bharath Institute of Higher Education and Research, Chennai",131,556,Tamil Nadu,South,P,2019,149.8,103.5,138.6,82.6,81.5
+"Calcutta Business School, Bishnupur",132,555.4,West Bengal,East,P,2019,148.6,109.4,125.9,75.1,96.4
+"International Institute of Management Studies, Pune",133,555.3,Maharashtra,West,P,2019,146.4,92.7,143,72.5,100.7
+"Sairam Institute of Management Studies, Chennai",134,554.1,Tamil Nadu,South,P,2019,160.8,108.8,112.7,85.5,86.3
+"School of Management Studies, Reva University, Bengaluru ",135,553.9,Karnataka,South,P,2019,158.6,100.6,118.8,77.4,98.5
+"Balaji Institute of International Business (BIIB), Pune",136,553.3,Maharashtra,West,P,2019,158.6,108.8,117.6,88.6,79.7
+"Jaipuria Institute of Management, Ghaziabad",137,552.6,Uttar Pradesh,North,P,2019,143.2,85.7,135.3,89.5,98.9
+"Kirloskar Institute of Advanced Management Studies, Harihar",138,551.6,Karnataka,South,P,2019,141.8,112.9,139.9,82.2,74.8
+"R.V. Institute of Management, Bengaluru ",139,550.7,Karnataka,South,P,2019,161.1,88,114.8,84.6,102.2
+"Aurora's Business School, Hyderabad",140,549.3,Telangana,South,P,2019,151,95.5,125.5,71.7,105.6
+"Faculty of Management Studies & Research, Aligarh Muslim University, Aligarh",141,548.4,Uttar Pradesh,North,G,2019,149.1,101.5,123.1,85.6,89.1
+"Jaipuria Institute of Management, Indore",142,545.4,Madhya Pradesh,West,P,2019,152.9,99.8,132.8,74.3,85.6
+"Department of Management Studies, PSNA College of Engineering and Technology",143,544.8,Tamil Nadu,South,P,2019,142.6,114.2,125.1,80.1,82.8
+"IES's Management College and Research Centre, Mumbai",144,543.7,Maharashtra,West,P,2019,152.9,94,119.7,83.7,93.4
+"Kirloskar Institute of Advanced Management Studies, Pune",144,543.7,Maharashtra,West,P,2019,144.7,100.9,144,74.4,79.7
+"Institute of Management & Information Science, Bhubaneswar",146,543,Odisha,East,P,2019,161.7,103.6,114.9,85.6,77.2
+"IIKM The Corporate B-School, Chennai",147,542.5,Tamil Nadu,South,P,2019,160.7,86.9,115.4,76.9,102.6
+"ISBR Business School, Bengaluru ",148,541.9,Karnataka,South,P,2019,138.8,91.3,129.1,87.7,95
+"Dhruva College of Management, Hyderabad",149,541,Telangana,South,P,2019,155.9,114.6,113.5,88.4,68.6
+"ICBM-School of Business Excellence, Hyderabad",150,540.4,Telangana,South,P,2019,158,80.3,120.8,80.8,100.5
+"School of Business, Mody University of Science & Technology",151,538.8,Rajasthan,North,P,2019,149.3,108.5,119,85.8,76.2
+Eastern Institute for Integrated Learning In Management (EIILM),152,536.4,West Bengal,East,P,2019,137.1,82.4,126.2,87.6,103.1
+"Vivekananda Institute of Management Studies, Coimbatore",152,536.4,Tamil Nadu,South,P,2019,152.5,108.9,118.1,70.4,86.5
+"Nehru School of Management, Thrissur",154,536,Kerala,South,P,2019,135.7,108.5,124.3,81.3,86.2
+"ITM Vocational University, Vadodara",155,534.6,Gujarat,West,P,2019,154.4,105.6,100.3,78.5,95.8
+Accurate Institute of Management and Technology,156,533.7,Uttar Pradesh,North,P,2019,151.9,99.2,130.5,61.2,90.9
+"Doon Business School, Dehradun",157,532.5,Uttarakhand,North,P,2019,132.8,98.9,116.6,75.3,108.9
+"St Aloysius Institute of Management and Information Technology, Mangaluru",158,532.1,Karnataka,South,P,2019,143.3,105.3,98.3,86.6,98.6
+"Department of Management Studies, KLS Gogte Institute of Technology, Belagavi",159,531.8,Karnataka,South,P,2019,150.5,102.7,115.5,80.3,82.8
+"GRG School of Management Studies, PSGR Krishnammal College for Women, Coimbatore",160,531.3,Tamil Nadu,South,P,2019,142,89,120.5,84.3,95.5
+Sona School of Management,160,531.3,Tamil Nadu,South,P,2019,131.8,104.9,113.8,87.4,93.4
+"Symbiosis Institute of Computer Studies and Research, Pune",162,530.7,Maharashtra,West,P,2019,141.7,102.3,137.8,84.4,64.5
+"Agriculture and Food Management Institute, Mysuru",163,530.6,Karnataka,South,P,2019,157.6,106.5,136.2,78.2,52.1
+"DJ Academy for Managerial Excellence, Coimbatore",164,530.3,Tamil Nadu,South,P,2019,154.3,132.4,103.4,78.1,62.1
+Lexicon Management Institute of Leadership and Excellence,165,529.2,Maharashtra,West,P,2019,141,106.4,121.4,69.8,90.6
+"Dayananda Sagar College of Management & Information Technology, Bengaluru ",166,528.6,Karnataka,South,P,2019,126.6,99.5,124.1,90.1,88.3
+"School of Management, Roorkee Institute of Technology",167,527.1,Uttarakhand,North,P,2019,145.3,100.4,114.8,69.1,97.5
+Prestige Institute of Management Dewas,168,525.8,Madhya Pradesh,West,P,2019,160.7,96.6,112.6,85.7,70.2
+"ICFAI Business School, Kolkata",169,524.4,West Bengal,East,P,2019,139.2,74.9,132.1,84.2,94
+"Sardar Vallabhbhai Patel International School of Textiles & Management, Coimbatore",170,523.2,Tamil Nadu,South,G,2019,150.9,108,118.2,83.4,62.7
+"Atharva Institute of Management Studies, Mumbai",171,522.9,Maharashtra,West,P,2019,155.4,64.4,118.8,80.4,103.9
+"SCMS School of Technology and Management, Ernakulam",172,522.8,Kerala,South,P,2019,131.4,99.4,115,86.5,90.5
+"Chandigarh Business School of Administration, Mohali",173,518.6,Punjab,North,P,2019,129.8,89.7,108.1,84,107
+"School of Business Studies, Shobhit University",174,518.1,Uttar Pradesh,North,P,2019,128.9,111.3,111.4,71,95.5
+"Teerthanker Mahaveer Institute of Management & Technology, Moradabad",175,517.7,Uttar Pradesh,North,P,2019,152.3,97,112.9,72.2,83.3
+"Alkesh Dinesh Mody Institute for Financial and Management Studies, University of Mumbai",176,517.3,Maharashtra,West,P,2019,133,100.2,118,83,83.1
+Karunya School of Management,177,517.1,Tamil Nadu,South,P,2019,142,98.3,120.9,87.9,68
+"ICFAI Business School, Dehradun",178,516.9,Uttarakhand,North,P,2019,132,101.4,130.2,70.4,82.9
+"Coimbatore Institute of Management and Technology, Coimbatore",179,516.4,Tamil Nadu,South,P,2019,160.1,114.9,104.2,74.7,62.5
+"ITM Business School, Chennai",180,515.2,Tamil Nadu,South,P,2019,155.4,79.5,90.9,85.7,103.7
+"D.C. School of Management & Technology, Kottayam",181,511.1,Kerala,South,P,2019,125.6,118.6,112,83.9,71
+"IBMR Business School, Gurugram",182,511,Haryana,North,P,2019,134.3,68,125.7,81.5,101.5
+"SASMIRA's Institute of Management Studies and Research, Mumbai",183,509.8,Maharashtra,West,P,2019,155.8,53.8,109.9,84.2,106.1
+"Institute of Agri Business Management, Bikaner",184,509.7,Rajasthan,North,P,2019,152.7,108.1,137.8,56.5,54.6
+"OM Kothari Institute of Management & Research, Kota",185,508.8,Rajasthan,North,P,2019,150.8,96,100.8,81,80.2
+"Department of MBA, SNS College of Technology, Coimbatore",186,507.5,Tamil Nadu,South,P,2019,142.8,98.6,109.2,82.3,74.6
+"Department of MBA, Sanjivani College of Engineering",187,507.4,Maharashtra,West,P,2019,137.4,108.8,98.8,74.3,88.1
+"Institute of Engineering & Management, Kolkata",188,506.8,West Bengal,East,P,2019,152,76.9,89.4,87.5,101
+"Lloyd Business School, Greater Noida",189,506.4,Uttar Pradesh,North,P,2019,153.1,78.2,134.5,74.7,65.9
+"MBA Department, Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College",190,505.3,Tamil Nadu,South,P,2019,133,117.1,117,86.4,51.8
+"Sandip Institute of Technology and Research Centre, Nashik",190,505.3,Maharashtra,West,P,2019,139,108.7,95.3,76.3,86
+Adarsh Institute of Management and Information Technology,192,504.6,Karnataka,South,P,2019,153.6,75.3,97.9,78.9,98.9
+"Department of Business Administration and Research, Shri Sant Gajanan Maharaj College of Engineering, Shegaon",193,504.3,Maharashtra,West,P,2019,146.8,111.4,88.3,87.6,70.2
+"Faculty of Management Science, Shri Ram Murti Smarak College of Engineering & Technology, Bareilly",194,504.2,Uttar Pradesh,North,P,2019,145.8,110.4,108.3,86,53.7
+"School of Business, Galgotias University, Greater Noida",195,503,Uttar Pradesh,North,P,2019,99.6,104.9,130.2,67.6,100.7
+"Faculty of Management, Jagannath University",196,502,Rajasthan,North,P,2019,150.7,105.7,74.5,86.5,84.6
+"Durgadevi Saraf Institute of Management Studies, Mumbai",197,501.8,Maharashtra,West,P,2019,154,71.1,95,80.9,100.8
+"IPS Academy, Institute of Business Management and Research, Indore",198,501.5,Madhya Pradesh,West,P,2019,133.4,81.5,109.6,84.4,92.6
+"Vignana Jyothi Institute of Management, Hyderabad",198,501.5,Telangana,South,P,2019,134.5,94.1,120.6,87.7,64.6
+"Vivekanand Education Society Institute of Management Studies and Research, Mumbai",200,501.4,Maharashtra,West,P,2019,157.7,82.9,122.5,81.7,56.6
+"LEAD College of Management, Palakkad",201,501.3,Kerala,South,P,2019,144.6,82.2,115.1,75.7,83.7
+Farook Institute of Management Studies,202,500.9,Kerala,South,P,2019,136.9,99.7,95.9,86.1,82.3
+"Lala Lajpatrai Institute of Management, Mumbai",203,499.8,Maharashtra,West,P,2019,142.2,49.1,128.8,86.2,93.5
+"MM Institute of Management, Ambala",204,496.1,Haryana,North,P,2019,138.8,111,112.2,87.6,46.5
+"The Business School, University of Jammu, Jammu",205,494.8,Jammu and Kashmir,North,G,2019,133.6,108.6,123,88.8,40.8
+"Department of Management, Rathinam College of Arts & Science, Coimbatore",206,493.8,Tamil Nadu,South,P,2019,155.3,106.2,91.8,75.1,65.4
+School of Hospitality and Tourism Management,207,492.3,Jammu and Kashmir,North,P,2019,147.3,108.7,102.7,67.7,65.9
+"Tecnia Institute of Advanced Studies, New Delhi",208,490.6,Delhi,North,P,2019,156.8,93,94.8,87.8,58.2
+"Department of MBA, CMR College of Engineering & Technology, Hyderabad",209,488.1,Telangana,South,P,2019,158.8,86.8,107.3,86.6,48.6
+M.O.P. Vaishnav College for Women (Autonomous),210,488,Tamil Nadu,South,P,2019,125.6,79.3,109.1,87.5,86.5
+"School of Management Studies, GIET University",211,479.5,Odisha,East,P,2019,144.4,105.9,99.4,65.5,64.3
+"Sri Ramakrishna College of Arts and Science, Coimbatore",212,479,Tamil Nadu,South,P,2019,136,101.4,81.1,80.1,80.4
+"Bharatesh Education Trust’s Global Business School, Belgaum",213,475.2,Karnataka,South,P,2019,149.9,100.7,101.8,87.4,35.4
+"Department of Business Administration, Gandhi Institute for Technological Advancement (GITA), Bhubaneswar",214,474.4,Odisha,East,P,2019,145.8,107.8,114.7,83.2,22.9
+"School of Management, Presidency University, Bengaluru ",215,474,Karnataka,South,P,2019,108.6,83.5,101.3,85.3,95.3
+St. Berchmans Institute of Management Studies,216,472.8,Kerala,South,P,2019,107.7,95.8,110.1,84.2,75
+"School of Management, Model Institute of Engineering and Technology, Jammu",217,470,Jammu and Kashmir,North,P,2019,130.1,97.2,94.8,74.8,73.1
+"Department of Management Studies, Easwari Engineering College, Chennai",218,467.3,Tamil Nadu,South,P,2019,132.2,97.4,103.3,85.3,49.1
+"Bharatiya Vidya Bhavan Institute of Management Science, Kolkata",219,466.7,West Bengal,East,P,2019,141.4,63.4,125,79.1,57.8
+"Tilak Raj Chadha Institute of Management & Technology, Yamuna Nagar",220,466.4,Haryana,North,P,2019,101,103,112,87.5,62.9
+"Department of Management Studies and Research Centre, B.M.S. College of Engineering, Bengaluru",221,457.7,Karnataka,South,P,2019,129.3,70.5,112.8,87.4,57.7
+Hallmark Business School,222,457.3,Tamil Nadu,South,P,2019,135.4,94,110,70.8,47.1
+Delhi School of Business (Vivekananda Institute of Professional Studies-Technical Campus),223,456.6,Delhi,North,P,2019,134.3,58.1,131.3,76.7,56.2
+"The Oxford College of Business Management, Bengaluru ",224,456.1,Karnataka,South,P,2019,115.3,96.9,89.3,86.2,68.4
+"Karnatak Law Society’s Institute of Management Education & Research, Belagavi",225,455.4,Karnataka,South,P,2019,127.4,81.6,108.8,82.5,55.1
+"Aristotle PG College, Hyderabad",226,454.4,Telangana,South,P,2019,113.4,85.8,91.6,64.2,99.4
+"St. Joseph’s PG College, Hyderabad",227,452.1,Telangana,South,P,2019,121,48.6,100.8,83.5,98.2
+"IA School of Management Studies, Bengaluru ",228,449.2,Karnataka,South,P,2019,109,102.7,85.2,81.4,70.9
+MGM Institute of Management,229,448.9,Maharashtra,West,P,2019,106.5,100.7,91.7,87,63
+"School of Management Studies, Chaitanya Bharathi Institute of Technology",230,448.7,Telangana,South,P,2019,94.4,104.4,110.3,86.6,53
+"Dr. V. N. Bedekar Institute of Management Studies, Thane",231,447,Maharashtra,West,P,2019,145,56.7,108.6,78.4,58.3
+"Francis Xavier Department of Management Studies (FXDoMS), Tirunelveli",232,445.1,Tamil Nadu,South,P,2019,145.8,89.5,74,78.9,56.9
+"School of Business & Management, Jaipur National University",233,441.8,Rajasthan,North,P,2019,119.1,103.9,82,73.3,63.5
+"Uttaranchal Institute of Management, Uttaranchal University",234,441.1,Uttarakhand,North,P,2019,108.1,100.8,92.2,84.3,55.7
+"Poddar Management and Technical Campus, Jaipur",235,440.5,Rajasthan,North,P,2019,137,71.9,101.2,72.6,57.8
+"ITM Business School, Warangal",236,439.1,Telangana,South,P,2019,118.8,100.5,111.3,65.3,43.2
+"T. John College, Bengaluru",236,439.1,Karnataka,South,P,2019,137.3,78.9,75,81.6,66.3
+"GNVS Institute of Management, Mumbai",238,438.4,Maharashtra,West,P,2019,117.7,72.6,108.2,74.5,65.4
+School of Commerce Management and Research ITM University,239,438,Chhattisgarh,East,P,2019,132.7,79.2,96.3,75.3,54.5
+Holy Grace Academy of Management Studies,240,437.7,Kerala,South,P,2019,121.5,106.6,53.2,69.1,87.3
+"Astha School of Management, Bhubaneswar",241,437.4,Odisha,East,P,2019,136.9,88,94.6,72.3,45.6
+"Delhi Institute of Advanced Studies, New Delhi",242,436,Delhi,North,P,2019,132.2,56.5,110.5,78.9,57.9
+"Department of Management, Presidency College, Bengaluru ",243,435.1,Karnataka,South,P,2019,108.3,77.5,108.5,79.1,61.7
+"People's Institute of Management & Research, Bhopal",244,434.8,Madhya Pradesh,West,P,2019,79.3,96.7,132.3,76.1,50.4
+"Institute of Business Management, GLA University, Mathura",245,433.4,Uttar Pradesh,North,P,2019,104.6,82.9,84.3,76.2,85.4
+"B.L.D.E. Association’s A.S. Patil College of Commerce (Autonomous), Vijayapura",246,431,Karnataka,South,P,2019,125.1,111,49.9,78,67
+"M.S. Patel Institute of Management Studies, Faculty of Management Studies - The Maharaja Sayajirao University of Baroda, Vadodara",247,429.1,Gujarat,West,G,2019,84,76.3,119,82.8,67
+"S. V. Institute of Management, Kadi",248,427.9,Gujarat,West,P,2019,94.7,103.2,100.2,76,53.8
+"Department of MBA, Greater Noida Institute of Technology, Greater Noida",249,427.8,Uttar Pradesh,North,P,2019,94.4,88,117,71.6,56.8
+"Department of Business Administration, Kanpur Institute of Technology, Kanpur",250,424.7,Uttar Pradesh,North,P,2019,104.2,97,91.7,72.9,58.9
+"Department of Management Science, S.A. Engineering College, Chennai",251,422.9,Tamil Nadu,South,P,2019,121.5,92.6,81.6,80.3,46.9
+"Virudhunagar Hindu Nadars' Senthikumara Nadar College, Virudhunagar",252,416.9,Tamil Nadu,South,P,2019,121.9,97.2,102.1,76.9,18.8
+MES-Advanced Institute of Management and Technology (MES-AIMAT),253,413.9,Kerala,South,P,2019,106.5,90,88.7,77.8,50.9
+"Royal School of Business, Royal Global University, Guwahati",254,412,Assam,East,P,2019,123.1,102.6,68.7,80.1,37.5
+"Shri Vaishnav Institute of Management, Indore",255,411.7,Madhya Pradesh,West,P,2019,130.8,100.2,64.1,83.9,32.7
+"Faculty of Commerce & Business Management, Amrapali Institute of Technology Sciences, Haldwani",256,410.5,Uttarakhand,North,P,2019,110.7,108.5,69.5,73.9,47.9
+"Department of Management Sciences & Research, G. S. College of Commerce & Economics, Nagpur",257,410.2,Maharashtra,West,P,2019,109.5,62.4,111.3,79.2,47.8
+"Postgraduate Department of Business Management, Sardar Patel University, Vallabh Vidyanagar, Anand",258,406.9,Gujarat,West,G,2019,109.6,91.1,108.8,71.7,25.7
+"Baba Farid College of Management & Technology, Bathinda",259,398.2,Punjab,North,P,2019,90.4,91.3,103.9,69.1,43.5
+"Department of Management Studies, The Oxford College of Engineering, Bengaluru ",260,395.7,Karnataka,South,P,2019,95.9,78.9,94,85.5,41.4
+T. John Institute of Management & Science,261,394,Karnataka,South,P,2019,101.6,81.3,73.8,81.6,55.7
+Indira College of Engineering & Management ,262,393.4,Maharashtra,West,P,2019,82.7,97.7,110.8,73.6,28.6
+Measi Institute of Management,263,393,Tamil Nadu,South,P,2019,105.3,69.2,81.5,65.4,71.6
+"Sinhgad Business School, Pune",264,385.6,Maharashtra,West,P,2019,114.9,52.7,105.3,77.6,35.1
+"Department of MBA, Sagar Institute of Research & Technology, Bhopal",265,384.7,Madhya Pradesh,West,P,2019,117,81.6,81.3,70.2,34.6
+Sinhgad Institute of Management,266,384.3,Maharashtra,West,P,2019,90.8,68.5,102.5,76,46.5
+"Seshadripuram Institute of Management Studies, Bengaluru ",267,383.2,Karnataka,South,P,2019,86.5,56.2,103.5,84.1,52.9
+"Department of Commerce & Business Administration, Tilka Manjhi Bhagalpur University",268,382.7,Bihar,East,G,2019,78.2,97.5,75.7,86.4,44.9
+A. J. Institute of Management (AJIM),269,379.3,Karnataka,South,P,2019,114.3,75.2,81.3,76.6,31.9
+"CMR Centre for Business Studies, Bengaluru",270,378.8,Karnataka,South,P,2019,118.7,76.4,92.5,67,24.2
+"Global Business School, Hubli",271,375.1,Karnataka,South,P,2019,107.6,47.7,90.7,80.4,48.7
+"M.A.M. Business School, Tiruchirappalli",272,374.8,Tamil Nadu,South,P,2019,94.2,85.4,103,70.6,21.6
+"Department of Economics, Commerce and Management, Martin Luther Christian University, Shillong",273,374.2,Meghalaya,East,P,2019,91.3,48.6,78,71.4,84.9
+"CH Institute of Management & Commerce, Indore",274,372.6,Madhya Pradesh,West,P,2019,88.7,55.6,108.9,78.1,41.3
+"Surana College, Bengaluru ",275,355.4,Karnataka,South,P,2019,95.2,64.4,85.5,81.7,28.6
+"Institute of Business Management and Research, Hubli",276,353.9,Karnataka,South,P,2019,119.3,38.9,100.9,67.1,27.7
+"Amjad Ali Khan College of Business Administration, Hyderabad",277,351.4,Telangana,South,P,2019,75.8,46.4,82.6,73.6,73
+Dr. Panjabrao Deshmukh Institute of Management Technology & Research,278,349.2,Maharashtra,West,P,2019,92.7,61.1,87.2,85.3,22.9
+Institute of Management Study (IMS Kolkata),279,347.7,West Bengal,East,P,2019,99.8,34.4,40.7,73.1,99.7
+Adhunik Institute of Productivity Management and Research,280,343.5,Uttar Pradesh,North,P,2019,107.9,70.6,31,77.4,56.6
+"AMS School of Informatics, Hyderabad",281,330.1,Telangana,South,P,2019,85.8,69.7,85.6,69.4,19.6
+Vaishali Institute of Business and Rural Management,282,318.4,Bihar,East,P,2019,94.6,69,37.8,82.3,34.7
+"Department of MBA, J. J. College of Engineering and Technology",283,314.5,Tamil Nadu,South,P,2019,70.8,102.1,45.1,80.1,16.4
+Vidyasagar Institute of Management,284,297.8,Madhya Pradesh,West,P,2019,58.1,87.2,63,70.7,18.8

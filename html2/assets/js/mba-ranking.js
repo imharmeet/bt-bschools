@@ -365,13 +365,13 @@ mbaRankingInit()
 
 
 async function rankingInit() {
-  let rankingData = await d3.csv("assets/data/report.csv");
+  let rankingData = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
   const table = d3.select('.ranking-data .ranking-data-wrapper').append('table').attr('id', 'ranking-table').attr('class', 'full-width')
   const thead = table.append('thead')
   const tbody = table.append('tbody')
   thead.append('tr').append('th')
   const rows = tbody.append('tr').append('td')
-  let filterRankingData = rankingData.filter(d=>d.year==='2023')
+
   let itemsPerPage = 5;
 
   function insertDecimal(num) {
@@ -397,7 +397,7 @@ async function rankingInit() {
         previous: '<img src="https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/right-arrow.png" class="arrow left">',
       },
     },
-    data: filterRankingData,
+    data: rankingData,
     columns: [
       {
         render: (data, type, row) => {

@@ -1,5 +1,5 @@
-Chart.defaults.font.family = "Open Sans";
-
+// 
+Chart.defaults.font.family = "Open Sans"
 
 $('.archive-btn').click(function () {
   $('.archive-list').toggle(300);
@@ -277,25 +277,25 @@ var myChart02 = new Chart(ctx02, {
 // Get the select dropdown element
 let dataSelect = document.getElementById('data-select');
 // Set up initial chart data and labels
-let  datasets = [
+let datasets = [
   {
     label: '2023',
-    data: [29.63, 22.54, 17.01, 12.29],
+    data: [1920761, 1843200, 1855900, 1802000],
     backgroundColor: '#37749B',
   },
   {
     label: '2022',
-    data: [30.48, 23.53, 17.62, 12.68],
+    data: [1770344, 1729309, 1688737, 1640249],
     backgroundColor: '#549EA3',
   },
   {
     label: '2021',
-    data: [25.49, 19.63, 14.78, 10.77],
+    data: [1442614, 1424389, 1397622, 1338963],
     backgroundColor: '#89C597',
   },
   {
     label: '2020',
-    data: [24.49, 19.61, 14.71, 10.64],
+    data: [1147003, 1146232, 1110082, 1069016],
     backgroundColor: '#BEE296',
   }
 ];
@@ -324,6 +324,16 @@ const chart = new Chart(ctx04, {
     maintainAspectRatio: false,
     indexAxis: 'y',
     plugins: {
+      // title: {
+      //   display: true,
+      //   position: 'bottom',
+      //   // text: '(₹ lakhs)',
+      //   align: 'end',
+      //   font: {
+      //     weight: 'normal',
+      //     size: 14,
+      //   }
+      // },
       datalabels: {
         anchor: 'end',
         align: 'top',
@@ -380,13 +390,15 @@ const chart = new Chart(ctx04, {
             size: 12,
             weight: '600',
           },
-          callback: function (value, index, values) {
-            if (dataSelect.value == 'data2') {
-               return Number((value / 10000));
-            }else{
-              return value;
-            }
-        }
+        //   callback: function (value, index, values) {
+        //     // const valueType = selectedTab.type;
+        //     // let value2 = value.toString() 
+        //     if (dataSelect.value == 'data1') {
+        //        return truncate(value);
+        //     } else{
+
+        //     }
+        // }
         },
         display: true,
         grid: {
@@ -414,27 +426,26 @@ dataSelect.addEventListener('change', function () {
   if (selectedValue === 'data1') {
     datasets = [
       {
-        label: '2023',
-        data: [29.63, 22.54, 17.01, 12.29],
+        label: '2020',
+        data: [1920761, 1843200, 1855900, 1802000],
         backgroundColor: '#37749B',
       },
       {
-        label: '2022',
-        data: [30.48, 23.53, 17.62, 12.68],
+        label: '2021',
+        data: [1770344, 1729309, 1688737, 1640249],
         backgroundColor: '#549EA3',
       },
       {
-        label: '2021',
-        data: [25.49, 19.63, 14.78, 10.77],
+        label: '2022',
+        data: [1442614, 1424389, 1397622, 1338963],
         backgroundColor: '#89C597',
       },
       {
-        label: '2020',
-        data: [24.49, 19.61, 14.71, 10.64],
+        label: '2023',
+        data: [1147003, 1146232, 1110082, 1069016],
         backgroundColor: '#BEE296',
       }
     ];
-   
     let title01 = '<div class="notes">(₹ lakhs)</div>'
     $('.chart-title').html(title01);
     chart.data.labels = labels;
@@ -442,24 +453,24 @@ dataSelect.addEventListener('change', function () {
     datasets = [
       {
         label: '2023',
-        data: [1920761, 1770344, 1442614, 1147003],
-        backgroundColor: '#BEE296',
+        data: [29.63, 30.48, 25.49, 24.49],
+        backgroundColor: '#37749B',
       },
       {
         label: '2022',
-        data: [1843200, 1729309, 1424389, 1146232],
-        backgroundColor: '#89C597',
-      },
-      {
-        label: '2021',
-        data: [1855900, 1688737, 1397622, 1110082],
+        data: [22.54, 23.53, 19.63, 19.61],
         backgroundColor: '#549EA3',
       },
       {
-        label: '2020',
-        data: [1802000, 1640249, 1338963, 1069016],
-        backgroundColor: '#37749B',
+        label: '2021',
+        data: [17.01, 17.62, 14.78, 14.71],
+        backgroundColor: '#89C597',
       },
+      {
+        label: '2020',
+        data: [12.29, 12.68, 10.77, 10.64],
+        backgroundColor: '#BEE296',
+      }
     ];
     let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee+ other fees </p>    </div>'
     $('.chart-title').html(title02);

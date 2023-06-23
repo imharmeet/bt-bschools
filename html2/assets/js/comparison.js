@@ -1,5 +1,4 @@
-Chart.defaults.font.family = "Open Sans";
-
+Chart.defaults.font.family = "Open Sans"
 const comparisonTabs = [
     {
         name: 'Overall (1,000)',
@@ -251,6 +250,11 @@ async function comparisonInit() {
         gradient.addColorStop(0.25, colors.grey.zero);
         gradient.addColorStop(1, colors.grey.zero);
 
+        console.log(selectedTab.selected)
+
+
+
+
         let bankDataSet = [{
             label: bank1.institute,
             data: bank1Data.map(d => d.value),
@@ -333,8 +337,7 @@ async function comparisonInit() {
                             color: "#7D7B80",
                             font: {
                                 size: '14px',
-                                weight: '600',
-                                family:'Roboto Condensed'
+                                weight: '600'
                             },
                             // callback: function (value, index, values) {
                             //     const valueType = selectedTab.type;
@@ -357,9 +360,11 @@ async function comparisonInit() {
                             font: {
                                 color: '#7D7B80',
                                 size: '14px',
-                                weight: '600',
+                                weight: '600'
+
                             },
                             callback: function (value, index, values) {
+                                // convert 2022 to FY'22
                                 return commonYears[value].toString();
                             }
                         }
@@ -413,5 +418,16 @@ function formatValue(val) {
     // remove comma and percentage signs
     return parseFloat(val.replace(/,/g, '').replace('%', ''));
 }
+
+
+
+function formatPercentage(val) {
+    return (val / 100).toLocaleString('en-IN', {
+        style: 'percent',
+        minimumFractionDigits: 1,
+        maximumFractionDigits: 1
+    });
+}
+
 
 comparisonInit();
