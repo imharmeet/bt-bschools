@@ -202,7 +202,7 @@ body {
 
 .cover-story figure::before {
     content: "";
-    background: linear-gradient(1deg, #000, transparent 42%);
+    background: linear-gradient(1deg, #000, #0c0c0c00 75%);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -266,6 +266,7 @@ body {
 .story-des h1 a {
     font-weight: 700;
     color: var(--white);
+    text-shadow: 2px 2px 0px black;
 }
 
 .story-des h1 a:hover {
@@ -642,11 +643,12 @@ input[type="search"]::-webkit-search-cancel-button {
 .mba-rankings-card .sorting_disabled {
     border-bottom: 0;
 }
-
+.mba-rankings-card [type="radio"]{display: none;}
 .mba-rankings-card [type="radio"]:checked,
 .mba-rankings-card [type="radio"]:not(:checked) {
     position: absolute;
     left: -9999px;
+    opacity: 0;
 }
 
 .mba-rankings-card [type="radio"]:checked+label,

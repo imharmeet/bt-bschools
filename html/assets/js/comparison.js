@@ -336,7 +336,6 @@ async function comparisonInit() {
                             font: {
                                 size: '14px',
                                 weight: '600',
-                                family:'Roboto Condensed'
                             },
                             // callback: function (value, index, values) {
                             //     const valueType = selectedTab.type;

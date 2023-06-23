@@ -174,9 +174,9 @@ async function reportInit() {
         tension: .3,
         scales: {
           y: {
+            max:1000,
             beginAtZero: true,
             ticks: {
-
               font: {
                 size: 15,
                 weight: '600',
