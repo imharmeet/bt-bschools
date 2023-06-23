@@ -462,6 +462,7 @@ async function rankingInit() {
   $("#select-ranking-sector").on("change", function (e) {
     const filterBySector = $(this).val();
     sectorFilterValue = filterBySector;
+    filteredData();
   });
 
   const thead = table.append("thead");
@@ -534,7 +535,7 @@ async function rankingInit() {
     } else {
       filterRankingData = filterRankingData.filter((d) => d.sector === "P");
     }
-
+    console.log("filterRankingData : ", filterRankingData);
 
     $("#ranking-table").DataTable().destroy();
 
