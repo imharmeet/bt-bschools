@@ -206,7 +206,7 @@ var myChart02 = new Chart(ctx02, {
         color: '#A3A3A3',
         font: {
           weight: 400,
-          size: 16,
+          size: 14,
         },
         padding: {
           bottom: 20
