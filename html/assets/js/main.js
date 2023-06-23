@@ -245,7 +245,7 @@ var myChart02 = new Chart(ctx02, {
           beginAtZero: true,
           color: '#A3A3A3',
           font: {
-            size: 16,
+            size: 12,
             weight: 400,
           }
         },
@@ -270,7 +270,7 @@ var myChart02 = new Chart(ctx02, {
           beginAtZero: true,
           color: '#A3A3A3',
           font: {
-            size: 16,
+            size: 12,
             weight: 400,
           }
         },
@@ -292,7 +292,7 @@ var myChart02 = new Chart(ctx02, {
 // Get the select dropdown element
 let dataSelect = document.getElementById('data-select');
 // Set up initial chart data and labels
-let  datasets = [
+let datasets = [
   {
     label: '2023',
     data: [29.63, 22.54, 17.01, 12.29],
@@ -359,7 +359,7 @@ const chart = new Chart(ctx04, {
         labels: {
           color: '#7D7B80',
           usePointStyle: true,
-          padding: 20,
+          padding: 15,
           font: {
             size: 14,
             weight: 400,
@@ -372,7 +372,7 @@ const chart = new Chart(ctx04, {
         ticks: {
           beginAtZero: true,
           font: {
-            size: 14,
+            size: 12,
             weight: '600',
           }
         },
@@ -397,11 +397,11 @@ const chart = new Chart(ctx04, {
           },
           callback: function (value, index, values) {
             if (dataSelect.value == 'data2') {
-               return Number((value / 10000));
-            }else{
+              return Number((value / 10000));
+            } else {
               return value;
             }
-        }
+          }
         },
         display: true,
         grid: {
@@ -449,7 +449,7 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       }
     ];
-   
+
     let title01 = '<div class="notes">(₹ lakhs)</div>'
     $('.chart-title').html(title01);
     chart.data.labels = labels;
@@ -458,22 +458,22 @@ dataSelect.addEventListener('change', function () {
       {
         label: '2023',
         data: [1920761, 1770344, 1442614, 1147003],
-        backgroundColor: '#BEE296',
+        backgroundColor: '#37749B',
       },
       {
         label: '2022',
         data: [1843200, 1729309, 1424389, 1146232],
-        backgroundColor: '#89C597',
+        backgroundColor: '#549EA3',
       },
       {
         label: '2021',
         data: [1855900, 1688737, 1397622, 1110082],
-        backgroundColor: '#549EA3',
+        backgroundColor: '#89C597',
       },
       {
         label: '2020',
         data: [1802000, 1640249, 1338963, 1069016],
-        backgroundColor: '#37749B',
+        backgroundColor: '#BEE296',
       },
     ];
     let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee+ other fees </p>    </div>'

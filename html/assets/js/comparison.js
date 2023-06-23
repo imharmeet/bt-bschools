@@ -334,8 +334,9 @@ async function comparisonInit() {
                             crossAlign: "far",
                             color: "#7D7B80",
                             font: {
-                                size: '14px',
+                                size: '12px',
                                 weight: '600',
+                                //family:'Roboto Condensed'
                             },
                             // callback: function (value, index, values) {
                             //     const valueType = selectedTab.type;
@@ -357,7 +358,7 @@ async function comparisonInit() {
                             },
                             font: {
                                 color: '#7D7B80',
-                                size: '14px',
+                                size: '12px',
                                 weight: '600',
                             },
                             callback: function (value, index, values) {
