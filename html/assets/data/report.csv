@@ -585,7 +585,7 @@ Indian Institute of Management Nagpur,28,713.7,Maharashtra,West,G,2021,181.8,124
 "Institute of Rural Management, Anand",31,709.6,Gujarat,West,P,2021,170.8,129.5,175.7,113,120.6
 "SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",32,708.5,Karnataka,South,P,2021,177.2,118.8,168.2,107.9,136.4
 "Department of Industrial and Management Engineering, IIT, Kanpur",33,707.8,Uttar Pradesh,North,G,2021,182.3,116.7,176.4,104.6,127.8
-"Indian Institute of Management, Amritsar",34,706.7,Punjab,North,G,2021,178.2,118.2,174.8,108.4,127.1
+Indian Institute of Management Amritsar,34,706.7,Punjab,North,G,2021,178.2,118.2,174.8,108.4,127.1
 "Birla Institute of Management Technology (BIMTECH), Greater Noida",35,706.3,Uttar Pradesh,North,P,2021,182.7,129.9,163.5,112.7,117.5
 "Lal Bahadur Shastri Institute of Management, New Delhi",36,703.8,Delhi,North,P,2021,178.4,118.6,165.5,108.1,133.2
 "Institute of Management, Nirma University, Ahmedabad",37,701.3,Gujarat,West,P,2021,171.5,124.5,163.8,112.8,128.7
@@ -596,7 +596,7 @@ Indian Institute of Management Nagpur,28,713.7,Maharashtra,West,G,2021,181.8,124
 "Rajagiri Centre for Business Studies, Kochi",42,689.6,Kerala,South,P,2021,177.6,121.2,163.8,99.1,127.9
 "Loyola Institute of Business Administration (LIBA), Chennai",43,686.7,Tamil Nadu,South,P,2021,176.2,116.4,160.8,105,128.3
 "Symbiosis Institute of Operations Management, Nashik",44,685.4,Maharashtra,West,P,2021,170.3,115.9,171.6,102.3,125.3
-"Indian Institute of Management, Sambalpur",45,677.2,Odisha,East,G,2021,173,108.8,173.9,111.5,110
+Indian Institute of Management Sambalpur,45,677.2,Odisha,East,G,2021,173,108.8,173.9,111.5,110
 "Institute of Public Enterprise (IPE), Hyderabad",46,676.7,Telangana,South,P,2021,180.6,116,155.1,103,122
 "Institute of Management Technology, Nagpur",47,676.6,Maharashtra,West,P,2021,172.2,130.4,154.1,97.3,122.6
 "PSG Institute of Management, Coimbatore",48,675.9,Tamil Nadu,South,P,2021,172.7,118.5,154.9,102.7,127.1
@@ -857,12 +857,12 @@ Prestige Institute of Management Dewas,202,553.6,Madhya Pradesh,West,P,2021,161.
 "Amjad Ali Khan College of Business Administration, Hyderabad",303,364.4,Telangana,South,P,2021,78.1,47.9,75.8,76,86.6
 "Department of Economics, Commerce and Management, Martin Luther Christian University, Shillong",304,349.8,Meghalaya,East,P,2021,110.1,51.7,24.3,70.4,93.3
 "Sarojini Naidu Vanita Maha Vidyalaya, Hyderabad",305,340,Telangana,South,P,2021,98.3,63,65,79.5,34.2
-"Indian Institute of Management, Ahmedabad",1,895.7,Gujarat,West,G,2020,212.1,142.1,231.3,134.9,175.3
-"Indian Institute of Management, Calcutta",2,895.3,West Bengal,East,G,2020,211.9,139.2,225,134.5,184.7
-"Indian Institute of Management, Bangalore",3,876.1,Karnataka,South,G,2020,211.3,139.7,218.8,130.7,175.6
+Indian Institute of Management Ahmedabad,1,895.7,Gujarat,West,G,2020,212.1,142.1,231.3,134.9,175.3
+Indian Institute of Management Calcutta,2,895.3,West Bengal,East,G,2020,211.9,139.2,225,134.5,184.7
+Indian Institute of Management Bangalore,3,876.1,Karnataka,South,G,2020,211.3,139.7,218.8,130.7,175.6
 "S. P. Jain Institute of Management and Research, Mumbai",4,863.6,Maharashtra,West,P,2020,210.8,131.4,220.7,123,177.7
 "XLRI - Xavier School of Management, Jamshedpur",5,854.5,Jharkhand,East,P,2020,200,137.4,210.3,128.8,178
-"Indian Institute of Management, Indore",6,852.9,Madhya Pradesh,West,G,2020,199.8,137.8,208.3,128.7,178.3
+Indian Institute of Management Indore,6,852.9,Madhya Pradesh,West,G,2020,199.8,137.8,208.3,128.7,178.3
 "Management Development Institute (MDI), Gurgaon",7,826.3,Haryana,North,P,2020,200.9,135.4,202.8,126.6,160.6
 Indian Institute of Management Kozhikode (IIM-K),8,820.6,Kerala,South,G,2020,201.6,134.7,202.4,124.5,157.4
 "Faculty of Management Studies (FMS), University of Delhi, New Delhi",9,820.6,Delhi,North,G,2020,189.8,126,223,121.1,128.2
@@ -872,23 +872,23 @@ National Institute of Industrial Engineering (NITIE),12,767.4,Maharashtra,West,G
 "Institute of Management Technology (IMT), Ghaziabad",13,765.5,Uttar Pradesh,North,P,2020,186.9,128.6,187.5,111.7,150.8
 "International Management Institute (IMI), New Delhi",14,763.8,Delhi,North,P,2020,189.8,123.7,186,116.5,147.8
 "Department of Management Studies, IIT Delhi, New Delhi",15,755.7,Delhi,North,G,2020,199.2,128,199.4,110.4,118.7
-"Indian Institute of Management, Shillong",16,752.3,Meghalaya,East,G,2020,185.9,128.6,197.5,120.9,119.4
+Indian Institute of Management Shillong,16,752.3,Meghalaya,East,G,2020,185.9,128.6,197.5,120.9,119.4
 "Symbiosis Institute of Business Management (SIBM), Pune",17,751.6,Maharashtra,West,P,2020,190.9,124.8,196.7,107.5,131.7
-"Indian Institute of Management, Tiruchirappalli",18,751.3,Tamil Nadu,South,G,2020,182.8,125.4,193.1,118.2,131.8
+Indian Institute of Management Tiruchirappalli,18,751.3,Tamil Nadu,South,G,2020,182.8,125.4,193.1,118.2,131.8
 "Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",19,747.3,Maharashtra,West,P,2020,177.1,118.9,190.6,115.9,144.8
 "Great Lakes Institute of Management, Chennai",20,746.8,Tamil Nadu,South,P,2020,185.2,129.9,175.4,106.9,149.4
 "T. A. Pai Management Institute (TAPMI), Manipal",21,746.7,Karnataka,South,P,2020,183.6,126.8,171.3,100.4,164.6
-"Indian Institute of Management, Udaipur",22,745.6,Rajasthan,North,G,2020,183.8,124.1,178.4,106.6,152.7
+Indian Institute of Management Udaipur,22,745.6,Rajasthan,North,G,2020,183.8,124.1,178.4,106.6,152.7
 "Vinod Gupta School of Management (VGSoM), IIT, Kharagpur",23,743.6,West Bengal,East,G,2020,185.5,132.5,192.2,111.9,121.5
 "Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",24,740.4,Odisha,East,P,2020,182.5,129,190.2,115.2,123.5
 Indian Institute of Management Raipur,25,718.6,Chhattisgarh,East,G,2020,185.6,127.2,183.2,108.4,114.2
 "Goa Institute of Management, Sanquelim",26,714.8,Goa,West,P,2020,179.3,122.2,172.3,105.8,135.2
-"Indian Institute of Management, Kashipur",27,709.5,Uttarakhand,North,G,2020,178.4,119.8,187.2,108.6,115.5
+Indian Institute of Management Kashipur,27,709.5,Uttarakhand,North,G,2020,178.4,119.8,187.2,108.6,115.5
 "K J Somaiya Institute of Management, Mumbai",28,708,Maharashtra,West,P,2020,184.2,126.1,166.5,108.8,122.4
 "Institute of Rural Management, Anand",29,707.2,Gujarat,West,P,2020,170.7,128.5,181.6,111.1,115.3
-"Indian Institute of Management, Nagpur",30,706.7,Maharashtra,West,G,2020,180.9,122.1,176.9,108.1,118.7
+Indian Institute of Management Nagpur,30,706.7,Maharashtra,West,G,2020,180.9,122.1,176.9,108.1,118.7
 "SVKM's Narsee Monjee Institute of Management Studies (NMIMS), Bengaluru ",31,706.2,Karnataka,South,P,2020,177.8,118.5,168.9,101.1,139.9
-"Indian Institute of Management, Amritsar",32,703.2,Punjab,North,G,2020,180.6,117.8,173,107.8,124
+Indian Institute of Management Amritsar,32,703.2,Punjab,North,G,2020,180.6,117.8,173,107.8,124
 "Department of Management Studies, Indian Institute of Technology Roorkee",33,703.1,Uttarakhand,North,G,2020,180.6,123.2,177.9,105.4,116
 "Birla Institute of Management Technology (BIMTECH), Greater Noida",34,703,Uttar Pradesh,North,P,2020,185.4,127.6,165.1,109.2,115.7
 "Lal Bahadur Shastri Institute of Management, New Delhi",35,700.5,Delhi,North,P,2020,177.8,118.8,170.5,108.2,125.2
@@ -1149,11 +1149,11 @@ Sinhgad Institute of Management,289,347,Maharashtra,West,P,2020,72.8,68.5,95.2,7
 "School of Business Studies, Shobhit University",290,340.2,Uttar Pradesh,North,P,2020,68.8,68.4,74.9,55.6,72.5
 "Amjad Ali Khan College of Business Administration, Hyderabad",291,336.6,Telangana,South,P,2020,75.5,46.1,69.4,74.9,70.7
 "Department of Economics, Commerce and Management, Martin Luther Christian University, Shillong",292,322.4,Meghalaya,East,P,2020,89,56.6,25.1,63.1,88.6
-"Indian Institute of Management, Ahmedabad",1,889.6,Gujarat,West,G,2019,221.4,139.4,224.5,134.6,169.7
-"Indian Institute of Management, Calcutta",2,888.1,West Bengal,East,G,2019,212.9,138.2,222.4,133.8,180.8
+Indian Institute of Management Ahmedabad,1,889.6,Gujarat,West,G,2019,221.4,139.4,224.5,134.6,169.7
+Indian Institute of Management Calcutta,2,888.1,West Bengal,East,G,2019,212.9,138.2,222.4,133.8,180.8
 "XLRI - Xavier School of Management, Jamshedpur",3,853.4,Jharkhand,East,P,2019,195.5,138,211.9,127.6,180.4
 "S. P. Jain Institute of Management and Research, Mumbai",4,850.2,Maharashtra,West,P,2019,210.8,126.8,219.1,123.3,170.2
-"Indian Institute of Management, Indore",5,827.3,Madhya Pradesh,West,G,2019,202.4,138.4,207.6,122.8,156.1
+Indian Institute of Management Indore,5,827.3,Madhya Pradesh,West,G,2019,202.4,138.4,207.6,122.8,156.1
 "Management Development Institute (MDI), Gurgaon",6,807.4,Haryana,North,P,2019,197.3,136.7,201.7,121.2,150.5
 Indian Institute of Management Kozhikode (IIM-K),7,801.3,Kerala,South,G,2019,191.6,136.3,195.3,126.6,151.5
 "Faculty of Management Studies (FMS), University of Delhi, New Delhi",8,774.5,Delhi,North,G,2019,189.6,123.7,220.2,118.3,122.7
@@ -1162,14 +1162,14 @@ Indian Institute of Management Kozhikode (IIM-K),7,801.3,Kerala,South,G,2019,191
 National Institute of Industrial Engineering (NITIE),11,749.9,Maharashtra,West,G,2019,188.5,118.7,200.8,113.5,128.4
 "Institute of Management Technology (IMT), Ghaziabad",12,744.7,Uttar Pradesh,North,P,2019,186.9,126.1,188.7,110.6,132.4
 "International Management Institute (IMI), New Delhi",13,743.7,Delhi,North,P,2019,190.4,119.5,189.4,112.9,131.5
-"Indian Institute of Management, Shillong",14,741.8,Meghalaya,East,G,2019,183.5,129.6,191.9,118.8,118
+Indian Institute of Management Shillong,14,741.8,Meghalaya,East,G,2019,183.5,129.6,191.9,118.8,118
 "Symbiosis Institute of Business Management (SIBM), Pune",15,741.7,Maharashtra,West,P,2019,189.8,120.7,192.8,106.9,131.5
-"Indian Institute of Management, Tiruchirappalli",16,738.8,Tamil Nadu,South,G,2019,181.4,123.4,191.5,116.1,126.4
+Indian Institute of Management Tiruchirappalli,16,738.8,Tamil Nadu,South,G,2019,181.4,123.4,191.5,116.1,126.4
 "Department of Management Studies, IIT Delhi, New Delhi",17,737.4,Delhi,North,G,2019,190.6,125.3,194.3,107.4,119.8
 "Great Lakes Institute of Management, Chennai",18,737.1,Tamil Nadu,South,P,2019,182.6,125.9,180.7,106.3,141.6
 "T. A. Pai Management Institute (TAPMI), Manipal",19,737,Karnataka,South,P,2019,180.5,123.8,173.8,102.3,156.6
 "Xavier Institute of Management (XIMB), Xavier University, Bhubaneswar",20,736.3,Odisha,East,P,2019,181.3,127.3,190.4,116.5,120.8
-"Indian Institute of Management, Udaipur",21,734.4,Rajasthan,North,G,2019,182.1,119.9,186.8,110.2,135.4
+Indian Institute of Management Udaipur,21,734.4,Rajasthan,North,G,2019,182.1,119.9,186.8,110.2,135.4
 "Vinod Gupta School of Management (VGSoM), IIT, Kharagpur",22,733.5,West Bengal,East,G,2019,183,128.1,192.9,110.8,118.7
 "Jamnalal Bajaj Institute of Management Studies (JBIMS), Mumbai",23,729.8,Maharashtra,West,G,2019,183.6,110.6,205.1,113.5,117
 "Symbiosis Centre for Management & Human Resource Development (SCMHRD), Pune",24,729.4,Maharashtra,West,P,2019,178.4,114.4,190.2,116.2,130.2

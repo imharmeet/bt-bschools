@@ -391,7 +391,7 @@ async function rankingInit() {
   let rankingData = await d3.csv("assets/data/report.csv");
   let filterRankingData = rankingData;
 
-  let yearFilterValue = "2018";
+  let yearFilterValue = "2023";
   let sectorFilterValue = "All";
 
   const table = d3
@@ -400,7 +400,7 @@ async function rankingInit() {
     .attr("id", "ranking-table")
     .attr("class", "full-width");
 
-  const yearsDropdownData = ["2018", "2019", "2020", "2021", "2022", "2023"];
+  const yearsDropdownData = ["2023", "2022", "2021", "2020", "2019"];
   const sectorsDropdownData = ["All", "Government", "Private"];
 
   table.append("span").text("Year").classed("dropdown-label", true);

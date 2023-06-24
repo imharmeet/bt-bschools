@@ -7,15 +7,13 @@ function changeNameReport(name) {
   return name;
 }
 async function reportInit() {
-  const data = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
+  const data = await d3.csv("assets/data/report.csv");
   const rankSVG = await d3.xml('https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/rank.svg');
   const data2023 = data.filter(d => d.year === '2023');
   const dataYears = [...new Set(data.map(d => +d.year))].sort();
-
   const rankDIV = d3.select('#report-chart #rank-svg').node().append(rankSVG.documentElement);
 
   const schoolNames = [...new Set(data2023.map(d => d.institute))];
-
   const select1 = $("#select1-report-chart").select2({
     data: schoolNames,
     placeholder: 'Indian Institute of Management Calcutta (IIM-C)',
@@ -52,7 +50,6 @@ async function reportInit() {
     const selectedPlacement = selectedBankData.map(d => d.placement_score)
     const selectedSelection = selectedBankData.map(d => d.selection_process)
     const selectedFuture = selectedBankData.map(d => d.future)
-
     // learning_exp living_exp placement_score score selection_process
     // console.log(selectedBankData)
     // d3.select('.over-year').append('canvas').attr('id', `over-years-chart-${latestYearData.rank}`)
@@ -83,7 +80,6 @@ async function reportInit() {
         }
       }
     }
-
     var myChart03 = new Chart(ctx03, {
       type: 'line',
       data: {
