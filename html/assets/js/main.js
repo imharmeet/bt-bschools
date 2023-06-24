@@ -341,6 +341,7 @@ const chart = new Chart(ctx04, {
     responsive: true,
     maintainAspectRatio: false,
     indexAxis: 'y',
+    locale: 'en-IN',
     plugins: {
       datalabels: {
         anchor: 'end',
@@ -368,7 +369,7 @@ const chart = new Chart(ctx04, {
             weight: 400,
           }
         },
-      }
+      },
     },
     scales: {
       y: {
@@ -400,7 +401,7 @@ const chart = new Chart(ctx04, {
           },
           callback: function (value, index, values) {
             if (dataSelect.value == 'data2') {
-              return Number((value / 10000));
+              return Number((value / 100000));
             } else {
               return value;
             }
