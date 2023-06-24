@@ -242,6 +242,8 @@ var myChart02 = new Chart(ctx02, {
     tension: 0.3,
     scales: {
       y: {
+        min: 0,
+        max: 20,
         ticks: {
           beginAtZero: true,
           color: '#A3A3A3',
@@ -264,7 +266,7 @@ var myChart02 = new Chart(ctx02, {
           display: true,
           fontSize: 20
         },
-        stacked: true,
+        stacked: false,
       },
       x: {
         ticks: {
