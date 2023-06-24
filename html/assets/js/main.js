@@ -190,6 +190,7 @@ var myChart02 = new Chart(ctx02, {
       label: 'Family Business',
       fill: true,
       // data: [6, 3, 2, 2, 2, 1],
+      pointHoverRadius: 10,
       data: [17, 14, 9, 8, 7, 6],
       spanGaps: true,
 
@@ -284,7 +285,7 @@ var myChart02 = new Chart(ctx02, {
 
     }
   },
-  plugins: [ChartDataLabels, plugin02],
+  plugins: [plugin02],
 });
 
 
