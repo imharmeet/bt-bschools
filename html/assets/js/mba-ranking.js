@@ -394,7 +394,7 @@ async function mbaRankingInit() {
 mbaRankingInit();
 
 async function rankingInit() {
-  let rankingData = await d3.csv("assets/data/report.csv");
+  let rankingData = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
   let filterRankingData = rankingData;
   filterRankingData = filterRankingData.filter((d) => d.year === '2023')
   let yearFilterValue = "2023";

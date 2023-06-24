@@ -190,6 +190,7 @@ var myChart02 = new Chart(ctx02, {
       label: 'Family Business',
       fill: true,
       // data: [6, 3, 2, 2, 2, 1],
+      pointHoverRadius: 10,
       data: [17, 14, 9, 8, 7, 6],
       spanGaps: false,
 
@@ -241,6 +242,8 @@ var myChart02 = new Chart(ctx02, {
     tension: 0.3,
     scales: {
       y: {
+        min: 0,
+        max: 20,
         ticks: {
           beginAtZero: true,
           color: '#A3A3A3',
@@ -263,7 +266,7 @@ var myChart02 = new Chart(ctx02, {
           display: true,
           fontSize: 20
         },
-        stacked: true,
+        stacked: false,
       },
       x: {
         ticks: {
@@ -284,7 +287,7 @@ var myChart02 = new Chart(ctx02, {
 
     }
   },
-  plugins: [ChartDataLabels, plugin02],
+  plugins: [plugin02],
 });
 
 
@@ -338,6 +341,7 @@ const chart = new Chart(ctx04, {
     responsive: true,
     maintainAspectRatio: false,
     indexAxis: 'y',
+    locale: 'en-IN',
     plugins: {
       datalabels: {
         anchor: 'end',
@@ -365,7 +369,7 @@ const chart = new Chart(ctx04, {
             weight: 400,
           }
         },
-      }
+      },
     },
     scales: {
       y: {
@@ -397,7 +401,7 @@ const chart = new Chart(ctx04, {
           },
           callback: function (value, index, values) {
             if (dataSelect.value == 'data2') {
-              return Number((value / 10000));
+              return Number((value / 100000));
             } else {
               return value;
             }
