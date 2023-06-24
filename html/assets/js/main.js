@@ -183,7 +183,7 @@ var myChart02 = new Chart(ctx02, {
       fill: true,
       data: [11, 11, 7, 6, 5, 5],
       pointHoverRadius: 10,
-      spanGaps: true,
+      spanGaps: false,
     }, {
       backgroundColor: gradient,
       borderColor: '#6DB49B',
@@ -191,7 +191,7 @@ var myChart02 = new Chart(ctx02, {
       fill: true,
       // data: [6, 3, 2, 2, 2, 1],
       data: [17, 14, 9, 8, 7, 6],
-      spanGaps: true,
+      spanGaps: false,
 
     }]
   },

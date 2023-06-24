@@ -1,6 +1,114 @@
 
 let oneYearSchools = [
   {
+    "institute": "Indian Institute of Management (IIM) Ahmedabad",
+    "program_name": "Accelerated General Management Programme-Blended Learning (AGMP-BL)",
+    "rank": 1,
+    "score": 896.3,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Bangalore",
+    "program_name": "Executive General Management Programme (EGMP)",
+    "rank": 2,
+    "score": 891.1,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian School of Business (ISB), Hyderabad",
+    "program_name": "General Management Programme (GMP)",
+    "rank": 3,
+    "score": 873.8,
+    "sector": "Pvt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Calcutta",
+    "program_name": "Executive Programme in Business Management (EPBM)",
+    "rank": 4,
+    "score": 873,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Lucknow",
+    "program_name": "General Management Programme for Executives (GMPE)",
+    "rank": 5,
+    "score": 830,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Indore",
+    "program_name": "General Management Programme for Executives (GMPE)",
+    "rank": 6,
+    "score": 775,
+    "sector": "Govt"
+  },
+  {
+    "institute": "S. P. Jain Institute of Management & Research (SPJIMR)",
+    "program_name": "Executive Programme in Business Management (EP-BM)",
+    "rank": 7,
+    "score": 766.3,
+    "sector": "Pvt"
+  },
+  {
+    "institute": "XLRI - Xavier School of Management",
+    "program_name": "Postgraduate Certificate in Business Management (PGCBM)",
+    "rank": 8,
+    "score": 762.5,
+    "sector": "Pvt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Kozhikode",
+    "program_name": "Professional Certificate Programme In Business Management",
+    "rank": 9,
+    "score": 760.8,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Shillong",
+    "program_name": "Post Graduate Certification in Advanced General Management",
+    "rank": 10,
+    "score": 732.5,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Nagpur",
+    "program_name": "Post Graduate Certificate Programme In General Management (PGCPGM)",
+    "rank": 11,
+    "score": 712.5,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Kashipur",
+    "program_name": "Post Graduate Certificate Programme in Business Management (PGCBM)",
+    "rank": 12,
+    "score": 690,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Tiruchirappalli",
+    "program_name": "Post Graduate Certificate Programme In Executive General Management",
+    "rank": 13,
+    "score": 677.5,
+    "sector": "Govt"
+  },
+  {
+    "institute": "Institute of Management Technology (IMT), Ghaziabad",
+    "program_name": "Executive Program in Business Management",
+    "rank": 14,
+    "score": 625,
+    "sector": "Pvt"
+  },
+  {
+    "institute": "Indian Institute of Management (IIM) Bodh Gaya",
+    "program_name": "Executive Certificate Programme In Business Management",
+    "rank": 15,
+    "score": 605,
+    "sector": "Govt"
+  }
+]
+
+let exMbaSchools = [
+  {
     "institute": "Indian School of Business (ISB), Hyderabad",
     "rank": 1,
     "score": 950.3,
@@ -141,114 +249,7 @@ let oneYearSchools = [
     "sector": "Pvt"
   }
 ]
-
-let exMbaSchools = [
-  {
-    "institute": "Indian Institute of Management (IIM) Ahmedabad",
-    "program_name": "Accelerated General Management Programme-Blended Learning (AGMP-BL)",
-    "rank": 1,
-    "score": 896.3,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Bangalore",
-    "program_name": "Executive General Management Programme (EGMP)",
-    "rank": 2,
-    "score": 891.1,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian School of Business (ISB), Hyderabad",
-    "program_name": "General Management Programme (GMP)",
-    "rank": 3,
-    "score": 873.8,
-    "sector": "Pvt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Calcutta",
-    "program_name": "Executive Programme in Business Management (EPBM)",
-    "rank": 4,
-    "score": 873,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Lucknow",
-    "program_name": "General Management Programme for Executives (GMPE)",
-    "rank": 5,
-    "score": 830,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Indore",
-    "program_name": "General Management Programme for Executives (GMPE)",
-    "rank": 6,
-    "score": 775,
-    "sector": "Govt"
-  },
-  {
-    "institute": "S. P. Jain Institute of Management & Research (SPJIMR)",
-    "program_name": "Executive Programme in Business Management (EP-BM)",
-    "rank": 7,
-    "score": 766.3,
-    "sector": "Pvt"
-  },
-  {
-    "institute": "XLRI - Xavier School of Management",
-    "program_name": "Postgraduate Certificate in Business Management (PGCBM)",
-    "rank": 8,
-    "score": 762.5,
-    "sector": "Pvt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Kozhikode",
-    "program_name": "Professional Certificate Programme In Business Management",
-    "rank": 9,
-    "score": 760.8,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Shillong",
-    "program_name": "Post Graduate Certification in Advanced General Management",
-    "rank": 10,
-    "score": 732.5,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Nagpur",
-    "program_name": "Post Graduate Certificate Programme In General Management (PGCPGM)",
-    "rank": 11,
-    "score": 712.5,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Kashipur",
-    "program_name": "Post Graduate Certificate Programme in Business Management (PGCBM)",
-    "rank": 12,
-    "score": 690,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Tiruchirappalli",
-    "program_name": "Post Graduate Certificate Programme In Executive General Management",
-    "rank": 13,
-    "score": 677.5,
-    "sector": "Govt"
-  },
-  {
-    "institute": "Institute of Management Technology (IMT), Ghaziabad",
-    "program_name": "Executive Program in Business Management",
-    "rank": 14,
-    "score": 625,
-    "sector": "Pvt"
-  },
-  {
-    "institute": "Indian Institute of Management (IIM) Bodh Gaya",
-    "program_name": "Executive Certificate Programme In Business Management",
-    "rank": 15,
-    "score": 605,
-    "sector": "Govt"
-  }
-]
+ 
 
 function changeName(name) {
   if (name === "G") {
@@ -395,7 +396,7 @@ mbaRankingInit();
 async function rankingInit() {
   let rankingData = await d3.csv("assets/data/report.csv");
   let filterRankingData = rankingData;
-
+  filterRankingData = filterRankingData.filter((d) => d.year === '2023')
   let yearFilterValue = "2023";
   let sectorFilterValue = "All";
 

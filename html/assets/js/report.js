@@ -10,13 +10,14 @@ async function reportInit() {
   const data = await d3.csv("assets/data/report.csv");
   const rankSVG = await d3.xml('https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/rank.svg');
   const data2023 = data.filter(d => d.year === '2023');
-  const dataYears = [...new Set(data.map(d => +d.year))].sort();
+  // const dataYears = [...new Set(data.map(d => +d.year))].sort();
+  const dataYears = [...new Set(data.map(d => +d.year))]
   const rankDIV = d3.select('#report-chart #rank-svg').node().append(rankSVG.documentElement);
 
   const schoolNames = [...new Set(data2023.map(d => d.institute))];
   const select1 = $("#select1-report-chart").select2({
     data: schoolNames,
-    placeholder: 'Indian Institute of Management Calcutta (IIM-C)',
+    placeholder: 'Indian Institute of Management Calcutta',
 
   });
 
@@ -37,7 +38,7 @@ async function reportInit() {
 
     const selectedBankData = data.filter(d => d.institute === institute);
     d3.select('#report-chart .school-name').text(institute);
-    selectedBankData.sort((a, b) => a.year - b.year);
+    // selectedBankData.sort((a, b) => a.year - b.year);
     const latestYearData = selectedBankData[selectedBankData.length - 1];
     d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.rank);
     d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
@@ -197,6 +198,7 @@ async function reportInit() {
           },
           x: {
             offset: true,
+            reverse: true,
             ticks: {
               beginAtZero: true,
               font: {
