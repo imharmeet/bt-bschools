@@ -2217,3 +2217,72 @@ body #bt-footer .toprow ul.social li svg {
         max-width: 1226px;
     }
 }
+
+.ranking-year-dropdown-select {
+  background-color: #353535;
+  color: white;
+  padding: 8px 12px;
+  width: 80px;
+  border: none;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  border-radius: 4px;
+  margin-right:40px;
+  margin-bottom: 20px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.ranking-sector-dropdown-select {
+  background-color: #353535;
+  color: white;
+  padding: 8px 12px;
+  width: 150px;
+  border: none;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  border-radius: 4px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+/* .ranking-year-dropdown-select option[value="2022"]:hover,
+.ranking-year-dropdown-select option[value="2023"] {
+  background-color: yellow;
+} */
+
+/* .ranking-year-dropdown-option {
+  -webkit-appearance: none;
+-moz-appearance: none;
+  color: #535353;
+  background: #353535;
+  margin-top: 10px;
+  border-bottom: 1px solid #535353;
+}
+
+.ranking-sector-dropdown-option {
+  -webkit-appearance: none;
+  appearance: none;
+-moz-appearance: none;
+  color: #535353;
+  background: #353535;
+  padding: 12px;
+  border-bottom: 1px solid #535353;
+} */
+
+.dropdown-label{
+    color:white;
+    margin-right:10px;
+}
