@@ -524,7 +524,7 @@ async function rankingInit() {
     } else {
       filterRankingData = filterRankingData.filter((d) => d.sector === "P");
     }
-    console.log("filterRankingData : ", filterRankingData);
+    //console.log("filterRankingData : ", filterRankingData);
 
     $("#ranking-table").DataTable().destroy();
 
