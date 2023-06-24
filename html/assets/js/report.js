@@ -39,13 +39,15 @@ async function reportInit() {
     const selectedBankData = data.filter(d => d.institute === institute);
     d3.select('#report-chart .school-name').text(institute);
     // selectedBankData.sort((a, b) => a.year - b.year);
-    const latestYearData = selectedBankData[selectedBankData.length - 1];
-    d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.rank);
-    d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
+    const latestYearData = selectedBankData.filter((d)=>d.year==='2023')
+    // const latestYearData = selectedBankData[selectedBankData.length - 1];
+    // const latestYearData = latestYearData.filter((d)=>d.year==='2023')
+    d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.map(d=>d.rank));
+    // d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
     d3.select('#report-chart #school-report-sector').text(changeNameReport(latestYearData.sector));
-    d3.select('#report-chart #school-report-state').text(latestYearData.state);
-    d3.select('#report-chart #school-report-zone').text(latestYearData.zone);
-    d3.select('#report-chart #school-rating-score').text(latestYearData.score)
+    d3.select('#report-chart #school-report-state').text(latestYearData.map(d=>d.state));
+    d3.select('#report-chart #school-report-zone').text(latestYearData.map(d=>d.zone));
+    d3.select('#report-chart #school-rating-score').text(latestYearData.map(d=>d.score))
     const selectedSchoolLearning = selectedBankData.map(d => d.learning_exp)
     const selectedLivingExp = selectedBankData.map(d => d.living_exp)
     const selectedPlacement = selectedBankData.map(d => d.placement_score)
