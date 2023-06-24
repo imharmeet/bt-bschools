@@ -7,7 +7,7 @@ function changeNameReport(name) {
   return name;
 }
 async function reportInit() {
-  const data = await d3.csv("assets/data/report.csv");
+  const data = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
   const rankSVG = await d3.xml('https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/rank.svg');
   const data2023 = data.filter(d => d.year === '2023');
   // const dataYears = [...new Set(data.map(d => +d.year))].sort();
