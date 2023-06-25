@@ -592,12 +592,16 @@ table.dataTable tbody td {
     font-size: 14px;
     color: #9c9c9c;
 }
-.ranking-data .dataTables_empty{color: #fff;}
+
+.ranking-data .dataTables_empty {
+    color: #fff;
+}
+
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
-  display: none;
+    display: none;
 }
 
 
@@ -1334,6 +1338,29 @@ input[type="search"]::-webkit-search-cancel-button {
     border: none;
 }
 
+.credits-sec {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 40px;
+}
+
+.credits-list {
+    justify-content: space-between;
+}
+
+.credits-list ul li,
+.credits-list ul li a {
+    color: var(--dark-gray);
+}
+
+.credits-list ul li:first-child {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.credits-list ul li a:hover {
+    color: var(--main-color);
+}
+
 /* Bt Footer CSS */
 #bt-footer {
     width: 100%;
@@ -1683,12 +1710,27 @@ body #bt-footer .toprow ul.social li svg {
         line-height: 18px;
     }
 
-    .best-bschools-sec {
+    .best-bschools-sec,
+    .credits-sec {
         margin-top: 40px;
     }
 
     .video-col .play-icon {
         font-size: 24px;
+    }
+
+    .credits-list ul {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .credits-list ul:last-child {
+        margin-bottom: 0;
+    }
+
+    .credits-list ul li {
+        font-size: 12px;
+        line-height: 18px;
     }
 
     #bt-footer {
@@ -2057,11 +2099,6 @@ body #bt-footer .toprow ul.social li svg {
         display: none;
     }
 
-    /* #career-chart {
-        width: 90% !important;
-        height: 45% !important;
-    } */
-
     .graph-title {
         position: absolute;
         bottom: -90px;
@@ -2155,6 +2192,16 @@ body #bt-footer .toprow ul.social li svg {
         line-height: 24px;
     }
 
+    .credits-list ul {
+        width: auto;
+        margin: 0;
+    }
+
+    .credits-list ul li {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
     #bt-footer .footer-nav {
         margin: 25px 0 15px;
         padding-top: 25px;
@@ -2224,6 +2271,11 @@ body #bt-footer .toprow ul.social li svg {
     .comparison-chart .badge,
     .comparison-chart .badge-active {
         margin-bottom: 0px;
+    }
+
+    .credits-list ul li {
+        font-size: 16px;
+        line-height: 24px;
     }
 
     #bt-footer .footer-bot-nav ul {
