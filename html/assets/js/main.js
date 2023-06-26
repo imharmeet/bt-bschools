@@ -480,7 +480,7 @@ dataSelect.addEventListener('change', function () {
         backgroundColor: '#BEE296',
       },
     ];
-    let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee+ other fees </p>    </div>'
+    let title02 = '<div class="notes"> (₹ lakhs)<p>Note: Average course fees include tuition fee + other fees </p>    </div>'
     $('.chart-title').html(title02);
     chart.data.labels = labels;
   } else if (selectedValue === 'data3') {

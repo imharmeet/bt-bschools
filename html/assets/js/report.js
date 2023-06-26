@@ -1,11 +1,4 @@
-function changeNameReport(name) {
-  if (name === 'G') {
-    name = 'Government'
-  } else {
-    name = 'Private'
-  }
-  return name;
-}
+
 async function reportInit() {
   const data = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
   const rankSVG = await d3.xml('https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/img/rank.svg');
@@ -32,19 +25,14 @@ async function reportInit() {
 
   drawChart();
 
-
-
   async function drawChart() {
 
     const selectedBankData = data.filter(d => d.institute === institute);
     d3.select('#report-chart .school-name').text(institute);
-    // selectedBankData.sort((a, b) => a.year - b.year);
-    const latestYearData = selectedBankData.filter((d)=>d.year==='2023')
-    // const latestYearData = selectedBankData[selectedBankData.length - 1];
-    // const latestYearData = latestYearData.filter((d)=>d.year==='2023')
+    const latestYearData = selectedBankData.filter((d)=>d.year==='2023');
+    const selectedSector = latestYearData.map(d=>d.sector);
     d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.map(d=>d.rank));
-    // d3.select('#report-chart #school-rating-year').html(`Rank FY'${latestYearData.year.slice(2)}`);
-    d3.select('#report-chart #school-report-sector').text(changeNameReport(latestYearData.sector));
+    d3.select('#report-chart #school-report-sector').text(changeNameReport(selectedSector.toString()));
     d3.select('#report-chart #school-report-state').text(latestYearData.map(d=>d.state));
     d3.select('#report-chart #school-report-zone').text(latestYearData.map(d=>d.zone));
     d3.select('#report-chart #school-rating-score').text(latestYearData.map(d=>d.score))
@@ -53,11 +41,15 @@ async function reportInit() {
     const selectedPlacement = selectedBankData.map(d => d.placement_score)
     const selectedSelection = selectedBankData.map(d => d.selection_process)
     const selectedFuture = selectedBankData.map(d => d.future)
-    // learning_exp living_exp placement_score score selection_process
-    // console.log(selectedBankData)
-    // d3.select('.over-year').append('canvas').attr('id', `over-years-chart-${latestYearData.rank}`)
-    // var ctx03 = document.getElementById(`over-years-chart-${latestYearData.rank}`).getContext('2d');
-    // d3.select('.over-year').append('canvas').attr('id', 'over-years-chart')
+    function changeNameReport(name) {
+      if (name === 'G') {
+        name = 'Government'
+      } else {
+        name = 'Private'
+      }
+      console.log(name)
+      return name;
+    }
     var ctx03 = document.getElementById('over-years-chart').getContext('2d');
 
     let chartStatus = Chart.getChart("over-years-chart"); // <canvas> id
