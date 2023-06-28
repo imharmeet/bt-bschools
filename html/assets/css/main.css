@@ -2027,6 +2027,7 @@ body #bt-footer .toprow ul.social li svg {
     .head-right {
         width: auto;
         border: none;
+        padding: 0;
     }
 
     .story-des p {
@@ -2116,6 +2117,7 @@ body #bt-footer .toprow ul.social li svg {
         font-size: 20px;
         padding-bottom: 15px;
         margin-bottom: 20px;
+        padding-right: 68px;
     }
 
     .report-card .scores-years:before {

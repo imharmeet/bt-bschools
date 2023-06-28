@@ -179,7 +179,7 @@ var myChart02 = new Chart(ctx02, {
     datasets: [{
       backgroundColor: gradient1,
       borderColor: '#FCDA29',
-      label: 'Enterpreneurship',
+      label: 'Entrepreneurship',
       fill: true,
       data: [11, 11, 7, 6, 5, 5],
       pointHoverRadius: 10,
