@@ -29,13 +29,13 @@ async function reportInit() {
 
     const selectedBankData = data.filter(d => d.institute === institute);
     d3.select('#report-chart .school-name').text(institute);
-    const latestYearData = selectedBankData.filter((d)=>d.year==='2023');
-    const selectedSector = latestYearData.map(d=>d.sector);
-    d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.map(d=>d.rank));
+    const latestYearData = selectedBankData.filter((d) => d.year === '2023');
+    const selectedSector = latestYearData.map(d => d.sector);
+    d3.select('#report-chart g text#rank').select('tspan').text(latestYearData.map(d => d.rank));
     d3.select('#report-chart #school-report-sector').text(changeNameReport(selectedSector.toString()));
-    d3.select('#report-chart #school-report-state').text(latestYearData.map(d=>d.state));
-    d3.select('#report-chart #school-report-zone').text(latestYearData.map(d=>d.zone));
-    d3.select('#report-chart #school-rating-score').text(latestYearData.map(d=>d.score))
+    d3.select('#report-chart #school-report-state').text(latestYearData.map(d => d.state));
+    d3.select('#report-chart #school-report-zone').text(latestYearData.map(d => d.zone));
+    d3.select('#report-chart #school-rating-score').text(latestYearData.map(d => d.score))
     const selectedSchoolLearning = selectedBankData.map(d => d.learning_exp)
     const selectedLivingExp = selectedBankData.map(d => d.living_exp)
     const selectedPlacement = selectedBankData.map(d => d.placement_score)
@@ -47,7 +47,6 @@ async function reportInit() {
       } else {
         name = 'Private'
       }
-      console.log(name)
       return name;
     }
     var ctx03 = document.getElementById('over-years-chart').getContext('2d');
