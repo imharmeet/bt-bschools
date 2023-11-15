@@ -320,7 +320,7 @@ async function mbaRankingInit() {
             }</tspan></text> </g><defs><clipPath id="clip0_279_142"><rect width="51.791" height="32.1104" fill="white" transform="translate(32.1104 -6.10352e-05) rotate(90)" /></clipPath></defs></svg>
             <h5>${row.institute}<br><span>${row.program_name
             }</span></h5></div><span class="badge">${row.sector
-            }</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score
+            }</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (2,000)</p><p class="score">${row.score
             }</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(
               row.score
             )}%"></div></div></div></div> `;
@@ -364,7 +364,7 @@ async function mbaRankingInit() {
               <h5>${row.institute
             }<br><span>${row.program_name
             }</span></h5></div><span class="badge">${row.sector
-            }</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score
+            }</span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (2,000)</p><p class="score">${row.score
             }</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(
               row.score
             )}%"></div></div></div></div> `;
@@ -394,7 +394,8 @@ async function mbaRankingInit() {
 mbaRankingInit();
 
 async function rankingInit() {
-  let rankingData = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
+  // let rankingData = await d3.csv("https://akm-img-a-in.tosshub.com/businesstoday/resource/bt-schools/2023/assets/data/report.csv");
+  let rankingData = await d3.csv("assets/data/report.csv");
   let filterRankingData = rankingData;
   filterRankingData = filterRankingData.filter((d) => d.year === '2023')
   let yearFilterValue = "2023";
@@ -406,7 +407,7 @@ async function rankingInit() {
     .attr("id", "ranking-table")
     .attr("class", "full-width");
 
-  const yearsDropdownData = ["2023", "2022", "2021", "2020", "2019"];
+  const yearsDropdownData = ["2023", "2022", "2021", "2020", "2019", "2017", "2016", "2015", "2014", "2013"];
   const sectorsDropdownData = ["All", "Government", "Private"];
 
   table.append("span").text("Year").classed("dropdown-label", true);
@@ -470,7 +471,7 @@ async function rankingInit() {
   let itemsPerPage = 5;
 
   function insertDecimal(num) {
-    return Number(num / 10);
+    return Number(num / 20);
   }
 
   let sym = [];
@@ -510,7 +511,7 @@ async function rankingInit() {
             }</tspan></text> </g><defs><clipPath id="clip0_279_142"><rect width="51.791" height="32.1104" fill="white" transform="translate(32.1104 -6.10352e-05) rotate(90)" /></clipPath></defs></svg>
             <h5>${row.institute}</h5></div><span class="badge">${changeName(
               row.sector
-            )} </span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score
+            )} </span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (2,000)</p><p class="score">${row.score
             }</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(
               row.score
             )}%"></div></div></div></div> `;
@@ -523,7 +524,7 @@ async function rankingInit() {
     filterRankingData = rankingData.filter((d) => d.year === yearFilterValue);
     if (sectorFilterValue === "All") {
       filterRankingData = filterRankingData.filter(
-        (d) => d.sector === "G" || d.sector === "P"
+        (d) => d.sector === "G" || d.sector === "P" || d.sector === "NA"
       );
     } else if (sectorFilterValue === "Government") {
       filterRankingData = filterRankingData.filter((d) => d.sector === "G");
@@ -570,7 +571,7 @@ async function rankingInit() {
               }</tspan></text> </g><defs><clipPath id="clip0_279_142"><rect width="51.791" height="32.1104" fill="white" transform="translate(32.1104 -6.10352e-05) rotate(90)" /></clipPath></defs></svg>
             <h5>${row.institute}</h5></div><span class="badge">${changeName(
                 row.sector
-              )} </span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (1,000)</p><p class="score">${row.score
+              )} </span></div><div class="progress"><div class="d-flex jc-space-b"><p>Overall Score (2,000)</p><p class="score">${row.score
               }</p></div><div class="progress-wrapper"><div class="progress-bar" style="width:${insertDecimal(
                 row.score
               )}%"></div></div></div></div> `;
